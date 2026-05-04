@@ -1,6 +1,6 @@
 {
   "last_run": "2026-05-04",
-  "total_runs": 1,
+  "total_runs": 2,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -12,17 +12,28 @@
     "GPT Image 2 gpt-image-2 launch date April 2026 OpenAI",
     "Google Veo 3 update release April May 2026",
     "ElevenLabs ElevenMusic launch May 2026",
-    "Runway Gen-4 Kling Sora Veo update 2026",
-    "AI video generation news May 2026",
-    "Alibaba Wan 2.7 video model release date April May 2026",
-    "OpenAI executives leaving April May 2026",
-    "AI art copyright lawsuit ruling 2026"
+    "Runway AI video generation news May 2026",
+    "Kling Seedance ByteDance AI video model update May 2026",
+    "Pentagon Anthropic AI safety guardrails classified networks May 2026",
+    "Meta layoffs 10 percent staff AI April 2026",
+    "Adobe Firefly Creative Agent April 2026 launch details",
+    "Comment Control prompt injection Claude Code Gemini Copilot API key April 2026",
+    "YouTube AI likeness detection celebrities deepfake April 2026",
+    "Suno Series D $5 billion valuation funding 2026",
+    "DALL-E API deprecation May 12 2026 impact developers",
+    "AI coding agents prompt injection secrets leaked VentureBeat 2026",
+    "big tech employees leaving AI startups CNBC April 2026"
   ],
   "queries_that_produced_nothing": [
-    "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups)",
+    "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
+    "AI video generation funny cursed fail viral April May 2026 (same problem -- TikTok/YouTube content only, no individual published news articles)",
     "ComfyUI new workflow node update April May 2026 (found update details but source access was limited)",
     "Newsletter site fetches (tldr.tech, superhuman.ai returned 403 errors -- check via web search instead)",
-    "Most direct source page fetches returned 403 -- rely on WebSearch result summaries as primary data"
+    "Most direct source page fetches returned 403 -- rely on WebSearch result summaries as primary data",
+    "Stable Diffusion Flux AI art model update April May 2026 (no fresh news within 14-day window)",
+    "Pika AI social video app launch date 2026 (PikaStream 1.0 was April 19, just outside window; original app October 2025)",
+    "Wan AI video model update release May 2026 (Wan 2.7 on Together AI was April 3 -- outside 14-day window)",
+    "Runway Gen-4.5 launch date release April May 2026 (Gen-4.5 launched December 2025, Adobe partnership also December 2025 -- not new)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -37,27 +48,49 @@
     "updates.midjourney.com",
     "prnewswire.com",
     "bloomberg.com",
-    "the-decoder.com"
+    "the-decoder.com",
+    "cnn.com",
+    "axios.com",
+    "venturebeat.com",
+    "securityweek.com",
+    "9to5mac.com",
+    "thewrap.com",
+    "billboard.com",
+    "digitalmusicnews.com",
+    "winbuzzer.com",
+    "thenextweb.com",
+    "thehill.com"
   ],
   "discovered_newsletters": [],
   "discovered_sources": [
     "promarket.org (Stigler Center, UChicago Booth -- research summaries on AI economics)",
     "musically.com (Music Ally -- strong on AI audio/music industry)",
     "the-decoder.com (reliable on OpenAI coverage)",
-    "artificialanalysis.ai (Video Arena benchmarks -- use as lead, trace to original)"
+    "artificialanalysis.ai (Video Arena benchmarks -- use as lead, trace to original)",
+    "digitalmusicnews.com (good for AI music industry: Suno, Udio, ElevenLabs funding/legal)",
+    "sacra.com (company revenue and valuation data -- use as supporting, not primary)",
+    "winbuzzer.com (good for Pentagon/government tech coverage)",
+    "oddguan.com (researcher blog -- direct technical disclosures, very high signal when found)"
   ],
   "patterns": [
-    "Aggregator SEO blogs (VO3 AI Blog, AI Tool Analysis) frequently cited outdated launch dates as current news -- always verify with original source or official blog. Runway Gen-4 was falsely surfaced as a May 2026 launch; original was March 2025.",
+    "Aggregator SEO blogs (VO3 AI Blog, AI Tool Analysis) repeatedly cite outdated launch dates as current news -- Runway Gen-4 has been falsely reported as a May 2026 launch twice now. Always verify with official blog or dated original reporting.",
     "Chinese AI video models are a major ongoing beat: HappyHorse (Alibaba), Wan (Alibaba), Kling (Kuaishou), Seedance (ByteDance). Search for these by name each run.",
-    "OpenAI is in a strategic pivot away from consumer products toward enterprise -- Sora shutdown is the headline example. Watch for further product sunsets.",
-    "AI music is a rich category this week: ElevenMusic launch, Taylor Swift trademark, consumer preference study all landed in the same week. These cluster well together.",
+    "OpenAI is in a strategic pivot away from consumer products toward enterprise -- Sora shutdown is the headline example. DALL-E API shutdown May 12 is the next data point. Watch for further product sunsets.",
+    "AI music is a rich and layered category: ElevenMusic launch, Taylor Swift trademark, consumer preference study, Suno $5B fundraise, ongoing UMG/Sony litigation all live in the same week. These stories stack well.",
     "Direct page fetches mostly return 403. WebSearch result summaries are the primary data source -- cross-reference claims across at least two search result snippets before writing.",
     "Stories that fall just outside the 14-day window (like exec exits on April 17) can be included as context within a story anchored to an in-window event.",
-    "DALL-E API shutdown May 12 is a countdown hook -- good for a follow-up story if the deprecation creates disruption.",
-    "Funny/weird category is hardest to find with web search. Next run: search explicitly for specific viral moments or AI fails that have published articles, not listicles."
+    "DALL-E API shutdown May 12 is a countdown hook -- check for developer reaction/disruption stories next run.",
+    "Funny/weird category is hardest to find. The best ai_funny picks are ironic stories with genuine news legs (Comment and Control prompt injection, AI music label study) -- not meme listicles. Look for security fails, product embarrassments, study results with ironic conclusions.",
+    "AI security / prompt injection is becoming a strong recurring beat. The Comment and Control vulnerability (April 15-21) showed that AI coding agent security is genuinely porous. Watch for follow-up patches, new disclosures, and class of attacks.",
+    "Pentagon AI policy is a live story with Anthropic at the center. The 'supply chain risk' designation + federal court block + ongoing $200M contract creates ongoing tension worth tracking next run.",
+    "Meta/Microsoft layoffs (April 23-24) landed at 150,000+ tech job losses in 2026 by mid-April -- Zuckerberg quote ('single very talented person') is the editorial punchline. This story will continue as May 20 layoffs execute.",
+    "The Runway Gen-4.5 / Adobe partnership (December 2025) keeps surfacing as 'new' in aggregator results -- it is not. Skip on sight.",
+    "Suno is now a multi-angle beat: funding (Series D at $5B), litigation (UMG impasse), and product ($300M ARR, 2M subscribers). Watch for litigation ruling news -- could be the issue's top story.",
+    "Connecticut AI employment disclosure bill (SB5) passed House May 1; governor said he would sign. Follow up next run -- if signed, it's a policy milestone story."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
-    "Run 1 complete (2026-05-04). 10 stories found. First run seeded the database with strong coverage of AI video (Sora shutdown, HappyHorse, Veo), AI art (GPT Image 2, Midjourney V8.1), AI policy (Taylor Swift, Connecticut), AI audio (ElevenMusic), AI funny (AI music study), AI tools (ComfyUI). No genuinely funny/weird story found -- ai_funny classification went to a consumer research story with ironic implications rather than a true curiosity piece. Suggestions for next run: search for Adobe Firefly Video (mentioned in focus.md), check if Connecticut AI bill was signed, follow up on DALL-E May 12 deprecation, search for specific viral AI fails for ai_funny category."
+    "Run 1 complete (2026-05-04). 10 stories found. First run seeded the database with strong coverage of AI video (Sora shutdown, HappyHorse, Veo), AI art (GPT Image 2, Midjourney V8.1), AI policy (Taylor Swift, Connecticut), AI audio (ElevenMusic), AI funny (AI music study), AI tools (ComfyUI). No genuinely funny/weird story found -- ai_funny classification went to a consumer research story with ironic implications rather than a true curiosity piece.",
+    "Run 2 complete (2026-05-04). 7 new stories added. Top pick: Pentagon/Anthropic exclusion (score 9). Strong policy and industry week. Found two genuine ai_funny-adjacent stories: Comment and Control prompt injection (security agents exposing their own keys) and the continuing AI music label study angle. Adobe Firefly AI Assistant public beta is a real creative tools story. Meta layoffs + Zuckerberg quote is the industry punchline of the week. Suno $5B is an Axios scoop. Suggestions for next run: check if Connecticut SB5 was signed by Governor Lamont; check for DALL-E migration disruption on/after May 12; check if Suno Series D closes; follow Pentagon/Anthropic legal situation; search for new Chinese AI video model releases (Wan 2.7 platform rollouts, Kling updates); look for Adobe Firefly AI Assistant user/press reviews now that beta is live."
   ]
 }
