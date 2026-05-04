@@ -1,13 +1,63 @@
 {
-  "last_run": null,
-  "total_runs": 0,
-  "queries_that_produced_results": [],
-  "queries_that_produced_nothing": [],
-  "best_source_domains": [],
+  "last_run": "2026-05-04",
+  "total_runs": 1,
+  "queries_that_produced_results": [
+    "OpenAI Sora shutdown discontinued April 2026",
+    "fal HappyHorse AI video model April 2026",
+    "AI music generation news May 2026",
+    "AI regulation legislation news May 2026",
+    "Midjourney V8 launch features date 2026",
+    "Taylor Swift ElevenLabs lawsuit AI music 2026",
+    "Connecticut AI regulation bill passed May 2026 details",
+    "GPT Image 2 gpt-image-2 launch date April 2026 OpenAI",
+    "Google Veo 3 update release April May 2026",
+    "ElevenLabs ElevenMusic launch May 2026",
+    "Runway Gen-4 Kling Sora Veo update 2026",
+    "AI video generation news May 2026",
+    "Alibaba Wan 2.7 video model release date April May 2026",
+    "OpenAI executives leaving April May 2026",
+    "AI art copyright lawsuit ruling 2026"
+  ],
+  "queries_that_produced_nothing": [
+    "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups)",
+    "ComfyUI new workflow node update April May 2026 (found update details but source access was limited)",
+    "Newsletter site fetches (tldr.tech, superhuman.ai returned 403 errors -- check via web search instead)",
+    "Most direct source page fetches returned 403 -- rely on WebSearch result summaries as primary data"
+  ],
+  "best_source_domains": [
+    "techcrunch.com",
+    "cnbc.com",
+    "variety.com",
+    "musically.com",
+    "ctmirror.org",
+    "openai.com",
+    "blog.google",
+    "runwayml.com",
+    "fal.ai",
+    "updates.midjourney.com",
+    "prnewswire.com",
+    "bloomberg.com",
+    "the-decoder.com"
+  ],
   "discovered_newsletters": [],
-  "discovered_sources": [],
-  "patterns": [],
+  "discovered_sources": [
+    "promarket.org (Stigler Center, UChicago Booth -- research summaries on AI economics)",
+    "musically.com (Music Ally -- strong on AI audio/music industry)",
+    "the-decoder.com (reliable on OpenAI coverage)",
+    "artificialanalysis.ai (Video Arena benchmarks -- use as lead, trace to original)"
+  ],
+  "patterns": [
+    "Aggregator SEO blogs (VO3 AI Blog, AI Tool Analysis) frequently cited outdated launch dates as current news -- always verify with original source or official blog. Runway Gen-4 was falsely surfaced as a May 2026 launch; original was March 2025.",
+    "Chinese AI video models are a major ongoing beat: HappyHorse (Alibaba), Wan (Alibaba), Kling (Kuaishou), Seedance (ByteDance). Search for these by name each run.",
+    "OpenAI is in a strategic pivot away from consumer products toward enterprise -- Sora shutdown is the headline example. Watch for further product sunsets.",
+    "AI music is a rich category this week: ElevenMusic launch, Taylor Swift trademark, consumer preference study all landed in the same week. These cluster well together.",
+    "Direct page fetches mostly return 403. WebSearch result summaries are the primary data source -- cross-reference claims across at least two search result snippets before writing.",
+    "Stories that fall just outside the 14-day window (like exec exits on April 17) can be included as context within a story anchored to an in-window event.",
+    "DALL-E API shutdown May 12 is a countdown hook -- good for a follow-up story if the deprecation creates disruption.",
+    "Funny/weird category is hardest to find with web search. Next run: search explicitly for specific viral moments or AI fails that have published articles, not listicles."
+  ],
   "feedback": [
-    "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible."
+    "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
+    "Run 1 complete (2026-05-04). 10 stories found. First run seeded the database with strong coverage of AI video (Sora shutdown, HappyHorse, Veo), AI art (GPT Image 2, Midjourney V8.1), AI policy (Taylor Swift, Connecticut), AI audio (ElevenMusic), AI funny (AI music study), AI tools (ComfyUI). No genuinely funny/weird story found -- ai_funny classification went to a consumer research story with ironic implications rather than a true curiosity piece. Suggestions for next run: search for Adobe Firefly Video (mentioned in focus.md), check if Connecticut AI bill was signed, follow up on DALL-E May 12 deprecation, search for specific viral AI fails for ai_funny category."
   ]
 }

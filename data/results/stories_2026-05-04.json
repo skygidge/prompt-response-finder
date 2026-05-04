@@ -60,7 +60,7 @@
     "headline_zh": "版权记录",
     "category": "ai_audio",
     "blurb_en": "ElevenLabs launched ElevenMusic on April 30, expanding from voice cloning into a full AI music platform for generating, remixing, and streaming tracks via natural language prompts. The company signed licensing deals with Kobalt, Merlin, and SourceAudio before launch, opening with around 4,000 human artists opted in — mostly emerging acts. Free users get seven songs per day; $9.99 per month buys 400. The approach contrasts with Suno and Udio, which trained on unlicensed material and settled major copyright suits afterward. ElevenLabs, valued at $11 billion after a February funding round, is betting that being licensed from day one is worth more than moving fast and cleaning up later.",
-    "blurb_zh": "ElevenLabs 于 4 月 30 日推出 ElevenMusic，从声音克隆业务扩展至完整的 AI 音乐平台，支持通过自然语言提示生成、混音和流媒体播放曲目。该公司在发布前已与 Kobalt、Merlin 和 SourceAudio 签署授权协议，首发时约 4,000 位人类歌手（大多为新兴歌手）选择加入。免费用户每天可生成七首歌曲，9.99 美元/月套餐提供每月 400 首额度。这与 Suno 和 Udio 的路线截然不同——后两者使用未授权素材训练模型，事后才与版权方达成和解。身价 110 亿美元的 ElevenLabs 押注了另一个方向：从第一天起就拿到授权，比先快速推进再事后善后更值得。",
+    "blurb_zh": "ElevenLabs 于 4 月 30 日推出 ElevenMusic，从声音克隆业务扩展至完整的 AI 音乐平台，支持通过自然语言提示生成、混音和流媒体播放曲目。该公司在发布前已与 Kobalt、Merlin 和 SourceAudio 签署授权协议，首发时约 4,000 位人类艺术家（大多为新兴歌手）选择加入。免费用户每天可生成七首歌曲，9.99 美元/月套餐提供每月 400 首额度。这与 Suno 和 Udio 的路线截然不同——后两者使用未授权素材训练模型，事后才与版权方达成和解。身价 110 亿美元的 ElevenLabs 押注了另一个方向：从第一天起就拿到授权，比先快速推进再事后善后更值得。",
     "source_url": "https://musically.com/2026/04/30/elevenlabs-launches-elevenmusic-as-not-just-a-listening-app/",
     "source_name": "Music Ally",
     "source_type": "original_reporting",
@@ -138,7 +138,7 @@
     "source_type": "company_blog",
     "discovered_via": "web_search",
     "confidence": "high",
-    "verification_notes": "April 22 Veo 3.1 Flow update confirmed via Google official blog. Free access via Google Vids (10 clips/month) and Flow (50 daily credits) confirmed via Google Developers Blog. Veo 3.1 Lite release date April 2 confirmed via Vertex AI docs.",
+    "verification_notes": "April 22 Veo 3.1 Flow update confirmed via Google official blog. Free access via Google Vids (10 clips/month) and Flow (50 daily credits) confirmed via Google Developers Blog. Veo 3.1 Lite (veo-3.1-lite-generate-001) release date April 2 confirmed via Vertex AI docs.",
     "tags": ["google", "veo", "video_generation", "flow", "filmmaking_ai", "free_access"],
     "used_in_newsletter": false,
     "editorial_score": 6
@@ -156,7 +156,7 @@
     "source_type": "original_reporting",
     "discovered_via": "web_search",
     "confidence": "medium",
-    "verification_notes": "Published May 4, 2026 per ProMarket (Stigler Center, University of Chicago Booth School). Publication date and headline confirmed via URL and aggregation. Underlying research paper not directly accessed — claims treated as reported from ProMarket's summary. Methodology not independently verified.",
+    "verification_notes": "Published May 4, 2026 per ProMarket (Stigler Center, University of Chicago Booth School). Publication date and headline confirmed via URL and AlternativeTo news aggregation. Underlying research paper not directly accessed — claims treated as reported from ProMarket's summary. Methodology details not independently verified.",
     "tags": ["ai_music", "consumer_research", "disclosure", "streaming", "music_industry", "labeling"],
     "used_in_newsletter": false,
     "editorial_score": 6
