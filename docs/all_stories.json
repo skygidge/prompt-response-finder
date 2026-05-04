@@ -6,14 +6,20 @@
     "headline_zh": "沉默收场",
     "category": "ai_video",
     "blurb_en": "OpenAI shut down the Sora consumer app on April 26, ending the AI video experiment it launched in December 2024 after less than a year and a half. The model was reportedly burning through an estimated $1 million per day in compute costs and never attracted a user base large enough to sustain it. Nine days before the shutdown, three executives departed in quick succession: Bill Peebles, who built Sora; Kevin Weil, who led the science division; and Srinivas Narayanan, the enterprise CTO. OpenAI described the pivot as shedding \"side quests\" in favor of enterprise. The Sora API lives until September 24 — time enough to plan a proper exit, or to pretend none of this happened.",
-    "blurb_zh": "OpenAI 于 4 月 26 日关闭了 Sora 消费者应用程序，这个于 2024 年 12 月上线的 AI 视频产品不到一年半便宣告终结。据报道，该模型每天烧掉约 100 万美元的算力成本，却始终未能积累足够的用户群。关闭前九天，三位高管相继离职：Sora 的缔造者 Bill Peebles、科学团队负责人 Kevin Weil，以及企业技术总监 Srinivas Narayanan。OpenAI 将此次转型定性为剥离"支线任务"，聚焦企业产品。Sora API 尚存一口气，维持至 9 月 24 日——足够时间做好善后，或装作什么都没发生过。",
+    "blurb_zh": "OpenAI 于 4 月 26 日关闭了 Sora 消费者应用程序，这个于 2024 年 12 月上线的 AI 视频产品不到一年半便宣告终结。据报道，该模型每天烧掉约 100 万美元的算力成本，却始终未能积累足够的用户群。关闭前九天，三位高管相继离职：Sora 的缔造者 Bill Peebles、科学团队负责人 Kevin Weil，以及企业技术总监 Srinivas Narayanan。OpenAI 将此次转型定性为剥离\"支线任务\"，聚焦企业产品。Sora API 尚存一口气，维持至 9 月 24 日——足够时间做好善后，或装作什么都没发生过。",
     "source_url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
     "source_name": "TechCrunch",
     "source_type": "original_reporting",
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "Executive exits confirmed via TechCrunch (April 17) and CNBC (April 17). App shutdown confirmed via OpenAI Help Center and The Decoder. $1M/day compute figure is estimated — treated as reported, not independently confirmed. API sunset September 24 confirmed via OpenAI Help Center.",
-    "tags": ["openai", "sora", "video_generation", "product_shutdown", "executive_departure"],
+    "tags": [
+      "openai",
+      "sora",
+      "video_generation",
+      "product_shutdown",
+      "executive_departure"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 9
   },
@@ -31,7 +37,14 @@
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "Alibaba as creator confirmed via CNBC (April 10) and Bloomberg (April 10). fal API launch April 27 confirmed via PR Newswire press release and fal.ai official page. Architecture (15B params, 7-language lip-sync, 1080p) from fal.ai and PR Newswire. Benchmark position (#1 on Artificial Analysis Video Arena) confirmed across multiple sources. Zhang Di background confirmed via PR Newswire.",
-    "tags": ["alibaba", "happyhorse", "video_generation", "fal", "benchmark", "chinese_ai"],
+    "tags": [
+      "alibaba",
+      "happyhorse",
+      "video_generation",
+      "fal",
+      "benchmark",
+      "chinese_ai"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 8
   },
@@ -42,14 +55,21 @@
     "headline_zh": "立此存照",
     "category": "ai_policy",
     "blurb_en": "Taylor Swift's company TAS Rights Management filed three trademark applications with the U.S. Patent and Trademark Office: two covering audio recordings of her saying \"Hey, it's Taylor Swift\" and \"Hey, it's Taylor,\" and one covering a stage photograph. Unlike copyright, trademark infringement suits apply federally, work nationally, and don't require proving individual instances of copying — making them a more powerful instrument against AI voice cloning at scale. Swift's voice has already appeared without consent in AI-generated ads, political campaigns, and explicit content. The applications don't block AI voice generation broadly. They give Swift's lawyers a weapon with teeth for anything that sounds specifically like her.",
-    "blurb_zh": "泰勒·斯威夫特的公司 TAS Rights Management 向美国专利商标局提交了三项商标申请：两项涵盖其特定声音录音（分别为"嗨，我是泰勒·斯威夫特"和"嗨，我是泰勒"），一项覆盖舞台照片。与版权不同，商标侵权诉讼在联邦层面展开，适用于全国，且无需逐一证明复制行为——这使其成为对抗大规模 AI 声音克隆的更有力工具。此前，Swift 的声音已在未经授权的情况下出现于 AI 生成的广告、政治活动和露骨内容中。此次申请并不全面禁止 AI 声音生成，只是为 Swift 的律师提供了一件对"听起来像她"的内容具有实际杀伤力的武器。",
+    "blurb_zh": "泰勒·斯威夫特的公司 TAS Rights Management 向美国专利商标局提交了三项商标申请：两项涵盖其特定声音录音（分别为\"嗨，我是泰勒·斯威夫特\"和\"嗨，我是泰勒\"），一项覆盖舞台照片。与版权不同，商标侵权诉讼在联邦层面展开，适用于全国，且无需逐一证明复制行为——这使其成为对抗大规模 AI 声音克隆的更有力工具。此前，Swift 的声音已在未经授权的情况下出现于 AI 生成的广告、政治活动和露骨内容中。此次申请并不全面禁止 AI 声音生成，只是为 Swift 的律师提供了一件对\"听起来像她\"的内容具有实际杀伤力的武器。",
     "source_url": "https://variety.com/2026/music/news/taylor-swift-trademark-voice-likeness-ai-misuse-1236731401/",
     "source_name": "Variety",
     "source_type": "original_reporting",
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "Confirmed via Variety (April 27) and CNN (April 28). Three USPTO trademark filings confirmed. Two sound marks covering specific audio phrases, one image mark confirmed. Legal analysis of trademark vs. copyright confirmed by multiple legal sources including TechRadar and Northeastern University commentary. Note: this is a trademark filing, not a lawsuit.",
-    "tags": ["taylor_swift", "ai_voice_cloning", "trademark", "copyright", "music_ai", "legal"],
+    "tags": [
+      "taylor_swift",
+      "ai_voice_cloning",
+      "trademark",
+      "copyright",
+      "music_ai",
+      "legal"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 8
   },
@@ -67,7 +87,14 @@
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "Platform launch April 30 confirmed via Music Ally and Billboard. App originally launched April 2 per TechCrunch. Licensing deals (Kobalt, Merlin, SourceAudio) confirmed across multiple sources. 4,000 artists and daily/monthly generation limits confirmed via Music Ally and AlternativeTo. $11B valuation from February 2026 Series C per multiple reports.",
-    "tags": ["elevenlabs", "elevenmusic", "ai_music", "music_licensing", "streaming", "product_launch"],
+    "tags": [
+      "elevenlabs",
+      "elevenmusic",
+      "ai_music",
+      "music_licensing",
+      "streaming",
+      "product_launch"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 7
   },
@@ -78,14 +105,20 @@
     "headline_zh": "告知义务",
     "category": "ai_policy",
     "blurb_en": "Connecticut's House passed Senate Bill 5 on May 1 by 131-17, requiring employers to disclose to workers and job applicants when AI is a \"substantial factor\" in an employment decision. The bill also bars companies from using automated decision tools as a shield against existing anti-discrimination law. Governor Ned Lamont has said he will sign it — a reversal from last year, when he threatened to veto the bill over concerns about burdening business. Senator James Maroney spent three years moving the legislation through. The law doesn't prohibit AI in hiring or firing decisions. It just requires the company mention it.",
-    "blurb_zh": "康涅狄格州众议院于 5 月 1 日以 131-17 的票数通过了参议院第 5 号法案，要求雇主在 AI 对雇用决定起"实质性作用"时告知员工和求职者。法案还明确规定，使用自动决策系统不能豁免雇主依现行反歧视法承担的责任。州长内德·拉蒙特表示将签署该法案——去年他曾以可能给企业带来负担为由威胁动用否决权。参议员詹姆斯·马罗尼花了三年时间将其推过终点线。法律并不禁止公司在招聘或裁员决定中使用 AI，只要求公司说一声。",
+    "blurb_zh": "康涅狄格州众议院于 5 月 1 日以 131-17 的票数通过了参议院第 5 号法案，要求雇主在 AI 对雇用决定起\"实质性作用\"时告知员工和求职者。法案还明确规定，使用自动决策系统不能豁免雇主依现行反歧视法承担的责任。州长内德·拉蒙特表示将签署该法案——去年他曾以可能给企业带来负担为由威胁动用否决权。参议员詹姆斯·马罗尼花了三年时间将其推过终点线。法律并不禁止公司在招聘或裁员决定中使用 AI，只要求公司说一声。",
     "source_url": "https://ctmirror.org/2026/05/01/artificial-intelligence-house-regulation-passage-ct/",
     "source_name": "CT Mirror",
     "source_type": "original_reporting",
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "Confirmed via CT Mirror (May 1) as primary local source. Also covered by Hartford Business Journal and Pluribus News. House vote 131-17 and Senate vote 32-4 confirmed. Governor Lamont stated intent to sign confirmed via CT Mirror.",
-    "tags": ["connecticut", "ai_regulation", "employment_law", "disclosure", "state_legislation"],
+    "tags": [
+      "connecticut",
+      "ai_regulation",
+      "employment_law",
+      "disclosure",
+      "state_legislation"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 7
   },
@@ -103,7 +136,14 @@
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "V8.1 release on April 30 confirmed via Midjourney official updates page and multiple independent sources (ProgressiveRobot preview, WaveSpeedAI). V8 alpha launched March 17 confirmed via Midjourney. Text rendering as key improvement and 5x speed over V7 confirmed across multiple reviews. 2K native output confirmed.",
-    "tags": ["midjourney", "v8", "image_generation", "text_rendering", "product_update", "speed"],
+    "tags": [
+      "midjourney",
+      "v8",
+      "image_generation",
+      "text_rendering",
+      "product_update",
+      "speed"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 7
   },
@@ -121,7 +161,14 @@
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "GPT Image 2 launch April 21 confirmed via OpenAI official blog post and OpenAI developer community announcement. Model snapshot ID gpt-image-2-2026-04-21 confirmed. DALL-E 2 and DALL-E 3 API deprecation May 12 confirmed via OpenAI deprecations page and developer community. 8-image generation, 2K resolution, and O-series reasoning confirmed via OpenAI blog.",
-    "tags": ["openai", "gpt_image_2", "dall_e", "image_generation", "reasoning", "deprecation"],
+    "tags": [
+      "openai",
+      "gpt_image_2",
+      "dall_e",
+      "image_generation",
+      "reasoning",
+      "deprecation"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 7
   },
@@ -132,14 +179,21 @@
     "headline_zh": "导演剪辑版",
     "category": "ai_video",
     "blurb_en": "Google updated Veo 3.1 inside Flow, its AI filmmaking tool, on April 22, adding richer audio generation, enhanced narrative control, and new clip editing capabilities. The update extends audio to existing features including \"Ingredients to Video,\" \"Frames to Video,\" and clip extension. Google also made Veo 3.1 free for all personal Google account holders: 10 clips per month through Google Vids, and 50 daily AI credits through Flow. The distribution strategy is legible — put the model inside tools people already use. Whether users will remember Flow exists when they need to make a video is the part that remains to be proven.",
-    "blurb_zh": "谷歌于 4 月 22 日在其 AI 影视创作工具 Flow 中更新了 Veo 3.1，加入了更丰富的音频生成、增强的叙事控制和全新剪辑功能。此次更新将音频生成能力延伸至"素材生成视频"、"帧生成视频"和视频延伸等现有功能。谷歌同时宣布，Veo 3.1 向所有个人 Google 账户用户免费开放：通过 Google Vids 每月可生成 10 条视频，通过 Flow 每天享有 50 个 AI 积分。分发策略清晰——把模型嵌入用户本就在用的工具里。至于用户需要做视频时是否还记得 Flow 的存在，有待时间证明。",
+    "blurb_zh": "谷歌于 4 月 22 日在其 AI 影视创作工具 Flow 中更新了 Veo 3.1，加入了更丰富的音频生成、增强的叙事控制和全新剪辑功能。此次更新将音频生成能力延伸至\"素材生成视频\"、\"帧生成视频\"和视频延伸等现有功能。谷歌同时宣布，Veo 3.1 向所有个人 Google 账户用户免费开放：通过 Google Vids 每月可生成 10 条视频，通过 Flow 每天享有 50 个 AI 积分。分发策略清晰——把模型嵌入用户本就在用的工具里。至于用户需要做视频时是否还记得 Flow 的存在，有待时间证明。",
     "source_url": "https://blog.google/technology/ai/veo-updates-flow/",
     "source_name": "Google",
     "source_type": "company_blog",
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "April 22 Veo 3.1 Flow update confirmed via Google official blog. Free access via Google Vids (10 clips/month) and Flow (50 daily credits) confirmed via Google Developers Blog. Veo 3.1 Lite release date April 2 confirmed via Vertex AI docs.",
-    "tags": ["google", "veo", "video_generation", "flow", "filmmaking_ai", "free_access"],
+    "tags": [
+      "google",
+      "veo",
+      "video_generation",
+      "flow",
+      "filmmaking_ai",
+      "free_access"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 6
   },
@@ -157,7 +211,14 @@
     "discovered_via": "web_search",
     "confidence": "medium",
     "verification_notes": "Published May 4, 2026 per ProMarket (Stigler Center, University of Chicago Booth School). Publication date and headline confirmed via URL and aggregation. Underlying research paper not directly accessed — claims treated as reported from ProMarket's summary. Methodology not independently verified.",
-    "tags": ["ai_music", "consumer_research", "disclosure", "streaming", "music_industry", "labeling"],
+    "tags": [
+      "ai_music",
+      "consumer_research",
+      "disclosure",
+      "streaming",
+      "music_industry",
+      "labeling"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 6
   },
@@ -175,7 +236,15 @@
     "discovered_via": "web_search",
     "confidence": "medium",
     "verification_notes": "Version 0.20.0 details from web search citing ComfyUI docs changelog. HappyHorse and GPT Image 2 support, 4K video, RIFE/FILM interpolation, anti-cycle validation all confirmed via search result description of the update. Direct changelog page access unavailable but cross-references with ComfyUI GitHub releases.",
-    "tags": ["comfyui", "open_source", "workflow", "nodes", "happyhorse", "gpt_image_2", "video_generation"],
+    "tags": [
+      "comfyui",
+      "open_source",
+      "workflow",
+      "nodes",
+      "happyhorse",
+      "gpt_image_2",
+      "video_generation"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 5
   },
@@ -186,14 +255,22 @@
     "headline_zh": "安全之争",
     "category": "ai_policy",
     "blurb_en": "On May 1, the Pentagon signed agreements with eight AI companies — SpaceX, OpenAI, Google, Microsoft, Nvidia, AWS, Oracle, and Reflection — to deploy their models in classified IL6 and IL7 networks. Anthropic was not on the list. The stated reason: Anthropic refused to remove two specific guardrails from Claude's military deployment — one prohibiting its use to control autonomous weapons systems, one prohibiting mass domestic surveillance of American citizens. The Trump administration's response was to designate Anthropic a \"supply chain risk,\" a label previously applied only to companies with foreign adversary ties; a federal judge in California blocked that designation. The Pentagon gets eight companies that said yes. Anthropic gets to keep its principles, a blocked designation, and a $200 million existing contract that nobody has quite figured out what to do with.",
-    "blurb_zh": "5 月 1 日，五角大楼与八家 AI 公司签署协议，允许其在 IL6、IL7 级机密网络中部署模型，名单包括 SpaceX、OpenAI、谷歌、微软、英伟达、AWS、Oracle 和 Reflection。Anthropic 不在其列。官方理由：Anthropic 拒绝移除 Claude 军事部署中的两项安全限制——一项禁止将其用于自主武器控制，另一项禁止大规模监控美国公民。特朗普政府随即将 Anthropic 列为"供应链风险"，这一标签此前仅用于与外国敌手存在关联的公司；加州联邦法官已裁定阻止该认定生效。五角大楼得到了八家愿意说"是"的公司。Anthropic 保住了底线、一纸禁令，以及一份价值两亿美元、双方都不知道该怎么处理的现有合同。",
+    "blurb_zh": "5 月 1 日，五角大楼与八家 AI 公司签署协议，允许其在 IL6、IL7 级机密网络中部署模型，名单包括 SpaceX、OpenAI、谷歌、微软、英伟达、AWS、Oracle 和 Reflection。Anthropic 不在其列。官方理由：Anthropic 拒绝移除 Claude 军事部署中的两项安全限制——一项禁止将其用于自主武器控制，另一项禁止大规模监控美国公民。特朗普政府随即将 Anthropic 列为\"供应链风险\"，这一标签此前仅用于与外国敌手存在关联的公司；加州联邦法官已裁定阻止该认定生效。五角大楼得到了八家愿意说\"是\"的公司。Anthropic 保住了底线、一纸禁令，以及一份价值两亿美元、双方都不知道该怎么处理的现有合同。",
     "source_url": "https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic",
     "source_name": "CNN Business",
     "source_type": "original_reporting",
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "Confirmed via CNN (May 1), The Hill (May 1), The Next Web (May 1), and Winbuzzer (May 3). Eight companies named consistently: SpaceX, OpenAI, Google, Microsoft, Nvidia, AWS, Oracle, Reflection. Two specific Anthropic guardrails (autonomous weapons, mass domestic surveillance) confirmed via CNN and TNW. 'Supply chain risk' designation confirmed. Federal judge blocking confirmed via CNN. $200M existing contract figure confirmed via CNN.",
-    "tags": ["anthropic", "pentagon", "ai_safety", "military_ai", "classified_networks", "trump", "supply_chain_risk"],
+    "tags": [
+      "anthropic",
+      "pentagon",
+      "ai_safety",
+      "military_ai",
+      "classified_networks",
+      "trump",
+      "supply_chain_risk"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 9
   },
@@ -204,14 +281,22 @@
     "headline_zh": "降本增效",
     "category": "ai_industry",
     "blurb_en": "Meta announced April 23 it would cut 10 percent of its global workforce — roughly 8,000 employees, effective May 20 — framing the move as efficiency and AI investment in the same breath. The company plans at least $115 billion in AI capital expenditure in 2026, and the layoffs are part of how it intends to pay for it. Microsoft cut thousands more in the same week; by mid-April, before either company had finished its cuts, the industry had already eliminated more than 150,000 jobs in 2026. Mark Zuckerberg's explanation was precise: \"Projects that used to require big teams can now be accomplished by a single very talented person.\" The single very talented person he is describing runs on inference, not payroll.",
-    "blurb_zh": "Meta 于 4 月 23 日宣布裁减全球约 10% 的员工——约 8,000 人，5 月 20 日生效——同一口气将此举定性为"提升效率"与"投资 AI"。公司 2026 年 AI 资本支出计划不低于 1,150 亿美元，裁员正是筹款方式之一。同周，微软也大规模裁员；到四月中旬，两家公司裁员尚未完全执行，2026 年全行业已消失超过 15 万个科技岗位。扎克伯格的解释清晰明了："以前需要大团队完成的项目，现在一个极具天赋的人就能搞定。"他所描述的那个极具天赋的人，工作在推理层，不在工资单上。",
+    "blurb_zh": "Meta 于 4 月 23 日宣布裁减全球约 10% 的员工——约 8,000 人，5 月 20 日生效——同一口气将此举定性为\"提升效率\"与\"投资 AI\"。公司 2026 年 AI 资本支出计划不低于 1,150 亿美元，裁员正是筹款方式之一。同周，微软也大规模裁员；到四月中旬，两家公司裁员尚未完全执行，2026 年全行业已消失超过 15 万个科技岗位。扎克伯格的解释清晰明了：\"以前需要大团队完成的项目，现在一个极具天赋的人就能搞定。\"他所描述的那个极具天赋的人，工作在推理层，不在工资单上。",
     "source_url": "https://www.cnbc.com/2026/04/23/meta-will-cut-10percent-of-workforce-as-it-pushes-more-into-ai.html",
     "source_name": "CNBC",
     "source_type": "original_reporting",
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "April 23 announcement confirmed via CNBC, CNN, Bloomberg, NPR, Axios, Variety. 10% / ~8,000 employees confirmed across all sources. May 20 effective date confirmed via CNBC. $115B AI capex figure from multiple reports. 150,000 tech jobs 2026 figure from CNBC (April 24). Zuckerberg quote confirmed via CNBC. Microsoft simultaneous layoffs confirmed via CNBC (April 24).",
-    "tags": ["meta", "layoffs", "ai_investment", "zuckerberg", "microsoft", "tech_industry", "automation"],
+    "tags": [
+      "meta",
+      "layoffs",
+      "ai_investment",
+      "zuckerberg",
+      "microsoft",
+      "tech_industry",
+      "automation"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 8
   },
@@ -229,7 +314,16 @@
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "Confirmed across VentureBeat, SecurityWeek, CybersecurityNews, GBHackers, The Register (April 15), and researcher disclosure at oddguan.com. Researchers: Aonan Guan, Zhengyu Liu, Gavin Zhong (Johns Hopkins). Three affected agents confirmed. Attack mechanism (malicious PR title, no external server) confirmed. Bounty amounts ($100 Anthropic CVSS 9.4, $1,337 Google, $500 GitHub) confirmed. Initial disclosure approximately April 15; coverage extended through April 21+.",
-    "tags": ["prompt_injection", "security", "claude_code", "gemini", "github_copilot", "api_keys", "vulnerability", "coding_agents"],
+    "tags": [
+      "prompt_injection",
+      "security",
+      "claude_code",
+      "gemini",
+      "github_copilot",
+      "api_keys",
+      "vulnerability",
+      "coding_agents"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 8
   },
@@ -240,14 +334,23 @@
     "headline_zh": "统一调度",
     "category": "ai_tools",
     "blurb_en": "Adobe launched the public beta of Firefly AI Assistant on April 27, putting a conversational AI layer across its entire Creative Cloud suite — Photoshop, Premiere, Lightroom, Illustrator, Express, and Firefly itself. Users describe what they want in plain language; the assistant orchestrates multi-step workflows across applications using more than 60 built-in tools, from Generative Fill and Remove Background to Auto Tone and Vectorize. The product is the public release of \"Project Moonlight,\" which Adobe previewed at Adobe MAX in October 2025; access requires Creative Cloud Pro or a paid Firefly plan. Adobe is betting the creative director of the next decade doesn't need to know which application does what. The bet only works if the assistant is good enough that they don't need to care.",
-    "blurb_zh": "4 月 27 日，Adobe 正式推出 Firefly AI Assistant 公测版，为整个 Creative Cloud 套件——Photoshop、Premiere、Lightroom、Illustrator、Express 及 Firefly 本身——铺上了统一的对话式 AI 界面。用户用自己的语言描述目标，助手便跨应用编排多步骤工作流，调用超过 60 款内置工具，涵盖生成填充、移除背景、自动调色到矢量化等功能。该产品是 Adobe 于去年 10 月 Adobe MAX 上预告的"月光计划"的公开版本，使用需订阅 Creative Cloud Pro 或付费版 Firefly 计划。Adobe 押注的是：下一个十年的创意总监不需要知道每个功能藏在哪个软件里。这个赌注能否兑现，取决于助手是否好到让人真的不需要在乎。",
+    "blurb_zh": "4 月 27 日，Adobe 正式推出 Firefly AI Assistant 公测版，为整个 Creative Cloud 套件——Photoshop、Premiere、Lightroom、Illustrator、Express 及 Firefly 本身——铺上了统一的对话式 AI 界面。用户用自己的语言描述目标，助手便跨应用编排多步骤工作流，调用超过 60 款内置工具，涵盖生成填充、移除背景、自动调色到矢量化等功能。该产品是 Adobe 于去年 10 月 Adobe MAX 上预告的\"月光计划\"的公开版本，使用需订阅 Creative Cloud Pro 或付费版 Firefly 计划。Adobe 押注的是：下一个十年的创意总监不需要知道每个功能藏在哪个软件里。这个赌注能否兑现，取决于助手是否好到让人真的不需要在乎。",
     "source_url": "https://9to5mac.com/2026/04/27/adobe-launches-firefly-ai-assistant-public-beta-with-cross-app-workflow-automation/",
     "source_name": "9to5Mac",
     "source_type": "original_reporting",
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "Public beta April 27 confirmed via 9to5Mac and Adobe blog (blog.adobe.com/en/publish/2026/04/27/firefly-ai-assistant-public-beta). Adobe Summit announcement April 15 confirmed via Adobe news. 60+ tools, supported apps (Photoshop, Premiere, Lightroom, Illustrator, Express, Firefly), and Creative Cloud Pro / paid Firefly plan requirement confirmed. Project Moonlight / Adobe MAX October 2025 origin confirmed.",
-    "tags": ["adobe", "firefly", "ai_assistant", "creative_cloud", "workflow_automation", "photoshop", "premiere", "public_beta"],
+    "tags": [
+      "adobe",
+      "firefly",
+      "ai_assistant",
+      "creative_cloud",
+      "workflow_automation",
+      "photoshop",
+      "premiere",
+      "public_beta"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 7
   },
@@ -265,7 +368,16 @@
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "Confirmed via TechCrunch (April 21), YouTube official blog, Hollywood Reporter, The Wrap, Medianama, Music Business Worldwide. Agency names (CAA, UTA, WME, Untitled Management) confirmed. Parody/satire exception confirmed. Audio detection coming confirmed. NO FAKES Act support confirmed via TechCrunch and Digital Trends.",
-    "tags": ["youtube", "deepfake", "ai_detection", "celebrities", "likeness_rights", "no_fakes_act", "content_id", "talent_agencies"],
+    "tags": [
+      "youtube",
+      "deepfake",
+      "ai_detection",
+      "celebrities",
+      "likeness_rights",
+      "no_fakes_act",
+      "content_id",
+      "talent_agencies"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 7
   },
@@ -283,7 +395,16 @@
     "discovered_via": "web_search",
     "confidence": "high",
     "verification_notes": "Axios scoop confirmed May 4. $5B+ valuation confirmed via Axios, Billboard, Digital Music News. November 2025 Series C at $2.45B confirmed. 100M total users, 2M paid subscribers from Billboard and Sacra. $300M ARR from Sacra/Business of Apps. Warner settlement confirmed. Active UMG and Sony litigation confirmed. UMG impasse reported by Opus.pro AI Music News April 2026.",
-    "tags": ["suno", "ai_music", "funding", "valuation", "series_d", "copyright_lawsuit", "umg", "sony"],
+    "tags": [
+      "suno",
+      "ai_music",
+      "funding",
+      "valuation",
+      "series_d",
+      "copyright_lawsuit",
+      "umg",
+      "sony"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 7
   },
@@ -301,7 +422,14 @@
     "discovered_via": "web_search",
     "confidence": "medium",
     "verification_notes": "May 12 shutdown date confirmed via OpenAI deprecations page and developer community. Both DALL-E 2 and DALL-E 3 confirmed for shutdown. Migration pain points sourced from OpenAI Developer Community forum and DEV Community article (dev.to/flarecanary). gpt-image-2 as replacement confirmed via OpenAI. DALL-E January 2021 launch confirmed. Migration pain claims are developer self-reporting, not independently tested.",
-    "tags": ["dalle", "openai", "api_deprecation", "gpt_image_2", "developer_migration", "image_generation"],
+    "tags": [
+      "dalle",
+      "openai",
+      "api_deprecation",
+      "gpt_image_2",
+      "developer_migration",
+      "image_generation"
+    ],
     "used_in_newsletter": false,
     "editorial_score": 6
   }
