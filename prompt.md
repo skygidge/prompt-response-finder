@@ -190,6 +190,22 @@ Make story IDs specific enough to avoid collisions -- include the specific topic
 
 Append new stories to `data/results/all_stories.json`. Check for duplicate `source_url` before appending. Never duplicate.
 
+**JSON writing rule:** Always write JSON files using Python's `json` library. Never construct JSON by hand or string concatenation. Example:
+
+```python
+import json
+
+with open('data/results/all_stories.json', 'r', encoding='utf-8') as f:
+    stories = json.load(f)
+
+stories.extend(new_stories)
+
+with open('data/results/all_stories.json', 'w', encoding='utf-8') as f:
+    json.dump(stories, f, ensure_ascii=False, indent=2)
+```
+
+`ensure_ascii=False` allows Chinese characters to pass through cleanly. `json.dump` automatically escapes all ASCII control characters including straight double quotes (") inside string values — no manual escaping needed.
+
 ## STEP 6 -- Write the Daily Digest
 
 Create `data/results/digest_YYYY-MM-DD.md` with a quick summary:
