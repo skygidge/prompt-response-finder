@@ -1,0 +1,12 @@
+{
+  "newsletters": [
+    {"name": "TLDR AI", "url": "https://tldr.tech/ai", "type": "web_check"},
+    {"name": "Superhuman AI", "url": "https://www.superhuman.ai", "type": "web_check"}
+  ],
+  "discovered_newsletters": [],
+  "twitter_keywords": [
+    "@sama", "@DrJimFan", "@_akhaliq", "@LinusEkenstam"
+  ],
+  "twitter_keywords_note": "These are search hints for web queries, not browseable accounts. The Routine cannot access Twitter directly.",
+  "discovered_sources": []
+}

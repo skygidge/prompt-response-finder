@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Prompt Response // Story Feed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #FAFAF8;
+    --ink: #1a1a1a;
+    --ink-light: #666;
+    --ink-lighter: #999;
+    --rule: #d0cfc9;
+    --orange: #e67e22;
+    --mono: 'JetBrains Mono', monospace;
+    --serif: 'Newsreader', Georgia, serif;
+    --cat-video: #c0392b;
+    --cat-art: #2980b9;
+    --cat-tools: #27ae60;
+    --cat-funny: #e67e22;
+    --cat-policy: #8e44ad;
+    --cat-industry: #7f8c8d;
+    --cat-audio: #16a085;
+    --cat-general: #bdc3c7;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* HEADER */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg);
+    border-bottom: 2px solid var(--ink);
+    padding: 10px 20px 8px;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+
+  .site-title {
+    font-family: var(--mono);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+  }
+
+  .site-subtitle {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 12px;
+    color: var(--ink-light);
+  }
+
+  .header-meta {
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-light);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .lang-toggle {
+    display: flex;
+    gap: 0;
+    font-family: var(--mono);
+    font-size: 11px;
+    border: 1px solid var(--ink);
+  }
+
+  .lang-btn {
+    padding: 2px 8px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-light);
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .lang-btn.active {
+    background: var(--ink);
+    color: var(--bg);
+  }
+
+  .header-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .filter-pills {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .pill {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: opacity 0.15s;
+    color: #fff;
+    user-select: none;
+  }
+
+  .pill[data-cat="all"] { background: var(--ink); color: var(--bg); }
+  .pill[data-cat="ai_video"] { background: var(--cat-video); }
+  .pill[data-cat="ai_art"] { background: var(--cat-art); }
+  .pill[data-cat="ai_tools"] { background: var(--cat-tools); }
+  .pill[data-cat="ai_funny"] { background: var(--cat-funny); }
+  .pill[data-cat="ai_policy"] { background: var(--cat-policy); }
+  .pill[data-cat="ai_industry"] { background: var(--cat-industry); }
+  .pill[data-cat="ai_audio"] { background: var(--cat-audio); }
+  .pill[data-cat="tech_general"] { background: var(--cat-general); color: var(--ink); border: 1px solid #aaa; }
+
+  .pill.inactive { opacity: 0.35; }
+
+  .selected-badge {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--orange);
+    display: none;
+    white-space: nowrap;
+  }
+
+  .copy-btn {
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 2px 10px;
+    border: 1px solid var(--orange);
+    background: none;
+    color: var(--orange);
+    cursor: pointer;
+    display: none;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .copy-btn:hover { background: var(--orange); color: #fff; }
+  .copy-btn.copied { background: var(--orange); color: #fff; }
+
+  /* MAIN */
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-lighter);
+    margin-bottom: 16px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  /* STORY CARD */
+  .story {
+    position: relative;
+    padding: 16px 16px 16px 14px;
+    border-left: 3px solid var(--rule);
+    margin-bottom: 0;
+    transition: border 0.15s;
+  }
+
+  .story.used {
+    border: 3px solid var(--orange);
+    padding-left: 13px;
+  }
+
+  .story[data-cat="ai_video"] { border-left-color: var(--cat-video); }
+  .story[data-cat="ai_art"] { border-left-color: var(--cat-art); }
+  .story[data-cat="ai_tools"] { border-left-color: var(--cat-tools); }
+  .story[data-cat="ai_funny"] { border-left-color: var(--cat-funny); }
+  .story[data-cat="ai_policy"] { border-left-color: var(--cat-policy); }
+  .story[data-cat="ai_industry"] { border-left-color: var(--cat-industry); }
+  .story[data-cat="ai_audio"] { border-left-color: var(--cat-audio); }
+  .story[data-cat="tech_general"] { border-left-color: var(--cat-general); }
+
+  .story.used[data-cat] { border-color: var(--orange); }
+
+  .story-checkbox {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    accent-color: var(--orange);
+  }
+
+  .story-headline {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 3px;
+    padding-right: 28px;
+  }
+
+  .story-headline.star::before {
+    content: '★ ';
+    color: var(--orange);
+  }
+
+  .story-headline.star { font-size: 15px; }
+
+  .story-headline a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .story-headline a:hover { text-decoration: underline; }
+
+  .story-meta {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-lighter);
+    margin-bottom: 10px;
+  }
+
+  .story-blurb-en {
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+
+  .story-zh {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+  }
+
+  .story-headline-zh {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ink-light);
+    margin-bottom: 4px;
+  }
+
+  .story-blurb-zh {
+    font-family: var(--serif);
+    font-size: 13px;
+    color: var(--ink-light);
+    line-height: 1.6;
+  }
+
+  .story-rule {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 0;
+  }
+
+  /* Lang ZH primary mode */
+  body.lang-zh .story-headline-primary { order: 2; }
+  body.lang-zh .story-zh { order: 1; border-top: none; border-bottom: 1px solid var(--rule); padding-top: 0; padding-bottom: 8px; margin-top: 0; margin-bottom: 8px; }
+  body.lang-zh .story-en { order: 2; }
+  body.lang-zh .story-zh .story-headline-zh { font-size: 14px; color: var(--ink); font-family: var(--mono); font-weight: 700; }
+  body.lang-zh .story-zh .story-blurb-zh { font-size: 15px; color: var(--ink); }
+  body.lang-zh .story-blurb-en { font-size: 13px; color: var(--ink-light); }
+  body.lang-zh .story-headline { font-size: 12px; color: var(--ink-light); }
+
+  .story-content { display: flex; flex-direction: column; }
+
+  /* ARCHIVE */
+  .archive-toggle {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-lighter);
+    cursor: pointer;
+    margin: 32px 0 0;
+    padding: 8px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    user-select: none;
+  }
+
+  .archive-toggle::before {
+    content: '▶';
+    font-size: 9px;
+    transition: transform 0.2s;
+  }
+
+  .archive-toggle.open::before { transform: rotate(90deg); }
+
+  #archive-stories { display: none; opacity: 0.6; margin-top: 8px; }
+  #archive-stories.open { display: block; }
+
+  /* FOOTER */
+  footer {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-lighter);
+    border-top: 1px solid var(--rule);
+    padding-top: 16px;
+  }
+
+  footer a { color: var(--ink-lighter); }
+
+  /* EMPTY STATE */
+  .empty-state {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink-lighter);
+    padding: 40px 0;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  /* HIDDEN */
+  .story.filtered { display: none; }
+
+  /* MOBILE */
+  @media (max-width: 600px) {
+    header { padding: 10px 14px 8px; }
+    main { padding: 16px 14px 40px; }
+    footer { padding: 16px 14px 30px; }
+    .header-top { gap: 8px; }
+    .site-title { font-size: 13px; }
+    .header-meta { font-size: 10px; gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <span class="site-title">The Prompt Response // Story Feed</span>
+    <span class="site-subtitle">AI video, art, and tech. Auto-sourced. Human-curated weekly.</span>
+    <div class="header-meta">
+      <span id="story-count">— stories</span>
+      <span id="last-updated">—</span>
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中文</button>
+      </div>
+    </div>
+  </div>
+  <div class="header-controls">
+    <div class="filter-pills">
+      <span class="pill" data-cat="all" onclick="setFilter('all')">All</span>
+      <span class="pill" data-cat="ai_video" onclick="setFilter('ai_video')">AI Video</span>
+      <span class="pill" data-cat="ai_art" onclick="setFilter('ai_art')">AI Art</span>
+      <span class="pill" data-cat="ai_tools" onclick="setFilter('ai_tools')">Tools</span>
+      <span class="pill" data-cat="ai_funny" onclick="setFilter('ai_funny')">Funny</span>
+      <span class="pill" data-cat="ai_policy" onclick="setFilter('ai_policy')">Policy</span>
+      <span class="pill" data-cat="ai_industry" onclick="setFilter('ai_industry')">Industry</span>
+      <span class="pill" data-cat="ai_audio" onclick="setFilter('ai_audio')">Audio</span>
+      <span class="pill" data-cat="tech_general" onclick="setFilter('tech_general')">Tech</span>
+    </div>
+    <span class="selected-badge" id="selected-badge">0 selected</span>
+    <button class="copy-btn" id="copy-btn" onclick="copySelectedIds()">Copy IDs</button>
+  </div>
+</header>
+
+<main>
+  <div class="section-label" id="this-week-label">This Week</div>
+  <div id="this-week-stories"></div>
+
+  <div class="archive-toggle" id="archive-toggle" onclick="toggleArchive()">Archive</div>
+  <div id="archive-stories"></div>
+</main>
+
+<footer>
+  Powered by Claude Code Routines. Built for The Prompt Response AI速写. &nbsp;|&nbsp;
+  <a href="https://github.com/skygidge/prompt-response-finder" target="_blank">GitHub</a>
+</footer>
+
+<script>
+  let allStories = [];
+  let currentFilter = 'all';
+  let currentLang = 'en';
+
+  const CAT_LABELS = {
+    ai_video: 'AI Video', ai_art: 'AI Art', ai_tools: 'Tools',
+    ai_funny: 'Funny', ai_policy: 'Policy', ai_industry: 'Industry',
+    ai_audio: 'Audio', tech_general: 'Tech'
+  };
+
+  function formatDate(dateStr) {
+    if (!dateStr) return '';
+    const [y, m, d] = dateStr.split('-').map(Number);
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return `${months[m-1]} ${d}, ${y}`;
+  }
+
+  function daysSince(dateStr) {
+    if (!dateStr) return 999;
+    const [y, m, d] = dateStr.split('-').map(Number);
+    const story = new Date(y, m-1, d);
+    const now = new Date();
+    return Math.floor((now - story) / 86400000);
+  }
+
+  function getUsed(id) {
+    return localStorage.getItem('used_' + id) === '1';
+  }
+
+  function setUsed(id, val) {
+    if (val) localStorage.setItem('used_' + id, '1');
+    else localStorage.removeItem('used_' + id);
+  }
+
+  function countSelected() {
+    return allStories.filter(s => getUsed(s.id)).length;
+  }
+
+  function updateSelectionUI() {
+    const n = countSelected();
+    const badge = document.getElementById('selected-badge');
+    const btn = document.getElementById('copy-btn');
+    if (n > 0) {
+      badge.style.display = 'inline';
+      badge.textContent = n + ' selected';
+      btn.style.display = 'inline-block';
+    } else {
+      badge.style.display = 'none';
+      btn.style.display = 'none';
+    }
+  }
+
+  function copySelectedIds() {
+    const ids = allStories.filter(s => getUsed(s.id)).map(s => s.id).join(', ');
+    navigator.clipboard.writeText(ids).then(() => {
+      const btn = document.getElementById('copy-btn');
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy IDs'; btn.classList.remove('copied'); }, 2000);
+    });
+  }
+
+  function buildCard(story) {
+    const used = getUsed(story.id);
+    const isStar = story.editorial_score >= 8;
+
+    const card = document.createElement('div');
+    card.className = 'story' + (used ? ' used' : '');
+    card.dataset.cat = story.category || 'tech_general';
+    card.dataset.id = story.id;
+
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.className = 'story-checkbox';
+    cb.checked = used;
+    cb.title = 'Mark as used';
+    cb.addEventListener('change', () => {
+      setUsed(story.id, cb.checked);
+      card.classList.toggle('used', cb.checked);
+      updateSelectionUI();
+    });
+
+    const content = document.createElement('div');
+    content.className = 'story-content';
+
+    const headlineEl = document.createElement('div');
+    headlineEl.className = 'story-headline' + (isStar ? ' star' : '');
+    const a = document.createElement('a');
+    a.href = story.source_url || '#';
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = story.headline_en || '';
+    headlineEl.appendChild(a);
+
+    const meta = document.createElement('div');
+    meta.className = 'story-meta';
+    const catLabel = CAT_LABELS[story.category] || story.category || '';
+    meta.textContent = (story.source_name || '') + (story.date_found ? ' — ' + formatDate(story.date_found) : '') + (catLabel ? ' · ' + catLabel : '');
+
+    const enDiv = document.createElement('div');
+    enDiv.className = 'story-en';
+    const blurbEn = document.createElement('p');
+    blurbEn.className = 'story-blurb-en';
+    blurbEn.textContent = story.blurb_en || '';
+    enDiv.appendChild(blurbEn);
+
+    const zhDiv = document.createElement('div');
+    zhDiv.className = 'story-zh';
+    const headlineZh = document.createElement('div');
+    headlineZh.className = 'story-headline-zh';
+    headlineZh.textContent = story.headline_zh || '';
+    const blurbZh = document.createElement('p');
+    blurbZh.className = 'story-blurb-zh';
+    blurbZh.textContent = story.blurb_zh || '';
+    zhDiv.appendChild(headlineZh);
+    zhDiv.appendChild(blurbZh);
+
+    content.appendChild(headlineEl);
+    content.appendChild(meta);
+    content.appendChild(enDiv);
+    content.appendChild(zhDiv);
+
+    card.appendChild(cb);
+    card.appendChild(content);
+
+    return card;
+  }
+
+  function renderStories(stories, containerId) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = '';
+
+    if (stories.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'empty-state';
+      empty.textContent = containerId === 'this-week-stories'
+        ? 'No stories yet. Run the Routine to fetch the first batch.'
+        : 'No archived stories yet.';
+      container.appendChild(empty);
+      return;
+    }
+
+    stories.forEach((story, i) => {
+      const card = buildCard(story);
+      container.appendChild(card);
+      if (i < stories.length - 1) {
+        const hr = document.createElement('hr');
+        hr.className = 'story-rule';
+        container.appendChild(hr);
+      }
+    });
+  }
+
+  function applyFilter() {
+    document.querySelectorAll('.story').forEach(card => {
+      if (currentFilter === 'all' || card.dataset.cat === currentFilter) {
+        card.classList.remove('filtered');
+      } else {
+        card.classList.add('filtered');
+      }
+    });
+
+    document.querySelectorAll('.pill').forEach(p => {
+      p.classList.toggle('inactive', p.dataset.cat !== currentFilter);
+    });
+  }
+
+  function setFilter(cat) {
+    currentFilter = cat;
+    applyFilter();
+  }
+
+  function setLang(lang) {
+    currentLang = lang;
+    document.body.classList.toggle('lang-zh', lang === 'zh');
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  }
+
+  function toggleArchive() {
+    const toggle = document.getElementById('archive-toggle');
+    const section = document.getElementById('archive-stories');
+    toggle.classList.toggle('open');
+    section.classList.toggle('open');
+  }
+
+  function getLastUpdated(stories) {
+    if (!stories.length) return null;
+    const dates = stories.map(s => s.date_found).filter(Boolean).sort().reverse();
+    return dates[0] || null;
+  }
+
+  function toPacketTime(dateStr) {
+    if (!dateStr) return '—';
+    const [y, m, d] = dateStr.split('-').map(Number);
+    const dt = new Date(y, m-1, d);
+    return dt.toLocaleDateString('en-US', { timeZone: 'America/Los_Angeles', month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  async function init() {
+    try {
+      const res = await fetch('./all_stories.json');
+      allStories = await res.json();
+    } catch (e) {
+      allStories = [];
+    }
+
+    const thisWeek = allStories.filter(s => daysSince(s.date_found) <= 7)
+      .sort((a, b) => (b.editorial_score || 0) - (a.editorial_score || 0));
+    const archive = allStories.filter(s => daysSince(s.date_found) > 7)
+      .sort((a, b) => (b.date_found || '') < (a.date_found || '') ? -1 : 1);
+
+    renderStories(thisWeek, 'this-week-stories');
+    renderStories(archive, 'archive-stories');
+
+    document.getElementById('story-count').textContent = allStories.length + ' stor' + (allStories.length === 1 ? 'y' : 'ies');
+
+    const lastDate = getLastUpdated(allStories);
+    document.getElementById('last-updated').textContent = lastDate ? 'Updated ' + toPacketTime(lastDate) : 'No runs yet';
+
+    updateSelectionUI();
+    applyFilter();
+  }
+
+  init();
+</script>
+</body>
+</html>
