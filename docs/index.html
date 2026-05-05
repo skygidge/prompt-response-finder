@@ -348,6 +348,77 @@
     line-height: 1.8;
   }
 
+  /* GUIDANCE */
+  .guidance-toggle {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-light);
+    cursor: pointer;
+    user-select: none;
+    padding: 4px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .guidance-toggle::before {
+    content: '▶';
+    font-size: 8px;
+    transition: transform 0.2s;
+  }
+
+  .guidance-toggle.open::before { transform: rotate(90deg); }
+
+  .guidance-panel {
+    display: none;
+    margin-top: 8px;
+  }
+
+  .guidance-panel.open { display: block; }
+
+  .guidance-textarea {
+    width: 100%;
+    font-family: var(--serif);
+    font-size: 13px;
+    padding: 8px 10px;
+    border: 1px solid var(--rule);
+    background: #fff;
+    color: var(--ink);
+    resize: vertical;
+    min-height: 60px;
+    max-height: 200px;
+    line-height: 1.5;
+  }
+
+  .guidance-textarea:focus { outline: 1px solid var(--ink-light); border-color: var(--ink-light); }
+
+  .guidance-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 6px;
+  }
+
+  .guidance-submit {
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 4px 14px;
+    border: 1px solid var(--ink);
+    background: none;
+    color: var(--ink);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .guidance-submit:hover { background: var(--ink); color: var(--bg); }
+
+  .guidance-hint {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-lighter);
+  }
+
   /* HIDDEN */
   .story.filtered { display: none; }
 
@@ -391,6 +462,14 @@
     </div>
     <span class="selected-badge" id="selected-badge">0 selected</span>
     <button class="copy-btn" id="copy-btn" onclick="copySelectedIds()">Copy IDs</button>
+  </div>
+  <div class="guidance-toggle" id="guidance-toggle" onclick="toggleGuidance()">Guide next search</div>
+  <div class="guidance-panel" id="guidance-panel">
+    <textarea class="guidance-textarea" id="guidance-text" placeholder="e.g. Skip Runway this week. Find more AI music stories. Look for DALL-E developer reaction after May 12."></textarea>
+    <div class="guidance-row">
+      <button class="guidance-submit" onclick="submitGuidance()">Queue guidance →</button>
+      <span class="guidance-hint">Opens a GitHub issue. The next search run applies it automatically.</span>
+    </div>
   </div>
 </header>
 
@@ -591,6 +670,19 @@
     const section = document.getElementById('archive-stories');
     toggle.classList.toggle('open');
     section.classList.toggle('open');
+  }
+
+  function toggleGuidance() {
+    document.getElementById('guidance-toggle').classList.toggle('open');
+    document.getElementById('guidance-panel').classList.toggle('open');
+  }
+
+  function submitGuidance() {
+    const text = document.getElementById('guidance-text').value.trim();
+    if (!text) return;
+    const url = 'https://github.com/skygidge/prompt-response-finder/issues/new?title='
+      + encodeURIComponent('Guidance') + '&body=' + encodeURIComponent(text);
+    window.open(url, '_blank');
   }
 
   function getLastUpdated(stories) {

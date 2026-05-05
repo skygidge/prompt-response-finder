@@ -56,6 +56,22 @@ Before doing anything else, pull the latest changes. This ensures any edits made
 git pull origin main
 ```
 
+Then fetch any open guidance issues from GitHub (submitted via the website):
+
+```bash
+curl -s "https://api.github.com/repos/skygidge/prompt-response-finder/issues?state=open&per_page=20" \
+  -H "Accept: application/vnd.github+json" \
+  > /tmp/guidance_issues.json
+
+python3 -c "
+import json
+issues = json.load(open('/tmp/guidance_issues.json'))
+nums = [str(i['number']) for i in issues if isinstance(i, dict)]
+open('/tmp/issue_numbers.txt', 'w').write('\n'.join(nums))
+print(f'Found {len(nums)} open guidance issue(s): {nums}')
+"
+```
+
 ## STEP 1 -- Load Context (WebFetch each URL)
 
 - **Focus file (READ FIRST -- this overrides everything):** https://raw.githubusercontent.com/skygidge/prompt-response-finder/main/data/focus.md
@@ -66,6 +82,8 @@ git pull origin main
 - Sources config: https://raw.githubusercontent.com/skygidge/prompt-response-finder/main/data/sources.json
 
 **The focus file is the boss.** It contains plain English instructions from the human about what to search for, what to avoid, and what matters right now. Follow it before anything else.
+
+- **Open guidance issues:** Read `/tmp/guidance_issues.json`. Extract the `body` field from each issue. Treat each body as an additional instruction appended to focus.md. These represent real-time guidance from the user submitted via the website. Apply them with the same weight as focus.md.
 
 Read the style guide completely. Every blurb you write must follow it exactly.
 
@@ -237,6 +255,19 @@ Update `data/learnings.json` with:
 Do NOT touch `docs/index.html`. Only commit data files and the docs JSON copy.
 
 ```bash
+# Close any guidance issues that were processed this run
+if [ -s /tmp/issue_numbers.txt ]; then
+  while IFS= read -r num; do
+    curl -s -X PATCH \
+      "https://api.github.com/repos/skygidge/prompt-response-finder/issues/$num" \
+      -H "Authorization: token YOUR_GITHUB_PAT" \
+      -H "Accept: application/vnd.github+json" \
+      -H "Content-Type: application/json" \
+      -d '{"state": "closed"}'
+    echo "Closed issue #$num"
+  done < /tmp/issue_numbers.txt
+fi
+
 cp data/results/all_stories.json docs/all_stories.json
 git add data/ docs/all_stories.json
 git commit -m "Prompt Response search: $(date +%Y-%m-%d)"
