@@ -112,6 +112,8 @@ Read the `feedback` array in learnings.json. Apply every lesson this run.
 
 ## STEP 3 -- What to Search For
 
+Use WebSearch to find stories. Use WebFetch to read article content for verification. If WebFetch returns a 403, paywall, or empty page, use the search result snippet as your source -- cross-reference claims across at least two search results before writing.
+
 Run 3-5 searches per category. Vary queries based on what `learnings.json` says worked previously. Apply any overrides from `focus.md`.
 
 **AI Video:**
