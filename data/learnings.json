@@ -1,6 +1,6 @@
 {
   "last_run": "2026-05-06",
-  "total_runs": 3,
+  "total_runs": 4,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -29,7 +29,14 @@
     "Sierra AI Bret Taylor $950 million funding May 2026 CNBC",
     "podslop AI podcast generated feeds streaming May 2026",
     "AI industry funding acquisition news May 2026",
-    "AI funny weird tech news May 2026"
+    "AI funny weird tech news May 2026",
+    "Scott Turow Meta lawsuit AI copyright May 2026",
+    "Refik Anadol AI art museum institution launch May 2026",
+    "Harvard AI emergency room diagnosis study AI better than doctors TechCrunch May 2026",
+    "SAP Prior Labs NemoClaw acquisition AI May 2026",
+    "Colorado AI law SB189 bill revision May 2026",
+    "AI discovered new physics plasma ScienceDaily April 2026",
+    "Stick Figure AI song stolen viral South Africa Digital Music News"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -49,7 +56,11 @@
     "Flux AI image model update Stable Diffusion May 2026 (no fresh news in window)",
     "Wan video model Alibaba update release May 2026 (Wan 2.7 was March 2026 -- outside window; Wan 3.0 expected mid-2026)",
     "Runway GWM-1 world model robotics avatars 2026 (launched December 11 2025 -- outside window)",
-    "Runway NVIDIA Rubin platform partnership 2026 (announced January 5 2026 -- outside window)"
+    "Runway NVIDIA Rubin platform partnership 2026 (announced January 5 2026 -- outside window)",
+    "FLUX.1 Kontext Black Forest Labs image editing launch date 2026 (launched May 2025 -- year-old story, not a 2026 news item)",
+    "Moltbook social media AI agents Meta acquisition (March 10 2026 -- outside 14-day window)",
+    "Pika 2.5 social video app launch date 2026 (original app July 2025; 2.5 engine from early 2026 -- nothing fresh in window)",
+    "Grok xAI video generation consistent characters April May 2026 (Grok 4.3 Beta update April 17 -- just outside window; too minor)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -78,7 +89,11 @@
     "thehill.com",
     "decrypt.co (good for AI/crypto intersection, art theft stories)",
     "futurism.com (good for AI slop/podcast stories)",
-    "podnews.net (podcast industry data)"
+    "podnews.net (podcast industry data)",
+    "cpr.org (Colorado Public Radio -- reliable for state-level AI regulation)",
+    "coloradonewsline.com (Colorado Newsline -- good for state AI policy)",
+    "sciencedaily.com (ScienceDaily -- reliable for academic AI research stories)",
+    "harvardmagazine.com (Harvard Magazine -- good for institutional AI research)"
   ],
   "discovered_newsletters": [],
   "discovered_sources": [
@@ -115,12 +130,21 @@
     "Podslop (AI podcast flooding) is a strong recurring beat. The category is: AI-generated content overwhelming platform moderation. Same pattern applies to music (covered), video (coming), and now podcasts. Run this search each cycle.",
     "DALL-E API shuts down May 12 -- developer fallout stories may appear immediately after. Run 'DALL-E migration developer impact May 12 2026' next run.",
     "Connecticut SB5 still not signed as of May 6 -- check next run. If signed, it becomes a milestone policy story.",
-    "Suno Series D still closing -- check next run for confirmation and final valuation."
+    "Suno Series D still closing -- check next run for confirmation and final valuation.",
+    "Meta is now the biggest copyright lawsuit target in AI: publishers + Turow lawsuit (May 2026) follows the earlier author lawsuits pattern. Watch for ruling dates and potential settlement.",
+    "AI music theft has a human storytelling angle that the newsletter voice handles well: Stick Figure story (AI version goes viral, artist gets nothing) is a model template.",
+    "Dataland (Refik Anadol, LA, June 20) is a recurring story to watch: is the first review out? Are there opening night stories? Follow up post-June 20.",
+    "Harvard AI medical diagnosis study (May 2026) pattern: academic institutions publishing AI vs. human benchmarks in high-profile journals. Watch for follow-up rebuttals and clinical trial announcements.",
+    "Colorado AI law gutting itself (SB189) is part of a national rollback pattern: state AI laws passed in 2023-2024 are being amended or delayed in 2026 under industry pressure. Watch Colorado for final vote.",
+    "FLUX.1 Kontext (May 2025) and Runway Gen-4.5 (Dec 2025) both keep surfacing as fake-fresh news in 2026. Add to skip list for all future runs.",
+    "SAP/Prior Labs pattern: legacy enterprise software companies (SAP, Salesforce, Oracle) acquiring specialized AI startups to compete with native-AI vendors. Run this search quarterly.",
+    "AI vs. human professional benchmarks (ER doctors, lawyers, accountants) are becoming a recurring story category. Run a dedicated search each cycle."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
     "Run 1 complete (2026-05-04). 10 stories found. First run seeded the database with strong coverage of AI video (Sora shutdown, HappyHorse, Veo), AI art (GPT Image 2, Midjourney V8.1), AI policy (Taylor Swift, Connecticut), AI audio (ElevenMusic), AI funny (AI music study), AI tools (ComfyUI). No genuinely funny/weird story found -- ai_funny classification went to a consumer research story with ironic implications rather than a true curiosity piece.",
     "Run 2 complete (2026-05-04). 7 new stories added. Top pick: Pentagon/Anthropic exclusion (score 9). Strong policy and industry week. Found two genuine ai_funny-adjacent stories: Comment and Control prompt injection (security agents exposing their own keys) and the continuing AI music label study angle. Adobe Firefly AI Assistant public beta is a real creative tools story. Meta layoffs + Zuckerberg quote is the industry punchline of the week. Suno $5B is an Axios scoop. Suggestions for next run: check if Connecticut SB5 was signed by Governor Lamont; check for DALL-E migration disruption on/after May 12; check if Suno Series D closes; follow Pentagon/Anthropic legal situation; search for new Chinese AI video model releases (Wan 2.7 platform rollouts, Kling updates); look for Adobe Firefly AI Assistant user/press reviews now that beta is live.",
-    "Run 3 complete (2026-05-06). 5 new stories added. Top pick: Anthropic $900B valuation round (score 9). Strong industry/funding week. GPT-5.5 (April 23) was missed in previous run -- confirmed lesson to always search OpenAI model releases explicitly. Best ai_funny yet: KC Green vs Artisan AI meme theft (real sourcing, real stakes, irony built in). Sierra $950M establishes enterprise AI agents as 2026's growth category. Podslop gives audio a funny/real beat. No new AI video stories -- all Chinese models launched Feb-March, outside 14-day window. Suggestions for next run: check DALL-E API shutdown fallout (May 12), check Connecticut SB5 signature, check Suno Series D closure, check Anthropic round closure, look for Wan 3.0 announcement, run explicit OpenAI model release search."
+    "Run 3 complete (2026-05-06). 5 new stories added. Top pick: Anthropic $900B valuation round (score 9). Strong industry/funding week. GPT-5.5 (April 23) was missed in previous run -- confirmed lesson to always search OpenAI model releases explicitly. Best ai_funny yet: KC Green vs Artisan AI meme theft (real sourcing, real stakes, irony built in). Sierra $950M establishes enterprise AI agents as 2026's growth category. Podslop gives audio a funny/real beat. No new AI video stories -- all Chinese models launched Feb-March, outside 14-day window. Suggestions for next run: check DALL-E API shutdown fallout (May 12), check Connecticut SB5 signature, check Suno Series D closure, check Anthropic round closure, look for Wan 3.0 announcement, run explicit OpenAI model release search.",
+    "Run 4 complete (2026-05-06). 7 new stories added. Top pick: Meta publishers copyright lawsuit (score 8). Strong policy/industry/arts week. No new AI video stories found -- AI video category gap continues. Colorado AI law revision is the best irony story (state Democrats gutting their own 2024 law under industry pressure). Dataland (Refik Anadol AI museum, LA) is cleanest ai_art story in four runs. Harvard ER diagnosis study is a strong tech_general surprise-angle entry (AI beats two ER doctors). Stick Figure AI theft is a good audio/human-angle story. SAP/Prior Labs is solid industry news with a deadpan angle. AI plasma physics (Emory, April 22) scores 5 -- borderline but included as interesting tech. FLUX.1 Kontext confirmed as May 2025 story -- permanently skip. Suggestions for next run: check DALL-E API shutdown developer fallout (post-May 12), check Connecticut SB5 signature, check Suno Series D closure, check Anthropic $900B round closure, check Colorado SB189 final vote, search for AI video news -- Wan 3.0 expected mid-2026, any Kling 3.1 or Pika news, any Veo 4 announcement at Google I/O (May 19-20)."
   ]
 }
