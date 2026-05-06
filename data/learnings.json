@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-04",
-  "total_runs": 2,
+  "last_run": "2026-05-06",
+  "total_runs": 3,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -22,7 +22,14 @@
     "Suno Series D $5 billion valuation funding 2026",
     "DALL-E API deprecation May 12 2026 impact developers",
     "AI coding agents prompt injection secrets leaked VentureBeat 2026",
-    "big tech employees leaving AI startups CNBC April 2026"
+    "big tech employees leaving AI startups CNBC April 2026",
+    "Anthropic $900 billion valuation $50 billion round TechCrunch April 2026",
+    "GPT-5.5 OpenAI April 23 2026 features TechCrunch CNBC",
+    "this is fine creator KC Green Artisan AI subway ad stolen art May 2026",
+    "Sierra AI Bret Taylor $950 million funding May 2026 CNBC",
+    "podslop AI podcast generated feeds streaming May 2026",
+    "AI industry funding acquisition news May 2026",
+    "AI funny weird tech news May 2026"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -33,7 +40,16 @@
     "Stable Diffusion Flux AI art model update April May 2026 (no fresh news within 14-day window)",
     "Pika AI social video app launch date 2026 (PikaStream 1.0 was April 19, just outside window; original app October 2025)",
     "Wan AI video model update release May 2026 (Wan 2.7 on Together AI was April 3 -- outside 14-day window)",
-    "Runway Gen-4.5 launch date release April May 2026 (Gen-4.5 launched December 2025, Adobe partnership also December 2025 -- not new)"
+    "Runway Gen-4.5 launch date release April May 2026 (Gen-4.5 launched December 2025, Adobe partnership also December 2025 -- not new)",
+    "Kling AI video model update new features May 2026 (Kling 3.0 launched Feb 5 2026 -- well outside window; VO3 AI Blog falsely dated it April 24)",
+    "Runway AI video generation news May 2026 (Gen-4 was March 2025, Gen-4.5 December 2025; VO3 AI Blog again reported as new -- skip this aggregator entirely)",
+    "Seedance ByteDance AI video model launch May 2026 (Seedance 2.0 launched Feb 12 2026 -- outside window)",
+    "HunyuanVideo 1.5 Tencent GitHub release date open source (original model Nov 2025; May 4 entry was a weights update, not a model launch -- skip)",
+    "Connecticut SB5 Governor Lamont signed AI employment disclosure May 2026 (governor indicated intention to sign but not yet signed as of May 6)",
+    "Flux AI image model update Stable Diffusion May 2026 (no fresh news in window)",
+    "Wan video model Alibaba update release May 2026 (Wan 2.7 was March 2026 -- outside window; Wan 3.0 expected mid-2026)",
+    "Runway GWM-1 world model robotics avatars 2026 (launched December 11 2025 -- outside window)",
+    "Runway NVIDIA Rubin platform partnership 2026 (announced January 5 2026 -- outside window)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -59,7 +75,10 @@
     "digitalmusicnews.com",
     "winbuzzer.com",
     "thenextweb.com",
-    "thehill.com"
+    "thehill.com",
+    "decrypt.co (good for AI/crypto intersection, art theft stories)",
+    "futurism.com (good for AI slop/podcast stories)",
+    "podnews.net (podcast industry data)"
   ],
   "discovered_newsletters": [],
   "discovered_sources": [
@@ -86,11 +105,22 @@
     "Meta/Microsoft layoffs (April 23-24) landed at 150,000+ tech job losses in 2026 by mid-April -- Zuckerberg quote ('single very talented person') is the editorial punchline. This story will continue as May 20 layoffs execute.",
     "The Runway Gen-4.5 / Adobe partnership (December 2025) keeps surfacing as 'new' in aggregator results -- it is not. Skip on sight.",
     "Suno is now a multi-angle beat: funding (Series D at $5B), litigation (UMG impasse), and product ($300M ARR, 2M subscribers). Watch for litigation ruling news -- could be the issue's top story.",
-    "Connecticut AI employment disclosure bill (SB5) passed House May 1; governor said he would sign. Follow up next run -- if signed, it's a policy milestone story."
+    "Connecticut AI employment disclosure bill (SB5) passed House May 1; governor said he would sign. Follow up next run -- if signed, it's a policy milestone story.",
+    "VO3 AI Blog is confirmed unreliable for MULTIPLE models -- it has falsely reported Runway Gen-4 AND Kling 3.0 as current-week releases when both launched months earlier. Treat any date from this source as unverified until cross-checked against official GitHub, HuggingFace, or company blog.",
+    "Chinese AI video models (Kling, Seedance, Wan, Hunyuan) all launched their major 2026 updates in February-March -- they are now outside the 14-day window. Next cycle: watch for Wan 3.0 (expected mid-2026), Kling 3.1/4.0 updates.",
+    "GPT-5.5 (April 23) was missed in Run 2. OpenAI is shipping major model versions roughly monthly in 2026 -- always run a dedicated 'OpenAI model release' search each run.",
+    "Anthropic $900B round: revenue growth from $9B (end 2025) to $30B ARR in ~4 months is the key data point. Coding tools (Claude Code) are the driver. IPO expected October 2026 -- watch for board decision and round closure.",
+    "Enterprise AI agents (Sierra, and the broader category) are the growth story of 2026 Q2. $950M at $15.8B with 40% Fortune 50 penetration signals the call center replacement thesis is now fundable at scale.",
+    "The 'This is Fine' meme theft is a model ai_funny story: real legal stakes, clear irony (AI company stealing art), strong sourcing, and a punchline that writes itself. Look for similar AI-company-misusing-creator-IP patterns.",
+    "Podslop (AI podcast flooding) is a strong recurring beat. The category is: AI-generated content overwhelming platform moderation. Same pattern applies to music (covered), video (coming), and now podcasts. Run this search each cycle.",
+    "DALL-E API shuts down May 12 -- developer fallout stories may appear immediately after. Run 'DALL-E migration developer impact May 12 2026' next run.",
+    "Connecticut SB5 still not signed as of May 6 -- check next run. If signed, it becomes a milestone policy story.",
+    "Suno Series D still closing -- check next run for confirmation and final valuation."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
     "Run 1 complete (2026-05-04). 10 stories found. First run seeded the database with strong coverage of AI video (Sora shutdown, HappyHorse, Veo), AI art (GPT Image 2, Midjourney V8.1), AI policy (Taylor Swift, Connecticut), AI audio (ElevenMusic), AI funny (AI music study), AI tools (ComfyUI). No genuinely funny/weird story found -- ai_funny classification went to a consumer research story with ironic implications rather than a true curiosity piece.",
-    "Run 2 complete (2026-05-04). 7 new stories added. Top pick: Pentagon/Anthropic exclusion (score 9). Strong policy and industry week. Found two genuine ai_funny-adjacent stories: Comment and Control prompt injection (security agents exposing their own keys) and the continuing AI music label study angle. Adobe Firefly AI Assistant public beta is a real creative tools story. Meta layoffs + Zuckerberg quote is the industry punchline of the week. Suno $5B is an Axios scoop. Suggestions for next run: check if Connecticut SB5 was signed by Governor Lamont; check for DALL-E migration disruption on/after May 12; check if Suno Series D closes; follow Pentagon/Anthropic legal situation; search for new Chinese AI video model releases (Wan 2.7 platform rollouts, Kling updates); look for Adobe Firefly AI Assistant user/press reviews now that beta is live."
+    "Run 2 complete (2026-05-04). 7 new stories added. Top pick: Pentagon/Anthropic exclusion (score 9). Strong policy and industry week. Found two genuine ai_funny-adjacent stories: Comment and Control prompt injection (security agents exposing their own keys) and the continuing AI music label study angle. Adobe Firefly AI Assistant public beta is a real creative tools story. Meta layoffs + Zuckerberg quote is the industry punchline of the week. Suno $5B is an Axios scoop. Suggestions for next run: check if Connecticut SB5 was signed by Governor Lamont; check for DALL-E migration disruption on/after May 12; check if Suno Series D closes; follow Pentagon/Anthropic legal situation; search for new Chinese AI video model releases (Wan 2.7 platform rollouts, Kling updates); look for Adobe Firefly AI Assistant user/press reviews now that beta is live.",
+    "Run 3 complete (2026-05-06). 5 new stories added. Top pick: Anthropic $900B valuation round (score 9). Strong industry/funding week. GPT-5.5 (April 23) was missed in previous run -- confirmed lesson to always search OpenAI model releases explicitly. Best ai_funny yet: KC Green vs Artisan AI meme theft (real sourcing, real stakes, irony built in). Sierra $950M establishes enterprise AI agents as 2026's growth category. Podslop gives audio a funny/real beat. No new AI video stories -- all Chinese models launched Feb-March, outside 14-day window. Suggestions for next run: check DALL-E API shutdown fallout (May 12), check Connecticut SB5 signature, check Suno Series D closure, check Anthropic round closure, look for Wan 3.0 announcement, run explicit OpenAI model release search."
   ]
 }
