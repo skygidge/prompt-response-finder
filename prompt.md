@@ -162,6 +162,7 @@ For each story, produce these fields:
 - `headline_zh` -- Chinese headline (independent, not a translation of the English pun)
 - `blurb_en` -- English blurb (3-5 sentences, Prompt Response voice)
 - `blurb_zh` -- Chinese blurb (matching casual register)
+- `article_date` -- the original article's publication date (YYYY-MM-DD). Extract from the article page, URL path, or search result snippet. If unclear, use today's date.
 - `source_url` -- link to the original source
 - `source_name` -- publication name
 - `category` -- one of: ai_video, ai_art, ai_audio, ai_tools, ai_policy, ai_funny, ai_industry, tech_general
@@ -188,6 +189,7 @@ Write results to `data/results/stories_YYYY-MM-DD.json` using this schema:
   {
     "id": "2026-05-04-runway-gen4-launch",
     "date_found": "2026-05-04",
+    "article_date": "2026-05-01",
     "headline_en": "Model Behaviour",
     "headline_zh": "模范表现",
     "category": "ai_video",

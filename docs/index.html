@@ -235,6 +235,20 @@
 
   .story-headline.star { font-size: 15px; }
 
+  .new-badge {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 700;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin-left: 8px;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+  }
+
   .story-headline a {
     color: var(--ink);
     text-decoration: none;
@@ -580,11 +594,18 @@
     a.rel = 'noopener';
     a.textContent = story.headline_en || '';
     headlineEl.appendChild(a);
+    if (window.newStoryIds && window.newStoryIds.has(story.id)) {
+      const badge = document.createElement('span');
+      badge.className = 'new-badge';
+      badge.textContent = 'NEW';
+      headlineEl.appendChild(badge);
+    }
 
     const meta = document.createElement('div');
     meta.className = 'story-meta';
     const catLabel = CAT_LABELS[story.category] || story.category || '';
-    meta.textContent = (story.source_name || '') + (story.date_found ? ' — ' + formatDate(story.date_found) : '') + (catLabel ? ' · ' + catLabel : '');
+    const displayDate = story.article_date || story.date_found;
+    meta.textContent = (story.source_name || '') + (displayDate ? ' — ' + formatDate(displayDate) : '') + (catLabel ? ' · ' + catLabel : '');
 
     const enDiv = document.createElement('div');
     enDiv.className = 'story-en';
@@ -706,12 +727,20 @@
       allStories = [];
     }
 
+    // Determine which stories are new to this user
+    const knownRaw = localStorage.getItem('known_stories');
+    const knownIds = knownRaw ? new Set(JSON.parse(knownRaw)) : new Set();
+    window.newStoryIds = new Set(allStories.filter(s => !knownIds.has(s.id)).map(s => s.id));
+
     const thisWeek = allStories.filter(s => daysSince(s.date_found) <= 7)
-      .sort((a, b) => (b.editorial_score || 0) - (a.editorial_score || 0));
+      .sort((a, b) => (b.date_found || '').localeCompare(a.date_found || '') || (b.editorial_score || 0) - (a.editorial_score || 0));
     const archive = allStories.filter(s => daysSince(s.date_found) > 7)
-      .sort((a, b) => (b.date_found || '') < (a.date_found || '') ? -1 : 1);
+      .sort((a, b) => (b.date_found || '').localeCompare(a.date_found || '') || (b.editorial_score || 0) - (a.editorial_score || 0));
 
     renderStories(thisWeek, 'this-week-stories');
+
+    // Mark all current stories as known for next visit
+    localStorage.setItem('known_stories', JSON.stringify(allStories.map(s => s.id)));
     renderStories(archive, 'archive-stories');
 
     document.getElementById('story-count').textContent = allStories.length + ' stor' + (allStories.length === 1 ? 'y' : 'ies');
