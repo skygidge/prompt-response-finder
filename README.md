@@ -10,11 +10,11 @@ https://skygidge.github.io/prompt-response-finder/
 
 ## How It Works
 
-A Claude Code Routine runs on a schedule (daily or a few times a week). Each run:
+A Claude Code Routine runs on a schedule (daily, 8:45 AM PDT). Each run:
 1. Pulls the latest repo changes (so edits made on GitHub are synced)
 2. Reads your focus file to see what you want searched
 3. Loads previous data so it doesn't find the same stories twice
-4. Searches the web for new AI/tech stories
+4. Searches the web for new AI/tech stories using WebSearch + WebFetch
 5. Writes each story as a bilingual Prompt Response blurb (English + Chinese)
 6. Scores stories 1-10 on newsletter-worthiness
 7. Writes a short digest summarizing what it found
@@ -37,14 +37,31 @@ That's it. It runs on its own after that.
 
 The website shows every story the system has found, formatted as Prompt Response blurbs.
 
-- **This Week** section at the top shows the last 7 days (your newsletter curation window)
+- **This Week** section at the top shows the last 7 days, sorted newest-found first
 - **Archive** section below (collapsed) has everything older
 - **Filter by category** using the colored pills (AI Video, AI Art, Tools, Funny, etc.)
 - **Toggle language** with EN/中文 to swap which language appears first
 - **Star** marks stories scored 8+ (lead story candidates)
 - **Checkbox** on each story marks it as "used" (orange border appears). Persists across page reloads.
+- **NEW badge** appears on stories you haven't seen before. Clears after your first visit.
 
-Each story displays exactly like a Prompt Response article: English headline and blurb, then Chinese headline and blurb, separated by a horizontal rule.
+Each story shows the article's original publication date (not the discovery date), and displays exactly like a Prompt Response article: English headline and blurb, then Chinese headline and blurb, separated by a horizontal rule.
+
+## Story Fields
+
+Each story in `all_stories.json` has:
+
+| Field | Description |
+|-------|-------------|
+| `id` | Unique slug (e.g. `round-numbers-2026-05-06`) |
+| `date_found` | Date the routine found it |
+| `article_date` | Original article publication date (falls back to `date_found`) |
+| `source_url` | Link to the original article |
+| `source_name` | Publication name |
+| `category` | One of: AI Video, AI Art, AI Tools, AI Business, AI Music, Funny, Other |
+| `editorial_score` | 1–10, newsletter-worthiness |
+| `en_headline` / `zh_headline` | English and Chinese headlines |
+| `en_blurb` / `zh_blurb` | Full bilingual blurbs |
 
 ## Changing What It Searches For
 
@@ -100,7 +117,11 @@ $0. Runs on your existing Claude Max subscription via Claude Code Routines.
 
 ## Troubleshooting
 
-**Website not updating:** Check that the Routine ran successfully in the Claude Code Routines panel. Look at run history for errors.
+**Website not updating after a routine run:** Hard-refresh the browser (Cmd+Shift+R on Mac). The site fetches fresh JSON with cache-busting, but the HTML page itself may be cached. If stories are still missing, check `data/results/digest_YYYY-MM-DD.md` to confirm the run actually found something.
+
+**Routine ran but found no stories:** Check that the run completed without errors in the Routines panel. Common cause: the search returned no results for the current focus. Try broadening focus.md.
+
+**NEW badges show on stories I've already seen:** Clear localStorage for the site in your browser's DevTools (Application > Local Storage > Delete `known_stories`). Badges will reset.
 
 **Stories are low quality:** Add feedback to learnings.json or update focus.md with clearer instructions about what you want.
 
@@ -108,6 +129,6 @@ $0. Runs on your existing Claude Max subscription via Claude Code Routines.
 
 **Want to run it now:** Click "Run now" in the Routines panel.
 
-**First run found nothing:** This shouldn't happen. But if it does, click "Run now" again. The first run searches more broadly than usual to seed the site.
+**Article dates look wrong:** Most dates are extracted from the source URL (e.g. `techcrunch.com/2026/04/29/...`). For sites without dates in their URLs, it falls back to the date the routine found the story. If a date is consistently wrong for a specific source, note it in focus.md.
 
 **Site loading slowly:** After ~6 months of daily runs, `all_stories.json` may get large. Archive stories older than 90 days by moving them to a separate file. (A future update could automate this.)
