@@ -729,7 +729,9 @@
 
     // Determine which stories are new to this user
     const knownRaw = localStorage.getItem('known_stories');
-    const knownIds = knownRaw ? new Set(JSON.parse(knownRaw)) : new Set();
+    let knownIds;
+    try { knownIds = knownRaw ? new Set(JSON.parse(knownRaw)) : new Set(); }
+    catch (e) { knownIds = new Set(); localStorage.removeItem('known_stories'); }
     window.newStoryIds = new Set(allStories.filter(s => !knownIds.has(s.id)).map(s => s.id));
 
     const thisWeek = allStories.filter(s => daysSince(s.date_found) <= 7)
