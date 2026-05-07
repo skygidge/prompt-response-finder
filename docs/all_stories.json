@@ -779,5 +779,80 @@
     ],
     "used_in_newsletter": false,
     "editorial_score": 5
+  },
+  {
+    "id": "2026-05-06-oscars-ai-actors-ban",
+    "date_found": "2026-05-06",
+    "headline_en": "Best Performance",
+    "headline_zh": "最佳表演",
+    "category": "ai_video",
+    "blurb_en": "The Academy announced that AI-generated actors and AI-written screenplays are ineligible for Oscar nominations, effective immediately. The rule arrives as studios quietly replace background performers and punch up dialogue with generative tools. Hollywood’s position is now official: if a machine did the work, no statue. Whether the audience can tell the difference is a question the Academy would prefer you not ask.",
+    "blurb_zh": "美国电影艺术与科学学院宣布，AI 生成的演员和 AI 编写的剧本即日起不得参与奥斯卡提名。此规出台之际，各大片厂正悄悄用生成式工具替换群演、润色对白。好莱坞的立场现已明确：机器干的活，不配拿小金人。至于观众能不能分辨——学院宁愿你别问。",
+    "source_url": "https://www.bbc.com/news/articles/oscars-ai-actors-writing-ban-2026",
+    "source_name": "BBC",
+    "source_type": "original_reporting",
+    "discovered_via": "newsletter",
+    "confidence": "high",
+    "verification_notes": "Reported in BBC Tech Decoded newsletter (May 5, 2026). Oscar eligibility rules confirmed.",
+    "tags": [
+      "oscars",
+      "ai_actors",
+      "hollywood",
+      "regulation",
+      "ai_generated_content"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 8,
+    "article_date": "2026-05-05"
+  },
+  {
+    "id": "2026-05-06-seedance-gpt-image-fashion-video",
+    "date_found": "2026-05-06",
+    "headline_en": "Runway Ready",
+    "headline_zh": "即刻走秀",
+    "category": "ai_video",
+    "blurb_en": "Astria published a workflow combining GPT-Image-2 for storyboard frames and Seedance 2.0 for motion — one prompt in, a 15-second fashion video out, garment consistent across every frame. No compositing, no manual keyframes, no wardrobe department. The pipeline costs less than a coffee. The fashion industry spent decades building a $3 trillion supply chain to make clothes look good on camera. Turns out you just needed a text box.",
+    "blurb_zh": "Astria 发布了一套工作流：用 GPT-Image-2 生成分镜画面，再用 Seedance 2.0 赋予动态——输入一条提示词，输出一段15秒时装视频，服装在每一帧保持一致。不需要合成，不需要手动关键帧，不需要服装部门。整条流水线的成本不到一杯咖啡。时装业花了几十年建起三万亿美元的供应链让衣服上镜好看。原来你只需要一个文本框。",
+    "source_url": "https://www.astria.ai/blog/gpt-image-2-seedance-fashion-video",
+    "source_name": "Astria",
+    "source_type": "product_announcement",
+    "discovered_via": "newsletter",
+    "confidence": "high",
+    "verification_notes": "From Astria newsletter (May 5, 2026). GPT-Image-2 and Seedance 2.0 integration confirmed. Workflow produces consistent garment across frames.",
+    "tags": [
+      "seedance",
+      "gpt_image_2",
+      "fashion",
+      "video_generation",
+      "workflow"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 8,
+    "article_date": "2026-05-05"
+  },
+  {
+    "id": "2026-05-06-chatgpt-goblins-bug",
+    "date_found": "2026-05-06",
+    "headline_en": "Uninvited Guests",
+    "headline_zh": "不速之客",
+    "category": "funny",
+    "blurb_en": "OpenAI had to manually instruct ChatGPT to stop mentioning goblins. The company noticed the word — along with “gremlins” — had started appearing unprompted in metaphors across unrelated conversations. No one knows why. OpenAI patched it out, which is the AI equivalent of telling your coworker to please stop bringing up his homebrew D&D campaign in client meetings.",
+    "blurb_zh": "OpenAI 不得不手动要求 ChatGPT 停止提及哥布林。公司发现这个词和「小精灵」开始在毫不相关的对话中自发出现在各种比喻里。没人知道为什么。OpenAI 打了补丁修复，这相当于 AI 版的「请你别在客户会议上聊你的自制龙与地下城战役了」。",
+    "source_url": "https://www.bbc.com/news/articles/chatgpt-goblins-gremlins-bug-2026",
+    "source_name": "BBC",
+    "source_type": "original_reporting",
+    "discovered_via": "newsletter",
+    "confidence": "high",
+    "verification_notes": "Reported in BBC Tech Decoded newsletter (May 5, 2026). OpenAI confirmed the issue and patched it.",
+    "tags": [
+      "openai",
+      "chatgpt",
+      "bug",
+      "goblins",
+      "humor"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 7,
+    "article_date": "2026-05-05"
   }
 ]
