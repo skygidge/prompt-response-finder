@@ -216,9 +216,16 @@ Append new stories to `data/results/all_stories.json`. Check for duplicate `sour
 
 ```python
 import json
+from datetime import datetime, timezone
 
 with open('data/results/all_stories.json', 'r', encoding='utf-8') as f:
     stories = json.load(f)
+
+# Stamp each new story with the current UTC time
+now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+for s in new_stories:
+    if 'added_at' not in s:
+        s['added_at'] = now
 
 stories.extend(new_stories)
 

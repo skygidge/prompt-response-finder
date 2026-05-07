@@ -734,10 +734,13 @@
     catch (e) { knownIds = new Set(); localStorage.removeItem('known_stories'); }
     window.newStoryIds = new Set(allStories.filter(s => !knownIds.has(s.id)).map(s => s.id));
 
-    const thisWeek = allStories.filter(s => daysSince(s.date_found) <= 7)
-      .sort((a, b) => (b.date_found || '').localeCompare(a.date_found || '') || (b.editorial_score || 0) - (a.editorial_score || 0));
-    const archive = allStories.filter(s => daysSince(s.date_found) > 7)
-      .sort((a, b) => (b.date_found || '').localeCompare(a.date_found || '') || (b.editorial_score || 0) - (a.editorial_score || 0));
+    function sortKey(s) {
+      const ts = s.added_at || (s.date_found ? s.date_found + 'T00:00:00Z' : '');
+      return ts;
+    }
+    const sortByAdded = (a, b) => sortKey(b).localeCompare(sortKey(a)) || (b.editorial_score || 0) - (a.editorial_score || 0);
+    const thisWeek = allStories.filter(s => daysSince(s.date_found) <= 7).sort(sortByAdded);
+    const archive = allStories.filter(s => daysSince(s.date_found) > 7).sort(sortByAdded);
 
     renderStories(thisWeek, 'this-week-stories');
 
