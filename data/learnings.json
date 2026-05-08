@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-07",
-  "total_runs": 5,
+  "last_run": "2026-05-08",
+  "total_runs": 6,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -43,7 +43,14 @@
     "Italian Prime Minister deepfake AI image May 2026",
     "Coinbase layoffs AI May 2026",
     "Udio Sony Music YouTube scraping lawsuit May 2026",
-    "DeepSeek V4 Chinese AI model May 2026"
+    "DeepSeek V4 Chinese AI model May 2026",
+    "China blocks Meta Manus AI acquisition NDRC April 2026",
+    "Pennsylvania Character AI chatbot fake doctor lawsuit May 2026",
+    "Anthropic Goldman Sachs Blackstone 1.5 billion AI enterprise venture May 2026",
+    "GPT-5.5 Instant OpenAI ChatGPT default model May 2026",
+    "Deezer AI generated music 44 percent uploaded tracks April 2026",
+    "Video Rebirth BACH AI video engine launch May 2026",
+    "Manus AI investment funding Western Chinese companies 2026"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -76,7 +83,17 @@
     "ElevenLabs 500M Series D 2026 (February 4 -- way outside window)",
     "Snap layoffs AI May 2026 (April 15 -- outside window)",
     "Claude Design visual creation tool 2026 (April 17 -- outside window)",
-    "AI music audio funny weird tech news May 2026 (led to Udio story via cross-referencing)"
+    "AI music audio funny weird tech news May 2026 (led to Udio story via cross-referencing)",
+    "Runway AI video news May 2026 (VO3 AI Blog misreporting Gen-4 again as current -- skip this domain permanently)",
+    "Kling AI video update May 2026 (Kling 3.0 early 2026, outside window)",
+    "Colorado AI law SB189 final vote 2026 (session ongoing until May 13, no result yet)",
+    "Connecticut SB5 governor signed 2026 (governor indicated intent to sign but formal signing unconfirmed as of May 8)",
+    "Suno Series D funding closed confirmed 2026 (still not closed)",
+    "AI art design new tool launch May 2026 (only evergreen listicles found)",
+    "AI funny weird specific incident May 2026 (Bloomberg Claude-name story is human interest, not newsletter-ready)",
+    "Figma canvas AI agents May 2026 (launched March 24 -- outside window)",
+    "ACE-Step music generation open source May 2026 (January 2026 -- outside window)",
+    "Canva AI 2.0 May 2026 (April 17 -- outside window)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -112,7 +129,12 @@
     "harvardmagazine.com (Harvard Magazine -- good for institutional AI research)",
     "petapixel.com (good for photography/camera/deepfake stories)",
     "euronews.com (good for European AI policy and international AI stories)",
-    "technologyreview.com (MIT Tech Review -- strong on geopolitical AI and Chinese labs)"
+    "technologyreview.com (MIT Tech Review -- strong on geopolitical AI and Chinese labs)",
+    "cnbc.com (confirmed strong on China-Meta-Manus story)",
+    "bloomberg.com (confirmed strong on China-Meta-Manus story)",
+    "npr.org (good for AI regulation and healthcare enforcement stories)",
+    "pa.gov (primary source for Pennsylvania enforcement action)",
+    "blackstone.com (press releases useful when confirmed by CNBC/Fortune)"
   ],
   "discovered_newsletters": [],
   "discovered_sources": [
@@ -164,7 +186,17 @@
     "DeepSeek V4 (April 24): first major DeepSeek model on Huawei/Cambricon chips, not Nvidia. This is significant for the US-China chip war narrative. Also notable for company self-reporting 3-6 month frontier gap.",
     "Udio/Sony lawsuit (April 29 filing): YT-DLP stream-ripping admission is the sharpest fact. Fair use ruling expected summer 2026 will be a major story. Add to watch list.",
     "DALL-E API shutdown May 12 passed -- check for developer fallout stories next run.",
-    "Google I/O is May 19-20, 2026 -- likely major AI announcements. Run dedicated search the week after."
+    "Google I/O is May 19-20, 2026 -- likely major AI announcements. Run dedicated search the week after.",
+    "Meta-Manus China block (April 27): The guidance issue #1 explicitly called Manus as an example of the kind of huge industry story worth covering -- vindicated. Always run a Manus search each cycle.",
+    "Pennsylvania Character.AI lawsuit (May 5): State attorneys general and governors are now using existing consumer protection and professional licensing laws to regulate AI -- no AI-specific law needed. This enforcement pattern will repeat. Run a dedicated state AG/governor AI lawsuit search each cycle.",
+    "Anthropic + Goldman/Blackstone .5B (May 4): Enterprise AI distribution is being structured as PE joint ventures. Anthropic and OpenAI are both doing this simultaneously. The consulting industry (McKinsey, Accenture, BCG) has the most to lose. Watch for consulting firm responses.",
+    "GPT-5.5 Instant (May 5): OpenAI is shipping model variants monthly. The emoji-reduction angle was the editorial hook. Pattern: when a product update leads with an embarrassing fix, that is the story.",
+    "Deezer 44% stat (April 20): Platform data disclosures (Deezer, Spotify, YouTube) showing AI content ratios are the new beat. They reveal the gap between AI content supply and human demand. Run a dedicated streaming platform AI data search each cycle.",
+    "ai_art gap persists: No ai_art stories found in window for this run. Midjourney V8.2 expected by end of May -- search for it next run. Adobe Firefly new Precision Flow feature (April 9) was already outside window.",
+    "Google I/O (May 19-20): Major AI announcements expected (Gemini 4.0, Veo 4, Lyria, agentic AI). Run dedicated searches immediately after.",
+    "Colorado SB189 final vote expected before May 13 session end -- high priority next run.",
+    "Connecticut SB5 governor signature pending -- check next run.",
+    "VO3 AI Blog is now triple-confirmed unreliable: Runway Gen-4, Kling 3.0, and now Runway Gen-4 again all falsely reported as current. Permanently skip this domain."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -172,6 +204,7 @@
     "Run 2 complete (2026-05-04). 7 new stories added. Top pick: Pentagon/Anthropic exclusion (score 9). Strong policy and industry week. Found two genuine ai_funny-adjacent stories: Comment and Control prompt injection (security agents exposing their own keys) and the continuing AI music label study angle. Adobe Firefly AI Assistant public beta is a real creative tools story. Meta layoffs + Zuckerberg quote is the industry punchline of the week. Suno $5B is an Axios scoop. Suggestions for next run: check if Connecticut SB5 was signed by Governor Lamont; check for DALL-E migration disruption on/after May 12; check if Suno Series D closes; follow Pentagon/Anthropic legal situation; search for new Chinese AI video model releases (Wan 2.7 platform rollouts, Kling updates); look for Adobe Firefly AI Assistant user/press reviews now that beta is live.",
     "Run 3 complete (2026-05-06). 5 new stories added. Top pick: Anthropic $900B valuation round (score 9). Strong industry/funding week. GPT-5.5 (April 23) was missed in previous run -- confirmed lesson to always search OpenAI model releases explicitly. Best ai_funny yet: KC Green vs Artisan AI meme theft (real sourcing, real stakes, irony built in). Sierra $950M establishes enterprise AI agents as 2026's growth category. Podslop gives audio a funny/real beat. No new AI video stories -- all Chinese models launched Feb-March, outside 14-day window. Suggestions for next run: check DALL-E API shutdown fallout (May 12), check Connecticut SB5 signature, check Suno Series D closure, check Anthropic round closure, look for Wan 3.0 announcement, run explicit OpenAI model release search.",
     "Run 4 complete (2026-05-06). 7 new stories added. Top pick: Meta publishers copyright lawsuit (score 8). Strong policy/industry/arts week. No new AI video stories found -- AI video category gap continues. Colorado AI law revision is the best irony story (state Democrats gutting their own 2024 law under industry pressure). Dataland (Refik Anadol AI museum, LA) is cleanest ai_art story in four runs. Harvard ER diagnosis study is a strong tech_general surprise-angle entry (AI beats two ER doctors). Stick Figure AI theft is a good audio/human-angle story. SAP/Prior Labs is solid industry news with a deadpan angle. AI plasma physics (Emory, April 22) scores 5 -- borderline but included as interesting tech. FLUX.1 Kontext confirmed as May 2025 story -- permanently skip. Suggestions for next run: check DALL-E API shutdown developer fallout (post-May 12), check Connecticut SB5 signature, check Suno Series D closure, check Anthropic $900B round closure, check Colorado SB189 final vote, search for AI video news -- Wan 3.0 expected mid-2026, any Kling 3.1 or Pika news, any Veo 4 announcement at Google I/O (May 19-20).",
-    "Run 5 complete (2026-05-07). 6 new stories added. Top pick: Behind the Art -- Beeple robot dogs Berlin (score 9). Strong ai_art/ai_funny week. Best categories: ai_art (Beeple), ai_funny (Meloni), ai_video (Hunyuan), ai_audio (Udio), ai_industry (Coinbase + DeepSeek). No new AI video stories from Runway/Kling/Pika -- all outside window. Hunyuan Video 1.5 (May 4) fills the ai_video slot. Udio/Sony YouTube scraping admission is the music industry story of the run. Meloni deepfake self-post is the cleanest ai_funny story in 5 runs -- political, verifiable, deadpan-ready. DeepSeek V4 on Huawei chips is a quieter story than R1 but significant for the US-China chip narrative. Suggestions for next run: check DALL-E API shutdown developer fallout (May 12 passed), check Connecticut SB5 Governor signature, check Suno Series D closure, check Anthropic 900B round, check Colorado SB189 final vote, run Google I/O 2026 (May 19-20) announcements search, check Udio/Sony fair use ruling developments, search for any Wan 3.0 or Kling 4.0 announcements."
+    "Run 5 complete (2026-05-07). 6 new stories added. Top pick: Behind the Art -- Beeple robot dogs Berlin (score 9). Strong ai_art/ai_funny week. Best categories: ai_art (Beeple), ai_funny (Meloni), ai_video (Hunyuan), ai_audio (Udio), ai_industry (Coinbase + DeepSeek). No new AI video stories from Runway/Kling/Pika -- all outside window. Hunyuan Video 1.5 (May 4) fills the ai_video slot. Udio/Sony YouTube scraping admission is the music industry story of the run. Meloni deepfake self-post is the cleanest ai_funny story in 5 runs -- political, verifiable, deadpan-ready. DeepSeek V4 on Huawei chips is a quieter story than R1 but significant for the US-China chip narrative. Suggestions for next run: check DALL-E API shutdown developer fallout (May 12 passed), check Connecticut SB5 Governor signature, check Suno Series D closure, check Anthropic 900B round, check Colorado SB189 final vote, run Google I/O 2026 (May 19-20) announcements search, check Udio/Sony fair use ruling developments, search for any Wan 3.0 or Kling 4.0 announcements.",
+    "Run 6 complete (2026-05-08). 6 new stories added. Top pick: Change of Control -- China blocks Meta-Manus deal (score 9). Guidance Issue #1 explicitly mentioned Manus as a model big-industry story -- confirmed. Second strongest: Malpractice -- Pennsylvania sues Character.AI for fake doctor chatbot (score 8). Strong ai_policy with deadpan angle; first US governor enforcement action against AI chatbot for practicing medicine. Anthropic/Goldman/Blackstone venture is the enterprise AI distribution story of the week. GPT-5.5 Instant emoji fix is funny/ironic. Deezer 44% is borderline-dated but included for striking data. BACH/Video Rebirth fills ai_video slot. No ai_art stories this run -- ai_art gap is a persistent problem. Suggestions for next run: check Colorado SB189 final vote (session ends May 13), check Connecticut SB5 governor signature, run Google I/O 2026 (May 19-20) announcements search, search Midjourney V8.2 aesthetics system (expected end of May), search for Suno Series D close, search for DALL-E May 12 shutdown fallout, run Pennsylvania/Character.AI enforcement follow-up."
   ]
 }
