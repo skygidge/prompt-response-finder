@@ -1356,11 +1356,11 @@
     "source_name": "X / Cloudflare",
     "category": "ai_industry",
     "editorial_score": 8,
-    "en_headline": "Head Count",
-    "en_blurb": "Cloudflare's CEO just posted that 1,100-plus employees are being let go as the company rebuilds every role around staff running thousands of AI agent sessions daily. Not \"AI-assisted.\" Not \"AI-enhanced.\" The new job description is: manage the machines. Whether the machines will eventually manage the managing is presumably next quarter's announcement.",
-    "zh_headline": "人员优化",
-    "zh_blurb": "Cloudflare的CEO刚刚宣布裁员1100多人，理由是公司正在围绕AI代理重塑每个岗位。新的工作描述不是「AI辅助」，是：管理机器。至于机器什么时候会反过来管理管理者，大概是下个季度的公告内容了。",
-    "added_at": "2026-05-08T18:29:20Z"
+    "added_at": "2026-05-08T18:29:20Z",
+    "headline_en": "Head Count",
+    "blurb_en": "Cloudflare's CEO just posted that 1,100-plus employees are being let go as the company rebuilds every role around staff running thousands of AI agent sessions daily. Not \"AI-assisted.\" Not \"AI-enhanced.\" The new job description is: manage the machines. Whether the machines will eventually manage the managing is presumably next quarter's announcement.",
+    "headline_zh": "人员优化",
+    "blurb_zh": "Cloudflare的CEO刚刚宣布裁员1100多人，理由是公司正在围绕AI代理重塑每个岗位。新的工作描述不是「AI辅助」，是：管理机器。至于机器什么时候会反过来管理管理者，大概是下个季度的公告内容了。"
   },
   {
     "id": "sworn-enemy-2026-05-08",
@@ -1370,11 +1370,11 @@
     "source_name": "The Verge",
     "category": "ai_industry",
     "editorial_score": 8,
-    "en_headline": "Sworn Enemy",
-    "en_blurb": "Mira Murati, OpenAI's former CTO, took the stand in the Musk v. Altman trial and told the court that Sam Altman lied to her about safety reviews and described him as manipulative and divisive. Her testimony joins earlier statements from Ilya Sutskever and others painting a consistent picture of Altman's leadership style. When your own ex-CTO uses \"manipulative\" under oath, the board-firing suddenly makes a lot more sense.",
-    "zh_headline": "反戈一击",
-    "zh_blurb": "OpenAI前CTO穆拉蒂在马斯克诉奥特曼案中出庭作证，当庭称奥特曼在安全审查上对她撒了谎，并形容他「操控人心、制造分裂」。加上苏茨克弗等人此前的证词，画面越来越清晰了。当你自己的前CTO在宣誓后用「操控」这个词，当初董事会开除你这件事突然就说得通了。",
-    "added_at": "2026-05-08T18:29:20Z"
+    "added_at": "2026-05-08T18:29:20Z",
+    "headline_en": "Sworn Enemy",
+    "blurb_en": "Mira Murati, OpenAI's former CTO, took the stand in the Musk v. Altman trial and told the court that Sam Altman lied to her about safety reviews and described him as manipulative and divisive. Her testimony joins earlier statements from Ilya Sutskever and others painting a consistent picture of Altman's leadership style. When your own ex-CTO uses \"manipulative\" under oath, the board-firing suddenly makes a lot more sense.",
+    "headline_zh": "反戈一击",
+    "blurb_zh": "OpenAI前CTO穆拉蒂在马斯克诉奥特曼案中出庭作证，当庭称奥特曼在安全审查上对她撒了谎，并形容他「操控人心、制造分裂」。加上苏茨克弗等人此前的证词，画面越来越清晰了。当你自己的前CTO在宣誓后用「操控」这个词，当初董事会开除你这件事突然就说得通了。"
   },
   {
     "id": "live-wire-2026-05-08",
@@ -1384,11 +1384,11 @@
     "source_name": "OpenAI",
     "category": "ai_audio",
     "editorial_score": 7,
-    "en_headline": "Live Wire",
-    "en_blurb": "OpenAI released three real-time audio models: GPT-Realtime-2 for conversational reasoning at GPT-5 level, a 70-language translator, and a streaming transcription engine. The reasoning model can think while speaking and handle multiple tools simultaneously — basically what every voice assistant has promised for a decade but never delivered. The translator alone makes most interpretation apps redundant overnight.",
-    "zh_headline": "声入人心",
-    "zh_blurb": "OpenAI一口气发布了三个实时音频模型：GPT-Realtime-2能在对话中达到GPT-5级推理能力，还有70种语言翻译器和流式转录引擎。推理模型能边说话边思考、同时操作多个工具——基本上是所有语音助手承诺了十年却从未兑现的东西。光是那个翻译器就够让大多数口译应用一夜过时了。",
-    "added_at": "2026-05-08T18:29:20Z"
+    "added_at": "2026-05-08T18:29:20Z",
+    "headline_en": "Live Wire",
+    "blurb_en": "OpenAI released three real-time audio models: GPT-Realtime-2 for conversational reasoning at GPT-5 level, a 70-language translator, and a streaming transcription engine. The reasoning model can think while speaking and handle multiple tools simultaneously — basically what every voice assistant has promised for a decade but never delivered. The translator alone makes most interpretation apps redundant overnight.",
+    "headline_zh": "声入人心",
+    "blurb_zh": "OpenAI一口气发布了三个实时音频模型：GPT-Realtime-2能在对话中达到GPT-5级推理能力，还有70种语言翻译器和流式转录引擎。推理模型能边说话边思考、同时操作多个工具——基本上是所有语音助手承诺了十年却从未兑现的东西。光是那个翻译器就够让大多数口译应用一夜过时了。"
   },
   {
     "id": "space-invaders-2026-05-08",
@@ -1398,11 +1398,11 @@
     "source_name": "Ars Technica",
     "category": "ai_funny",
     "editorial_score": 7,
-    "en_headline": "Space Invaders",
-    "en_blurb": "Google DeepMind just partnered with EVE Online to test AI models inside the game's universe. EVE's appeal as a testing ground is that it requires long-horizon planning, memory, and continuous learning — the exact capabilities that make or break real-world AI agents. If your AI can survive EVE Online's player-driven economy, it can probably handle your spreadsheets.",
-    "zh_headline": "太空入侵者",
-    "zh_blurb": "Google DeepMind刚刚与太空网游EVE Online达成合作，在游戏宇宙中测试AI模型。EVE之所以是理想测试场，是因为它需要长期规划、记忆力和持续学习——恰好也是现实世界AI代理成败的关键能力。如果你的AI能在EVE Online的玩家经济里活下来，大概也能搞定你的Excel表格。",
-    "added_at": "2026-05-08T18:29:20Z"
+    "added_at": "2026-05-08T18:29:20Z",
+    "headline_en": "Space Invaders",
+    "blurb_en": "Google DeepMind just partnered with EVE Online to test AI models inside the game's universe. EVE's appeal as a testing ground is that it requires long-horizon planning, memory, and continuous learning — the exact capabilities that make or break real-world AI agents. If your AI can survive EVE Online's player-driven economy, it can probably handle your spreadsheets.",
+    "headline_zh": "太空入侵者",
+    "blurb_zh": "Google DeepMind刚刚与太空网游EVE Online达成合作，在游戏宇宙中测试AI模型。EVE之所以是理想测试场，是因为它需要长期规划、记忆力和持续学习——恰好也是现实世界AI代理成败的关键能力。如果你的AI能在EVE Online的玩家经济里活下来，大概也能搞定你的Excel表格。"
   },
   {
     "id": "2026-05-09-trump-mythos-ai-oversight-reversal",
