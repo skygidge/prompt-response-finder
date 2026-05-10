@@ -592,7 +592,7 @@
     a.href = story.source_url || '#';
     a.target = '_blank';
     a.rel = 'noopener';
-    a.textContent = story.headline_en || '';
+    a.textContent = story.headline_en || story.en_headline || '';
     headlineEl.appendChild(a);
     if (window.newStoryIds && window.newStoryIds.has(story.id)) {
       const badge = document.createElement('span');
@@ -611,17 +611,17 @@
     enDiv.className = 'story-en';
     const blurbEn = document.createElement('p');
     blurbEn.className = 'story-blurb-en';
-    blurbEn.textContent = story.blurb_en || '';
+    blurbEn.textContent = story.blurb_en || story.en_blurb || '';
     enDiv.appendChild(blurbEn);
 
     const zhDiv = document.createElement('div');
     zhDiv.className = 'story-zh';
     const headlineZh = document.createElement('div');
     headlineZh.className = 'story-headline-zh';
-    headlineZh.textContent = story.headline_zh || '';
+    headlineZh.textContent = story.headline_zh || story.zh_headline || '';
     const blurbZh = document.createElement('p');
     blurbZh.className = 'story-blurb-zh';
-    blurbZh.textContent = story.blurb_zh || '';
+    blurbZh.textContent = story.blurb_zh || story.zh_blurb || '';
     zhDiv.appendChild(headlineZh);
     zhDiv.appendChild(blurbZh);
 
