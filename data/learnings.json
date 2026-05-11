@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-10",
-  "total_runs": 8,
+  "last_run": "2026-05-11",
+  "total_runs": 9,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -64,7 +64,15 @@
     "Google Mariner AI agent shutdown cancelled before Google I/O 2026",
     "Anthropic authors settlement Bartz final approval May 2026",
     "Connecticut SB5 governor Lamont signed AI law date 2026",
-    "AI industry acquisition startup funding news May 2026"
+    "AI industry acquisition startup funding news May 2026",
+    "Meta AI scan height bone structure underage users Facebook Instagram May 2026",
+    "OpenAI ChatGPT Ads Manager advertising self-serve launch May 2026",
+    "Pika Agents launch April 28 2026 multimodel video",
+    "states ban AI legal personhood legislation 2026",
+    "Trump Truth Social AI generated posts slop May 2026",
+    "ChatGPT trusted contact safety feature mental health May 2026",
+    "Moonshot AI Kimi $2 billion $20 billion valuation May 2026",
+    "site:techcrunch.com AI May 2026 (produced useful index of recent stories)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -116,7 +124,14 @@
     "Wan 3.0 Kling 4.0 new model release May 2026 (no new releases in window)",
     "Colorado SB189 AI law final vote May 2026 (session ongoing until May 13, vote not yet taken)",
     "Suno Series D confirmed closed May 2026 (still not closed)",
-    "Cohere Aleph Alpha merger May 2026 (April 24 -- just outside 14-day window)"
+    "Cohere Aleph Alpha merger May 2026 (April 24 -- just outside 14-day window)",
+    "AI video generation new model launch May 2026 Runway Kling Wan Pika (evergreen comparison lists only; all major models still outside 14-day window)",
+    "Midjourney V8.2 release May 2026 (still in development as of May 11; V8.1 already covered)",
+    "AI art news controversy May 2026 (Neverness to Everness already in DB; The Alters from June 2025)",
+    "AI image generation art tool new launch May 2026 (no fresh launches; market consolidating)",
+    "AI music audio news May 2026 (Suno Series D unclosed; UMG/Udio settlement Oct 2025 outside window)",
+    "Connecticut SB5 governor Lamont signed May 2026 (governor indicated intent but formal signing unconfirmed as of May 11)",
+    "Colorado SB189 SB26-189 governor Polis signed May 2026 (passed House 57-6 on May 9 but awaiting signature)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -157,7 +172,8 @@
     "bloomberg.com (confirmed strong on China-Meta-Manus story)",
     "npr.org (good for AI regulation and healthcare enforcement stories)",
     "pa.gov (primary source for Pennsylvania enforcement action)",
-    "blackstone.com (press releases useful when confirmed by CNBC/Fortune)"
+    "blackstone.com (press releases useful when confirmed by CNBC/Fortune)",
+    "thedailybeast.com (good for social media observation stories: Trump Truth Social AI slop, celebrity AI incidents)"
   ],
   "discovered_newsletters": [],
   "discovered_sources": [
@@ -246,7 +262,20 @@
     "Connecticut SB5 governor signature: Lamont praised AI bills at end-of-session May 7. Multiple law firm articles treat it as enacted law. Still no confirmed signing date -- check again next run.",
     "Bartz v. Anthropic May 14 hearing: If judge approves final settlement, it will be the largest copyright settlement in AI history. Run dedicated search after May 14.",
     "AI video remains a dead zone: All major models (Runway Gen-4.5, Kling 3.0, Seedance 2.0, Wan 2.7, Pika 2.5) launched in Q1 2026 and are now outside the 14-day window. Next video story will likely come from Google I/O (Veo 4) or Wan 3.0 / Kling 4.0 announcements. This is now 3 consecutive runs with no new AI video stories.",
-    "ai_art gap: Filled this run with Riven/Myst vinyl story. Pattern: the best ai_art stories are about specific controversies (AI used without disclosure, community backlash) rather than model releases."
+    "ai_art gap: Filled this run with Riven/Myst vinyl story. Pattern: the best ai_art stories are about specific controversies (AI used without disclosure, community backlash) rather than model releases.",
+    "OpenAI ads story arc: Initial ad program launched Feb 9 (TechCrunch); self-serve Ads Manager opened May 5 (Axios). Two distinct stories in same arc. Ads target free/Go tier only. Revenue goal $2.5B/yr. The most quotable editorial hook: 'years of describing subscriptions as the right model for AI.'",
+    "Meta age verification beat: bone scanning (May 5) is a strong recurring story -- Meta keeps announcing new enforcement tech for an age rule it has never successfully enforced. Check every 2-3 months for the next iteration.",
+    "States banning AI legal personhood: a new legislative category emerging in 2026. Oklahoma (94-2), Tennessee (signed), plus 6 more. These are preemptive bills. Pattern: states pass AI bans/restrictions BEFORE the problem exists, creating legal infrastructure for the future.",
+    "Trump AI slop on Truth Social is now a recurring beat. He averaged 19 posts/day in the first 4 months of 2026, frequently using AI imagery. The April Christ-figure image and the May Iran/UFC images are two documented incidents. Check Truth Social for new AI slop incidents each run.",
+    "ChatGPT Trusted Contact (May 7): OpenAI adding safety features in the same week as advertising is the editorial juxtaposition. The 'both things in one week' angle is a recurring newsletter device (see also GPT-5.5 Instant emoji-fix same week as other product).",
+    "Moonshot AI / Kimi: China's second most-used open-source LLM (after OpenRouter). $20B valuation after 5-month 5x growth. Meituan-led. This is the Chinese AI funding story of this run. Kimi K2.6 on OpenRouter is the key technical data point.",
+    "Pika Agents (April 28): Multi-model video orchestration. First ai_video story in 4 consecutive runs. Primary source (pika.me blog) returned 403 -- confidence medium. If TechCrunch/VentureBeat cover it later, upgrade confidence.",
+    "Google Android Show (May 12) is happening today -- too late to search but expect results next run. Check tomorrow for Android 17, Gemini updates, XR glasses announcements.",
+    "OpenAI product launches in same-week pairs: ads + safety feature (this run); emoji fix + enterprise tools (run 8). Pattern: OpenAI announces controversial/commercial product and then pairs it with a safety/social good announcement in the same week. The pairing is the editorial angle.",
+    "ai_art gap: 4 consecutive runs with no fresh ai_art stories. Midjourney V8.2 expected end of May. Next likely ai_art beat: Google I/O Imagen update, or Midjourney V8.2 launch.",
+    "ai_audio gap: Suno Series D unclosed. Next likely: Suno funding confirmation, Udio/Sony fair use ruling (expected summer 2026), or UMG/Udio platform launch.",
+    "The Daily Beast is a usable source for stories about what appears on public social media platforms (Trump Truth Social posts). Classify as original_reporting for social media observation stories. Futurism also useful for this beat (noted in best_source_domains).",
+    "Bartz v. Anthropic May 14 hearing: $1.5B settlement, 91.3% claim rate. This is the most significant pending copyright story. Run dedicated search May 14-15 after the hearing."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -257,6 +286,7 @@
     "Run 5 complete (2026-05-07). 6 new stories added. Top pick: Behind the Art -- Beeple robot dogs Berlin (score 9). Strong ai_art/ai_funny week. Best categories: ai_art (Beeple), ai_funny (Meloni), ai_video (Hunyuan), ai_audio (Udio), ai_industry (Coinbase + DeepSeek). No new AI video stories from Runway/Kling/Pika -- all outside window. Hunyuan Video 1.5 (May 4) fills the ai_video slot. Udio/Sony YouTube scraping admission is the music industry story of the run. Meloni deepfake self-post is the cleanest ai_funny story in 5 runs -- political, verifiable, deadpan-ready. DeepSeek V4 on Huawei chips is a quieter story than R1 but significant for the US-China chip narrative. Suggestions for next run: check DALL-E API shutdown developer fallout (May 12 passed), check Connecticut SB5 Governor signature, check Suno Series D closure, check Anthropic 900B round, check Colorado SB189 final vote, run Google I/O 2026 (May 19-20) announcements search, check Udio/Sony fair use ruling developments, search for any Wan 3.0 or Kling 4.0 announcements.",
     "Run 6 complete (2026-05-08). 6 new stories added. Top pick: Change of Control -- China blocks Meta-Manus deal (score 9). Guidance Issue #1 explicitly mentioned Manus as a model big-industry story -- confirmed. Second strongest: Malpractice -- Pennsylvania sues Character.AI for fake doctor chatbot (score 8). Strong ai_policy with deadpan angle; first US governor enforcement action against AI chatbot for practicing medicine. Anthropic/Goldman/Blackstone venture is the enterprise AI distribution story of the week. GPT-5.5 Instant emoji fix is funny/ironic. Deezer 44% is borderline-dated but included for striking data. BACH/Video Rebirth fills ai_video slot. No ai_art stories this run -- ai_art gap is a persistent problem. Suggestions for next run: check Colorado SB189 final vote (session ends May 13), check Connecticut SB5 governor signature, run Google I/O 2026 (May 19-20) announcements search, search Midjourney V8.2 aesthetics system (expected end of May), search for Suno Series D close, search for DALL-E May 12 shutdown fallout, run Pennsylvania/Character.AI enforcement follow-up.",
     "Run 7 complete (2026-05-09). 6 new stories added. Top pick: About Turn -- Trump reverses on AI oversight after Anthropic Mythos (score 9). Second strongest: Warm Front -- Oxford study links AI friendliness to sycophancy and error (score 8). Both are policy/research stories, not video/art. AI video category had zero new stories this run -- all major models (Kling, Seedance, Wan, Runway) outside 14-day window. ai_art filled by Neverness to Everness gaming controversy. Good find: Background Check had strong double meaning and verifiable sourcing. Apple iOS 27 Extensions (score 7) is based on insider reporting pre-WWDC -- follow up after June 8. EU AI Omnibus (score 7) fills the policy slot cleanly. Snap/Perplexity (score 6) provides a brief, punchy industry note. Suggestions for next run: Run Google I/O 2026 searches (May 19-20 event), check Colorado SB189 final vote (session ends May 13), check Connecticut SB5 governor signature, search Midjourney V8.2 if released, run dedicated WWDC June 8 Apple AI search, check Trump AI oversight executive order progress, check Anthropic Mythos congressional reaction, look for Wan 3.0 / Kling 4.0 announcements.",
-    "Run 8 complete (2026-05-10). 5 new stories added. Top pick: Glass Houses -- OpenAI/Altman bomb-shelter hypocrisy (score 8). Second strongest: Original Pressing -- Riven/Myst vinyl AI art gatefold controversy (score 8, fills persistent ai_art gap). ElevenLabs celebrity investors is punchy (Jamie Foxx + BlackRock together). Google Project Mariner shutdown fills ai_tools slot with a neat I/O-timing angle. Bartz v. Anthropic final hearing (May 14) is a policy story with an unusual 91.3% claim rate hook. OpenAI Realtime voice already covered in run 6 (live-wire-2026-05-08). Zero AI video stories again -- 3 consecutive runs with no new video news. ai_art gap finally broken by gaming controversy story. Suggestions for next run: run Google I/O 2026 searches (May 19-20 event -- Gemini 4, Veo 4 expected), check Colorado SB189 final vote (session ends May 13), check Connecticut SB5 governor signature, check Bartz v. Anthropic May 14 hearing outcome, run gaming AI art controversy search, check for Wan 3.0 / Kling 4.0 announcements, search OpenAI model releases explicitly."
+    "Run 8 complete (2026-05-10). 5 new stories added. Top pick: Glass Houses -- OpenAI/Altman bomb-shelter hypocrisy (score 8). Second strongest: Original Pressing -- Riven/Myst vinyl AI art gatefold controversy (score 8, fills persistent ai_art gap). ElevenLabs celebrity investors is punchy (Jamie Foxx + BlackRock together). Google Project Mariner shutdown fills ai_tools slot with a neat I/O-timing angle. Bartz v. Anthropic final hearing (May 14) is a policy story with an unusual 91.3% claim rate hook. OpenAI Realtime voice already covered in run 6 (live-wire-2026-05-08). Zero AI video stories again -- 3 consecutive runs with no new video news. ai_art gap finally broken by gaming controversy story. Suggestions for next run: run Google I/O 2026 searches (May 19-20 event -- Gemini 4, Veo 4 expected), check Colorado SB189 final vote (session ends May 13), check Connecticut SB5 governor signature, check Bartz v. Anthropic May 14 hearing outcome, run gaming AI art controversy search, check for Wan 3.0 / Kling 4.0 announcements, search OpenAI model releases explicitly.",
+    "Run 9 complete (2026-05-11). 7 new stories added. Top picks: Commercial Break -- OpenAI Ads Manager (score 8) and Bone of Contention -- Meta AI bone scanning (score 8). Both are strong editorial stories. Post-Truth (Trump AI slop) is the strongest ai_funny in several runs. Only Human (states banning AI personhood) fills the policy slot with a fresh angle. Shooting Stars (Moonshot AI $2B) is a solid China AI industry story sourced from TechCrunch/Bloomberg. Phone a Friend (ChatGPT Trusted Contact) scores 6 but earns its place for the ironic juxtaposition with the ads story. Model Scout (Pika Agents) fills the persistent ai_video gap at confidence medium -- first video story in 4 runs. ai_art and ai_audio remain dry (4 consecutive runs). Key watch items for next run: Colorado SB189 governor signature, Connecticut SB5 governor signature, Bartz v. Anthropic May 14 hearing outcome, Google I/O 2026 (May 19-20) -- Gemini 4/Veo 4 expected. Google Android Show (May 12) happened today -- search for results next run."
   ]
 }
