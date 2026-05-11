@@ -1721,5 +1721,31 @@
     "used_in_newsletter": false,
     "editorial_score": 6,
     "added_at": "2026-05-10T15:59:22Z"
+  },
+  {
+    "id": "ordained-2026-05-10",
+    "date_found": "2026-05-10",
+    "article_date": "2026-05-07",
+    "source_url": "https://www.smithsonianmag.com/smart-news/meet-gabi-the-new-robot-monk-at-a-buddhist-temple-in-south-korea-its-the-latest-robot-to-take-up-religious-practice-180988695/",
+    "source_name": "Smithsonian Magazine",
+    "category": "ai_funny",
+    "editorial_score": 7,
+    "headline_en": "Ordained",
+    "blurb_en": "A humanoid robot named Gabi became the first non-human to take part in a Buddhist initiation ceremony in South Korea, formally pledging devotion alongside monks. Temple organizers adapted the traditional Five Precepts using ChatGPT and Gemini — a chatbot writing spiritual rules for another robot. Whether Gabi achieved enlightenment or just added “Buddhism” to its training data remains unclear.",
+    "headline_zh": "机器受戒",
+    "blurb_zh": "一台名叫Gabi的人形机器人在韩国成为首个参加佛教受戒仪式的非人类，与僧侣一同跪拜、诵经、正式皱依佛门。寺院方面用ChatGPT和Gemini改写了传统五戒来适配机器人——一个聊天机器人给另一个机器人制定精神准则。至于Gabi到底是开悟了还是只是在训练数据里多了个「佛教」标签，目前尚无定论。",
+    "source_type": "original_reporting",
+    "discovered_via": "newsletter_scan",
+    "confidence": "high",
+    "verification_notes": "Confirmed via Smithsonian Magazine and Reuters video",
+    "tags": [
+      "robot",
+      "buddhism",
+      "ceremony",
+      "south_korea",
+      "humanoid"
+    ],
+    "used_in_newsletter": false,
+    "added_at": "2026-05-11T05:23:05Z"
   }
 ]
