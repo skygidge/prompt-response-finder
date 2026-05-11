@@ -266,18 +266,8 @@ Update `data/learnings.json` with:
 Do NOT touch `docs/index.html`. Only commit data files and the docs JSON copy.
 
 ```bash
-# Close any guidance issues that were processed this run
-if [ -s /tmp/issue_numbers.txt ]; then
-  while IFS= read -r num; do
-    curl -s -X PATCH \
-      "https://api.github.com/repos/skygidge/prompt-response-finder/issues/$num" \
-      -H "Authorization: token YOUR_GITHUB_PAT" \
-      -H "Accept: application/vnd.github+json" \
-      -H "Content-Type: application/json" \
-      -d '{"state": "closed"}'
-    echo "Closed issue #$num"
-  done < /tmp/issue_numbers.txt
-fi
+# Note: Guidance issues stay open until the user closes them manually.
+# This is intentional -- guidance like "be more selective" should persist across runs.
 
 cp data/results/all_stories.json docs/all_stories.json
 git add data/ docs/all_stories.json
