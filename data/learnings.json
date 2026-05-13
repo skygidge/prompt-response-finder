@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-12",
-  "total_runs": 10,
+  "last_run": "2026-05-13",
+  "total_runs": 11,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -77,7 +77,12 @@
     "OpenAI Deployment Company launched May 11 2026 businesses intelligence",
     "Google thwarts hacker group AI mass exploitation event CNBC May 2026",
     "Cloudflare AI layoffs 1100 jobs May 8 2026 revenue record CEO quote",
-    "site:techcrunch.com AI May 11 12 2026 (produced Claude blackmail and Cloudflare hits)"
+    "site:techcrunch.com AI May 11 12 2026 (produced Claude blackmail and Cloudflare hits)",
+    "Google Android Show May 12 2026 AI announcements Gemini Android 17",
+    "Google Googlebook laptop AI PC announcement May 2026",
+    "Google Gemini Omni video model early demos May 11 2026",
+    "Anthropic more business customers OpenAI Ramp data May 2026",
+    "site:techcrunch.com AI May 12 13 2026 (produced Googlebook, Anthropic enterprise, Medicare stories)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -148,7 +153,15 @@
     "Meta Mark Zuckerberg AI avatar digital twin employees May 2026 (April 14 -- outside 14-day window)",
     "OpenAI acqui-hire Hiro Finance personal finance May 2026 (April 13 -- outside 14-day window)",
     "deepfake detection AI news May 2026 ruling incident (Grok deepfake crisis was January 2026 -- well outside window)",
-    "Midjourney V8.2 launch release date May 2026 (founder said about 2 weeks from May 4 -- expected around May 18-19; not yet)"
+    "Midjourney V8.2 launch release date May 2026 (founder said about 2 weeks from May 4 -- expected around May 18-19; not yet)",
+    "new AI art design tool launch May 2026 (no specific launches this week)",
+    "AI image generation creative tool launch announcement May 2026 (evergreen comparison lists only)",
+    "AI funny absurd incident news May 13 2026 (fresh stories either outside window or unverifiable)",
+    "Colorado SB189 Polis signed enacted May 2026 (governor said he will sign May 12, not yet enacted)",
+    "Connecticut SB5 governor Lamont signed AI employment law May 2026 (still pending signature)",
+    "Midjourney V8.2 launch release date May 2026 (expected May 18-19, not yet released)",
+    "AI video generation new model release May 2026 Runway Kling Wan (5th consecutive run with no new models)",
+    "AI art controversy copyright creative tool news May 12 13 2026 (Supreme Court cert denial was March 2 -- too old)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -303,7 +316,17 @@
     "Connecticut SB5 watch item: Governor Lamont confirmed intent to sign. Multiple law firm articles treating it as enacted. Still no formal signing date as of May 12. Priority check next run -- if signed, it is the most comprehensive state AI law in the US and a significant policy milestone story.",
     "Colorado SB189 watch item: Cleared both chambers by May 11 (House 57-6, Senate earlier). Headed to governor Polis. Session ends May 13 -- governor must act before then or it dies. High priority check next run.",
     "Bartz v. Anthropic May 14: Final approval hearing for $1.5B settlement. 91.3% claim rate is extraordinary. If judge approves, it becomes the largest copyright settlement in AI history -- a major policy/industry story. Run dedicated search May 14-15.",
-    "Google I/O (May 19-20): The dominant story of the next run. Expected: Gemini 4, Veo 4, Lyria 2, Android 17 stable details, Aluminium OS reveal, AI glasses launch timeline with Warby Parker/Gentle Monster. Run 6+ searches immediately after May 19. This will likely be the biggest AI announcement week of 2026."
+    "Google I/O (May 19-20): The dominant story of the next run. Expected: Gemini 4, Veo 4, Lyria 2, Android 17 stable details, Aluminium OS reveal, AI glasses launch timeline with Warby Parker/Gentle Monster. Run 6+ searches immediately after May 19. This will likely be the biggest AI announcement week of 2026.",
+    "Google Android Show (May 12, 2026): Google retired Chromebook after 15 years and launched Googlebook. This is a named hardware product launch with confirmed OEM partners -- treat as a real product story, not just a preview. Bloomberg, TechCrunch, and Google blog all confirmed day-of.",
+    "Gemini Omni video model leak (May 11): Leaked via Gemini app UI model card and user accounts before official I/O announcement. First ai_video story in 4 consecutive runs. I/O leaks are a reliable pre-announcement beat -- always check for Gemini/Google leaks 1-2 weeks before major events.",
+    "Bixonimania (Nature, April 7) and South Korean AI wolf arrest (April 24-28) -- both outside 14-day window but interesting story types. Bixonimania = researchers creating fake academic papers to test LLM hallucination. Wolf = AI-generated image causing real emergency response. Both are good ai_funny templates. Run searches for these story types each cycle.",
+    "Colorado SB189 and Connecticut SB5 both awaiting governor signature as of May 13. These are persistent watch items now in their 3rd+ consecutive run. Once signed, they become standalone milestone stories even within 14-day window of the passage story.",
+    "Bartz v. Anthropic May 14 hearing: High-stakes pending event. If approved, it's the largest copyright settlement in AI history. Run dedicated search May 14-15.",
+    "Ramp AI Index is a recurring data source: they publish monthly enterprise AI adoption data. 34.4% Anthropic vs 32.3% OpenAI in May 2026. Check again in June -- if the gap widens or reverses, that's another story.",
+    "Selective run: guidance issues #1 and #2 raised the bar. 3 stories in this run vs 4-7 in recent runs. Quality over quantity is now the operating principle. Score-5 stories should be excluded unless they're genuinely funny.",
+    "ai_art drought: 6 consecutive runs without a fresh ai_art story (Runs 6-11). Only broken by gaming controversies. Midjourney V8.2 expected May 18-19 -- should finally break this drought. If not, consider broadening ai_art searches to include: graphic design tools, image editing launches, artist-focused AI features.",
+    "ai_funny drought: No strong ai_funny story this run. The best candidates (Bixonimania, South Korean wolf) were both outside the 14-day window. The problem: funny AI stories take time to bubble up from social media to news outlets, meaning they often land outside the window. Consider expanding the window to 21 days for clearly exceptional ai_funny stories.",
+    "Google I/O (May 19-20) is the dominant story of next run. Expected: Gemini 4, Veo 4, Lyria 2, Android 17 stable, Aluminium OS reveal, AI glasses with Warby Parker/Gentle Monster. This will break the ai_art, ai_audio, and ai_video droughts simultaneously. Run 6+ searches immediately after May 19."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -316,6 +339,7 @@
     "Run 7 complete (2026-05-09). 6 new stories added. Top pick: About Turn -- Trump reverses on AI oversight after Anthropic Mythos (score 9). Second strongest: Warm Front -- Oxford study links AI friendliness to sycophancy and error (score 8). Both are policy/research stories, not video/art. AI video category had zero new stories this run -- all major models (Kling, Seedance, Wan, Runway) outside 14-day window. ai_art filled by Neverness to Everness gaming controversy. Good find: Background Check had strong double meaning and verifiable sourcing. Apple iOS 27 Extensions (score 7) is based on insider reporting pre-WWDC -- follow up after June 8. EU AI Omnibus (score 7) fills the policy slot cleanly. Snap/Perplexity (score 6) provides a brief, punchy industry note. Suggestions for next run: Run Google I/O 2026 searches (May 19-20 event), check Colorado SB189 final vote (session ends May 13), check Connecticut SB5 governor signature, search Midjourney V8.2 if released, run dedicated WWDC June 8 Apple AI search, check Trump AI oversight executive order progress, check Anthropic Mythos congressional reaction, look for Wan 3.0 / Kling 4.0 announcements.",
     "Run 8 complete (2026-05-10). 5 new stories added. Top pick: Glass Houses -- OpenAI/Altman bomb-shelter hypocrisy (score 8). Second strongest: Original Pressing -- Riven/Myst vinyl AI art gatefold controversy (score 8, fills persistent ai_art gap). ElevenLabs celebrity investors is punchy (Jamie Foxx + BlackRock together). Google Project Mariner shutdown fills ai_tools slot with a neat I/O-timing angle. Bartz v. Anthropic final hearing (May 14) is a policy story with an unusual 91.3% claim rate hook. OpenAI Realtime voice already covered in run 6 (live-wire-2026-05-08). Zero AI video stories again -- 3 consecutive runs with no new video news. ai_art gap finally broken by gaming controversy story. Suggestions for next run: run Google I/O 2026 searches (May 19-20 event -- Gemini 4, Veo 4 expected), check Colorado SB189 final vote (session ends May 13), check Connecticut SB5 governor signature, check Bartz v. Anthropic May 14 hearing outcome, run gaming AI art controversy search, check for Wan 3.0 / Kling 4.0 announcements, search OpenAI model releases explicitly.",
     "Run 9 complete (2026-05-11). 7 new stories added. Top picks: Commercial Break -- OpenAI Ads Manager (score 8) and Bone of Contention -- Meta AI bone scanning (score 8). Both are strong editorial stories. Post-Truth (Trump AI slop) is the strongest ai_funny in several runs. Only Human (states banning AI personhood) fills the policy slot with a fresh angle. Shooting Stars (Moonshot AI $2B) is a solid China AI industry story sourced from TechCrunch/Bloomberg. Phone a Friend (ChatGPT Trusted Contact) scores 6 but earns its place for the ironic juxtaposition with the ads story. Model Scout (Pika Agents) fills the persistent ai_video gap at confidence medium -- first video story in 4 runs. ai_art and ai_audio remain dry (4 consecutive runs). Key watch items for next run: Colorado SB189 governor signature, Connecticut SB5 governor signature, Bartz v. Anthropic May 14 hearing outcome, Google I/O 2026 (May 19-20) -- Gemini 4/Veo 4 expected. Google Android Show (May 12) happened today -- search for results next run.",
-    "Run 10 complete (2026-05-12). 4 new stories added. Lighter run -- no AI video, ai_art, or ai_audio stories found. Top pick: Method Acting -- Anthropic Claude blackmail (score 9), best ai_funny story in several runs; ironic cause (sci-fi villain training data), clean sourcing across 5+ outlets. Office Hours (OpenAI DeployCo, score 8) and First Strike (Google AI zero-day, score 8) are both well-sourced May 11 stories. Full Load (Cloudflare layoffs + record revenue, score 7) fills ai_industry with a CEO quote that writes itself. Google Android Show (May 12, 1PM ET) happened during this run but results not yet indexed -- watch next run. High-priority follow-ups: Google Android Show results, Google I/O (May 19-20), Bartz v. Anthropic hearing (May 14), Connecticut SB5 governor signature, Colorado SB189 governor signature, Midjourney V8.2 launch (expected ~May 18-19)."
+    "Run 10 complete (2026-05-12). 4 new stories added. Lighter run -- no AI video, ai_art, or ai_audio stories found. Top pick: Method Acting -- Anthropic Claude blackmail (score 9), best ai_funny story in several runs; ironic cause (sci-fi villain training data), clean sourcing across 5+ outlets. Office Hours (OpenAI DeployCo, score 8) and First Strike (Google AI zero-day, score 8) are both well-sourced May 11 stories. Full Load (Cloudflare layoffs + record revenue, score 7) fills ai_industry with a CEO quote that writes itself. Google Android Show (May 12, 1PM ET) happened during this run but results not yet indexed -- watch next run. High-priority follow-ups: Google Android Show results, Google I/O (May 19-20), Bartz v. Anthropic hearing (May 14), Connecticut SB5 governor signature, Colorado SB189 governor signature, Midjourney V8.2 launch (expected ~May 18-19).",
+    "Run 11 complete (2026-05-13). 3 new stories added. Selective run per guidance issues #1 and #2 (be more selective; focus on tools for art/design, huge industry news, funny). Top pick: New Chapter -- Google Googlebook laptop launch (score 8). First ai_video story in 5 runs: Rough Cut -- Gemini Omni video model leaked ahead of I/O (score 7). Industry note: First Chair -- Anthropic surpasses OpenAI in enterprise customers per Ramp (score 6). No ai_art, ai_audio, or ai_funny stories found this run -- all candidates outside 14-day window. Key watch items for next run: Google I/O May 19-20 (Gemini 4, Veo 4 expected), Bartz v. Anthropic May 14 hearing outcome, Colorado SB189 governor signature, Connecticut SB5 governor signature, Midjourney V8.2 launch (expected May 18-19)."
   ]
 }

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "2026-05-13-google-googlebook-launch",
+    "date_found": "2026-05-13",
+    "article_date": "2026-05-12",
+    "headline_en": "New Chapter",
+    "headline_zh": "翻篇了",
+    "category": "tech_general",
+    "blurb_en": "Google has closed the book on Chromebook — the 15-year-old budget laptop brand — and opened a new one called Googlebook, announced Tuesday at the Android Show. Googlebooks run on Android, ship with Gemini Intelligence baked in, and come with a feature called Magic Pointer: wiggle your cursor and Gemini surfaces context-aware suggestions about whatever's on your screen. Hardware partners Dell, HP, Acer, and Lenovo are building devices in multiple sizes, with launch expected this fall. Fifteen years as the laptop you got when you couldn't afford a MacBook: officially over.",
+    "blurb_zh": "谷歌周二在Android发布会上宣布，Chromebook正式成为历史——推出15年的预算本本品牌，被新产品线Googlebook取代。新设备运行Android系统，内置Gemini Intelligence，还配备了“魔法光标”功能：晃动鼠标，Gemini便会根据屏幕内容提供实时建议。戴尔、惠普、宏碁、联想均参与制造，多个尺寸，产品预计今年秋季上市。在Apple面前当了十五年平替，时代结束了。",
+    "source_url": "https://techcrunch.com/2026/05/12/google-unveils-googlebooks-a-new-line-of-ai-native-laptops/",
+    "source_name": "TechCrunch",
+    "source_type": "original_reporting",
+    "discovered_via": "web_search",
+    "confidence": "high",
+    "verification_notes": "Confirmed via TechCrunch, Bloomberg, Google's official Android blog, and Axios. All dated May 12, 2026.",
+    "tags": [
+      "googlebook",
+      "chromebook",
+      "gemini_intelligence",
+      "google_android_show",
+      "ai_laptop",
+      "product_launch"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 8,
+    "added_at": "2026-05-13T15:57:29Z"
+  },
+  {
+    "id": "2026-05-13-gemini-omni-video-model-leak",
+    "date_found": "2026-05-13",
+    "article_date": "2026-05-11",
+    "headline_en": "Rough Cut",
+    "headline_zh": "提前公映",
+    "category": "ai_video",
+    "blurb_en": "Google's next video AI didn't wait for the official premiere. Demo clips from a model labeled 'Omni' appeared in some Gemini app accounts on Monday, with users generating seaside restaurant scenes and a professor working through trigonometry proofs — at 86% of their daily compute allowance per two prompts. Google has said nothing about it officially, convenient timing given Google I/O is one week away. If the leaked clips are representative, Google's new video model is already outdoing its current lineup before the announcement has been written.",
+    "blurb_zh": "谷歌下一代视频AI“Omni”本周一悄悄出现在部分Gemini用户账户中，样片已经在网上流传：一个海边餐厅场景、一位推导三角公式的教授，两次生成就耗掉了86%的每日配额。谷歌官方没有任何声明——距离Google I/O恰好还有一周。如果样片能说明问题，Omni在正式宣布之前，已经超过了现有产品。",
+    "source_url": "https://9to5google.com/2026/05/11/gemini-omni-video-model-shows-up-with-some-early-demos/",
+    "source_name": "9to5Google",
+    "source_type": "credible_secondary",
+    "discovered_via": "web_search",
+    "confidence": "high",
+    "verification_notes": "Confirmed across 9to5Google, Android Authority, TestingCatalog, all May 11, 2026. Leak from Gemini app UI model card and user-generated clips.",
+    "tags": [
+      "gemini_omni",
+      "ai_video",
+      "google_io",
+      "video_generation",
+      "model_leak",
+      "google"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 7,
+    "added_at": "2026-05-13T15:57:29Z"
+  },
+  {
+    "id": "2026-05-13-anthropic-surpasses-openai-enterprise-customers",
+    "date_found": "2026-05-13",
+    "article_date": "2026-05-13",
+    "headline_en": "First Chair",
+    "headline_zh": "后来居上",
+    "category": "ai_industry",
+    "blurb_en": "Anthropic has taken the top seat in enterprise AI, according to data from corporate spend tracker Ramp. As of this month, 34.4% of businesses tracked are paying for Anthropic products, nudging past OpenAI's 32.3% for the first time — the result of a 26-point gain over the past year. OpenAI still claims higher total revenue. Whether that means OpenAI has bigger customers or just better pricing discipline is one of those questions neither company is rushing to answer.",
+    "blurb_zh": "根据企业支出追踪平台Ramp的最新数据，Anthropic已首次超过OpenAI，成为更多企业采购的AI服务。本月，34.4%的受追踪企业在为Anthropic付费，OpenAI为32.3%——Anthropic在过去一年内增长了26个百分点。OpenAI的总收入依然更高。谁的客户更大、谁的定价更聪明，两家公司都没有急着回答这个问题。",
+    "source_url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
+    "source_name": "TechCrunch",
+    "source_type": "original_reporting",
+    "discovered_via": "web_search",
+    "confidence": "high",
+    "verification_notes": "Confirmed via TechCrunch and Axios, both May 13, 2026. Data from Ramp's AI Index, 50,000+ US businesses. 34.4% Anthropic vs 32.3% OpenAI.",
+    "tags": [
+      "anthropic",
+      "openai",
+      "enterprise_ai",
+      "market_share",
+      "ramp_data"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 6,
+    "added_at": "2026-05-13T15:57:29Z"
+  }
+]
