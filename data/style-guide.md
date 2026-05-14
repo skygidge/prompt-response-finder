@@ -65,11 +65,16 @@ If your first sentence doesn't feel connected to your headline, one of them is w
 The Chinese headline should be its own creative work. Start from the story, not from the English pun.
 
 ## Blurb rules
-- 3-4 sentences. 5 is the absolute maximum. If you need more, cut.
+- First line: one sentence covering who/what/where/when/how. This is the news.
+- Then bullet points (use `•`), maximum 7:
+  - At least one bullet noting something funny or ironic about the story — ONLY if genuine. Skip if nothing qualifies.
+  - One bullet explaining why Insta360 employees would care (relevance to the camera/imaging industry, creative tools, design workflows, competitive landscape, etc.)
+  - Remaining bullets: additional context, technical details, editorial opinion, whatever serves the story.
+- Use `\n` between lines in JSON so they render as line breaks on the website.
 - Lead with the sharpest fact or the headline's punchline
-- Editorial opinion goes in the last sentence only
 - End with a knife, not a summary
 - Never invent product names. Everything in this newsletter is news. Every name must be real and verifiable.
+- Do NOT change existing stories — this format applies only to new stories going forward.
 
 ### Structural templates
 These patterns recur in the newsletter. Use them:
