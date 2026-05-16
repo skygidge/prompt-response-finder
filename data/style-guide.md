@@ -67,6 +67,7 @@ The Chinese headline should be its own creative work. Start from the story, not 
 ## Blurb rules
 - First line: one sentence covering who/what/where/when/how. This is the news.
 - Then bullet points (use `•`), maximum 7:
+  - Each bullet is ONE sentence max. Fragments are fine: "15 seconds per image." "Unclear why."
   - At least one bullet noting something funny or ironic about the story — ONLY if genuine. Skip if nothing qualifies.
   - One bullet explaining why Insta360 employees would care (relevance to the camera/imaging industry, creative tools, design workflows, competitive landscape, etc.)
   - Remaining bullets: additional context, technical details, editorial opinion, whatever serves the story.
