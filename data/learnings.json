@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-15",
-  "total_runs": 13,
+  "last_run": "2026-05-16",
+  "total_runs": 14,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -91,7 +91,14 @@
     "Apple Music AI generated uploads 33 percent transparency tags 2026",
     "Singapore China AI deepfake videos May 2026 SCMP",
     "AI news May 14 2026 today",
-    "OpenAI news May 14 2026"
+    "OpenAI news May 14 2026",
+    "Thinking Machines Lab interaction model TML-Small 276B May 11 2026 details specs TechCrunch",
+    "Press Gazette fake AI journalist Nikolai Kuznetsov Forbes crypto May 2026",
+    "Reka Moonvalley acquisition date confirmed May 2026 The Information",
+    "Cerebras IPO Nasdaq May 14 2026 stock AI chip",
+    "Colorado SB189 signed governor Polis May 14 2026",
+    "AI news May 15 16 2026 OpenAI Anthropic (surface signals, led to further searches)",
+    "AI news week recap May 12 13 14 15 2026 (yielded Cerebras IPO lead)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -178,7 +185,17 @@
     "AI design tools new launch May 2026 creative -- all outside 14-day window",
     "Seedance AI video model update May 2026 -- press release only, unverifiable claims",
     "Pika Labs AI video new release May 2026 -- no specific dated release in window",
-    "Bartz Anthropic settlement approved May 14 2026 -- hearing at 2pm, no outcome yet"
+    "Bartz Anthropic settlement approved May 14 2026 -- hearing at 2pm, no outcome yet",
+    "AI video generation new model release May 15 16 2026 (6th consecutive run with no new major video model; Runway/Kling/Wan/Pika all outside 14-day window)",
+    "Midjourney V8.2 release launch May 2026 (still not released; expected ~May 18-19)",
+    "AI art image generation tool launch news May 15 16 2026 (no fresh launches in window)",
+    "Google I/O 2026 leaked early announcements May 16 (I/O is May 19-20; Gemini Omni already in DB)",
+    "Bartz Anthropic settlement final approval May 14 outcome (hearing went smoothly but no ruling yet)",
+    "Connecticut SB5 governor Lamont signed AI employment law May 2026 (still pending as of May 16)",
+    "OpenAI Codex mobile ChatGPT May 15 2026 (developer tool; out of newsletter scope)",
+    "OpenAI ChatGPT personal finance Plaid May 15 2026 (financial tools; out of scope)",
+    "Recursive Superintelligence 650M funding May 2026 (research AI; date unverified; out of scope)",
+    "AI funny weird surprising news May 2026 (general query -- still a dead end; only evergreen listicles)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -220,7 +237,10 @@
     "npr.org (good for AI regulation and healthcare enforcement stories)",
     "pa.gov (primary source for Pennsylvania enforcement action)",
     "blackstone.com (press releases useful when confirmed by CNBC/Fortune)",
-    "thedailybeast.com (good for social media observation stories: Trump Truth Social AI slop, celebrity AI incidents)"
+    "thedailybeast.com (good for social media observation stories: Trump Truth Social AI slop, celebrity AI incidents)",
+    "pressgazette.co.uk",
+    "thinkingmachines.ai",
+    "digitaltoday.co.kr"
   ],
   "discovered_newsletters": [],
   "discovered_sources": [
@@ -389,9 +409,20 @@
       "run": "2026-05-14",
       "note": "ex.skill follow-up: Chinese government response or platform bans would be a strong second story.",
       "priority": "low"
-    }
+    },
+    "Run 14 complete (2026-05-16). 5 new stories added. Top pick: Ghost Writers -- fake AI journalist ring uncovered by Press Gazette (score 8). Strong ai_funny story with real stakes. Cerebras IPO (score 7) is the biggest AI infrastructure event since Nvidia became dominant. Thinking Machines Lab / Mira Murati (score 7) fills a gap; the newsletter had not covered her new company despite her profile. Reka/Moonvalley acquisition (score 6) fills the persistent ai_video gap with an industry consolidation angle rather than a new model release. Colorado SB189 signing (score 5) is a follow-up to May 6 story but records the formal enactment. AI video category gap continues for 6th consecutive run -- all major models still outside 14-day window. Google I/O (May 19-20) will almost certainly produce AI video/art stories. Plan a run for May 20-21. Connecticut SB5 still awaiting Lamont signature; check next run. Midjourney V8.2 expected ~May 18-19; check next run. Press Gazette confirmed as productive source for AI/media/journalism crossover stories -- add to regular check list. WebFetch still returning 403 for TechCrunch, CBS Colorado, Press Gazette, Semafor -- continue relying on search snippet cross-referencing."
   ],
-  "suggestions_for_next_run": "CRITICAL: Google I/O May 19-20 -- search for Gemini 4, Veo 4, Android 17, Gemini Omni launch confirmation. Check Bartz v. Anthropic ruling outcome (hearing was May 14). Midjourney V8.2 launch expected before end of May -- monitor. Colorado SB189 and Connecticut SB5 governor signatures still pending. Search 'Trump executive order AI security ODNI' -- could be signed next week. Search Tencent Music stock recovery or further analyst downgrades. Search 'Kling App Store US users growth' for follow-up consumer AI video story.",
+  "suggestions_for_next_run": [
+    "Run AFTER Google I/O (May 19-20) -- will produce AI video, Gemini, image generation stories",
+    "Check Midjourney V8.2 release -- expected around May 18-19",
+    "Check Connecticut SB5 governor Lamont signature -- still pending",
+    "Check Bartz/Anthropic settlement final approval ruling from Judge Martinez-Olguín",
+    "Check Suno Series D closure -- still unconfirmed",
+    "Watch for new Wan or Runway model announcement -- persistent gap",
+    "Check Anthropic funding round closure -- was targeting 30-50B at up to 950B valuation",
+    "Check xAI Grok Build reception/launch details -- Bloomberg reported May 14",
+    "Check Figure AI humanoid robot updates -- live autonomous run mentioned this week"
+  ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
     "Tencent Music AI content warning China streaming Q1 2026 earnings",
