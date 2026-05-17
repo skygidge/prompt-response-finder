@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-16",
-  "total_runs": 14,
+  "last_run": "2026-05-17",
+  "total_runs": 15,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -98,7 +98,13 @@
     "Cerebras IPO Nasdaq May 14 2026 stock AI chip",
     "Colorado SB189 signed governor Polis May 14 2026",
     "AI news May 15 16 2026 OpenAI Anthropic (surface signals, led to further searches)",
-    "AI news week recap May 12 13 14 15 2026 (yielded Cerebras IPO lead)"
+    "AI news week recap May 12 13 14 15 2026 (yielded Cerebras IPO lead)",
+    "Runway Agent AI video end-to-end launch May 2026",
+    "Andon Labs AI radio station experiment date published May 2026",
+    "Topaz Labs Expansion Release May 2026 Hyperion SDR HDR Gigapixel",
+    "Recursive Superintelligence Richard Socher Peter Norvig AI startup launch May 2026",
+    "AI news TechCrunch May 16 17 2026",
+    "Runway Characters video agent single image May 2026"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -370,7 +376,14 @@
     "2026-05-14: AI audio gap partially filled: Apple Music 33% uploads + Spotify personal podcasts both confirmed within window",
     "2026-05-14: Google I/O (May 19-20) and Midjourney V8.2 (late May) are the next big expected drops -- search for these next run",
     "2026-05-14: Baidu Create 2026 coincided with Trump-Xi Beijing summit on same day -- good pairing for China AI issue",
-    "2026-05-14: ex.skill / China AI trends found via SCMP + Asia Business Daily cross-reference -- this method works for China social stories"
+    "2026-05-14: ex.skill / China AI trends found via SCMP + Asia Business Daily cross-reference -- this method works for China social stories",
+    "Google I/O 2026 (May 19-20): Gemini 4, Veo 4/Gemini Omni Video confirmed for announcement -- RUN IMMEDIATELY after May 19 keynote",
+    "Topaz Labs is a reliable source for camera-relevant AI tools; check their news page regularly",
+    "AI art category remains dry after Krea 2 and MJ V8.1 -- next fresh story likely post-Google I/O",
+    "Andon Labs experiment confirms: research/experiment stories with concrete AI model comparisons score well (ai_funny category)",
+    "Runway Characters (image-to-live-character API, runwayml.com/news/introducing-runway-characters) -- date uncertain (possibly March 2026); verify and cover next run if still within 14 days",
+    "All runwayml.com, andonlabs.com, topazlabs.com return 403 -- rely on search snippets and cross-reference 2+ sources",
+    "Recursive Superintelligence: watch for mid-2026 product launch announcement"
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -413,15 +426,12 @@
     "Run 14 complete (2026-05-16). 5 new stories added. Top pick: Ghost Writers -- fake AI journalist ring uncovered by Press Gazette (score 8). Strong ai_funny story with real stakes. Cerebras IPO (score 7) is the biggest AI infrastructure event since Nvidia became dominant. Thinking Machines Lab / Mira Murati (score 7) fills a gap; the newsletter had not covered her new company despite her profile. Reka/Moonvalley acquisition (score 6) fills the persistent ai_video gap with an industry consolidation angle rather than a new model release. Colorado SB189 signing (score 5) is a follow-up to May 6 story but records the formal enactment. AI video category gap continues for 6th consecutive run -- all major models still outside 14-day window. Google I/O (May 19-20) will almost certainly produce AI video/art stories. Plan a run for May 20-21. Connecticut SB5 still awaiting Lamont signature; check next run. Midjourney V8.2 expected ~May 18-19; check next run. Press Gazette confirmed as productive source for AI/media/journalism crossover stories -- add to regular check list. WebFetch still returning 403 for TechCrunch, CBS Colorado, Press Gazette, Semafor -- continue relying on search snippet cross-referencing."
   ],
   "suggestions_for_next_run": [
-    "Run AFTER Google I/O (May 19-20) -- will produce AI video, Gemini, image generation stories",
-    "Check Midjourney V8.2 release -- expected around May 18-19",
-    "Check Connecticut SB5 governor Lamont signature -- still pending",
-    "Check Bartz/Anthropic settlement final approval ruling from Judge Martinez-Olguín",
-    "Check Suno Series D closure -- still unconfirmed",
-    "Watch for new Wan or Runway model announcement -- persistent gap",
-    "Check Anthropic funding round closure -- was targeting 30-50B at up to 950B valuation",
-    "Check xAI Grok Build reception/launch details -- Bloomberg reported May 14",
-    "Check Figure AI humanoid robot updates -- live autonomous run mentioned this week"
+    "Run immediately after Google I/O keynote (May 19) -- major AI creative tools announcements expected: Gemini 4, Veo 4/Gemini Omni Video",
+    "Check Runway Characters date -- if confirmed recent, cover as separate story",
+    "Search for Adobe Project Graph or new Firefly features revealed at any May conferences",
+    "Watch for Midjourney V8.2 release (expected late May per learnings)",
+    "AI art still dry -- broaden searches to Ideogram v3, Leonardo AI, Scenario, Canva AI updates",
+    "Recursive Superintelligence product launch watch -- targeting mid-2026"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -451,5 +461,12 @@
     "Kling App Store #5 post-Sora (9to5Mac, May 13) -- score 7",
     "Bloomberg Billboard AI artists on charts (May 11) -- score 7",
     "Washington Post spy agencies vs Commerce over AI (May 11) -- score 7"
+  ],
+  "queries_that_found_nothing": [
+    "AI image generation art tools news May 2026 (all covered)",
+    "Flux AI image model update May 2026 (too old)",
+    "Kling 3.0 Omni launch release date May 2026 (February 2026, too old)",
+    "Pika 2.5 Pikaformance launch May 2026 (January 2026, too old)",
+    "Stability AI May 2026 new release update model (no recent news)"
   ]
 }
