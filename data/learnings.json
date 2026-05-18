@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-17",
-  "total_runs": 15,
+  "last_run": "2026-05-18",
+  "total_runs": 16,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -104,7 +104,11 @@
     "Topaz Labs Expansion Release May 2026 Hyperion SDR HDR Gigapixel",
     "Recursive Superintelligence Richard Socher Peter Norvig AI startup launch May 2026",
     "AI news TechCrunch May 16 17 2026",
-    "Runway Characters video agent single image May 2026"
+    "Runway Characters video agent single image May 2026",
+    "Waymo flood recall 3791 robotaxis San Antonio May 12 2026",
+    "Waymo Atlanta Buckhead cul-de-sac empty cars routing glitch May 15 2026",
+    "Anthropic PwC Claude Code strategic alliance May 14 2026",
+    "OpenAI Jony Ive AI phone smartphone 2027 launch May 5 2026 Kuo report"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -201,7 +205,14 @@
     "OpenAI Codex mobile ChatGPT May 15 2026 (developer tool; out of newsletter scope)",
     "OpenAI ChatGPT personal finance Plaid May 15 2026 (financial tools; out of scope)",
     "Recursive Superintelligence 650M funding May 2026 (research AI; date unverified; out of scope)",
-    "AI funny weird surprising news May 2026 (general query -- still a dead end; only evergreen listicles)"
+    "AI funny weird surprising news May 2026 (general query -- still a dead end; only evergreen listicles)",
+    "Midjourney V8.2 aesthetics system launch May 18 2026 (still not released; expected ~May 20)",
+    "Connecticut SB5 governor Lamont signed date enacted May 2026 (unconfirmed signing date -- portal.ct.gov returned 403)",
+    "AI art image generation tool launch news May 17 18 2026 (no fresh launches in window)",
+    "Google I/O 2026 Gemini Veo announcements May 19 (I/O is tomorrow; nothing announced yet)",
+    "Bartz Anthropic settlement final approval ruling May 14 2026 (hearing went smoothly but no ruling from bench)",
+    "China energy AI advantage Bloomberg May 17 2026 (video package based on February reporting, not fresh)",
+    "Microsoft Mustafa Suleiman 18 months automation prediction May 2026 (Fortune article from February 13 2026 -- recirculating, not new)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -383,7 +394,15 @@
     "Andon Labs experiment confirms: research/experiment stories with concrete AI model comparisons score well (ai_funny category)",
     "Runway Characters (image-to-live-character API, runwayml.com/news/introducing-runway-characters) -- date uncertain (possibly March 2026); verify and cover next run if still within 14 days",
     "All runwayml.com, andonlabs.com, topazlabs.com return 403 -- rely on search snippets and cross-reference 2+ sources",
-    "Recursive Superintelligence: watch for mid-2026 product launch announcement"
+    "Recursive Superintelligence: watch for mid-2026 product launch announcement",
+    "Waymo double-trouble template (May 12-15): Two related incidents in the same week combine into a stronger single blurb than either alone. Flood recall (TechCrunch May 12) + Atlanta cul-de-sac (ABC/NBC/Fox May 14-15) both involved unoccupied vehicles -- the punchline writes itself. Look for AI hardware failures that cluster in short windows.",
+    "Pre-Google I/O run (May 18): Productive search day is typically 24-48 hours BEFORE major events -- preview articles are indexed but no official announcements yet. Run IMMEDIATELY after the I/O May 19 keynote for the real stories.",
+    "Midjourney V8.2: Expected around May 18-20 per David Holz Office Hours (May 6). Check updates.midjourney.com directly each run until released.",
+    "Connecticut SB5: Multiple law firm articles title it as formally adopted/enacted. Governor bill notification document exists at portal.ct.gov but returned 403. Treat as enacted for practical purposes; confirm signing date next run via ctmirror.org search.",
+    "Anthropic + PwC (May 14): Third AI-lab-enterprise-services deal in two weeks. Pattern established: Anthropic/Goldman/Blackstone (May 4), OpenAI DeployCo (May 11), Anthropic/PwC (May 14). Watch for xAI, Mistral, Cohere doing similar deals in Q3 2026.",
+    "OpenAI smartphone (May 5, Kuo report): Separate from the Jony Ive audio smart speaker. The phone targets 1H27 mass production, 30M unit targets, MediaTek Dimensity 9600. Medium confidence -- analyst report only, not official. Worth monitoring for official confirmation.",
+    "Bartz v. Anthropic hearing went smoothly May 14 -- judge focused on attorney fee structure, no objections threatened the settlement. No ruling from the bench. Ruling expected by end of May. Once issued, it is a major story: largest copyright settlement in AI history.",
+    "Waymo recall + routing bugs: Waymo now has two active public incidents (flood recall, Atlanta cul-de-sac) in the same week. This is a recurring beat -- autonomous vehicle companies cycling through safety incidents as they expand geographically. Check Waymo NHTSA filings each run."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -423,15 +442,17 @@
       "note": "ex.skill follow-up: Chinese government response or platform bans would be a strong second story.",
       "priority": "low"
     },
-    "Run 14 complete (2026-05-16). 5 new stories added. Top pick: Ghost Writers -- fake AI journalist ring uncovered by Press Gazette (score 8). Strong ai_funny story with real stakes. Cerebras IPO (score 7) is the biggest AI infrastructure event since Nvidia became dominant. Thinking Machines Lab / Mira Murati (score 7) fills a gap; the newsletter had not covered her new company despite her profile. Reka/Moonvalley acquisition (score 6) fills the persistent ai_video gap with an industry consolidation angle rather than a new model release. Colorado SB189 signing (score 5) is a follow-up to May 6 story but records the formal enactment. AI video category gap continues for 6th consecutive run -- all major models still outside 14-day window. Google I/O (May 19-20) will almost certainly produce AI video/art stories. Plan a run for May 20-21. Connecticut SB5 still awaiting Lamont signature; check next run. Midjourney V8.2 expected ~May 18-19; check next run. Press Gazette confirmed as productive source for AI/media/journalism crossover stories -- add to regular check list. WebFetch still returning 403 for TechCrunch, CBS Colorado, Press Gazette, Semafor -- continue relying on search snippet cross-referencing."
+    "Run 14 complete (2026-05-16). 5 new stories added. Top pick: Ghost Writers -- fake AI journalist ring uncovered by Press Gazette (score 8). Strong ai_funny story with real stakes. Cerebras IPO (score 7) is the biggest AI infrastructure event since Nvidia became dominant. Thinking Machines Lab / Mira Murati (score 7) fills a gap; the newsletter had not covered her new company despite her profile. Reka/Moonvalley acquisition (score 6) fills the persistent ai_video gap with an industry consolidation angle rather than a new model release. Colorado SB189 signing (score 5) is a follow-up to May 6 story but records the formal enactment. AI video category gap continues for 6th consecutive run -- all major models still outside 14-day window. Google I/O (May 19-20) will almost certainly produce AI video/art stories. Plan a run for May 20-21. Connecticut SB5 still awaiting Lamont signature; check next run. Midjourney V8.2 expected ~May 18-19; check next run. Press Gazette confirmed as productive source for AI/media/journalism crossover stories -- add to regular check list. WebFetch still returning 403 for TechCrunch, CBS Colorado, Press Gazette, Semafor -- continue relying on search snippet cross-referencing.",
+    "Run 16 complete (2026-05-18). 3 stories added. Top pick: All Wet -- Waymo flood recall + Atlanta cul-de-sac double-trouble (score 8). First ai_funny story in two runs. Billable Hours (Anthropic/PwC, score 7) fills ai_industry with the third enterprise AI services deal in two weeks. Speed Dial (OpenAI smartphone, score 6, medium confidence) fills a gap -- not previously in DB. No ai_video, ai_art, or ai_audio stories found -- all awaiting Google I/O tomorrow (May 19). Midjourney V8.2 not yet released. Connecticut SB5 signing date unconfirmed. Bartz v. Anthropic ruling pending. Key action: run immediately after Google I/O May 19 keynote at 10AM PT. This run will likely produce the most AI creative tools news of the year."
   ],
   "suggestions_for_next_run": [
-    "Run immediately after Google I/O keynote (May 19) -- major AI creative tools announcements expected: Gemini 4, Veo 4/Gemini Omni Video",
-    "Check Runway Characters date -- if confirmed recent, cover as separate story",
-    "Search for Adobe Project Graph or new Firefly features revealed at any May conferences",
-    "Watch for Midjourney V8.2 release (expected late May per learnings)",
-    "AI art still dry -- broaden searches to Ideogram v3, Leonardo AI, Scenario, Canva AI updates",
-    "Recursive Superintelligence product launch watch -- targeting mid-2026"
+    "RUN IMMEDIATELY after Google I/O May 19 keynote (10AM PT) -- Gemini 4, Veo 4, Android XR glasses, Aluminium OS, Lyria all expected",
+    "Check Midjourney updates page (updates.midjourney.com) for V8.2 release",
+    "Check for Connecticut SB5 formal signing date confirmation (ctmirror.org)",
+    "Check for Bartz v. Anthropic final approval ruling (end of May expected)",
+    "Run Runway Characters verification -- is it within 14-day window?",
+    "Check Waymo for any NHTSA follow-up actions post-recall",
+    "Search for Adobe Project Graph alpha or beta launch (announced at MAX, still coming soon)"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
