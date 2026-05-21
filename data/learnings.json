@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-20",
-  "total_runs": 18,
+  "last_run": "2026-05-21",
+  "total_runs": 19,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -118,7 +118,14 @@
     "Google IO 2026 Android XR smart glasses Gentle Monster Warby Parker cameras",
     "Cannes 2026 AI films Demi Moore Paul Laverty controversy debate May",
     "Microsoft AI automation white collar Mustafa Suleyman 2026",
-    "OpenAI Anthropic news May 19 20 2026 (surfaced Karpathy hire)"
+    "OpenAI Anthropic news May 19 20 2026 (surfaced Karpathy hire)",
+    "Google I/O Veo 4 AI video generation May 2026 (led to Gemini Omni official launch coverage)",
+    "Google Gemini Omni video announcement May 2026 TechCrunch",
+    "Google Gemini Omni riskiest feature held back deepfake video avatar May 2026 (confirmed voice-editing withheld)",
+    "Kuaishou Kling AI spinoff valuation SCMP The Information date May 2026",
+    "Musk Altman OpenAI verdict jury dismissed appeal site:npr.org",
+    "Figma adds an AI assistant collaborative canvas May 2026 (TechCrunch)",
+    "Google Stitch design tool AI announced Google I/O May 2026 (real-time agent, multiplayer, free)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -230,7 +237,14 @@
     "Midjourney V8.2 released May 19 20 2026 (not yet released as of May 20; V8.1 remains current)",
     "AI image art news May 18 19 20 2026 new model launch (no fresh ai_art model launches this week; Google Pics and Imagen 4 already covered by prior run)",
     "AI funny weird absurd incident news week May 2026 (evergreen listicles only; no fresh individual stories)",
-    "Bartz Anthropic settlement final approved May 2026 (hearing held May 14, judge declined to approve immediately; same-topic dedup with May 10 story)"
+    "Bartz Anthropic settlement final approved May 2026 (hearing held May 14, judge declined to approve immediately; same-topic dedup with May 10 story)",
+    "Kling 3.5 release date May 2026 (unverified; resource.digen.ai claim only -- skip aggregator)",
+    "Midjourney V8.2 release May 20 21 2026 (still not released; V8.1 remains current)",
+    "AI art style trend viral May 2026 (only evergreen listicles, no individual story in window)",
+    "AI deepfake scam fraud funny story May 2026 (no fresh individual news story in 14-day window)",
+    "Seedance 2.0 CapCut global launch May 2026 (launched March 25-26, outside 14-day window)",
+    "Flux.2 Black Forest Labs release May 2026 (November 2025 / January 2026, well outside window)",
+    "Kling AI video model update new features May 2026 (Kling 3.0 remains current, February 2026)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -433,7 +447,16 @@
     "Karpathy-class talent moves (founder-level researchers changing companies) are immediate editorial_score 9 stories. Search for these quarterly: 'AI researcher joins [company] 2026'.",
     "Cannes runs ~May 12-23 annually. AI film controversy is a recurring story category each year. Set a search for this window every May.",
     "Gemini Spark (24/7 agent reading email/calendar) is a privacy story as much as a productivity story -- the editorial angle is the unaddressed privacy implication.",
-    "Android XR glasses with cameras are directly relevant to Insta360 employees -- camera hardware + wearable AI is their competitive adjacency. Always include in tech_general searches."
+    "Android XR glasses with cameras are directly relevant to Insta360 employees -- camera hardware + wearable AI is their competitive adjacency. Always include in tech_general searches.",
+    "Google I/O produces dense coverage across multiple runs: May 19 run covered Gemini Spark, Imagen 4, Android XR, Google PICS. May 21 run still found a new story (Gemini Omni official launch) that was missed. Always run I/O search blocks on May 19, 20, AND 21 minimum.",
+    "Gemini Omni 'Rough Cut' (May 11 leak) vs official launch (May 19): Dedup rule says 'same company + same topic within 14 days' but official launch had substantially more confirmed detail (riskiest feature held back, avatar gate, distribution in YouTube). Official launch is editorially distinct from a pre-announcement leak.",
+    "Kling spinoff ($20B, May 12) was missed by four consecutive runs despite being in-window. Lesson: always run a dedicated 'Kuaishou Kling news May 2026' search each run, not just 'Kling AI video model update' (which returns model benchmarks).",
+    "Musk v. Altman verdict (May 18, NPR) was missed by May 19-20 runs that covered other I/O news. Major legal verdicts in AI cases can be overlooked during high-volume announcement periods. Add 'OpenAI Musk Altman verdict ruling May 2026' to the run checklist.",
+    "Figma AI agent + Google Stitch free launch on same day (May 20) is the strongest design tools story of the year. The competition context (paid vs. free) is the editorial hook, not the features list.",
+    "WebFetch 403 rate was near 100% this run -- TechCrunch, SCMP, NPR, NBC, TechTimes, eWeek all blocked. Cross-referencing 3+ search result snippets continues to be the only viable primary research method.",
+    "ai_art drought: 7 consecutive runs without a dedicated ai_art model launch story. Midjourney V8.2 is overdue (David Holz estimated mid-May, now late May). Next check: search updates.midjourney.com directly via WebFetch or search 'Midjourney V8.2 release June 2026' next run.",
+    "Cannes Film Festival AI coverage (May 12-23): three stories landed (Still Life/Soderbergh, Role Call/Demi Moore, and broader festival AI debate). After May 23 close, check for Palme d'Or AI angle and any final-week coverage.",
+    "No ai_funny story this run for the second consecutive run. The best candidates continue to be AI safety disclosures with ironic causes and product embarrassments -- not meme compilations. Consider broadening search to 'AI embarrassing failure' or 'AI safety incident disclosed [month] 2026'."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -475,22 +498,23 @@
     },
     "Run 14 complete (2026-05-16). 5 new stories added. Top pick: Ghost Writers -- fake AI journalist ring uncovered by Press Gazette (score 8). Strong ai_funny story with real stakes. Cerebras IPO (score 7) is the biggest AI infrastructure event since Nvidia became dominant. Thinking Machines Lab / Mira Murati (score 7) fills a gap; the newsletter had not covered her new company despite her profile. Reka/Moonvalley acquisition (score 6) fills the persistent ai_video gap with an industry consolidation angle rather than a new model release. Colorado SB189 signing (score 5) is a follow-up to May 6 story but records the formal enactment. AI video category gap continues for 6th consecutive run -- all major models still outside 14-day window. Google I/O (May 19-20) will almost certainly produce AI video/art stories. Plan a run for May 20-21. Connecticut SB5 still awaiting Lamont signature; check next run. Midjourney V8.2 expected ~May 18-19; check next run. Press Gazette confirmed as productive source for AI/media/journalism crossover stories -- add to regular check list. WebFetch still returning 403 for TechCrunch, CBS Colorado, Press Gazette, Semafor -- continue relying on search snippet cross-referencing.",
     "Run 16 complete (2026-05-18). 3 stories added. Top pick: All Wet -- Waymo flood recall + Atlanta cul-de-sac double-trouble (score 8). First ai_funny story in two runs. Billable Hours (Anthropic/PwC, score 7) fills ai_industry with the third enterprise AI services deal in two weeks. Speed Dial (OpenAI smartphone, score 6, medium confidence) fills a gap -- not previously in DB. No ai_video, ai_art, or ai_audio stories found -- all awaiting Google I/O tomorrow (May 19). Midjourney V8.2 not yet released. Connecticut SB5 signing date unconfirmed. Bartz v. Anthropic ruling pending. Key action: run immediately after Google I/O May 19 keynote at 10AM PT. This run will likely produce the most AI creative tools news of the year.",
-    "Run 17 complete (2026-05-19). 4 stories added. Selective run per ongoing quality-over-quantity guidance. Top picks: Still Life -- Soderbergh AI at Cannes (score 8, first ai_art story in several runs, strong filmmaking angle for Insta360 audience); Common Ground -- Anthropic acquires Stainless (score 8, sharp competitive angle). Face Check (YouTube deepfake all adults, score 7) and Notice Period (TAKE IT DOWN Act, score 6) both landed on compliance day. Google I/O keynote ran today but announcements not yet indexed -- critical to run again tonight or tomorrow. Midjourney V8.2 still not released. Bartz settlement ruling pending. 3 research targets (Krea 2, ex.skill, US-China talks) were already in DB -- dedup check saved time and is now essential practice."
+    "Run 17 complete (2026-05-19). 4 stories added. Selective run per ongoing quality-over-quantity guidance. Top picks: Still Life -- Soderbergh AI at Cannes (score 8, first ai_art story in several runs, strong filmmaking angle for Insta360 audience); Common Ground -- Anthropic acquires Stainless (score 8, sharp competitive angle). Face Check (YouTube deepfake all adults, score 7) and Notice Period (TAKE IT DOWN Act, score 6) both landed on compliance day. Google I/O keynote ran today but announcements not yet indexed -- critical to run again tonight or tomorrow. Midjourney V8.2 still not released. Bartz settlement ruling pending. 3 research targets (Krea 2, ex.skill, US-China talks) were already in DB -- dedup check saved time and is now essential practice.",
+    "Run 19 complete (2026-05-21). 4 stories added. Top pick: Mixed Signals -- Gemini Omni official I/O launch (score 9), first confirmed ai_video story in many runs. Frame Rate -- Kuaishou Kling $20B spinoff (score 8) was missed by previous runs despite being in-window since May 12 -- always run a dedicated Kuaishou search. Brief Case -- Musk v. Altman verdict dismissed in under 2 hours (score 8) was also missed by May 19-20 runs. Design Flaw -- Figma AI agent vs Google Stitch free (score 7) is the design tools story of the year. No ai_art or ai_funny stories this run. Midjourney V8.2 still not released. WebFetch 403 rate near 100%; all content sourced from cross-referenced search snippets."
   ],
   "suggestions_for_next_run": [
-    "RUN IMMEDIATELY after Google I/O keynote results are indexed -- Gemini 4, Veo 4, Android XR glasses, Lyria 2 all expected. This is the biggest AI announcement of 2026.",
-    "Check Midjourney updates page for V8.2 release (expected late May)",
-    "Check Bartz v. Anthropic final approval ruling (expected by June 11)",
-    "Check Connecticut SB5 formal governor signing date (ctmirror.org)",
-    "Search for OpenAI or Google responses to losing Stainless SDK tooling",
-    "Check for first TAKE IT DOWN Act FTC enforcement action",
+    "Search 'Midjourney V8.2 release June 2026' -- now significantly overdue; David Holz estimated mid-May",
+    "Search 'Bartz v. Anthropic settlement final approved 2026' -- ruling expected by June 11",
+    "Search 'Connecticut SB5 governor Lamont signed date enacted AI law 2026' -- still pending formal date",
+    "Check Cannes final week (closes May 23) -- Palme d'Or AI angle or any final controversy",
+    "Search 'Anthropic $30B fundraise closed confirmed 2026' -- expected end of May",
     "Check Apple WWDC June 8 for iOS 27 AI Extensions official announcement",
-    "Check Midjourney for V8.2 release -- David Holz estimated mid-May; now overdue. Check Discord/updates.midjourney.com directly.",
-    "Cannes closes May 23 -- check for any final-week AI film coverage or Palme d'Or winner AI-related stories.",
-    "Bartz v. Anthropic: check if judge issued final approval after May 21 supplemental brief deadline.",
-    "Google I/O day 2 (May 20) may have additional announcements -- check the next day's coverage.",
-    "Anthropic $30B fundraise expected to close end of May -- watch for confirmation.",
-    "Midjourney V8.2 -- still pending. Search again next run."
+    "Search 'Musk OpenAI Ninth Circuit appeal filed 2026' -- follow-up to Brief Case verdict",
+    "Search 'Kling AI spinoff investors confirmed 2026' -- follow up on the Tencent/Kuaishou deal",
+    "Search 'AI art generation news June 2026 new model' -- ai_art drought now 7+ runs",
+    "Search 'FTC TAKE IT DOWN Act enforcement action 2026' -- first enforcement likely coming",
+    "Search 'Figma AI agent full launch pricing 2026' -- follow up from limited beta",
+    "Run dedicated 'OpenAI model release June 2026' search -- OpenAI shipping monthly",
+    "Search 'Kuaishou Kling AI spinoff update June 2026' -- add this to standard search rotation"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
