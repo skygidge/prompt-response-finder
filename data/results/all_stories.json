@@ -3752,5 +3752,61 @@
     "headline_zh": "铁证如山",
     "blurb_zh": "OpenAI推理模型自主推翻了一个自1946年以来悬而未决的重要数学猜想——外部数学家已确认证明有效。\n• 该猜想与组合几何中的平面单位距离问题相关\n• 模型引入了人类数学家未曾尝试的代数数论技术\n• 证明过程无人类引导——模型独立找到了解题路径\n• 经外部数学家独立验证，确认并非幻觉\n• 这是AI系统首次解决重要未解数学问题的案例之一\n• 诡异之处：人类尝试了80年，机器找到了一条没人看过的路",
     "added_at": "2026-05-21T17:03:23Z"
+  },
+  {
+    "id": "2026-05-22-openai-ipo-s1-filing",
+    "date_found": "2026-05-22",
+    "article_date": "2026-05-20",
+    "headline_en": "Going Public",
+    "headline_zh": "上市倒计时",
+    "category": "ai_industry",
+    "blurb_en": "OpenAI filed a confidential S-1 prospectus with the SEC on Friday, kicking off an IPO process that would value the company at close to $1 trillion.\n\n- Goldman Sachs and Morgan Stanley are underwriting; the company is targeting a listing between Labor Day and Thanksgiving 2026.\n- The confidential filing keeps financials private until roughly 15 days before the roadshow -- most investors will see the books only when the deal is nearly closed.\n- OpenAI was founded as a non-profit in 2015; its for-profit conversion in 2019 triggered Elon Musk's now-dismissed lawsuit, resolved by jury last week.\n- Rival Anthropic is separately in talks for a round valuing it at $900 billion, with its own IPO expected by October -- making this an AI race to Wall Street.\n- For a company that opened its doors as a charitable research lab, the rate of travel to Wall Street has been exceptional.\n\nRead more.",
+    "blurb_zh": "OpenAI周五向美国证券交易委员会秘密提交S-1招股书，正式启动上市程序，目标估值接近1万亿美元。\n\n- 高盛和摩根士丹利担任承销商，计划上市窗口定于2026年劳动节至感恩节之间。\n- 秘密申请意味着财务数据在路演前约15天才会公开，大多数投资者只能在交易临近时才看到账本。\n- OpenAI 2015年以非营利组织身份成立，2019年推出营利性部门，由此引发马斯克诉讼——上周陪审团已驳回其索赔。\n- 竞争对手Anthropic正在推进一轮估值9000亿美元的融资，并计划于10月前上市，AI巨头争相登陆华尔街的态势已然成形。\n- 这家以慈善研究机构起家的公司，奔向华尔街的速度令人叹为观止。",
+    "source_url": "https://www.axios.com/2026/05/20/openai-ipo-spacex-musk",
+    "source_name": "Axios",
+    "source_type": "original_reporting",
+    "discovered_via": "web_search",
+    "confidence": "high",
+    "verification_notes": "Confirmed via Axios (May 20), CNBC (May 20), AI Weekly, CryptoBriefing, Investing.com. Goldman Sachs and Morgan Stanley as underwriters, Q4 2026 target, confidential filing confirmed across 5+ sources.",
+    "tags": [
+      "openai",
+      "ipo",
+      "sec",
+      "goldman_sachs",
+      "wall_street",
+      "valuation",
+      "tech_ipo"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 9,
+    "added_at": "2026-05-22T15:57:44Z"
+  },
+  {
+    "id": "2026-05-22-white-house-ai-eo-postponed",
+    "date_found": "2026-05-22",
+    "article_date": "2026-05-21",
+    "headline_en": "No Ink",
+    "headline_zh": "搁笔",
+    "category": "ai_policy",
+    "blurb_en": "The White House pulled a planned AI executive order hours before President Trump was scheduled to sign it on Thursday.\n\n- The order would have established a voluntary 90-day pre-release review process for frontier AI models, letting national security and civilian agencies evaluate new systems before public launch.\n- Trump told reporters he delayed it because he did not like certain aspects, adding: I just hate regulation.\n- The signing had been postponed multiple times; OpenAI and Anthropic had been negotiating the framework terms with administration officials for months.\n- Internal White House tension ran along predictable lines: pro-innovation factions wanted the review genuinely voluntary; national security officials wanted NSA-backed testing with real enforcement teeth.\n- The same administration reversed course on AI safety two weeks ago, increasing oversight after Anthropic's frontier model demonstrated live zero-day exploitation -- then reversed the reversal on Thursday.\n\nRead more.",
+    "blurb_zh": "特朗普政府原定周四签署一项AI行政令，却在最后时刻紧急叫停。\n\n- 该行政令拟要求前沿AI模型发布前接受最长90天的自愿安全审查，由国家安全及民事机构共同评估。\n- 特朗普向记者解释称不满意其中某些方面，并直言：我天生就讨厌监管。\n- 该令此前已多次推迟，OpenAI和Anthropic均与白宫官员参与了框架谈判。\n- 白宫内部存在分歧：创新派坚持真正自愿，国安派希望引入NSA参与的强制测试机制。\n- 同一届政府在两周前刚以Anthropic模型展示实时零日漏洞利用为由转向加强AI监管，如今又再度收手。",
+    "source_url": "https://www.cnbc.com/amp/2026/05/21/trump-ai-executive-order-postponed.html",
+    "source_name": "CNBC",
+    "source_type": "original_reporting",
+    "discovered_via": "web_search",
+    "confidence": "high",
+    "verification_notes": "Confirmed via CNBC, CNN Business, Washington Post, Bloomberg, Axios, Nextgov/FCW -- all independently reported the May 21 postponement. Trump quotes confirmed across CNBC and CNN. Internal White House disagreement confirmed by Axios sourcing.",
+    "tags": [
+      "trump",
+      "executive_order",
+      "ai_policy",
+      "regulation",
+      "white_house",
+      "anthropic",
+      "openai"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 7,
+    "added_at": "2026-05-22T15:57:44Z"
   }
 ]
