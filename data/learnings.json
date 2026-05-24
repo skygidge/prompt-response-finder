@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-23",
-  "total_runs": 21,
+  "last_run": "2026-05-24",
+  "total_runs": 22,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -133,7 +133,13 @@
     "YouTube Shorts Gemini Omni remix creator tools Google IO May 2026",
     "Jack Clark Anthropic Oxford speech predictions May 2026",
     "ChatGPT personal finance Plaid dashboard OpenAI Pro May 2026",
-    "Bartz Anthropic settlement hearing May 14 2026 outcome result"
+    "Bartz Anthropic settlement hearing May 14 2026 outcome result",
+    "Anthropic first profit revenue $10 billion May 2026",
+    "Hirokazu Koreeda Sheep in the Box Cannes AI grief film 2026",
+    "ChatGPT MS Paint doodle trend viral photos 2026",
+    "Anthropic Gates Foundation partnership $200 million May 2026",
+    "HHS ChatGPT state audit fraud detection AI May 2026",
+    "Cannes 2026 Palme d Or winner May 23 results"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -535,20 +541,16 @@
     "Run 21 complete (2026-05-23). 5 stories added. Top pick: Work Samples -- Meta MCI employee surveillance + layoffs (score 9). The story has everything: a corporate surveillance program collecting keystrokes for AI training, disclosed by the CEO while being shut down, followed immediately by the largest layoffs since 2022. YouTube Shorts Gemini Omni remix (score 8) finally covers the creator-tools angle previously deferred. Jack Clark Oxford predictions (score 7, medium confidence): 4-prediction timeline + extinction caveat -- smaller outlets but consistent across 4 sources. ChatGPT personal finance (score 6): Plaid integration for Pro users; the same-week Ads Manager pairing is the editorial hook. Bartz hearing result (score 6): judge homework, not approval -- $1.5B settlement waiting on a 2-page brief. ai_art drought continues at 9 consecutive runs. Cannes Palme d'Or ceremony is tonight (May 23) -- check tomorrow."
   ],
   "suggestions_for_next_run": [
-    "Search Cannes Palme d'Or 2026 winner -- ceremony was May 23 evening CEST, results available May 24",
-    "Search Bartz v. Anthropic settlement final approved -- supplemental brief was due May 21, ruling imminent",
-    "Search Connecticut SB5 governor Lamont signed formal date enacted -- check ctmirror.org",
-    "Search Midjourney V8.2 release -- now overdue by ~2 weeks; check updates.midjourney.com",
-    "Search Anthropic $900B round closed confirmed -- still in talks as of May 23",
-    "Search Apple WWDC June 8 for iOS 27 AI Extensions -- major creative tools platform story",
-    "Search OpenAI IPO roadshow S-1 public release timeline 2026",
-    "Search Musk OpenAI Ninth Circuit appeal filed 2026 -- expected after May 18 verdict",
-    "Search White House AI executive order rescheduled signed June 2026",
-    "Search FTC TAKE IT DOWN Act first enforcement action 2026",
-    "Run dedicated OpenAI model release June 2026 search -- OpenAI shipping monthly",
-    "Search Meta MCI follow-up: employee lawsuit or regulatory inquiry May-June 2026",
-    "Search YouTube Shorts AI remix creator backlash or opt-out rate -- follow-up if viral",
-    "Search AI art image generation new model June 2026 -- drought at 9 consecutive runs"
+    "Check Midjourney V8.2 -- expected before end of May, may have launched",
+    "Check Bartz v. Anthropic final approval ruling -- judge took under submission May 14",
+    "Check Connecticut SB5 governor signature -- Lamont stated intention to sign",
+    "WWDC June 8 coming -- Apple iOS 27 AI Extensions platform announcement on horizon",
+    "Check Cannes Camera d'Or and other award follow-ups for AI film angles",
+    "Monitor for new Runway, Kling, or Seedance model releases -- none this week",
+    "Search for new viral AI art/image trends -- toyification trend is still running",
+    "Check for OpenAI IPO S-1 public filing follow-up (confidential filing was May 22)",
+    "Search for HHS AERO follow-up actions on state Medicaid audits",
+    "Check for new China AI developments -- US-China chip diplomacy ongoing (Trump-Xi meeting May 14)"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -584,6 +586,22 @@
     "Flux AI image model update May 2026 (too old)",
     "Kling 3.0 Omni launch release date May 2026 (February 2026, too old)",
     "Pika 2.5 Pikaformance launch May 2026 (January 2026, too old)",
-    "Stability AI May 2026 new release update model (no recent news)"
+    "Stability AI May 2026 new release update model (no recent news)",
+    "Midjourney V8.2 launch release May 2026 -- not released yet, expected before end of May",
+    "Adobe Firefly Kling 3.0 integration -- announced April 15 NAB, too old",
+    "YouTube Effect Maker open to all creators May 2026 -- March 28 announcement, too old",
+    "China AI video art tool release Kling Hunyuan May 2026 -- no new releases this week",
+    "Moltbook AI social network May 2026 -- launched Feb, acquired by Meta March, both too old"
+  ],
+  "lessons_learned": [
+    "Writing Python script to a .py file first avoids shell heredoc encoding issues with Chinese characters in string literals",
+    "Chinese curved quotes inside Python string literals cause SyntaxError -- use corner brackets 「」 instead for Chinese quotation marks in blurb text",
+    "Cannes 2026: Palme d'Or winner (Fjord) has no AI angle; Koreeda's Sheep in the Box is the AI story to cover",
+    "Midjourney V8.2 expected before end of May 2026 per David Holz -- check on next run",
+    "Connecticut SB5: governor stated intention to sign but no confirmed signing date as of May 24 -- monitor",
+    "Bartz v. Anthropic: judge took under submission May 14, final approval expected soon but not yet issued as of May 24",
+    "Anthropic had a very big week (May 20-24): first profit, Gates Foundation, Stainless acquisition -- good to group these",
+    "AI art category partially addressed with ChatGPT MS Paint doodle trend -- viral social content is valid ai_art",
+    "HHS AERO program (May 21) confirmed via US News, Bloomberg Law, Bank Info Security -- government AI fraud detection is emerging beat"
   ]
 }
