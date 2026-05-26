@@ -4202,5 +4202,57 @@
     "used_in_newsletter": false,
     "editorial_score": 7,
     "added_at": "2026-05-25T16:00:57Z"
+  },
+  {
+    "id": "2026-05-13-peter-jackson-cannes-ai-special-effect",
+    "date_found": "2026-05-25",
+    "article_date": "2026-05-13",
+    "source_url": "https://www.hollywoodreporter.com/movies/movie-news/peter-jackson-talks-ai-filmmaking-in-cannes-a-tool-like-any-other-1236594608/",
+    "source_name": "The Hollywood Reporter",
+    "source_type": "newsletter_lead",
+    "discovered_via": "Web search — Cannes 2026 coverage",
+    "confidence": "verified",
+    "verification_notes": "THR, Variety, No Film School, Decrypt all covered. Masterclass at 79th Cannes after honorary Palme d'Or.",
+    "tags": [
+      "peter-jackson",
+      "cannes",
+      "filmmaking",
+      "vfx",
+      "creative-industry"
+    ],
+    "used_in_newsletter": false,
+    "category": "ai_video",
+    "editorial_score": 8,
+    "headline_en": "Master Class",
+    "blurb_en": "Peter Jackson received an honorary Palme d'Or at Cannes, then gave a masterclass calling AI 'just a special effect — no different from any other.'\n• Compared AI to the stop-motion that brought King Kong to life in 1933 and the Ray Harryhausen creatures after it\n• His argument: what matters is whether the result is imaginative and well-stitched, not which tool made it\n• Drew a hard line on performers — you should never show someone's face via AI without their approval, or their estate's if they're dead\n• Meanwhile Cannes banned AI-generated films from competition but premiered the first AI feature (Hell Grind) as a special screening\n• The festival launched an 'AI for Talent Summit' focused on protecting creative workers while embracing the tools\n• The most famous VFX director alive just told the world's most prestigious film festival that AI panic is misplaced",
+    "headline_zh": "大师课",
+    "blurb_zh": "彼得·杰克逊在戛纳获颁荣誉金棕榈后，在大师课上称AI'不过是一种特效——和其他特效没有区别。'\n• 将AI比作1933年《金刚》的定格动画和之后的雷·哈里豪森怪物特效\n• 他的观点：重要的是结果是否有想象力、叙事是否连贯，而不是用了什么工具\n• 在演员保护上划了硬线——未经本人或遗产管理人同意，不得用AI展示任何人的面孔\n• 与此同时戛纳禁止AI电影参加竞赛单元，却将首部AI长片《Hell Grind》作为特别展映首映\n• 电影节推出'AI与人才峰会'，聚焦在拥抱工具的同时保护创作者\n• 在世最著名的视效导演告诉全球最负盛名的电影节：对AI的恐慌是多余的",
+    "added_at": "2026-05-26T05:53:37Z"
+  },
+  {
+    "id": "2026-05-25-deepseek-v4-pro-permanent-price-cut",
+    "date_found": "2026-05-25",
+    "article_date": "2026-05-25",
+    "source_url": "https://techcrunch.com/2026/05/24/deepseek-made-its-75-discount-permanent-the-ai-price-war-just-escalated/",
+    "source_name": "TechCrunch / TLDR AI",
+    "source_type": "newsletter_lead",
+    "discovered_via": "TLDR AI 2026-05-25",
+    "confidence": "verified",
+    "verification_notes": "TLDR AI coverage, TechCrunch, pricing confirmed on DeepSeek website",
+    "tags": [
+      "deepseek",
+      "pricing",
+      "china",
+      "price-war",
+      "us-china"
+    ],
+    "used_in_newsletter": false,
+    "category": "ai_industry",
+    "editorial_score": 7,
+    "headline_en": "Deep Cut",
+    "blurb_en": "DeepSeek just made its 75% price cut on V4 Pro permanent — the promotion was supposed to expire this month, but now it's the regular price.\n• V4 Pro now sits below OpenAI GPT-5, Claude Opus 4.7, and Gemini 3.5 Flash on every pricing tier\n• The gap is widest on frontier reasoning models — the ones enterprises pay premium for\n• This isn't a loss-leader phase; DeepSeek is signaling it can sustain these margins\n• Western labs are stuck: match the price and bleed cash, or hold and watch customers migrate\n• For Chinese teams: domestic frontier AI is now permanently cheaper than every Western alternative\n• The AI price war just went from promotional to structural",
+    "headline_zh": "深度降价",
+    "blurb_zh": "DeepSeek将V4 Pro的75%折扣永久化——这个促销原定月底到期，但现在变成了常规定价。\n• V4 Pro价格已全面低于OpenAI GPT-5、Claude Opus 4.7和Gemini 3.5 Flash\n• 差距在前沿推理模型上最为悬殊——正是企业愿意付高价使用的那类模型\n• 这不是亏本引流阶段；DeepSeek在表明它能维持这个利润率\n• 西方实验室陷入两难：跟价就亏损，不跟就看着客户流失\n• 对中国团队而言：国产前沿AI现在永久性地比所有西方替代品更便宜\n• AI价格战从促销阶段进入了结构性阶段",
+    "added_at": "2026-05-26T05:53:37Z"
   }
 ]
