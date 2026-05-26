@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-25",
-  "total_runs": 23,
+  "last_run": "2026-05-26",
+  "total_runs": 24,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -139,7 +139,10 @@
     "ChatGPT MS Paint doodle trend viral photos 2026",
     "Anthropic Gates Foundation partnership $200 million May 2026",
     "HHS ChatGPT state audit fraud detection AI May 2026",
-    "Cannes 2026 Palme d Or winner May 23 results"
+    "Cannes 2026 Palme d Or winner May 23 results",
+    "Cannes 2026 AI generated 1970s vintage adult film unveiled screening",
+    "Anthropic $30 billion Series H closed announced May 26 2026",
+    "WWDC 2026 Apple AI features announced June preview May"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -274,7 +277,10 @@
     "Bartz Anthropic settlement final approved ruling May 23 2026 (brief submitted May 21; ruling pending)",
     "White House AI EO rescheduled signed May 2026 (no update after May 21 pullback)",
     "Anthropic $900B round closed confirmed May 2026 (still in talks)",
-    "AI art image generation new model May 2026 (drought -- 9 consecutive runs)"
+    "AI art image generation new model May 2026 (drought -- 9 consecutive runs)",
+    "Midjourney V8.2 release May 2026 (still not released -- 10th consecutive run)",
+    "Bartz Anthropic settlement judge approved final order May 2026 (still pending)",
+    "Connecticut SB5 governor signed AI law May 2026 (still pending signature)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -494,7 +500,10 @@
     "ComfyUI v0.21.1 (May 13, 2026): Added Flux2ImageNode, GrokImageEditNodeV2, ByteDanceSeedreamNodeV2, OpenAI Image node, Claude LLM node, HiDream-O1-Image support. Strong creative tool update within 14-day window. Score 5 -- excluded per selectivity guidance but worth noting for a thin week. Source: docs.comfy.org/changelog.",
     "OpenAI S-1 + Anthropic IPO + SpaceX S-1 all in the same week (May 20-22, 2026): This is an AI IPO wave. Three of the most valuable private companies in the world all moving toward public markets simultaneously. The meta-story is the IPO wave itself -- consider writing a broader piece if/when all three have filed.",
     "Bartz v. Anthropic supplemental brief (due May 21): Anthropic was ordered to submit 2-page brief on late opt-outs. Ruling expected within a week. Check daily for approval. Once issued it becomes the largest copyright settlement in AI history -- score 9 story.",
-    "Cannes Film Festival closes May 23 -- Palme d'Or ceremony today. Check results tomorrow. If an AI-assisted film wins or is runner-up, that is the ai_art story of the year."
+    "Cannes Film Festival closes May 23 -- Palme d'Or ceremony today. Check results tomorrow. If an AI-assisted film wins or is runner-up, that is the ai_art story of the year.",
+    "Sh(AI)ved (Cannes AI adult films) slipped through 3 prior Cannes-heavy runs -- check Variety markets-festivals section specifically for unusual AI creative projects in future Cannes runs. The story was in the Cannes market section, not the competition or official selections.",
+    "Anthropic funding rounds: second $30B round in 4 months; Bloomberg 'as soon as next week' is now the closing signal. Pattern: when Bloomberg says 'as soon as next week' for a funding close, search again the next run for confirmation.",
+    "WWDC June 8-12 is the next major Apple AI moment. Apple's genai.apple.com domain going live 13 days before WWDC confirms it is the primary AI announcement event. Run WWDC-specific searches starting June 8."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -539,6 +548,7 @@
     "Run 17 complete (2026-05-19). 4 stories added. Selective run per ongoing quality-over-quantity guidance. Top picks: Still Life -- Soderbergh AI at Cannes (score 8, first ai_art story in several runs, strong filmmaking angle for Insta360 audience); Common Ground -- Anthropic acquires Stainless (score 8, sharp competitive angle). Face Check (YouTube deepfake all adults, score 7) and Notice Period (TAKE IT DOWN Act, score 6) both landed on compliance day. Google I/O keynote ran today but announcements not yet indexed -- critical to run again tonight or tomorrow. Midjourney V8.2 still not released. Bartz settlement ruling pending. 3 research targets (Krea 2, ex.skill, US-China talks) were already in DB -- dedup check saved time and is now essential practice.",
     "Run 19 complete (2026-05-21). 4 stories added. Top pick: Mixed Signals -- Gemini Omni official I/O launch (score 9), first confirmed ai_video story in many runs. Frame Rate -- Kuaishou Kling $20B spinoff (score 8) was missed by previous runs despite being in-window since May 12 -- always run a dedicated Kuaishou search. Brief Case -- Musk v. Altman verdict dismissed in under 2 hours (score 8) was also missed by May 19-20 runs. Design Flaw -- Figma AI agent vs Google Stitch free (score 7) is the design tools story of the year. No ai_art or ai_funny stories this run. Midjourney V8.2 still not released. WebFetch 403 rate near 100%; all content sourced from cross-referenced search snippets.",
     "Run 21 complete (2026-05-23). 5 stories added. Top pick: Work Samples -- Meta MCI employee surveillance + layoffs (score 9). The story has everything: a corporate surveillance program collecting keystrokes for AI training, disclosed by the CEO while being shut down, followed immediately by the largest layoffs since 2022. YouTube Shorts Gemini Omni remix (score 8) finally covers the creator-tools angle previously deferred. Jack Clark Oxford predictions (score 7, medium confidence): 4-prediction timeline + extinction caveat -- smaller outlets but consistent across 4 sources. ChatGPT personal finance (score 6): Plaid integration for Pro users; the same-week Ads Manager pairing is the editorial hook. Bartz hearing result (score 6): judge homework, not approval -- $1.5B settlement waiting on a 2-page brief. ai_art drought continues at 9 consecutive runs. Cannes Palme d'Or ceremony is tonight (May 23) -- check tomorrow.",
+    "Run 24 complete (2026-05-26). 3 stories added. Lean day: 156 stories already in DB covered most major events through May 25. Top pick: Closing Time -- Anthropic Series H $900B close (score 8). Coming Attractions -- Sh(AI)ved Cannes AI adult film (score 8, ai_funny). Pre-Release -- Apple genai.apple.com / WWDC preview (score 5). Sh(AI)ved slipped through 3 prior Cannes-heavy runs -- lesson: check Variety markets-festivals section for unusual AI creative projects, not just competition/official. ai_art drought now 10 consecutive runs. Key watch: WWDC June 8, Midjourney V8.2 (11th run check), Bartz ruling, Connecticut SB5, Anthropic round confirmation.",
     "Run 23 (2026-05-25): Policy and cultural angles (Pope encyclical, Cannes AI film) yielded highest editorial scores when AI model launches were thin.",
     "Run 23: Figure AI robot livestream (May 14) was missed by run 22 despite being within 14-day window -- search for robotics/humanoid stories more aggressively.",
     "Run 23: digen.ai resource.* URLs are aggregator SEO blogs -- skip them, never cite.",
@@ -546,16 +556,15 @@
     "Run 23: Searching for specific event dates (May 20-25) more effective than broad category searches for finding fresh stories."
   ],
   "suggestions_for_next_run": [
-    "Check Midjourney V8.2 -- expected before end of May, may have launched",
-    "Check Bartz v. Anthropic final approval ruling -- judge took under submission May 14",
-    "Check Connecticut SB5 governor signature -- Lamont stated intention to sign",
-    "WWDC June 8 coming -- Apple iOS 27 AI Extensions platform announcement on horizon",
-    "Check Cannes Camera d'Or and other award follow-ups for AI film angles",
-    "Monitor for new Runway, Kling, or Seedance model releases -- none this week",
-    "Search for new viral AI art/image trends -- toyification trend is still running",
+    "WWDC June 8-12 -- Apple iOS 27, Siri 2.0, chatbot Siri, AI Extensions platform; run searches June 8 immediately after keynote",
+    "Check Midjourney V8.2 -- now 10 consecutive runs without release; V8.1 still current",
+    "Check Bartz v. Anthropic final approval ruling -- judge took under submission May 14; ruling imminent",
+    "Check Connecticut SB5 governor Lamont signature -- stated intention to sign, still pending formal date",
+    "Confirm Anthropic Series H $900B round closed -- Bloomberg said 'as soon as next week' as of May 22",
+    "Monitor for new Runway, Kling, Wan, or Seedance model releases -- no new AI video models in 10+ consecutive runs",
     "Check for OpenAI IPO S-1 public filing follow-up (confidential filing was May 22)",
     "Search for HHS AERO follow-up actions on state Medicaid audits",
-    "Check for new China AI developments -- US-China chip diplomacy ongoing (Trump-Xi meeting May 14)"
+    "Check for US-China AI dynamics post-Trump-Xi summit"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -618,6 +627,16 @@
         "ai_policy",
         "ai_tools",
         "ai_audio"
+      ],
+      "top_score": 8
+    },
+    {
+      "date": "2026-05-26",
+      "stories_found": 3,
+      "categories": [
+        "ai_funny",
+        "ai_industry",
+        "tech_general"
       ],
       "top_score": 8
     }
