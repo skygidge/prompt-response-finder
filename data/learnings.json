@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-26",
-  "total_runs": 24,
+  "last_run": "2026-05-27",
+  "total_runs": 25,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -503,7 +503,10 @@
     "Cannes Film Festival closes May 23 -- Palme d'Or ceremony today. Check results tomorrow. If an AI-assisted film wins or is runner-up, that is the ai_art story of the year.",
     "Sh(AI)ved (Cannes AI adult films) slipped through 3 prior Cannes-heavy runs -- check Variety markets-festivals section specifically for unusual AI creative projects in future Cannes runs. The story was in the Cannes market section, not the competition or official selections.",
     "Anthropic funding rounds: second $30B round in 4 months; Bloomberg 'as soon as next week' is now the closing signal. Pattern: when Bloomberg says 'as soon as next week' for a funding close, search again the next run for confirmation.",
-    "WWDC June 8-12 is the next major Apple AI moment. Apple's genai.apple.com domain going live 13 days before WWDC confirms it is the primary AI announcement event. Run WWDC-specific searches starting June 8."
+    "WWDC June 8-12 is the next major Apple AI moment. Apple's genai.apple.com domain going live 13 days before WWDC confirms it is the primary AI announcement event. Run WWDC-specific searches starting June 8.",
+    "After heavy Google I/O coverage in May 19-21 runs, some I/O stories slipped through: FLUX.2 (same launch day, different company) and Google Stitch (design tool vs consumer AI tools)",
+    "China AI talent restrictions: Bloomberg May 26 broke this story. Always check Bloomberg/Japan Times/SCMP for China-specific AI policy developments",
+    "When a company's RESPONSE to a story is in the db (Figma AI agent), check if the ORIGINAL story (Google Stitch) is also there"
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -564,7 +567,13 @@
     "Monitor for new Runway, Kling, Wan, or Seedance model releases -- no new AI video models in 10+ consecutive runs",
     "Check for OpenAI IPO S-1 public filing follow-up (confidential filing was May 22)",
     "Search for HHS AERO follow-up actions on state Medicaid audits",
-    "Check for US-China AI dynamics post-Trump-Xi summit"
+    "Check for US-China AI dynamics post-Trump-Xi summit",
+    "Check Midjourney V8.2 release (expected late May, still not out as of May 27)",
+    "Microsoft Build 2026 is June 2-3: watch for Claude/Anthropic on Azure announcements",
+    "Apple WWDC June 8: major AI/Siri announcements expected",
+    "SpaceX IPO roadshow June 4, pricing June 11: not AI-focused but may have AI angles",
+    "Watch for Bartz v. Anthropic final approval ruling (hearing was May 14, ruling pending)",
+    "Connecticut SB5: check if Governor Lamont signed"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -645,7 +654,10 @@
     "Hell Grind Higgsfield AI Cannes film festival",
     "Pope Leo XIV AI encyclical Anthropic May 2026",
     "Spotify Universal Music AI covers remixes deal May 2026",
-    "Figure AI robots humanoid livestream May 2026"
+    "Figure AI robots humanoid livestream May 2026",
+    "China travel restrictions AI researchers May 2026",
+    "FLUX.2 Black Forest Labs release May 2026 features ComfyUI Nvidia",
+    "Google Stitch AI design tool I/O 2026 real-time agent Figma"
   ],
   "unproductive_queries": [
     "Midjourney Flux update May 2026 (V8.1 already covered)",
@@ -661,5 +673,9 @@
     "Search for new AI image model launches -- 9+ consecutive runs with no fresh AI art model launch coverage.",
     "Check for updates on OpenAI IPO filing timeline.",
     "Look for any US-China AI dynamics stories around the Trump-Xi summit mentioned in late April coverage."
+  ],
+  "dead_queries": [
+    "AI video generation news May 2026 Runway Kling Sora Veo latest (all covered in earlier runs)",
+    "Midjourney V8.2 released May 2026 (not confirmed released as of May 27)"
   ]
 }
