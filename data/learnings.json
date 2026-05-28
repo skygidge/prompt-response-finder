@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-27",
-  "total_runs": 25,
+  "last_run": "2026-05-28",
+  "total_runs": 26,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -559,21 +559,11 @@
     "Run 23: Searching for specific event dates (May 20-25) more effective than broad category searches for finding fresh stories."
   ],
   "suggestions_for_next_run": [
-    "WWDC June 8-12 -- Apple iOS 27, Siri 2.0, chatbot Siri, AI Extensions platform; run searches June 8 immediately after keynote",
-    "Check Midjourney V8.2 -- now 10 consecutive runs without release; V8.1 still current",
-    "Check Bartz v. Anthropic final approval ruling -- judge took under submission May 14; ruling imminent",
-    "Check Connecticut SB5 governor Lamont signature -- stated intention to sign, still pending formal date",
-    "Confirm Anthropic Series H $900B round closed -- Bloomberg said 'as soon as next week' as of May 22",
-    "Monitor for new Runway, Kling, Wan, or Seedance model releases -- no new AI video models in 10+ consecutive runs",
-    "Check for OpenAI IPO S-1 public filing follow-up (confidential filing was May 22)",
-    "Search for HHS AERO follow-up actions on state Medicaid audits",
-    "Check for US-China AI dynamics post-Trump-Xi summit",
-    "Check Midjourney V8.2 release (expected late May, still not out as of May 27)",
-    "Microsoft Build 2026 is June 2-3: watch for Claude/Anthropic on Azure announcements",
-    "Apple WWDC June 8: major AI/Siri announcements expected",
-    "SpaceX IPO roadshow June 4, pricing June 11: not AI-focused but may have AI angles",
-    "Watch for Bartz v. Anthropic final approval ruling (hearing was May 14, ruling pending)",
-    "Connecticut SB5: check if Governor Lamont signed"
+    "WWDC June 8: search for Apple WWDC 2026 announcements and iOS 27 AI camera features -- major camera/AI stories expected",
+    "Search for Midjourney V8.2 -- long-anticipated release",
+    "Follow up: Salone del Mobile AI disclosure policy responses to Dezeen editorial",
+    "Follow up: DuckDuckGo and Google AI Search data after initial spike",
+    "Follow up: Bartz v. Anthropic ruling timeline"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -657,7 +647,13 @@
     "Figure AI robots humanoid livestream May 2026",
     "China travel restrictions AI researchers May 2026",
     "FLUX.2 Black Forest Labs release May 2026 features ComfyUI Nvidia",
-    "Google Stitch AI design tool I/O 2026 real-time agent Figma"
+    "Google Stitch AI design tool I/O 2026 real-time agent Figma",
+    "Bloomberg Apple iOS 27 Siri Pro Camera May 28 2026",
+    "YouTube automatic AI content labels detection May 2026",
+    "China comprehensive AI law State Council May 17 2026",
+    "DuckDuckGo installs spike Google AI Search May 2026",
+    "Steven Spielberg AI filmmaking statement date May 2026",
+    "Dezeen design fairs AI policy May 28 2026"
   ],
   "unproductive_queries": [
     "Midjourney Flux update May 2026 (V8.1 already covered)",
@@ -677,5 +673,20 @@
   "dead_queries": [
     "AI video generation news May 2026 Runway Kling Sora Veo latest (all covered in earlier runs)",
     "Midjourney V8.2 released May 2026 (not confirmed released as of May 27)"
+  ],
+  "run_notes": [
+    {
+      "date": "2026-05-28",
+      "run_number": 26,
+      "stories_added": 6,
+      "notes": [
+        "Many Google I/O stories already in DB from May 19-22 runs -- heavy deduplication this session",
+        "Canon C2PA camera story (May 11) skipped: outside 14-day window AND topically overlapping with OpenAI C2PA in DB",
+        "Spotify CEO slop defense (May 27) skipped: same company as UMG deal story from 3 days prior",
+        "China AI law distinct from China AI talent travel ban -- both valid separate stories",
+        "Dezeen / design industry angle underused -- Milan design week is strong beat for creative-audience newsletter",
+        "Bloomberg Mark Gurman leaks are reliable and fast-moving -- good for Apple camera/product stories"
+      ]
+    }
   ]
 }
