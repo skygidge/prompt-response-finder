@@ -4588,5 +4588,31 @@
     "used_in_newsletter": false,
     "editorial_score": 5,
     "added_at": "2026-05-28T15:59:10Z"
+  },
+  {
+    "id": "2026-05-27-elevenlabs-music-v2-genre-switching",
+    "date_found": "2026-05-28",
+    "article_date": "2026-05-27",
+    "source_url": "https://elevenlabs.io/blog/introducing-music-v2",
+    "source_name": "ElevenLabs",
+    "source_type": "original_reporting",
+    "discovered_via": "TLDR AI 2026-05-28",
+    "confidence": "verified",
+    "verification_notes": "Official ElevenLabs blog, TechCrunch coverage, The Decoder, Decrypt. Licensed data confirmed.",
+    "tags": [
+      "elevenlabs",
+      "music",
+      "audio",
+      "creative-tools",
+      "commercial-use"
+    ],
+    "used_in_newsletter": false,
+    "category": "ai_audio",
+    "editorial_score": 8,
+    "headline_en": "Second Act",
+    "blurb_en": "ElevenLabs ships Music v2 — a model that lets you build songs section by section, switch genres mid-track, and re-generate any part without touching the rest.\n• Compose by structure: write the intro, then the verse, then the chorus, stitch them into a single track\n• Genre-switch mid-song — opera to metal and back — without losing vocal or melodic coherence\n• Select any section and regenerate it with a new prompt; the surrounding music stays untouched\n• Can add non-musical sound effects inside a track\n• Built on licensed data, cleared for commercial use — no rights ambiguity\n• Available now on ElevenMusic and ElevenCreative; API access coming soon",
+    "headline_zh": "分段作曲",
+    "blurb_zh": "ElevenLabs发布Music v2——可以逐段构建歌曲、在曲中切换风格、并对任意段落单独重新生成而不影响其余部分。\n• 按结构作曲：先写前奏、再写主歌、再写副歌，拼接成完整曲目\n• 曲中风格切换——从歌剧到重金属再回来——不丢失人声和旋律连贯性\n• 选中任意段落用新提示词重新生成，周围的音乐保持不变\n• 可在曲目中嵌入非音乐音效\n• 基于授权数据训练，商业使用无版权顾虑\n• 现已在ElevenMusic和ElevenCreative上线；API接入即将开放",
+    "added_at": "2026-05-29T05:05:23Z"
   }
 ]
