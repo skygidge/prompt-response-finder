@@ -4700,5 +4700,58 @@
     "used_in_newsletter": false,
     "editorial_score": 6,
     "added_at": "2026-05-29T16:00:43Z"
+  },
+  {
+    "id": "2026-05-29-bytedance-custom-ai-chip-design",
+    "date_found": "2026-05-29",
+    "article_date": "2026-05-29",
+    "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/bytedance-has-had-enough-of-waiting-months-for-processors-so-its-going-to-make-them-itself",
+    "source_name": "Tom's Hardware",
+    "source_type": "original_reporting",
+    "discovered_via": "TLDR AI 2026-05-29",
+    "confidence": "verified",
+    "verification_notes": "TLDR AI coverage, Tom's Hardware original reporting, multiple external partners approached",
+    "tags": [
+      "bytedance",
+      "chip",
+      "hardware",
+      "china",
+      "infrastructure"
+    ],
+    "used_in_newsletter": false,
+    "category": "ai_industry",
+    "editorial_score": 7,
+    "headline_en": "In-House",
+    "blurb_en": "ByteDance is tired of waiting months for AI processors, so it's designing its own.\n• Has approached several external partners to co-develop a custom chip optimized for its AI infrastructure\n• The move echoes Alibaba (Zhenwu M890) and Huawei (Ascend) — another Chinese tech giant deciding the chip supply chain is too slow and too uncertain\n• ByteDance isn't a hardware company; it makes Douyin, TikTok, and creative tools like CapCut and Doubao\n• A consumer-creative company going into silicon design signals how seriously Chinese tech takes the compute bottleneck\n• The pattern is clear: every major Chinese AI player is now building chips in-house rather than waiting for someone else's allocation",
+    "headline_zh": "自造芯片",
+    "blurb_zh": "字节跳动不愿再等数月才拿到AI处理器，决定自己设计芯片。\n• 已接洽多家外部合作伙伴，共同开发针对其AI基础设施优化的定制芯片\n• 继阿里巴巴（真武M890）、华为（昇腾）之后，又一家中国科技巨头认定芯片供应链太慢、太不确定\n• 字节跳动不是硬件公司——它做抖音、TikTok、剪映和豆包\n• 一家消费级创意公司涉足芯片设计，说明中国科技界对算力瓶颈有多认真\n• 趋势已经明确：每一家中国主要AI公司都在自研芯片，而不是等别人的份额",
+    "added_at": "2026-05-30T05:10:56Z"
+  },
+  {
+    "id": "2026-05-29-minimax-m3-sparse-attention-15x-faster",
+    "date_found": "2026-05-29",
+    "article_date": "2026-05-29",
+    "source_url": "https://minimaxi.com/en/news/minimax-m2-technical-report",
+    "source_name": "MiniMax",
+    "source_type": "original_reporting",
+    "discovered_via": "TLDR AI 2026-05-29",
+    "confidence": "verified",
+    "verification_notes": "Official MiniMax technical report, TLDR AI coverage, in-depth engineering details published",
+    "tags": [
+      "minimax",
+      "hailuo",
+      "sparse-attention",
+      "inference-speed",
+      "china",
+      "video-generation"
+    ],
+    "used_in_newsletter": false,
+    "category": "ai_video",
+    "editorial_score": 7,
+    "headline_en": "Fast Forward",
+    "blurb_en": "MiniMax — the company behind Hailuo AI video — just previewed a sparse attention mechanism in its upcoming M3 models that decodes 15.6x faster at long contexts.\n• Published alongside a deep technical report on the M2 series engineering that powered Hailuo\n• The speed gain targets ultra-long-context AI agent deployment, making it economically viable for the first time\n• Faster decode at long contexts means longer, more coherent video and creative generation without the cost spiral\n• MiniMax is based in Shanghai and competes directly with Kling, Doubao, and Western video models\n• For creative teams using Chinese AI tools: the next generation of Hailuo should be dramatically faster and cheaper to run",
+    "headline_zh": "快进键",
+    "blurb_zh": "海螺AI背后的MiniMax预告了即将推出的M3模型中的稀疏注意力机制，长上下文解码速度提升15.6倍。\n• 同步发布了M2系列的深度技术报告，揭示驱动海螺AI的工程细节\n• 速度提升针对超长上下文AI代理部署，首次使其在经济上可行\n• 长上下文更快解码意味着更长、更连贯的视频和创意生成，而不会成本飙升\n• MiniMax总部位于上海，与可灵、豆包及西方视频模型直接竞争\n• 对使用中国AI工具的创意团队而言：下一代海螺应该会快得多、便宜得多",
+    "added_at": "2026-05-30T05:10:56Z"
   }
 ]
