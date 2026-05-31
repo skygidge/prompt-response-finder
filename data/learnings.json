@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-30",
-  "total_runs": 28,
+  "last_run": "2026-05-31",
+  "total_runs": 29,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -147,7 +147,13 @@
     "Sam Altman CBA Sydney conference jobs apocalypse wrong May 26 2026",
     "Spotify CEO slop AI music defends May 2026",
     "Connecticut SB5 AI law governor signed Lamont May 2026",
-    "Anthropic Claude Opus 4.8 dynamic workflows features May 28 2026"
+    "Anthropic Claude Opus 4.8 dynamic workflows features May 28 2026",
+    "Kling AI Evolutionary Films Minibots animated feature partnership date 2026",
+    "AI music audio generation news May 28 29 30 31 2026 (led to Freebeat)",
+    "SFO airport museum AI generated art exhibit backlash AI slop 2026",
+    "OpenAI GPT-4.5 retirement June 2026 announcement date",
+    "OpenAI Rosalind biodefense AI launch May 29 2026",
+    "AI video Hollywood Kling Runway filmmaking news May 2026 site:theankler.com OR site:variety.com OR site:deadline.com (led to Kling/Minibots via Deadline)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -563,17 +569,19 @@
     "Run 23: The irony detail (not actually in the festival / Cannes the city not the festival) elevated Hell Grind story from 6 to 8.",
     "Run 23: Searching for specific event dates (May 20-25) more effective than broad category searches for finding fresh stories.",
     "Run 27: ComfyUI GitHub releases page showed v0.22.0 as May 2024 -- search snippet had incorrectly reported May 2026. Always verify release dates from official GitHub repos, not search summaries.",
-    "Run 28 complete (2026-05-30). 5 new stories added. Top pick: Running Tab -- Microsoft cancels Claude Code licenses (score 8); engineers used it too much and burned the annual budget in months. Day Job (Altman jobs reversal, score 7) and Controlled Burn (Spotify CEO 'slop' defense, score 7) are strong ai_industry/ai_audio entries. Work Force (Opus 4.8, score 6) has clean ironic timing alongside the Microsoft Claude Code story. Clause and Effect (Connecticut SB5 signing, score 5) closes a watch item tracked since Run 2. ai_art drought continues at 11 consecutive runs -- no new image model or art exhibition news. WWDC June 8 and Microsoft Build June 2-3 should break the drought. Midjourney V8.2 still not released. Bartz v. Anthropic ruling still pending."
+    "Run 28 complete (2026-05-30). 5 new stories added. Top pick: Running Tab -- Microsoft cancels Claude Code licenses (score 8); engineers used it too much and burned the annual budget in months. Day Job (Altman jobs reversal, score 7) and Controlled Burn (Spotify CEO 'slop' defense, score 7) are strong ai_industry/ai_audio entries. Work Force (Opus 4.8, score 6) has clean ironic timing alongside the Microsoft Claude Code story. Clause and Effect (Connecticut SB5 signing, score 5) closes a watch item tracked since Run 2. ai_art drought continues at 11 consecutive runs -- no new image model or art exhibition news. WWDC June 8 and Microsoft Build June 2-3 should break the drought. Midjourney V8.2 still not released. Bartz v. Anthropic ruling still pending.",
+    "Run 29 complete (2026-05-31). 5 new stories added. ai_art drought broken at run 12 by SFO airport AI slop backlash -- the 'AI slop' term going mainstream in museum/gallery contexts. Kling/Minibots (score 7) was a Cannes Film Market announcement from May 20 missed by prior Cannes-heavy runs -- lesson: explicitly search Cannes MARKET (not just competition) for AI production deals. Freebeat (score 6) fills the ai_video gap with a genuine new creative tool: real-time music video AI that listens to songs and renders frame-by-frame. Music Ally is a reliable source for music industry tool launches. GPT-4.5 retirement (score 5) closes the GPT-4 era. OpenAI Rosalind Biodefense (score 5) is an Axios exclusive with a strong named-character angle. Microsoft Build June 2-3 and WWDC June 8 are critical upcoming events for AI creative tools news. Midjourney V8.2 still unreleased at run 13. Bartz ruling still pending. Dataland opens June 20."
   ],
   "suggestions_for_next_run": [
-    "Microsoft Build June 2-3: search for Windows Agent Framework, Copilot Agent Mode, Azure AI Foundry GA announcements.",
-    "WWDC June 8: major Apple AI story -- iOS 27 Gemini Siri, AI photo editing (extend function), new camera features. Critical for Insta360 audience.",
-    "Midjourney V8.2 aesthetics system -- check midjourney.com/updates directly. Now 12 consecutive runs without release.",
-    "Dataland AI art museum opens June 20 in LA -- check for preview/review coverage approaching opening.",
-    "Bartz v. Anthropic final approval order still pending as of May 18; check for judge ruling.",
-    "Microsoft Build + WWDC happen June 2-8 -- run the workflow June 3-4 and June 9 for best coverage.",
-    "Check for any Runway Gen-5 or Kling 4.0 announcements -- neither confirmed but both overdue.",
-    "The Microsoft/Claude Code + Anthropic/Opus 4.8 pair is a natural newsletter double: explore pairing them editorially."
+    "Microsoft Build June 2-3: search for Windows Agent Framework, Copilot Agent Mode, Azure AI Foundry GA, GitHub Copilot autonomous agent updates. Run workflow June 3-4.",
+    "WWDC June 8: major Apple AI story -- iOS 27 camera features, Siri/Gemini integration, Apple Intelligence photo editing. Critical for Insta360 audience. Run workflow June 9.",
+    "Midjourney V8.2 aesthetics system -- check midjourney.com/updates directly. Now 13 consecutive runs without release.",
+    "Dataland AI art museum opens June 20 in LA -- check for preview coverage the week before opening.",
+    "Bartz v. Anthropic final approval order still pending -- settlement administrator calculates distributions by June 11.",
+    "Cannes Market lesson: search explicitly for AI production deals and partnerships from Cannes Market section (Deadline, Variety festivals/markets section), not just competition.",
+    "Freebeat pattern: check Music Ally weekly for AI music/video tool launches. More reliable than general search for music industry creative tools.",
+    "SFO story pattern: airport/transit venue AI art is a growing beat. Check for other public-space AI art controversies.",
+    "The Microsoft/Claude Code + Anthropic/Opus 4.8 pair covered last run -- no need to follow up unless Claude Code license cancellations expand."
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -619,7 +627,14 @@
     "Midjourney V8.2 launch release May 2026 (still not released -- V8.1 current)",
     "AI art digital artwork exhibition launch news May 2026 (Dataland in DB, no new exhibition)",
     "NVIDIA LTX-2 AI video generation RTX launch May 2026 (January 2026, outside window)",
-    "AI art generative image new tool launch May 28 29 2026 (no new tools found)"
+    "AI art generative image new tool launch May 28 29 2026 (no new tools found)",
+    "AI art design tool new launch announcement May 28 29 30 31 2026 (no new tools)",
+    "Midjourney V8.2 launch release May 2026 (still not released -- V8.1 current, 13th run check)",
+    "Runway Gen-5 Pika Seedance new video model launch May 2026 (no new launches in window)",
+    "Chinese AI model video art new launch May 2026 Wan HunyuanVideo Vidu (no new releases in window)",
+    "Adobe Creative Cloud AI new feature launch May 2026 (Firefly beta April 27, outside window)",
+    "Samsung Galaxy AI camera overhaul (February 2026 Unpacked, outside window)",
+    "Google Gemini Lyria 3 music generation launch date May 2026 (Feb/March 2026, outside window)"
   ],
   "lessons_learned": [
     "Writing Python script to a .py file first avoids shell heredoc encoding issues with Chinese characters in string literals",
