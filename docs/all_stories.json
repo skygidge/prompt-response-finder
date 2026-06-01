@@ -5033,5 +5033,32 @@
     "used_in_newsletter": false,
     "editorial_score": 5,
     "added_at": "2026-05-31T16:04:23Z"
+  },
+  {
+    "id": "2026-05-30-imagen-video-ai-color-grading-premiere-resolve",
+    "date_found": "2026-05-31",
+    "article_date": "2026-05-30",
+    "source_url": "https://nofilmschool.com/imagen-video-release",
+    "source_name": "No Film School",
+    "source_type": "original_reporting",
+    "discovered_via": "Web search — creative tools sweep",
+    "confidence": "verified",
+    "verification_notes": "No Film School, ePHOTOzine, postPerspective all covered. Product live and free. 119 AI profiles confirmed.",
+    "tags": [
+      "color-grading",
+      "premiere-pro",
+      "davinci-resolve",
+      "editing",
+      "post-production",
+      "free"
+    ],
+    "used_in_newsletter": false,
+    "category": "ai_video",
+    "editorial_score": 8,
+    "headline_en": "Grade School",
+    "blurb_en": "Imagen Video just left beta — a free AI color grading tool that plugs directly into Premiere Pro and DaVinci Resolve and does in seconds what used to take an afternoon.\n• Analyzes each clip individually: corrects white balance, matches footage across different cameras and lenses, harmonizes the whole sequence\n• Ships with 119 AI grading profiles; you can also train custom profiles on your own past-graded projects\n• Apply your existing LUTs or pick an AI profile — the tool handles the technical layer (sensor matching, exposure normalization) automatically\n• Reports claim up to 10x faster than manual grading\n• Currently free — no paywall\n• Coming soon: Sequence Building, which auto-selects and organizes clips based on creative input\n• For Shenzhen editors: this is Western post-production automation you can install right now, for nothing",
+    "headline_zh": "一键调色",
+    "blurb_zh": "Imagen Video刚结束测试——一款免费AI调色工具，直接嵌入Premiere Pro和DaVinci Resolve，几秒钟完成过去要花一下午的工作。\n• 逐条素材分析：校正白平衡、匹配不同摄影机和镜头的素材、统一整条时间线\n• 内置119个AI调色预设；还可以用你过去的调色项目训练自定义预设\n• 可以叠加现有LUT或选择AI预设——工具自动处理技术层（传感器匹配、曝光归一化）\n• 官方称比手动调色快10倍\n• 目前完全免费\n• 即将推出：Sequence Building，根据创意指令自动选取和组织素材\n• 对深圳编辑来说：这是可以立刻安装的西方后期自动化工具，而且不花一分钱",
+    "added_at": "2026-06-01T05:29:07Z"
   }
 ]
