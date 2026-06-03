@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-02",
-  "total_runs": 31,
+  "last_run": "2026-06-03",
+  "total_runs": 32,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -587,7 +587,8 @@
     "Run 28 complete (2026-05-30). 5 new stories added. Top pick: Running Tab -- Microsoft cancels Claude Code licenses (score 8); engineers used it too much and burned the annual budget in months. Day Job (Altman jobs reversal, score 7) and Controlled Burn (Spotify CEO 'slop' defense, score 7) are strong ai_industry/ai_audio entries. Work Force (Opus 4.8, score 6) has clean ironic timing alongside the Microsoft Claude Code story. Clause and Effect (Connecticut SB5 signing, score 5) closes a watch item tracked since Run 2. ai_art drought continues at 11 consecutive runs -- no new image model or art exhibition news. WWDC June 8 and Microsoft Build June 2-3 should break the drought. Midjourney V8.2 still not released. Bartz v. Anthropic ruling still pending.",
     "Run 29 complete (2026-05-31). 5 new stories added. ai_art drought broken at run 12 by SFO airport AI slop backlash -- the 'AI slop' term going mainstream in museum/gallery contexts. Kling/Minibots (score 7) was a Cannes Film Market announcement from May 20 missed by prior Cannes-heavy runs -- lesson: explicitly search Cannes MARKET (not just competition) for AI production deals. Freebeat (score 6) fills the ai_video gap with a genuine new creative tool: real-time music video AI that listens to songs and renders frame-by-frame. Music Ally is a reliable source for music industry tool launches. GPT-4.5 retirement (score 5) closes the GPT-4 era. OpenAI Rosalind Biodefense (score 5) is an Axios exclusive with a strong named-character angle. Microsoft Build June 2-3 and WWDC June 8 are critical upcoming events for AI creative tools news. Midjourney V8.2 still unreleased at run 13. Bartz ruling still pending. Dataland opens June 20.",
     "Run 30 complete (2026-06-01). 3 new stories added. Top pick: Arm Yourself -- Nvidia RTX Spark at Computex (score 8); Nvidia first-ever PC chip is a strong creator/imaging story confirmed via CNBC and multiple tech outlets. North Star -- Microsoft Project Polaris (score 7, medium confidence) lands on Build Day 1; no Tier-1 outlet confirmation but consistent technical detail across 4+ secondary sources. Point and Shoot -- Vedros AI copyright ruling (score 7, high confidence) is the imaging-audience story of the run. AI video drought continues -- Kling 3.0 and Seedance 2.0 both launched in February (outside window), no new model launches found. Midjourney V8.2 still unreleased at 14 consecutive runs. Build continues June 3, WWDC June 8 -- both are critical upcoming events.",
-    "Run 31 complete (2026-06-02). 3 new stories added. Microsoft Build Day 1 dominated. Top pick: Dry Run -- Uber burns 2026 AI budget (Fortune, score 8); missed by 3 prior runs despite being in-window since May 26. Going Native (Microsoft MAI full stack, score 8): complete in-house AI model stack from image to reasoning to voice, first run without distillation -- strong strategic independence angle distinct from Penny Wise (MAI-Image-2). Token Effort (GitHub Copilot token billing, score 7): 10-50x cost increases for agentic users; TechCrunch headline was 'What a joke'. AI video drought continues (run 15, Kling 3.0 still current from Feb 2026). Midjourney V8.2 still unreleased (run 15). WWDC June 8 is the next expected creative tools wave -- run immediately after keynote."
+    "Run 31 complete (2026-06-02). 3 new stories added. Microsoft Build Day 1 dominated. Top pick: Dry Run -- Uber burns 2026 AI budget (Fortune, score 8); missed by 3 prior runs despite being in-window since May 26. Going Native (Microsoft MAI full stack, score 8): complete in-house AI model stack from image to reasoning to voice, first run without distillation -- strong strategic independence angle distinct from Penny Wise (MAI-Image-2). Token Effort (GitHub Copilot token billing, score 7): 10-50x cost increases for agentic users; TechCrunch headline was 'What a joke'. AI video drought continues (run 15, Kling 3.0 still current from Feb 2026). Midjourney V8.2 still unreleased (run 15). WWDC June 8 is the next expected creative tools wave -- run immediately after keynote.",
+    "Run 32 complete (2026-06-03). 3 new stories added. Top pick: Reading the Room -- Geedge Networks China AI dissident prediction (score 9, high confidence); confirmed via 4+ secondary sources citing NYT/Vanderbilt research. This is the China surveillance angle focus.md flags as HIGH VALUE. Soft Launch -- Trump AI EO signed June 2 (score 7): distinct from the May 21 postponement story; final version cut from 90 to 30 days, fully voluntary, new cybersecurity clearinghouse. Background Check -- Microsoft Scout Autopilot (score 6, medium): persistent always-on AI agent distinct from Project Polaris/MAI stories from prior runs. Many planned stories were already covered in run 31: GitHub Copilot billing, Anthropic Series H, Pope Leo XIV, Kling spinoff, Microsoft MAI, Microsoft Project Polaris. AI video drought continues (run 16). Midjourney V8.2 still unreleased (run 16). WWDC June 8 is the next critical event -- run immediately after keynote for AI camera/imaging announcements. Geedge story cross-referencing method: search for the specific company name after finding the broad topic. Trump EO: when an EO is signed after being postponed, the signing IS a new story with new content -- check whether the final version changed substantially before deciding to skip."
   ],
   "suggestions_for_next_run": [
     "WWDC June 8-12: Apple Siri 2.0, iOS 27 extensions framework, AI camera features. Critical for Insta360 audience. Run workflow June 9 after keynote.",
@@ -765,5 +766,20 @@
     "Variety (celebrity AI licensing)",
     "Kotaku (creative industry backlash coverage)",
     "Dezeen (design + AI policy)"
-  ]
+  ],
+  "query_performance": {
+    "2026-06-03": {
+      "successful": [
+        "\"China AI tool predict political risk dissidents June 2026\"",
+        "\"Trump executive order AI voluntary review 30 days June 2026 implications\"",
+        "\"Microsoft Scout Autopilots Aion 1.0 Windows agent Build 2026\""
+      ],
+      "found_nothing_new": [
+        "\"AI art image generation news June 2026 new tool launch\" -- no fresh ai_art stories; all leads were outside 14-day window or already covered",
+        "\"AI audio music generation news June 2026\" -- Deezer April 20, Suno v4 no date; nothing new since May 27",
+        "\"AI video generation news June 2 3 2026\" -- leaderboards/rankings only, no new model launches",
+        "\"Google Veo 3.1 Lite preview June 2026\" -- launched March 31, outside window"
+      ]
+    }
+  }
 }
