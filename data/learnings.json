@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-03",
-  "total_runs": 32,
+  "last_run": "2026-06-04",
+  "total_runs": 33,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -160,7 +160,15 @@
     "Uber AI budget burned 2026 annual spent Claude Code developer costs",
     "GitHub Copilot token billing TechCrunch June 2026 cost increase developer reaction",
     "Microsoft MAI model reasoning image Build 2026 announcement details",
-    "Microsoft Build June 2 3 2026 AI announcements new"
+    "Microsoft Build June 2 3 2026 AI announcements new",
+    "Anthropic IPO filing S-1 June 2026 valuation TechCrunch",
+    "Martin Scorsese Black Forest Labs AI image generation storyboarding June 2026",
+    "Suno $400 million funding raise $5.4 billion valuation June 2026",
+    "CNN Perplexity AI lawsuit copyright May 31 2026 details",
+    "China AI trade secret rules algorithms data June 2026 SAMR",
+    "site:techcrunch.com AI June 2026 (surfaced Anthropic IPO, Scorsese/BFL, Dreambeans)",
+    "Google Dreambeans AI app cartoon animation June 2026",
+    "AI news June 3 4 2026 latest announcements (surfaced Build Day 2 + multiple story leads)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -303,7 +311,14 @@
     "Midjourney V8.2 release launch June 2026 (still not released -- 15th consecutive run)",
     "AI art image generation news June 2026 (no new model launches; drought continues)",
     "AI funny weird story news June 2026 (listicles only; no individual verifiable story)",
-    "Runway Gen-4 native audio May June 2026 (May 3 launch confirmed outside 14-day window)"
+    "Runway Gen-4 native audio May June 2026 (May 3 launch confirmed outside 14-day window)",
+    "Midjourney V8.2 release June 2026 (still not released -- 17 consecutive runs)",
+    "AI video generation new model launch June 2026 Runway Kling Wan Pika (video drought run 17 -- all models from Q1 2026)",
+    "AI funny weird news June 2026 incident fail (evergreen listicles only; no fresh individual story)",
+    "AI art image generation news June 2026 new tool launch (no fresh model launches in window)",
+    "Bartz Anthropic settlement final approval ruling June 2026 (distribution calculation due June 11; ruling still pending)",
+    "Google Lyria 3 music generation launch June 2026 (Feb/March 2026 launch, outside 14-day window)",
+    "Suno AI new version update June 2026 (v5.5 was March 2026; no v6 released yet)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -532,7 +547,16 @@
     "When a company's RESPONSE to a story is in the db (Figma AI agent), check if the ORIGINAL story (Google Stitch) is also there",
     "Uber budget story (May 26, Fortune): high-profile Fortune story about AI ROI doubt missed by 3 consecutive runs. Pattern: Fortune is a reliable source for AI enterprise/cost stories that don't surface in tech-focused search queries. Always check fortune.com for AI industry cost/ROI stories.",
     "Microsoft Build 2026 story categories: MAI models (ai_industry/ai_art), Surface Laptop Ultra + RTX Spark already covered as single story. For Build 2027, separate the chip story from the device story from the model story -- each is a distinct editorial angle.",
-    "GitHub Copilot token billing (June 1) + Microsoft cancels Claude Code (May 28) + Uber burns budget (May 26) form a trilogy about AI coding cost reality checks. All three are in the DB and can be referenced together in a newsletter issue or trend piece."
+    "GitHub Copilot token billing (June 1) + Microsoft cancels Claude Code (May 28) + Uber burns budget (May 26) form a trilogy about AI coding cost reality checks. All three are in the DB and can be referenced together in a newsletter issue or trend piece.",
+    "Anthropic S-1 filing (June 1) was missed by run 32 (June 3) during heavy Build coverage. Pattern: major non-Build stories from the same week get buried by a tech conference news cycle. Always run a general 'AI news' search alongside the conference-specific searches.",
+    "Suno Series D closed June 3 at $5.4B after 12+ consecutive 'still closing' runs. Pattern: when a watch item stays open this long, set an explicit reminder to search for the final close each run. The confirmation came via Variety + Bloomberg simultaneously.",
+    "CNN/Perplexity lawsuit (May 28) slipped through runs 31-32 during Build coverage -- same burial pattern as Anthropic IPO. TV network filing AI copyright action is a new story type. Search for '[major media company] sues [AI company]' each run.",
+    "Google Dreambeans (Nano Banana 2, personal data → cartoon) is a strong ai_tools/ai_funny crossover. TechCrunch's own headline called it 'weirdest-named AI tool to date' -- when the source publication makes fun of the product name, that's a newsletter signal.",
+    "Martin Scorsese / Black Forest Labs: celebrity director AI endorsement is a distinct story type from 'studio uses AI.' A living director publicly backing a specific tool -- with their name on the advisory board -- has different weight than a studio announcement. The Boots Riley reaction is the editorial counterweight.",
+    "China trade secret rules: search for SAMR (State Administration for Market Regulation) actions each month -- they produce regulatory stories that rarely surface in English-language AI searches but are highly relevant for companies operating in China.",
+    "Perplexity's 'You can't copyright facts' defense is now the company's public legal thesis across nine lawsuits. This phrase is the editorial hook for every future Perplexity lawsuit story.",
+    "Black Forest Labs powers Flux -- the same model discussed in prior runs as open-source image infrastructure. The Scorsese story is the 'real-world validation' beat for Flux. Check for other high-profile Flux adoption stories going forward.",
+    "ai_art drought: Scorsese/BFL counts as an ai_art story (celebrity endorsement + Flux model use) even though it's not a model launch. The drought in model launches continues at run 17, but ai_art stories can be found in the controversy/endorsement/controversy genre."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -588,20 +612,21 @@
     "Run 29 complete (2026-05-31). 5 new stories added. ai_art drought broken at run 12 by SFO airport AI slop backlash -- the 'AI slop' term going mainstream in museum/gallery contexts. Kling/Minibots (score 7) was a Cannes Film Market announcement from May 20 missed by prior Cannes-heavy runs -- lesson: explicitly search Cannes MARKET (not just competition) for AI production deals. Freebeat (score 6) fills the ai_video gap with a genuine new creative tool: real-time music video AI that listens to songs and renders frame-by-frame. Music Ally is a reliable source for music industry tool launches. GPT-4.5 retirement (score 5) closes the GPT-4 era. OpenAI Rosalind Biodefense (score 5) is an Axios exclusive with a strong named-character angle. Microsoft Build June 2-3 and WWDC June 8 are critical upcoming events for AI creative tools news. Midjourney V8.2 still unreleased at run 13. Bartz ruling still pending. Dataland opens June 20.",
     "Run 30 complete (2026-06-01). 3 new stories added. Top pick: Arm Yourself -- Nvidia RTX Spark at Computex (score 8); Nvidia first-ever PC chip is a strong creator/imaging story confirmed via CNBC and multiple tech outlets. North Star -- Microsoft Project Polaris (score 7, medium confidence) lands on Build Day 1; no Tier-1 outlet confirmation but consistent technical detail across 4+ secondary sources. Point and Shoot -- Vedros AI copyright ruling (score 7, high confidence) is the imaging-audience story of the run. AI video drought continues -- Kling 3.0 and Seedance 2.0 both launched in February (outside window), no new model launches found. Midjourney V8.2 still unreleased at 14 consecutive runs. Build continues June 3, WWDC June 8 -- both are critical upcoming events.",
     "Run 31 complete (2026-06-02). 3 new stories added. Microsoft Build Day 1 dominated. Top pick: Dry Run -- Uber burns 2026 AI budget (Fortune, score 8); missed by 3 prior runs despite being in-window since May 26. Going Native (Microsoft MAI full stack, score 8): complete in-house AI model stack from image to reasoning to voice, first run without distillation -- strong strategic independence angle distinct from Penny Wise (MAI-Image-2). Token Effort (GitHub Copilot token billing, score 7): 10-50x cost increases for agentic users; TechCrunch headline was 'What a joke'. AI video drought continues (run 15, Kling 3.0 still current from Feb 2026). Midjourney V8.2 still unreleased (run 15). WWDC June 8 is the next expected creative tools wave -- run immediately after keynote.",
-    "Run 32 complete (2026-06-03). 3 new stories added. Top pick: Reading the Room -- Geedge Networks China AI dissident prediction (score 9, high confidence); confirmed via 4+ secondary sources citing NYT/Vanderbilt research. This is the China surveillance angle focus.md flags as HIGH VALUE. Soft Launch -- Trump AI EO signed June 2 (score 7): distinct from the May 21 postponement story; final version cut from 90 to 30 days, fully voluntary, new cybersecurity clearinghouse. Background Check -- Microsoft Scout Autopilot (score 6, medium): persistent always-on AI agent distinct from Project Polaris/MAI stories from prior runs. Many planned stories were already covered in run 31: GitHub Copilot billing, Anthropic Series H, Pope Leo XIV, Kling spinoff, Microsoft MAI, Microsoft Project Polaris. AI video drought continues (run 16). Midjourney V8.2 still unreleased (run 16). WWDC June 8 is the next critical event -- run immediately after keynote for AI camera/imaging announcements. Geedge story cross-referencing method: search for the specific company name after finding the broad topic. Trump EO: when an EO is signed after being postponed, the signing IS a new story with new content -- check whether the final version changed substantially before deciding to skip."
+    "Run 32 complete (2026-06-03). 3 new stories added. Top pick: Reading the Room -- Geedge Networks China AI dissident prediction (score 9, high confidence); confirmed via 4+ secondary sources citing NYT/Vanderbilt research. This is the China surveillance angle focus.md flags as HIGH VALUE. Soft Launch -- Trump AI EO signed June 2 (score 7): distinct from the May 21 postponement story; final version cut from 90 to 30 days, fully voluntary, new cybersecurity clearinghouse. Background Check -- Microsoft Scout Autopilot (score 6, medium): persistent always-on AI agent distinct from Project Polaris/MAI stories from prior runs. Many planned stories were already covered in run 31: GitHub Copilot billing, Anthropic Series H, Pope Leo XIV, Kling spinoff, Microsoft MAI, Microsoft Project Polaris. AI video drought continues (run 16). Midjourney V8.2 still unreleased (run 16). WWDC June 8 is the next critical event -- run immediately after keynote for AI camera/imaging announcements. Geedge story cross-referencing method: search for the specific company name after finding the broad topic. Trump EO: when an EO is signed after being postponed, the signing IS a new story with new content -- check whether the final version changed substantially before deciding to skip.",
+    "Run 33 complete (2026-06-04). 6 new stories added. Top pick: Open Book -- Anthropic S-1 filing near $1T valuation (score 9). Strong run despite video/art model drought continuing. Frame Job -- Scorsese/Black Forest Labs (score 8) breaks the ai_art drought via celebrity endorsement. Record Deal -- Suno $400M Series D (score 7) closes the longest-running watch item in the newsletter's history. Fact Check -- CNN/Perplexity (score 7) and Firewall -- China AI trade secrets (score 7) fill the ai_policy slots. Strip Search -- Google Dreambeans (score 7) is the ai_tools funny story. All three stories missed by run 32 (Anthropic IPO, CNN/Perplexity, Dreambeans) were buried by Build conference coverage -- pattern confirmed. AI video drought run 17. Midjourney V8.2 run 17 without release. WWDC June 8 is the next critical event -- run June 9 after keynote. Bartz ruling due June 11."
   ],
   "suggestions_for_next_run": [
-    "WWDC June 8-12: Apple Siri 2.0, iOS 27 extensions framework, AI camera features. Critical for Insta360 audience. Run workflow June 9 after keynote.",
-    "Midjourney V8.2: 15 consecutive runs without release. Check updates.midjourney.com directly -- this is now overdue by David Holz's own timeline.",
-    "Dataland AI art museum opens June 20 in LA -- check for preview coverage the week before opening.",
-    "Bartz v. Anthropic final order: distribution calculation due June 11. Once issued, it's the largest copyright settlement in AI history (score 9). Run targeted search June 11-12.",
-    "Microsoft Build Day 2 (June 3): follow-up search for additional AI creative tools announcements or new agent demos.",
-    "AI video drought: check for any Wan 3.0, Kling 4.0, or new Pika announcements. 15 consecutive runs without a new video model. Next expected: Runway Gen-5 (no confirmed date), Wan 3.0 (expected mid-2026).",
-    "Suno v6 or Udio update: check for any audio model launches in June.",
-    "OpenAI on AWS (GA June 1): watch for developer adoption stories and any friction with Microsoft Azure relationship.",
-    "MAI-Thinking-1 Build Day 1: if officially confirmed, verify the 'no distillation' claim via TechCrunch or The Verge.",
-    "GitHub Copilot billing fallout: check for week-2 developer reaction stories and enterprise policy changes.",
-    "Uber AI ROI story pattern: check if other ride-share or gig-economy companies are publishing similar admissions (DoorDash, Lyft, etc.)."
+    "WWDC June 8-12: Run IMMEDIATELY after keynote (June 9). iOS 27 AI camera features (Siri mode in Camera app, Reframe + Extend in Photos), Siri 2.0 powered by Google Gemini, third-party AI providers as default. Critical for Insta360 audience.",
+    "Bartz v. Anthropic final order: distribution calculation due June 11. Run targeted search June 11-12. Once approved, it's the largest copyright settlement in AI history (score 9).",
+    "Midjourney V8.2: 17 consecutive runs without release. Check updates.midjourney.com directly on June 9 run.",
+    "Dataland AI art museum: opens June 20 in LA. Check for preview coverage and early reviews after June 17.",
+    "AI video drought: check for any Wan 3.0, Kling 4.0, or new Runway Gen-5 announcements. Run 17 without new video model.",
+    "Suno's Warner Music-licensed model: confirmed 'rolling out in coming months.' Check for actual launch announcement.",
+    "OpenAI IPO: filed May, targeting Q4 2026. Watch for SEC review milestones and any updated valuation reports.",
+    "Perplexity AI lawsuits: now nine active suits. Watch for first trial date set or settlement in any of the nine cases.",
+    "China AI: SAMR launched Trade Secret Protection Month for June. Check for enforcement actions or follow-up guidance targeting AI companies specifically.",
+    "VivaTech Paris June 17-20: European AI conference, may produce EU AI policy stories or European company announcements.",
+    "GitHub Copilot token billing week 2: check for enterprise policy responses and any Microsoft reversal."
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -703,6 +728,20 @@
       ],
       "top_score": 8,
       "notes": "Microsoft Build Day 1. Three AI cost stories. Video/art droughts continue."
+    },
+    {
+      "date": "2026-06-04",
+      "stories_found": 6,
+      "categories": [
+        "ai_industry",
+        "ai_art",
+        "ai_audio",
+        "ai_policy",
+        "ai_policy",
+        "ai_tools"
+      ],
+      "top_score": 9,
+      "notes": "Anthropic S-1 filing. Scorsese/Black Forest Labs. Suno Series D closed. CNN/Perplexity. China trade secrets. Dreambeans. Three stories (IPO, CNN, Dreambeans) missed by run 32 due to Build conference coverage burial."
     }
   ],
   "productive_queries": [
@@ -779,6 +818,21 @@
         "\"AI audio music generation news June 2026\" -- Deezer April 20, Suno v4 no date; nothing new since May 27",
         "\"AI video generation news June 2 3 2026\" -- leaderboards/rankings only, no new model launches",
         "\"Google Veo 3.1 Lite preview June 2026\" -- launched March 31, outside window"
+      ]
+    },
+    "2026-06-04": {
+      "successful": [
+        "\"site:techcrunch.com AI June 2026\" -- surfaced Anthropic IPO, Scorsese/BFL, Dreambeans all in one search",
+        "\"Suno $400 million funding raise $5.4 billion valuation June 2026\" -- direct hit confirmed via Variety, Bloomberg, Digital Music News",
+        "\"CNN Perplexity AI lawsuit copyright May 31 2026\" -- confirmed via CNN, Variety, Deadline, NPR",
+        "\"China AI trade secret rules algorithms data June 2026 SAMR\" -- confirmed via Bloomberg, Euronews",
+        "\"Martin Scorsese Black Forest Labs AI image generation storyboarding June 2026\" -- confirmed via Variety, TechCrunch, Hollywood Reporter"
+      ],
+      "found_nothing_new": [
+        "\"Midjourney V8.2 release June 2026\" -- still not released; 17 consecutive runs",
+        "\"AI video generation new model launch June 2026\" -- video drought run 17",
+        "\"AI funny weird news June 2026 incident fail\" -- evergreen listicles only",
+        "\"Bartz Anthropic settlement final approval ruling June 2026\" -- still pending; June 11 deadline"
       ]
     }
   }
