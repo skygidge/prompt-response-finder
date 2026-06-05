@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-04",
-  "total_runs": 33,
+  "last_run": "2026-06-05",
+  "total_runs": 34,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -168,7 +168,12 @@
     "China AI trade secret rules algorithms data June 2026 SAMR",
     "site:techcrunch.com AI June 2026 (surfaced Anthropic IPO, Scorsese/BFL, Dreambeans)",
     "Google Dreambeans AI app cartoon animation June 2026",
-    "AI news June 3 4 2026 latest announcements (surfaced Build Day 2 + multiple story leads)"
+    "AI news June 3 4 2026 latest announcements (surfaced Build Day 2 + multiple story leads)",
+    "AI video filmmaking news week June 2026 new tool (surfaced Scorsese/BFL, Dreams of Violets, AI Tribeca film)",
+    "Dreams of Violets Tribeca AI film premiere 2026 (confirmed via Variety, BusinessWire, Deadline)",
+    "Grok Imagine Video 1.5 launch June 4 2026 xAI video model (confirmed via The Decoder, xAI official, Storyboard18)",
+    "China ban AI videos Four Great Classical Novels vulgarize June 2026 (confirmed via Global Times June 2026, Breitbart June 2)",
+    "China NRTA AI video ban classical novels enforcement 2026 date (8,000 removed in May; enforcement article Global Times 202606)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -318,7 +323,15 @@
     "AI art image generation news June 2026 new tool launch (no fresh model launches in window)",
     "Bartz Anthropic settlement final approval ruling June 2026 (distribution calculation due June 11; ruling still pending)",
     "Google Lyria 3 music generation launch June 2026 (Feb/March 2026 launch, outside 14-day window)",
-    "Suno AI new version update June 2026 (v5.5 was March 2026; no v6 released yet)"
+    "Suno AI new version update June 2026 (v5.5 was March 2026; no v6 released yet)",
+    "AI image generation news June 2026 (all fresh model news either in DB already or too old: Midjourney V8.2 not yet released run 18)",
+    "Gemini Omni Flash rollout June 2026 (Gemini Omni already covered May 21-23; YouTube Shorts remix covered May 23 -- topic dup)",
+    "Anthropic $965B Series H May 28 2026 (already covered as 2026-05-26-anthropic-series-h-900b-close; funding round covered)",
+    "Soderbergh Lennon AI Cannes 2026 (covered as 2026-05-19-soderbergh-lennon-ai-cannes from May 19 run)",
+    "Hell Grind ByteDance Seedance Cannes 2026 (covered as 2026-05-25-higgsfield-hell-grind-cannes from May 25 run)",
+    "Scorsese Black Forest Labs storyboard AI June 2026 (covered as 2026-06-04-scorsese-black-forest-labs-flux -- URL dup)",
+    "Microsoft MAI-Image-2.5 Build 2026 (covered as 2026-05-26-microsoft-mai-full-stack-build-2026 -- topic dup)",
+    "Stability AI audio model 6 minute songs May 2026 (May 20 -- just outside 14-day window; skip)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -556,7 +569,12 @@
     "China trade secret rules: search for SAMR (State Administration for Market Regulation) actions each month -- they produce regulatory stories that rarely surface in English-language AI searches but are highly relevant for companies operating in China.",
     "Perplexity's 'You can't copyright facts' defense is now the company's public legal thesis across nine lawsuits. This phrase is the editorial hook for every future Perplexity lawsuit story.",
     "Black Forest Labs powers Flux -- the same model discussed in prior runs as open-source image infrastructure. The Scorsese story is the 'real-world validation' beat for Flux. Check for other high-profile Flux adoption stories going forward.",
-    "ai_art drought: Scorsese/BFL counts as an ai_art story (celebrity endorsement + Flux model use) even though it's not a model launch. The drought in model launches continues at run 17, but ai_art stories can be found in the controversy/endorsement/controversy genre."
+    "ai_art drought: Scorsese/BFL counts as an ai_art story (celebrity endorsement + Flux model use) even though it's not a model launch. The drought in model launches continues at run 17, but ai_art stories can be found in the controversy/endorsement/controversy genre.",
+    "RUN 34: Cannes 2026 AI stories (Soderbergh, Hell Grind, China at Cannes) were ALL covered in May 19-25 runs. Check DB for Cannes stories before writing about them.",
+    "RUN 34: Major funding rounds (Anthropic Series H) often get covered in the run immediately following announcement; check DB before writing.",
+    "RUN 34: China AI crackdown stories continue to be uniquely available -- Global Times URL pattern 202606 gives date verification. NRTA enforcement news is high-value and uncovered by other newsletters.",
+    "RUN 34: Grok/xAI video models overlooked by previous runs -- worth checking xAI news regularly.",
+    "RUN 34: The Decoder (the-decoder.com) is productive for AI model technical launches -- add to regular sources."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -616,17 +634,13 @@
     "Run 33 complete (2026-06-04). 6 new stories added. Top pick: Open Book -- Anthropic S-1 filing near $1T valuation (score 9). Strong run despite video/art model drought continuing. Frame Job -- Scorsese/Black Forest Labs (score 8) breaks the ai_art drought via celebrity endorsement. Record Deal -- Suno $400M Series D (score 7) closes the longest-running watch item in the newsletter's history. Fact Check -- CNN/Perplexity (score 7) and Firewall -- China AI trade secrets (score 7) fill the ai_policy slots. Strip Search -- Google Dreambeans (score 7) is the ai_tools funny story. All three stories missed by run 32 (Anthropic IPO, CNN/Perplexity, Dreambeans) were buried by Build conference coverage -- pattern confirmed. AI video drought run 17. Midjourney V8.2 run 17 without release. WWDC June 8 is the next critical event -- run June 9 after keynote. Bartz ruling due June 11."
   ],
   "suggestions_for_next_run": [
-    "WWDC June 8-12: Run IMMEDIATELY after keynote (June 9). iOS 27 AI camera features (Siri mode in Camera app, Reframe + Extend in Photos), Siri 2.0 powered by Google Gemini, third-party AI providers as default. Critical for Insta360 audience.",
-    "Bartz v. Anthropic final order: distribution calculation due June 11. Run targeted search June 11-12. Once approved, it's the largest copyright settlement in AI history (score 9).",
-    "Midjourney V8.2: 17 consecutive runs without release. Check updates.midjourney.com directly on June 9 run.",
-    "Dataland AI art museum: opens June 20 in LA. Check for preview coverage and early reviews after June 17.",
-    "AI video drought: check for any Wan 3.0, Kling 4.0, or new Runway Gen-5 announcements. Run 17 without new video model.",
-    "Suno's Warner Music-licensed model: confirmed 'rolling out in coming months.' Check for actual launch announcement.",
-    "OpenAI IPO: filed May, targeting Q4 2026. Watch for SEC review milestones and any updated valuation reports.",
-    "Perplexity AI lawsuits: now nine active suits. Watch for first trial date set or settlement in any of the nine cases.",
-    "China AI: SAMR launched Trade Secret Protection Month for June. Check for enforcement actions or follow-up guidance targeting AI companies specifically.",
-    "VivaTech Paris June 17-20: European AI conference, may produce EU AI policy stories or European company announcements.",
-    "GitHub Copilot token billing week 2: check for enterprise policy responses and any Microsoft reversal."
+    "Check xAI/Grok for new model launches -- overlooked in many runs",
+    "China AI regulatory enforcement actions (NRTA, CAC) are high-value and undercovered by English press -- search Global Times monthly",
+    "AI at Tribeca (runs June 3-14, 2026) -- Dreams of Violets premiered June 10, look for reviews and reactions",
+    "Midjourney V8.2 -- on roadmap, may launch any day",
+    "Wan 3.0 from Alibaba -- expected mid-2026",
+    "Anthropic IPO -- S1 filed June 1; look for roadshow and pricing news",
+    "Suno Series D -- $400M round at $5.4B, look for product announcements following funding"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -833,6 +847,23 @@
         "\"AI video generation new model launch June 2026\" -- video drought run 17",
         "\"AI funny weird news June 2026 incident fail\" -- evergreen listicles only",
         "\"Bartz Anthropic settlement final approval ruling June 2026\" -- still pending; June 11 deadline"
+      ]
+    },
+    "2026-06-05": {
+      "successful": [
+        "\"AI video filmmaking news week June 2026 new tool\" -- surfaced Dreams of Violets lead via DigitalCameraWorld/Yahoo Entertainment",
+        "\"Grok Imagine Video 1.5 launch June 4 2026 xAI video model\" -- direct hit, confirmed via The Decoder, xAI official",
+        "\"China ban AI videos Four Great Classical Novels June 2026\" -- confirmed via Global Times June 2026 (8,000 removed in May)",
+        "\"Dreams of Violets Tribeca AI film premiere 2026\" -- confirmed via Variety, Deadline, BusinessWire, CNBC"
+      ],
+      "found_nothing_new": [
+        "\"AI news today June 4 5 2026 image video art tool\" -- only Grok V1.5 was new, everything else in DB",
+        "\"AI image generation new model launch May 22 June 2026\" -- all leads in DB; MAI-Image-2.5 already covered",
+        "\"Gemini Omni Flash rollout June 2026 YouTube Shorts\" -- Gemini Omni + YouTube Shorts already covered May 21-23",
+        "\"Anthropic $965B Series H May 2026\" -- Series H already covered May 26 run",
+        "\"AI art design creative tool launch May June 2026\" -- evergreen comparison lists only",
+        "\"AI music audio generation news June 2026\" -- nothing new since Freebeat (May 29)",
+        "\"AI funny weird news June 2026\" -- evergreen only; London Christmas mural from late 2025"
       ]
     }
   }
