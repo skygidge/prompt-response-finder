@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-05",
-  "total_runs": 34,
+  "last_run": "2026-06-06",
+  "total_runs": 35,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -173,7 +173,11 @@
     "Dreams of Violets Tribeca AI film premiere 2026 (confirmed via Variety, BusinessWire, Deadline)",
     "Grok Imagine Video 1.5 launch June 4 2026 xAI video model (confirmed via The Decoder, xAI official, Storyboard18)",
     "China ban AI videos Four Great Classical Novels vulgarize June 2026 (confirmed via Global Times June 2026, Breitbart June 2)",
-    "China NRTA AI video ban classical novels enforcement 2026 date (8,000 removed in May; enforcement article Global Times 202606)"
+    "China NRTA AI video ban classical novels enforcement 2026 date (8,000 removed in May; enforcement article Global Times 202606)",
+    "AI news June 5 6 2026 OpenAI Anthropic announcement (surfaced Dreaming V3 and Glasswing leads)",
+    "OpenAI ChatGPT dreaming memory update site:openai.com June 2026 (confirmed Dreaming V3 June 4)",
+    "Anthropic Claude Mythos Glasswing critical infrastructure June 2 2026 TechCrunch details (confirmed via TC, CNBC, CyberScoop, Anthropic official)",
+    "AI college graduation commencement boo heckle backlash June 2026 (confirmed via NPR May 20, Fast Company, CBS News, Tom's Hardware)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -331,7 +335,13 @@
     "Hell Grind ByteDance Seedance Cannes 2026 (covered as 2026-05-25-higgsfield-hell-grind-cannes from May 25 run)",
     "Scorsese Black Forest Labs storyboard AI June 2026 (covered as 2026-06-04-scorsese-black-forest-labs-flux -- URL dup)",
     "Microsoft MAI-Image-2.5 Build 2026 (covered as 2026-05-26-microsoft-mai-full-stack-build-2026 -- topic dup)",
-    "Stability AI audio model 6 minute songs May 2026 (May 20 -- just outside 14-day window; skip)"
+    "Stability AI audio model 6 minute songs May 2026 (May 20 -- just outside 14-day window; skip)",
+    "AI video generation news June 2026 Kling Runway new model launch (video drought run 18 -- all major models still Q1 2026)",
+    "Midjourney V8.2 release June 2026 (still not released -- 18th consecutive run; expected mid-June per David Holz)",
+    "AI art image generation news June 2026 new tool launch controversy (no fresh launches; Disney/Universal/Midjourney lawsuit from June 2025, not 2026)",
+    "xAI Grok Build coding agent June 2026 (launched May 14-29; developer tool, out of newsletter scope)",
+    "AI funny weird news June 2026 incident fail (no fresh story within 14-day window besides graduation story)",
+    "OpenAI GPT-4.5 o3 retirement June 2026 (already in DB as 2026-05-30-openai-gpt45-retirement-gpt4-era-ends)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -574,7 +584,15 @@
     "RUN 34: Major funding rounds (Anthropic Series H) often get covered in the run immediately following announcement; check DB before writing.",
     "RUN 34: China AI crackdown stories continue to be uniquely available -- Global Times URL pattern 202606 gives date verification. NRTA enforcement news is high-value and uncovered by other newsletters.",
     "RUN 34: Grok/xAI video models overlooked by previous runs -- worth checking xAI news regularly.",
-    "RUN 34: The Decoder (the-decoder.com) is productive for AI model technical launches -- add to regular sources."
+    "RUN 34: The Decoder (the-decoder.com) is productive for AI model technical launches -- add to regular sources.",
+    "RUN 35: ChatGPT Dreaming V3 (June 4) is a strong ai_tools story that bridges memory/privacy/personalization. OpenAI official blog is always indexable even when TechCrunch is 403. Check openai.com/news directly each run.",
+    "RUN 35: Anthropic Glasswing expansion (June 2) was missed by runs 33-34 because Build 2026 + Suno + Scorsese dominated searches. Pattern: when a major tech conference (Build, I/O, WWDC) or major funding close dominates search results, smaller adjacent stories get buried. Always run a dedicated 'Anthropic news [date]' search separately from the conference searches.",
+    "RUN 35: Graduation booing story spans multiple weeks of commencement season -- excellent template for 'cultural moment' stories. When graduates from multiple universities boo the same topic in the same week, it's a story. Check for AI graduation backlash again next May.",
+    "RUN 35: Disney/Universal/Midjourney lawsuit appeared as June 2026 result but is actually June 12, 2025 (URL path confirms year). This is a known false-fresh result. Add to mental skip list: any 'Disney Universal Midjourney' results are 2025 news.",
+    "RUN 35: Grok Build (coding agent) is technically a June 2026 story (public beta May 29, Composer 2.5 June 1) but out of scope for the newsletter's creative/video/art focus. Score 3-4 for this newsletter.",
+    "RUN 35: WWDC June 8 (Monday) is the next major AI event. iOS 27 AI extensions already covered (2026-05-09-apple-ios27-ai-extensions). Run WWDC-specific searches immediately after the June 8 keynote for new announcements -- on-device AI focus, Siri overhaul, Apple/Google Gemini partnership, potential AI camera features.",
+    "RUN 35: Midjourney V8.2 now 18 consecutive runs without release. Expected mid-June per David Holz. Check updates.midjourney.com each run.",
+    "RUN 35: Run 35 is a low-yield day because Run 34 was yesterday -- only 1 day of new material. When running daily, most searches return content already in DB. Consider spacing runs 2-3 days apart unless a major event (WWDC, major model launch) triggers an immediate run."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -864,6 +882,22 @@
         "\"AI art design creative tool launch May June 2026\" -- evergreen comparison lists only",
         "\"AI music audio generation news June 2026\" -- nothing new since Freebeat (May 29)",
         "\"AI funny weird news June 2026\" -- evergreen only; London Christmas mural from late 2025"
+      ]
+    },
+    "2026-06-06": {
+      "successful": [
+        "\"AI news June 5 6 2026 OpenAI Anthropic announcement\" -- surfaced Dreaming V3 and Glasswing leads",
+        "\"OpenAI ChatGPT dreaming memory update site:openai.com June 2026\" -- confirmed Dreaming V3 June 4 on official OpenAI blog",
+        "\"Anthropic Claude Mythos Glasswing critical infrastructure June 2 2026\" -- confirmed via TechCrunch, CNBC, CyberScoop, Anthropic official",
+        "\"AI college graduation commencement boo heckle backlash June 2026\" -- confirmed via NPR, Fast Company, CBS News, Tom's Hardware"
+      ],
+      "found_nothing_new": [
+        "\"AI video generation news June 2026 Kling Runway\" -- video drought run 18",
+        "\"Midjourney V8.2 release June 2026\" -- still not released run 18",
+        "\"AI art image generation news June 2026\" -- no fresh launches",
+        "\"Disney Universal Midjourney lawsuit June 2026\" -- confirmed June 2025 story, not 2026",
+        "\"xAI Grok Build coding agent June 2026\" -- out of newsletter scope",
+        "\"GPT-4.5 o3 retirement June 2026\" -- already in DB as May 30 story"
       ]
     }
   }
