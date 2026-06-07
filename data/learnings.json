@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-06",
-  "total_runs": 35,
+  "last_run": "2026-06-07",
+  "total_runs": 36,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -177,7 +177,14 @@
     "AI news June 5 6 2026 OpenAI Anthropic announcement (surfaced Dreaming V3 and Glasswing leads)",
     "OpenAI ChatGPT dreaming memory update site:openai.com June 2026 (confirmed Dreaming V3 June 4)",
     "Anthropic Claude Mythos Glasswing critical infrastructure June 2 2026 TechCrunch details (confirmed via TC, CNBC, CyberScoop, Anthropic official)",
-    "AI college graduation commencement boo heckle backlash June 2026 (confirmed via NPR May 20, Fast Company, CBS News, Tom's Hardware)"
+    "AI college graduation commencement boo heckle backlash June 2026 (confirmed via NPR May 20, Fast Company, CBS News, Tom's Hardware)",
+    "Trump equity stake OpenAI AI companies June 2026",
+    "Google SpaceX Starlink compute deal $920 million per month TechCrunch June 2026",
+    "Blackwell chips China ban outside China Chinese companies enforcement June 2026",
+    "DaVinci Resolve 21 release date launch features AI CineFocus June 2026",
+    "Apple WWDC 2026 Siri Google Gemini announcement confirmed June 2026",
+    "Google rolls out fake call detection deepfake impersonation scam TechCrunch June 2026",
+    "site:techcrunch.com AI June 5 6 7 2026 (surfaced Google-SpaceX, WWDC preview, AI cost overruns)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -341,7 +348,13 @@
     "AI art image generation news June 2026 new tool launch controversy (no fresh launches; Disney/Universal/Midjourney lawsuit from June 2025, not 2026)",
     "xAI Grok Build coding agent June 2026 (launched May 14-29; developer tool, out of newsletter scope)",
     "AI funny weird news June 2026 incident fail (no fresh story within 14-day window besides graduation story)",
-    "OpenAI GPT-4.5 o3 retirement June 2026 (already in DB as 2026-05-30-openai-gpt45-retirement-gpt4-era-ends)"
+    "OpenAI GPT-4.5 o3 retirement June 2026 (already in DB as 2026-05-30-openai-gpt45-retirement-gpt4-era-ends)",
+    "Midjourney V8.2 release launched June 2026 confirmed (still unreleased -- 20th consecutive run; expected mid-June per David Holz)",
+    "AI video generation new model launch June 2026 Runway Kling Wan Pika (video drought run 19 -- all major models still Q1 2026)",
+    "AI art image generation news June 2026 new tool launch (no fresh launches; Midjourney V8.2 drought continues)",
+    "AI audio music news June 2026 new launch (ElevenLabs Music v2 covered May 27; Stable Audio 3.0 was May 20 -- outside window)",
+    "AI funny weird news June 2026 incident (evergreen listicles only; no fresh individual story)",
+    "Canva AI 2.0 launch date June 2026 (launched April 16 at Canva Create -- outside 14-day window)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -386,7 +399,14 @@
     "thedailybeast.com (good for social media observation stories: Trump Truth Social AI slop, celebrity AI incidents)",
     "pressgazette.co.uk",
     "thinkingmachines.ai",
-    "digitaltoday.co.kr"
+    "digitaltoday.co.kr",
+    "aljazeera.com",
+    "notus.org",
+    "fortune.com",
+    "newsshooter.com",
+    "nofilmschool.com",
+    "redsharknews.com",
+    "cgchannel.com"
   ],
   "discovered_newsletters": [],
   "discovered_sources": [
@@ -825,6 +845,18 @@
         "China AI law distinct from China AI talent travel ban -- both valid separate stories",
         "Dezeen / design industry angle underused -- Milan design week is strong beat for creative-audience newsletter",
         "Bloomberg Mark Gurman leaks are reliable and fast-moving -- good for Apple camera/product stories"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "notes": [
+        "AI video and image model droughts continue into 19-20th consecutive run. No new major model releases.",
+        "Policy stories dominated this run: Trump equity stake in AI, Blackwell loophole closure.",
+        "Google-SpaceX deal only surfaced because of SpaceX IPO SEC filing -- good lesson: check IPO filings for surprise tech deals.",
+        "DaVinci Resolve 21 is highly relevant for Insta360 audience due to 360/VR workflow improvements and CineFocus AI refocus.",
+        "WWDC June 8 (tomorrow): actual announcements not yet made. Next run should pick up the real news.",
+        "TechCrunch 403 on most article fetches; rely on search result snippets and cross-reference 3+ sources.",
+        "Chinese curly quotes in blurb_zh (Unicode “”) are valid JSON; ASCII double quotes require escaping. Build story data as Python objects, not raw JSON strings."
       ]
     }
   ],
