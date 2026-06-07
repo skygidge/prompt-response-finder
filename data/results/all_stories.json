@@ -5648,5 +5648,32 @@
     "used_in_newsletter": false,
     "editorial_score": 7,
     "added_at": "2026-06-06T16:03:29Z"
+  },
+  {
+    "id": "2026-06-03-visual-ai-code-native-generation",
+    "date_found": "2026-06-06",
+    "article_date": "2026-06-03",
+    "source_url": "https://www.felicis.com/insight/the-next-frontier-of-visual-ai-is-code",
+    "source_name": "Felicis Ventures / TLDR AI",
+    "source_type": "original_reporting",
+    "discovered_via": "TLDR AI 2026-06-03",
+    "confidence": "verified",
+    "verification_notes": "TLDR AI featured as deep dive, multiple industry examples cited (HTML/CSS, Blender scripts, 3D structures)",
+    "tags": [
+      "visual-ai",
+      "code-generation",
+      "design",
+      "3d-modeling",
+      "workflow",
+      "creative-tools"
+    ],
+    "used_in_newsletter": false,
+    "category": "ai_art",
+    "editorial_score": 8,
+    "headline_en": "Source Code",
+    "blurb_en": "Visual AI is quietly shifting from generating finished pixels to generating editable source code — and it changes everything about creative iteration.\n• Instead of a static image you accept or reject, AI now outputs HTML/CSS, Blender scripts, or structured 3D representations you can actually edit\n• Designers get a starting point they can refine, not a final output they're stuck with\n• The same approach works for interactive assets, consistent 3D structures, and UI prototypes\n• This solves the biggest creative complaint about AI: 'I can't fix this one thing without regenerating everything'\n• For 3D and motion teams: code-native generation means AI outputs that slot into existing pipelines (Blender, After Effects, web) instead of living in a walled garden\n• The shift from 'AI as renderer' to 'AI as first-drafter' is where the real workflow gains live",
+    "headline_zh": "源代码",
+    "blurb_zh": "视觉AI正从生成最终像素悄然转向生成可编辑的源代码——这彻底改变了创意迭代的方式。\n• AI现在输出HTML/CSS、Blender脚本或结构化3D表示，而不是你只能接受或拒绝的静态图片\n• 设计师得到的是可以细化的起点，而非无法修改的最终成品\n• 同样的方法适用于交互资产、一致的3D结构和UI原型\n• 这解决了创意人员对AI最大的抱怨：'我改不了这一个地方，只能全部重新生成'\n• 对3D和动态团队而言：代码原生生成意味着AI输出可以直接接入现有工作流（Blender、After Effects、Web），而不是锁在封闭花园里\n• 从'AI当渲染器'到'AI当初稿员'——真正的工作流提升在这里",
+    "added_at": "2026-06-07T05:01:18Z"
   }
 ]
