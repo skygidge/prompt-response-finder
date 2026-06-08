@@ -5847,5 +5847,36 @@
     "used_in_newsletter": false,
     "editorial_score": 6,
     "added_at": "2026-06-07T16:08:15Z"
+  },
+  {
+    "id": "2026-06-03-ideogram-40-open-weight-design-model",
+    "date_found": "2026-06-08",
+    "article_date": "2026-06-03",
+    "headline_en": "Type Setting",
+    "headline_zh": "设计利器",
+    "category": "ai_art",
+    "blurb_en": "Ideogram released the first open-weight frontier text-to-image model on June 3 — a 9.3-billion-parameter Diffusion Transformer trained from scratch for design work, not general-purpose image generation.\n• Weights on Hugging Face (nf4 and fp8 quantizations) and GitHub (ideogram-oss/ideogram4); inference code Apache 2.0; commercial deployment requires a paid license\n• nf4 checkpoint fits on a single 24GB GPU — runs locally with no API cost\n• Native 2K output with native alpha channels: transparent cutouts from inference, no background removal step\n• JSON-based prompting: specify text placement, bounding-box layout, and color palettes (up to 16 hex values) — composition by specification\n• #1 open-weight model on DesignArena; #9 overall, behind only OpenAI and Google closed models\n• ComfyUI day-0 support\n• Ideogram built its reputation on getting text right in AI images. It just put those weights on GitHub.",
+    "blurb_zh": "2026年6月3日，Ideogram发布首款开放权重前沿文生图模型——一个专为设计工作训练的93亿参数扩散Transformer，并非通用图像生成工具。\n• 模型权重（nf4和fp8量化版本）已上传至Hugging Face和GitHub（ideogram-oss/ideogram4）；推理代码Apache 2.0开源；商业部署需购买授权\n• nf4版本在单张24GB显存GPU上运行——本地跑图，无需API费用\n• 原生2K输出，原生透明通道：直接从推理获得抠图结果，无需额外背景去除步骤\n• JSON格式提示词：可指定文字位置、边界框布局和色板（最多16个十六进制颜色值）——用规格定义构图\n• 在DesignArena排行榜位列开放权重模型第一；总榜第九，仅次于OpenAI和谷歌的闭源模型\n• ComfyUI首日支持，直接接入现有本地工作流\n• Ideogram靠能在AI生成图像中准确渲染文字建立了声誉。6月3日，它把那些权重放到了GitHub上。",
+    "source_url": "https://ideogram.ai/blog/ideogram-4.0/",
+    "source_name": "Ideogram",
+    "source_type": "official_blog",
+    "discovered_via": "web_search",
+    "confidence": "high",
+    "verification_notes": "Confirmed via Ideogram official blog (ideogram.ai/blog/ideogram-4.0/, June 3 2026) and press release (ideogram.ai/news/ideogram-4.0/). Secondary coverage: kombitz.com (June 4), buildfastwithai.com, i-scoop.eu, GitHub repo (github.com/ideogram-oss/ideogram4), Hugging Face (ideogram-ai/ideogram-4-nf4, ideogram-ai/ideogram-4-fp8). 9.3B params, 34-layer single-stream DiT, native 2K output, native alpha, JSON prompting, nf4+fp8 quantizations, 24GB single GPU confirmed across multiple sources. #1 open-weight model on DesignArena and #9 overall confirmed via multiple secondary sources. ComfyUI day-0 support confirmed.",
+    "tags": [
+      "ideogram",
+      "ideogram4",
+      "open_weight",
+      "diffusion_transformer",
+      "text_to_image",
+      "design",
+      "local_inference",
+      "typography",
+      "comfyui",
+      "hugging_face"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 9,
+    "added_at": "2026-06-08T15:56:30Z"
   }
 ]

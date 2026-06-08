@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-07",
-  "total_runs": 36,
+  "last_run": "2026-06-08",
+  "total_runs": 37,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -184,7 +184,9 @@
     "DaVinci Resolve 21 release date launch features AI CineFocus June 2026",
     "Apple WWDC 2026 Siri Google Gemini announcement confirmed June 2026",
     "Google rolls out fake call detection deepfake impersonation scam TechCrunch June 2026",
-    "site:techcrunch.com AI June 5 6 7 2026 (surfaced Google-SpaceX, WWDC preview, AI cost overruns)"
+    "site:techcrunch.com AI June 5 6 7 2026 (surfaced Google-SpaceX, WWDC preview, AI cost overruns)",
+    "Ideogram 4.0 open-weight text-to-image model June 2026 release details (confirmed 9.3B DiT, Hugging Face weights, ComfyUI day-0)",
+    "Ideogram 4.0 ComfyUI Hugging Face weights single GPU inference June 3 2026 (confirmed nf4/fp8 quantizations, 24GB GPU, JSON prompting)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -354,7 +356,10 @@
     "AI art image generation news June 2026 new tool launch (no fresh launches; Midjourney V8.2 drought continues)",
     "AI audio music news June 2026 new launch (ElevenLabs Music v2 covered May 27; Stable Audio 3.0 was May 20 -- outside window)",
     "AI funny weird news June 2026 incident (evergreen listicles only; no fresh individual story)",
-    "Canva AI 2.0 launch date June 2026 (launched April 16 at Canva Create -- outside 14-day window)"
+    "Canva AI 2.0 launch date June 2026 (launched April 16 at Canva Create -- outside 14-day window)",
+    "new AI video generation model launch June 2026 Seedance Wan Pika Kling update (no new launches; all major models still Q1 2026; video drought run 21)",
+    "AI image generation tool launch June 2026 (all fresh model news either in DB or covered; only Ideogram 4.0 was new)",
+    "AI news June 8 2026 announcement release launch today (WWDC confirmed but already covered as 2026-06-07-apple-wwdc-siri-gemini-ios27)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -612,7 +617,11 @@
     "RUN 35: Grok Build (coding agent) is technically a June 2026 story (public beta May 29, Composer 2.5 June 1) but out of scope for the newsletter's creative/video/art focus. Score 3-4 for this newsletter.",
     "RUN 35: WWDC June 8 (Monday) is the next major AI event. iOS 27 AI extensions already covered (2026-05-09-apple-ios27-ai-extensions). Run WWDC-specific searches immediately after the June 8 keynote for new announcements -- on-device AI focus, Siri overhaul, Apple/Google Gemini partnership, potential AI camera features.",
     "RUN 35: Midjourney V8.2 now 18 consecutive runs without release. Expected mid-June per David Holz. Check updates.midjourney.com each run.",
-    "RUN 35: Run 35 is a low-yield day because Run 34 was yesterday -- only 1 day of new material. When running daily, most searches return content already in DB. Consider spacing runs 2-3 days apart unless a major event (WWDC, major model launch) triggers an immediate run."
+    "RUN 35: Run 35 is a low-yield day because Run 34 was yesterday -- only 1 day of new material. When running daily, most searches return content already in DB. Consider spacing runs 2-3 days apart unless a major event (WWDC, major model launch) triggers an immediate run.",
+    "RUN 37 (2026-06-08): WWDC 2026 keynote day. Siri on Gemini confirmed but already covered as pre-announcement June 7. When a major event is covered pre-announcement and the actual event occurs within 14 days, deduplicate per same-company-topic rule.",
+    "RUN 37: Ideogram 4.0 (June 3) was not covered in any prior run despite being 5 days old at time of run 37. It was buried by WWDC coverage in search results. Pattern: post-WWDC searches surface Apple news prominently; always run model-specific searches to find non-Apple stories on WWDC day.",
+    "RUN 37: Open-weight model releases break the ai_art model drought that has lasted 21+ consecutive runs. Ideogram 4.0 is the first ai_art model story since MJ V8.1 (April 2026). Always check for open-weight model releases on Hugging Face and GitHub when direct model launch searches fail.",
+    "RUN 37: Ideogram 4.0 scores 9 because: (1) first open-weight frontier text-to-image model, (2) runs on single 24GB GPU, (3) native alpha channel is genuinely new for local inference, (4) JSON prompting interface directly relevant to design workflows, (5) ComfyUI day-0 means immediate pipeline integration for the Insta360 audience."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -672,13 +681,15 @@
     "Run 33 complete (2026-06-04). 6 new stories added. Top pick: Open Book -- Anthropic S-1 filing near $1T valuation (score 9). Strong run despite video/art model drought continuing. Frame Job -- Scorsese/Black Forest Labs (score 8) breaks the ai_art drought via celebrity endorsement. Record Deal -- Suno $400M Series D (score 7) closes the longest-running watch item in the newsletter's history. Fact Check -- CNN/Perplexity (score 7) and Firewall -- China AI trade secrets (score 7) fill the ai_policy slots. Strip Search -- Google Dreambeans (score 7) is the ai_tools funny story. All three stories missed by run 32 (Anthropic IPO, CNN/Perplexity, Dreambeans) were buried by Build conference coverage -- pattern confirmed. AI video drought run 17. Midjourney V8.2 run 17 without release. WWDC June 8 is the next critical event -- run June 9 after keynote. Bartz ruling due June 11."
   ],
   "suggestions_for_next_run": [
-    "Check xAI/Grok for new model launches -- overlooked in many runs",
-    "China AI regulatory enforcement actions (NRTA, CAC) are high-value and undercovered by English press -- search Global Times monthly",
-    "AI at Tribeca (runs June 3-14, 2026) -- Dreams of Violets premiered June 10, look for reviews and reactions",
-    "Midjourney V8.2 -- on roadmap, may launch any day",
-    "Wan 3.0 from Alibaba -- expected mid-2026",
-    "Anthropic IPO -- S1 filed June 1; look for roadshow and pricing news",
-    "Suno Series D -- $400M round at $5.4B, look for product announcements following funding"
+    "Bartz v. Anthropic distribution calculation due June 11 -- check for final approval ruling",
+    "Dreams of Violets premiered Tribeca June 10 -- check for reviews and festival reactions",
+    "Midjourney V8.2 -- 21+ consecutive runs without release; check updates.midjourney.com",
+    "Gemini 3.5 Pro -- announced at Google I/O as coming June 2026; check for release",
+    "Wan 3.0 from Alibaba -- expected mid-2026; check for announcement",
+    "Anthropic IPO -- S-1 filed June 1; watch for roadshow and pricing news",
+    "Ideogram 4.0 community adoption -- check ComfyUI workflow coverage and YouTube tutorials",
+    "Apple iOS 27 developer beta reactions -- any AI camera feature (Extend, Reframe) testing coverage",
+    "Tim Cook CEO transition -- John Ternus takes over September 1; watch for any enterprise/product implications"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -794,6 +805,15 @@
       ],
       "top_score": 9,
       "notes": "Anthropic S-1 filing. Scorsese/Black Forest Labs. Suno Series D closed. CNN/Perplexity. China trade secrets. Dreambeans. Three stories (IPO, CNN, Dreambeans) missed by run 32 due to Build conference coverage burial."
+    },
+    {
+      "date": "2026-06-08",
+      "stories_found": 1,
+      "categories": [
+        "ai_art"
+      ],
+      "top_score": 9,
+      "notes": "WWDC 2026 keynote day. Ideogram 4.0 breaks 21-run ai_art model drought. WWDC already covered pre-announcement."
     }
   ],
   "productive_queries": [
@@ -857,6 +877,16 @@
         "WWDC June 8 (tomorrow): actual announcements not yet made. Next run should pick up the real news.",
         "TechCrunch 403 on most article fetches; rely on search result snippets and cross-reference 3+ sources.",
         "Chinese curly quotes in blurb_zh (Unicode “”) are valid JSON; ASCII double quotes require escaping. Build story data as Python objects, not raw JSON strings."
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "notes": [
+        "WWDC 2026 keynote day: Siri on Gemini confirmed, Tim Cook farewell keynote. Already covered as pre-announcement June 7 -- dedup per same-company-topic rule.",
+        "Ideogram 4.0 (June 3) is the sole new story this run: first open-weight frontier text-to-image model, 9.3B params, 24GB GPU, native 2K + alpha, JSON prompting. Breaks the 21-run ai_art model drought.",
+        "Video model drought continues at run 21. No new launches from Runway, Kling, Pika, Seedance, Wan.",
+        "Archive read completed through end-of-file (line 5851, entry 2026-06-07-google-android-deepfake-call-detection). 20+ June 1-7 entries confirmed.",
+        "Low-yield run (1 story) because WWDC day dominated search results and most adjacent stories were already in archive from runs 32-36."
       ]
     }
   ],
