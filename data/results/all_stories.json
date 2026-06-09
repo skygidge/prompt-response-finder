@@ -5878,5 +5878,31 @@
     "used_in_newsletter": false,
     "editorial_score": 9,
     "added_at": "2026-06-08T15:56:30Z"
+  },
+  {
+    "id": "2026-06-05-cursor-design-mode-voice-visual-editing",
+    "date_found": "2026-06-08",
+    "article_date": "2026-06-05",
+    "headline_en": "Design Mode",
+    "headline_zh": "设计模式",
+    "blurb_en": "Cursor 3.7 turns UI editing into a point-and-speak conversation — click elements, draw on screen, or narrate changes by voice while the agent keeps working.\n• Multi-element selection lets you grab a group of components and tell the agent to match, remove, or restyle them together\n• The voice mic stays live while agents run, so you queue your next edit without waiting for the current one to finish\n• Cursor captures each element's code, CSS, layout context, and visual relationships before the agent touches anything\n• Bridges the gap between \"I can see what's wrong\" and \"I can describe it in code\" — designers and PMs can now tweak running products directly",
+    "blurb_zh": "Cursor 3.7 把界面编辑变成了「指哪改哪」的对话——点击元素、在屏幕上画、或者直接说出修改，AI 就能动手。\n• 支持多元素选择：一次选中一组组件，让 AI 统一调整样式或布局\n• 语音麦克风在 AI 执行时保持开启，不用等上一步完成就能排下一个修改\n• Cursor 会捕捉每个元素的代码、CSS、布局上下文和视觉关系，再交给 AI 处理\n• 打通了「看得出问题」和「写得出代码」之间的鸿沟——设计师和产品经理也能直接改运行中的产品了",
+    "category": "ai_tools",
+    "editorial_score": 8,
+    "source_url": "https://cursor.com/blog/design-mode",
+    "source_name": "Cursor Blog",
+    "source_type": "official",
+    "discovered_via": "TLDR AI",
+    "confidence": "high",
+    "verification_notes": "Confirmed via Cursor blog and multiple sources. Cursor 3.7 released June 5, 2026.",
+    "tags": [
+      "design",
+      "voice-editing",
+      "visual-editing",
+      "code-editor",
+      "workflow"
+    ],
+    "used_in_newsletter": false,
+    "added_at": "2026-06-09T00:13:44Z"
   }
 ]
