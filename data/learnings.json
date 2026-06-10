@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-09",
-  "total_runs": 38,
+  "last_run": "2026-06-10",
+  "total_runs": 39,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -641,7 +641,17 @@
     "RUN 38: AI video drought continues. No major video model launched in the 14-day window (June 9 window starts May 26). Kling 3.0 (Jan), Seedance 2.0 (Feb), Veo 3.1 (Jan) are all stale. Runway Gen-4.5 date unconfirmed. Watch for Veo 4 or Kling 3.5 as likely Q3 launches.",
     "RUN 38: Project Vend Phase 2 (Fortune, June 2) was not surfaced by general funny/weird queries. Was found via targeted search using specific details (Andon Labs, tungsten cube, Claude vending machine). Specific named searches beat generic funny/weird searches for compound stories.",
     "RUN 38: Scorsese/BFL and China trade secrets were already in database from run 36/37. Always check for 7-day overlap with previous run when stories broke in the June 1-8 window. Running deduplication by URL is essential.",
-    "RUN 38: Stability Audio 3.0 (May 20) is outside the 14-day window but was the only audio story. The ai_audio drought is real. Consider adding a lower-priority category for stories 15-21 days old when the category has been empty for 3+ consecutive runs."
+    "RUN 38: Stability Audio 3.0 (May 20) is outside the 14-day window but was the only audio story. The ai_audio drought is real. Consider adding a lower-priority category for stories 15-21 days old when the category has been empty for 3+ consecutive runs.",
+    "RUN 39: Claude Fable 5 (June 9) is the public launch of the Mythos model -- a score-9 story. Pattern: when a previously restricted model is made publicly available, the launch story is distinct from any prior coverage of the model's capabilities. Always search for '[model name] public launch' separately from capability/safety stories.",
+    "RUN 39: Spencer Pratt AI campaign loss (June 9, Washington Monthly) was found via targeted search 'Spencer Pratt AI mayor campaign lost' -- not surfaced by general 'AI funny' queries. The combination of Time (June 4) + Washington Monthly (June 9, election result) gives the story a satisfying arc. Pattern: political/election AI stories have a natural lifecycle (campaign → result → analysis). Search for both campaign AND result stories.",
+    "RUN 39: NewsGuard Gemini Omni deepfakes (June 5) was just outside the 14-day same-company-topic window from the May 21 Gemini Omni launch story. Misuse/research studies on a model are a distinct story type from the launch itself -- treat them as separate even if within the window.",
+    "RUN 39: Apple Liquid Glass backtrack (June 8 WWDC) was NOT covered by prior WWDC stories 'Borrowed Voice' (Siri/Gemini) or 'Post Production' (Spatial Reframing). Always check all major WWDC announcements separately -- WWDC produces multiple distinct stories in a single keynote.",
+    "RUN 39: AI video drought continues at run 22+. No major video model (Runway, Kling, Wan, Pika) has launched in the 14-day window. Next likely break: Midjourney secret project announcement (expected mid-June), Wan 3.0 (expected mid-2026), or Kling 3.5.",
+    "RUN 39: Midjourney V8.2 drought at 22 consecutive runs. Expected 'about 2 weeks' from early June per David Holz -- check mid-June. Midjourney also teasing a 'secret project' for June 2026.",
+    "RUN 39: Run 39 was one day after run 38 (June 9). Claude Fable 5 announced June 9 (same day as last run) was still fresh and not in DB. Always search for same-day announcements on back-to-back runs.",
+    "RUN 39: Bartz v. Anthropic ruling still pending; June 11 is the distribution calculation date. Check next run. Once issued, it's the largest copyright settlement in AI history -- score 9.",
+    "RUN 39: Dataland (Refik Anadol) opens June 20. First reviews will appear June 20-22. HIGH PRIORITY next run.",
+    "RUN 39: Apple Liquid Glass backtrack is the third distinct WWDC 2026 story in the DB (after Siri/Gemini and Spatial Reframing). Pattern: major Apple events produce 3-4 newsletter-quality stories minimum."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -701,12 +711,15 @@
     "Run 33 complete (2026-06-04). 6 new stories added. Top pick: Open Book -- Anthropic S-1 filing near $1T valuation (score 9). Strong run despite video/art model drought continuing. Frame Job -- Scorsese/Black Forest Labs (score 8) breaks the ai_art drought via celebrity endorsement. Record Deal -- Suno $400M Series D (score 7) closes the longest-running watch item in the newsletter's history. Fact Check -- CNN/Perplexity (score 7) and Firewall -- China AI trade secrets (score 7) fill the ai_policy slots. Strip Search -- Google Dreambeans (score 7) is the ai_tools funny story. All three stories missed by run 32 (Anthropic IPO, CNN/Perplexity, Dreambeans) were buried by Build conference coverage -- pattern confirmed. AI video drought run 17. Midjourney V8.2 run 17 without release. WWDC June 8 is the next critical event -- run June 9 after keynote. Bartz ruling due June 11."
   ],
   "suggestions_for_next_run": [
-    "Midjourney secret project -- described as unusual and unexpected, expected to be announced in June 2026. Search specifically for this in next run.",
-    "Runway Gen-4.5 -- confirm exact launch date; if within 14 days of next run, cover it.",
-    "Apple Intelligence iOS 27 developer beta -- first developer reactions expected after June 8 release. Search for workflow reviews and Spatial Reframing demos.",
-    "John Ternus as Apple CEO -- any strategic announcements or product direction signals from Ternus in the transition period.",
-    "SAMR AI enforcement campaign results -- launched June 1, runs one month. Check for first enforcement actions by early July.",
-    "AI video: watch for Veo 4 announcement or Kling 3.5 launch. Google I/O 2026 equivalent (if any) may have AI video news."
+    "Bartz v. Anthropic ruling -- June 11 is distribution calculation date. If ruling issued, it's the largest copyright settlement in AI history (score 9).",
+    "Dataland (Refik Anadol) opens June 20 in Los Angeles. First reviews expected June 20-22. HIGH PRIORITY.",
+    "Midjourney V8.2 -- expected mid-June per David Holz. Check updates.midjourney.com directly.",
+    "Midjourney secret project -- described as 'unusual and unexpected', expected to be announced in June 2026.",
+    "Anthropic IPO S-1 -- any SEC review updates or IPO timeline news.",
+    "Colorado AI law -- effective June 30. Any industry response or compliance stories.",
+    "Wan 3.0 -- Alibaba expected mid-2026 launch. Check for announcement.",
+    "Any Kling 3.5 launch confirmation.",
+    "Apple WWDC follow-up -- developer reactions to Xcode 27, Liquid Glass changes, Fable 5 in Xcode."
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -905,6 +918,19 @@
         "Archive read completed through end-of-file (line 5851, entry 2026-06-07-google-android-deepfake-call-detection). 20+ June 1-7 entries confirmed.",
         "Low-yield run (1 story) because WWDC day dominated search results and most adjacent stories were already in archive from runs 32-36."
       ]
+    },
+    {
+      "date": "2026-06-10",
+      "run_number": 39,
+      "stories_added": 4,
+      "notes": [
+        "Lead story: Claude Fable 5 (score 9) -- first public Mythos-class model, confirmed TechCrunch/CNBC/NBC/Anthropic official",
+        "Spencer Pratt AI mayor (score 7) -- ai_funny with real political stakes; Time + Washington Monthly sourcing",
+        "NewsGuard Gemini Omni deepfakes (score 6) -- distinct from May 21 launch story; 16 days of public access before misuse documented",
+        "Apple Liquid Glass backtrack (score 6) -- third distinct WWDC 2026 story; not covered by prior Siri or Spatial Reframing stories",
+        "AI video drought continues at run 22+. Midjourney V8.2 drought at 22 consecutive runs.",
+        "Back-to-back run (one day after run 38). Fable 5 announced same day as last run but not in DB."
+      ]
     }
   ],
   "failed_queries": [
@@ -977,6 +1003,23 @@
         "\"Disney Universal Midjourney lawsuit June 2026\" -- confirmed June 2025 story, not 2026",
         "\"xAI Grok Build coding agent June 2026\" -- out of newsletter scope",
         "\"GPT-4.5 o3 retirement June 2026\" -- already in DB as May 30 story"
+      ]
+    },
+    "2026-06-10": {
+      "successful": [
+        "\"Anthropic Claude Fable 5 Mythos public release June 9 2026 TechCrunch\" -- direct hit, confirmed across 8+ sources",
+        "\"Spencer Pratt lost Los Angeles mayor election AI ads June 2026 result\" -- confirmed via Washington Monthly, Time, The Hill",
+        "\"NewsGuard Gemini Omni AI video deepfakes brands false claims publication date\" -- confirmed publication ~June 5",
+        "\"Apple iOS 27 Liquid Glass backtrack slider controversy accessibility design June 2026\" -- confirmed via MacRumors, TechTimes, Gizmodo"
+      ],
+      "found_nothing_new": [
+        "\"Midjourney V8.2 released launched June 2026\" -- still unreleased; 22nd consecutive run",
+        "\"Wan 3.0 Kling 3.5 new AI video model launch June 2026\" -- no new launches; video drought run 22",
+        "\"AI art design tool new launch announcement June 9 10 2026\" -- no fresh launches in window",
+        "\"AI industry news funding acquisition June 9 10 2026\" -- OpenAI TBPN acquisition was April 2 (outside window), SoundHound/LivePerson was April 21 (outside window)",
+        "\"Bartz Anthropic settlement ruling approved June 2026\" -- still pending; June 11 calculation date",
+        "\"Google Gemini 3.5 Flash launch Antigravity June 2026\" -- launched May 19 at I/O, already outside 14-day window",
+        "\"Grok xAI new model update June 9 10 2026\" -- Grok V9-Medium expected mid-June, not yet released; Grok Imagine Video 1.5 already in DB"
       ]
     }
   }
