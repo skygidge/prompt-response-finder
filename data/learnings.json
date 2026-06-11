@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-10",
-  "total_runs": 39,
+  "last_run": "2026-06-11",
+  "total_runs": 40,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -651,7 +651,12 @@
     "RUN 39: Run 39 was one day after run 38 (June 9). Claude Fable 5 announced June 9 (same day as last run) was still fresh and not in DB. Always search for same-day announcements on back-to-back runs.",
     "RUN 39: Bartz v. Anthropic ruling still pending; June 11 is the distribution calculation date. Check next run. Once issued, it's the largest copyright settlement in AI history -- score 9.",
     "RUN 39: Dataland (Refik Anadol) opens June 20. First reviews will appear June 20-22. HIGH PRIORITY next run.",
-    "RUN 39: Apple Liquid Glass backtrack is the third distinct WWDC 2026 story in the DB (after Siri/Gemini and Spatial Reframing). Pattern: major Apple events produce 3-4 newsletter-quality stories minimum."
+    "RUN 39: Apple Liquid Glass backtrack is the third distinct WWDC 2026 story in the DB (after Siri/Gemini and Spatial Reframing). Pattern: major Apple events produce 3-4 newsletter-quality stories minimum.",
+    "2026-06-11: Fable 5 hidden throttle not caught in June 9-10 runs -- follow-on model behavior stories can slip after big launches",
+    "2026-06-11: GAAIA missed on June 4 same-day run -- policy drafts released late in day may need next-day catch-up",
+    "2026-06-11: No new AI video model launches June 5-11; video category drought continues",
+    "2026-06-11: Union backlash to AI endorsements is productive -- watch SAG, WGA, ADG for follow-on statements",
+    "2026-06-11: Midjourney V8.2 + secret project still TBD; GEMA v. Suno ruling June 12 to watch next run"
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -711,15 +716,13 @@
     "Run 33 complete (2026-06-04). 6 new stories added. Top pick: Open Book -- Anthropic S-1 filing near $1T valuation (score 9). Strong run despite video/art model drought continuing. Frame Job -- Scorsese/Black Forest Labs (score 8) breaks the ai_art drought via celebrity endorsement. Record Deal -- Suno $400M Series D (score 7) closes the longest-running watch item in the newsletter's history. Fact Check -- CNN/Perplexity (score 7) and Firewall -- China AI trade secrets (score 7) fill the ai_policy slots. Strip Search -- Google Dreambeans (score 7) is the ai_tools funny story. All three stories missed by run 32 (Anthropic IPO, CNN/Perplexity, Dreambeans) were buried by Build conference coverage -- pattern confirmed. AI video drought run 17. Midjourney V8.2 run 17 without release. WWDC June 8 is the next critical event -- run June 9 after keynote. Bartz ruling due June 11."
   ],
   "suggestions_for_next_run": [
-    "Bartz v. Anthropic ruling -- June 11 is distribution calculation date. If ruling issued, it's the largest copyright settlement in AI history (score 9).",
-    "Dataland (Refik Anadol) opens June 20 in Los Angeles. First reviews expected June 20-22. HIGH PRIORITY.",
-    "Midjourney V8.2 -- expected mid-June per David Holz. Check updates.midjourney.com directly.",
-    "Midjourney secret project -- described as 'unusual and unexpected', expected to be announced in June 2026.",
-    "Anthropic IPO S-1 -- any SEC review updates or IPO timeline news.",
-    "Colorado AI law -- effective June 30. Any industry response or compliance stories.",
-    "Wan 3.0 -- Alibaba expected mid-2026 launch. Check for announcement.",
-    "Any Kling 3.5 launch confirmation.",
-    "Apple WWDC follow-up -- developer reactions to Xcode 27, Liquid Glass changes, Fable 5 in Xcode."
+    "Check GEMA v. Suno ruling outcome (scheduled June 12, European court)",
+    "Check Midjourney V8.2 or secret project announcement (overdue)",
+    "Check SpaceX first trading day AI angle (SPCX June 12 on Nasdaq)",
+    "Search: AI video new launch OR release June 12-15 2026",
+    "Search: OpenAI latest product or safety news post-IPO filing",
+    "Search: Andersen v. Stability AI trial updates",
+    "Search: AI art tool news June 12-15 2026"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -729,7 +732,11 @@
     "Anthropic Claude small business launch May 2026",
     "Fortune 1200 AI bills patchwork state federal regulation May 15 2026",
     "Sora app shutdown replacement AI video iPhone apps May 2026",
-    "US China AI safety protocol Beijing summit May 14 2026 details"
+    "US China AI safety protocol Beijing summit May 14 2026 details",
+    "Anthropic \"Fable 5\" OR \"Mythos\" capabilities researchers hidden limits Fortune June 2026",
+    "OpenAI IPO confidential filing June 8 2026 TechCrunch",
+    "Scorsese \"Art Directors Guild\" AI controversy June 2026",
+    "\"Great American AI Act\" GAAIA federal AI law June 2026"
   ],
   "queries_that_failed": [
     "Midjourney V8.2 release update May 2026 (not yet released; V8.2 expected late May)",
@@ -776,7 +783,11 @@
     "Runway Gen-5 update OR Pika 3.0 OR Veo 4 AI video news June 2026 (no new launches in window)",
     "Midjourney V8.2 launch release date June 2026 (still unreleased, 14 consecutive runs)",
     "AI art image tool launch news May 28 29 30 31 June 2026 (nothing fresh in window)",
-    "China AI policy tech news June 2026 (court ruling was May 2-3, outside window)"
+    "China AI policy tech news June 2026 (court ruling was May 2-3, outside window)",
+    "Runway OR Kling OR Sora AI video model update June 2026 (no fresh launches June 5-11)",
+    "AI art OR image June 5-10 2026 new tool (no new model releases this week)",
+    "AI video new model June 2026 venturebeat/techcrunch (last was Gemini Omni May 19)",
+    "X Twitter Grok AI image editor controversy June 2026 (story from Dec 2025, too old)"
   ],
   "lessons_learned": [
     "Writing Python script to a .py file first avoids shell heredoc encoding issues with Chinese characters in string literals",
@@ -941,7 +952,12 @@
   "most_productive_sources": [
     "Variety (celebrity AI licensing)",
     "Kotaku (creative industry backlash coverage)",
-    "Dezeen (design + AI policy)"
+    "Dezeen (design + AI policy)",
+    "Fortune",
+    "FedScoop",
+    "Variety",
+    "Deadline",
+    "Cryptopolitan"
   ],
   "query_performance": {
     "2026-06-03": {
