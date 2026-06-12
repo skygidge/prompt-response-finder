@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-11",
-  "total_runs": 40,
+  "last_run": "2026-06-12",
+  "total_runs": 41,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -713,16 +713,18 @@
     "Run 30 complete (2026-06-01). 3 new stories added. Top pick: Arm Yourself -- Nvidia RTX Spark at Computex (score 8); Nvidia first-ever PC chip is a strong creator/imaging story confirmed via CNBC and multiple tech outlets. North Star -- Microsoft Project Polaris (score 7, medium confidence) lands on Build Day 1; no Tier-1 outlet confirmation but consistent technical detail across 4+ secondary sources. Point and Shoot -- Vedros AI copyright ruling (score 7, high confidence) is the imaging-audience story of the run. AI video drought continues -- Kling 3.0 and Seedance 2.0 both launched in February (outside window), no new model launches found. Midjourney V8.2 still unreleased at 14 consecutive runs. Build continues June 3, WWDC June 8 -- both are critical upcoming events.",
     "Run 31 complete (2026-06-02). 3 new stories added. Microsoft Build Day 1 dominated. Top pick: Dry Run -- Uber burns 2026 AI budget (Fortune, score 8); missed by 3 prior runs despite being in-window since May 26. Going Native (Microsoft MAI full stack, score 8): complete in-house AI model stack from image to reasoning to voice, first run without distillation -- strong strategic independence angle distinct from Penny Wise (MAI-Image-2). Token Effort (GitHub Copilot token billing, score 7): 10-50x cost increases for agentic users; TechCrunch headline was 'What a joke'. AI video drought continues (run 15, Kling 3.0 still current from Feb 2026). Midjourney V8.2 still unreleased (run 15). WWDC June 8 is the next expected creative tools wave -- run immediately after keynote.",
     "Run 32 complete (2026-06-03). 3 new stories added. Top pick: Reading the Room -- Geedge Networks China AI dissident prediction (score 9, high confidence); confirmed via 4+ secondary sources citing NYT/Vanderbilt research. This is the China surveillance angle focus.md flags as HIGH VALUE. Soft Launch -- Trump AI EO signed June 2 (score 7): distinct from the May 21 postponement story; final version cut from 90 to 30 days, fully voluntary, new cybersecurity clearinghouse. Background Check -- Microsoft Scout Autopilot (score 6, medium): persistent always-on AI agent distinct from Project Polaris/MAI stories from prior runs. Many planned stories were already covered in run 31: GitHub Copilot billing, Anthropic Series H, Pope Leo XIV, Kling spinoff, Microsoft MAI, Microsoft Project Polaris. AI video drought continues (run 16). Midjourney V8.2 still unreleased (run 16). WWDC June 8 is the next critical event -- run immediately after keynote for AI camera/imaging announcements. Geedge story cross-referencing method: search for the specific company name after finding the broad topic. Trump EO: when an EO is signed after being postponed, the signing IS a new story with new content -- check whether the final version changed substantially before deciding to skip.",
-    "Run 33 complete (2026-06-04). 6 new stories added. Top pick: Open Book -- Anthropic S-1 filing near $1T valuation (score 9). Strong run despite video/art model drought continuing. Frame Job -- Scorsese/Black Forest Labs (score 8) breaks the ai_art drought via celebrity endorsement. Record Deal -- Suno $400M Series D (score 7) closes the longest-running watch item in the newsletter's history. Fact Check -- CNN/Perplexity (score 7) and Firewall -- China AI trade secrets (score 7) fill the ai_policy slots. Strip Search -- Google Dreambeans (score 7) is the ai_tools funny story. All three stories missed by run 32 (Anthropic IPO, CNN/Perplexity, Dreambeans) were buried by Build conference coverage -- pattern confirmed. AI video drought run 17. Midjourney V8.2 run 17 without release. WWDC June 8 is the next critical event -- run June 9 after keynote. Bartz ruling due June 11."
+    "Run 33 complete (2026-06-04). 6 new stories added. Top pick: Open Book -- Anthropic S-1 filing near $1T valuation (score 9). Strong run despite video/art model drought continuing. Frame Job -- Scorsese/Black Forest Labs (score 8) breaks the ai_art drought via celebrity endorsement. Record Deal -- Suno $400M Series D (score 7) closes the longest-running watch item in the newsletter's history. Fact Check -- CNN/Perplexity (score 7) and Firewall -- China AI trade secrets (score 7) fill the ai_policy slots. Strip Search -- Google Dreambeans (score 7) is the ai_tools funny story. All three stories missed by run 32 (Anthropic IPO, CNN/Perplexity, Dreambeans) were buried by Build conference coverage -- pattern confirmed. AI video drought run 17. Midjourney V8.2 run 17 without release. WWDC June 8 is the next critical event -- run June 9 after keynote. Bartz ruling due June 11.",
+    "Run 41 complete (2026-06-12). 6 new stories added. Top pick: Burn Rate -- SpaceX SPCX IPO first day (score 8); largest IPO in history, xAI AI business embedded inside burning $6.4B/year. Party Line -- China anthropomorphic AI chatbot rules (score 7): requires chatbots to espouse core socialist values, bans AI companions for minors, effective July 15; included as exceptional HIGH VALUE China story per focus.md despite April 10 article_date. Long Haul -- OpenAI acquires Ona German cloud startup for async Codex agents (score 7). Face Value -- Malwarebytes 88% survey (score 6) has strong camera/imaging angle. Distilled -- Varya India video model (score 6) breaks AI video drought at run 21. Held Over -- GEMA/Suno verdict postponed June 12 to July 31 (score 5). AI video drought continues (run 21). Midjourney V8.2 still unreleased (run 20). GEMA/Suno verdict now July 31. EU AI Act bulk provisions August 2 coming soon -- search for EU AI Act compliance stories in July. China anthropomorphic AI July 15 effective date now a watch item."
   ],
   "suggestions_for_next_run": [
-    "Check GEMA v. Suno ruling outcome (scheduled June 12, European court)",
-    "Check Midjourney V8.2 or secret project announcement (overdue)",
-    "Check SpaceX first trading day AI angle (SPCX June 12 on Nasdaq)",
-    "Search: AI video new launch OR release June 12-15 2026",
-    "Search: OpenAI latest product or safety news post-IPO filing",
-    "Search: Andersen v. Stability AI trial updates",
-    "Search: AI art tool news June 12-15 2026"
+    "Check GEMA v. Suno verdict outcome (now July 31, 2026 -- do not search until late July)",
+    "Check Midjourney V8.2 release (overdue run 20+)",
+    "Search: EU AI Act August 2 enforcement -- coverage increasing in late June/July",
+    "Search: China anthropomorphic AI rules July 15 compliance -- enforcement stories",
+    "Search: OpenAI IPO public offering timeline update",
+    "Search: AI video new launch OR release June 13-20 2026",
+    "Search: Andersen v. Stability AI trial September 2026 -- any pre-trial motions",
+    "Search: AI art image generation tool launch June 2026"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -947,7 +949,10 @@
   "failed_queries": [
     "ComfyUI v0.22.0 May 2026 (AI summarizers reported 2024 release as 2026 -- verify dates from GitHub directly)",
     "Midjourney V8.2 release May 2026 (not yet released as of May 29)",
-    "AI image generator new model May 22-29 2026 (no new launches this window)"
+    "AI image generator new model May 22-29 2026 (no new launches this window)",
+    "Midjourney V8.2 release June 2026 -- still not released run 20",
+    "Runway Gen-4 Kling video model update June 2026 -- no new launches",
+    "Adobe Firefly AI creative tools update June 2026 -- no June-specific launch"
   ],
   "most_productive_sources": [
     "Variety (celebrity AI licensing)",
@@ -1038,5 +1043,12 @@
         "\"Grok xAI new model update June 9 10 2026\" -- Grok V9-Medium expected mid-June, not yet released; Grok Imagine Video 1.5 already in DB"
       ]
     }
-  }
+  },
+  "best_queries": [
+    "SpaceX SPCX stock trading Nasdaq AI June 12 2026",
+    "OpenAI Ona acquisition June 2026",
+    "Varya Avataar AI video model India launch June 2026",
+    "GEMA Suno ruling postponed July 2026",
+    "Malwarebytes AI scam deepfake survey 2026 cannot distinguish real"
+  ]
 }
