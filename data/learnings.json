@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-12",
-  "total_runs": 41,
+  "last_run": "2026-06-13",
+  "total_runs": 42,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -195,7 +195,13 @@
     "US China AI chip export ban Blackwell enforcement June 2026 (confirmed Singapore/Malaysia/UAE loophole closed June 1)",
     "Stability Audio 3.0 open weights music generation model 2026 (confirmed open weights, licensed data, 6+ minute tracks)",
     "Martin Scorsese Black Forest Labs Flux AI adviser 2026 (already covered run 36/37 as Frame Job)",
-    "China AI data trade secrets new regulation June 2026 (already covered run 36/37 as Firewall)"
+    "China AI data trade secrets new regulation June 2026 (already covered run 36/37 as Firewall)",
+    "Anthropic government shutdown Fable 5 Mythos national security June 12 2026",
+    "site:techcrunch.com AI June 11 12 13 2026",
+    "Visa ChatGPT OpenAI payment purchasing agents partnership June 2026",
+    "Meta Applied AI team soul crushing engineers revolt gulag June 2026",
+    "Prometheus Jeff Bezos artificial general engineer 12 billion June 2026",
+    "Anthropic recursive self-improvement When AI builds itself June 4 2026"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -374,7 +380,12 @@
     "Seedance Wan Hunyuan video model update June 2026 (no new launches; Seedance 2.0 from Feb 2026)",
     "Midjourney update new feature June 2026 (V8.2 still not shipped; secret project teased for June but not yet announced)",
     "AI music audio new tool release June 2026 site:techcrunch/theverge/wired (no fresh audio news; Stability Audio 3.0 is the most recent at 20 days)",
-    "AI funny weird news June 2026 (aggregator results only; Project Vend found through targeted search instead)"
+    "AI funny weird news June 2026 (aggregator results only; Project Vend found through targeted search instead)",
+    "Midjourney V8.2 release June 2026 (still not released -- run 21+)",
+    "AI video generation new model launch June 2026 Runway Kling Wan Pika (video drought continues -- run 22+)",
+    "AI art image generation news June 11 12 2026 new tool launch (no new model launches in window)",
+    "Bartz Anthropic settlement final ruling approved judge June 2026 (still pending; distribution calculation was June 11)",
+    "Grok 5 xAI release launch date June 2026 (still in training; <7% Polymarket probability before June 30)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -656,7 +667,16 @@
     "2026-06-11: GAAIA missed on June 4 same-day run -- policy drafts released late in day may need next-day catch-up",
     "2026-06-11: No new AI video model launches June 5-11; video category drought continues",
     "2026-06-11: Union backlash to AI endorsements is productive -- watch SAG, WGA, ADG for follow-on statements",
-    "2026-06-11: Midjourney V8.2 + secret project still TBD; GEMA v. Suno ruling June 12 to watch next run"
+    "2026-06-11: Midjourney V8.2 + secret project still TBD; GEMA v. Suno ruling June 12 to watch next run",
+    "RUN 42 (2026-06-13): US government export control directive shutting down Anthropic Fable 5 and Mythos 5 is the most significant AI regulatory enforcement action since the Pentagon/Anthropic supply chain risk story (May 4). Pattern: frontier AI models are now subject to export control law, not just content policy. Check for follow-up enforcement actions at other labs.",
+    "RUN 42: Anthropic 'When AI builds itself' (June 4) was missed by runs 33-41 despite being published on a run day. It was buried by Suno/Scorsese/Dreambeans coverage in run 33. Pattern: when 6+ stories are found in a single run, always do a secondary check for same-day Anthropic blog posts.",
+    "RUN 42: Meta Applied AI gulag (June 12) is the most detailed look at AI training data conditions inside a major tech company. Pattern: corporate AI unit working-condition stories are rare but high-yield when they appear. Search for '[company] AI team conditions workers protest' each run.",
+    "RUN 42: The Anthropic shutdown + When AI builds itself stories are related but distinct -- the government action on June 12 directly followed Anthropic's June 4 policy paper. Two Anthropic stories in the same run is acceptable when they are distinct events (policy publication vs. regulatory enforcement).",
+    "RUN 42: Prometheus ($12B, Jeff Bezos) is the largest physical-AI funding round to date. Physical AI (robotics, manufacturing, engineering automation) is now a distinct category from language/image/video AI. Run a dedicated 'physical AI' or 'robotics AI' search each cycle.",
+    "RUN 42: Visa + ChatGPT agentic commerce is the first major real-money AI agent deployment at scale. Watch for: (a) product launch date, (b) other payment networks (Mastercard, PayPal) making similar announcements, (c) user adoption data.",
+    "RUN 42: 'site:techcrunch.com AI June [date] 2026' remains the most reliable query for catching stories missed by category-specific searches. Run this query every run.",
+    "RUN 42: AI video drought now at run 22+. No new major video model in the 14-day window. Midjourney V8.2 still at run 21+. Next likely breaks: Midjourney secret project (teased for June), Wan 3.0 (expected mid-2026), Kling 3.5.",
+    "RUN 42: Bartz v. Anthropic ruling still pending after June 11 distribution calculation date. Next check: search specifically for 'Bartz Anthropic settlement approved order signed' -- when the judge signs, it will be announced by Authors Guild."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -714,17 +734,22 @@
     "Run 31 complete (2026-06-02). 3 new stories added. Microsoft Build Day 1 dominated. Top pick: Dry Run -- Uber burns 2026 AI budget (Fortune, score 8); missed by 3 prior runs despite being in-window since May 26. Going Native (Microsoft MAI full stack, score 8): complete in-house AI model stack from image to reasoning to voice, first run without distillation -- strong strategic independence angle distinct from Penny Wise (MAI-Image-2). Token Effort (GitHub Copilot token billing, score 7): 10-50x cost increases for agentic users; TechCrunch headline was 'What a joke'. AI video drought continues (run 15, Kling 3.0 still current from Feb 2026). Midjourney V8.2 still unreleased (run 15). WWDC June 8 is the next expected creative tools wave -- run immediately after keynote.",
     "Run 32 complete (2026-06-03). 3 new stories added. Top pick: Reading the Room -- Geedge Networks China AI dissident prediction (score 9, high confidence); confirmed via 4+ secondary sources citing NYT/Vanderbilt research. This is the China surveillance angle focus.md flags as HIGH VALUE. Soft Launch -- Trump AI EO signed June 2 (score 7): distinct from the May 21 postponement story; final version cut from 90 to 30 days, fully voluntary, new cybersecurity clearinghouse. Background Check -- Microsoft Scout Autopilot (score 6, medium): persistent always-on AI agent distinct from Project Polaris/MAI stories from prior runs. Many planned stories were already covered in run 31: GitHub Copilot billing, Anthropic Series H, Pope Leo XIV, Kling spinoff, Microsoft MAI, Microsoft Project Polaris. AI video drought continues (run 16). Midjourney V8.2 still unreleased (run 16). WWDC June 8 is the next critical event -- run immediately after keynote for AI camera/imaging announcements. Geedge story cross-referencing method: search for the specific company name after finding the broad topic. Trump EO: when an EO is signed after being postponed, the signing IS a new story with new content -- check whether the final version changed substantially before deciding to skip.",
     "Run 33 complete (2026-06-04). 6 new stories added. Top pick: Open Book -- Anthropic S-1 filing near $1T valuation (score 9). Strong run despite video/art model drought continuing. Frame Job -- Scorsese/Black Forest Labs (score 8) breaks the ai_art drought via celebrity endorsement. Record Deal -- Suno $400M Series D (score 7) closes the longest-running watch item in the newsletter's history. Fact Check -- CNN/Perplexity (score 7) and Firewall -- China AI trade secrets (score 7) fill the ai_policy slots. Strip Search -- Google Dreambeans (score 7) is the ai_tools funny story. All three stories missed by run 32 (Anthropic IPO, CNN/Perplexity, Dreambeans) were buried by Build conference coverage -- pattern confirmed. AI video drought run 17. Midjourney V8.2 run 17 without release. WWDC June 8 is the next critical event -- run June 9 after keynote. Bartz ruling due June 11.",
-    "Run 41 complete (2026-06-12). 6 new stories added. Top pick: Burn Rate -- SpaceX SPCX IPO first day (score 8); largest IPO in history, xAI AI business embedded inside burning $6.4B/year. Party Line -- China anthropomorphic AI chatbot rules (score 7): requires chatbots to espouse core socialist values, bans AI companions for minors, effective July 15; included as exceptional HIGH VALUE China story per focus.md despite April 10 article_date. Long Haul -- OpenAI acquires Ona German cloud startup for async Codex agents (score 7). Face Value -- Malwarebytes 88% survey (score 6) has strong camera/imaging angle. Distilled -- Varya India video model (score 6) breaks AI video drought at run 21. Held Over -- GEMA/Suno verdict postponed June 12 to July 31 (score 5). AI video drought continues (run 21). Midjourney V8.2 still unreleased (run 20). GEMA/Suno verdict now July 31. EU AI Act bulk provisions August 2 coming soon -- search for EU AI Act compliance stories in July. China anthropomorphic AI July 15 effective date now a watch item."
+    "Run 41 complete (2026-06-12). 6 new stories added. Top pick: Burn Rate -- SpaceX SPCX IPO first day (score 8); largest IPO in history, xAI AI business embedded inside burning $6.4B/year. Party Line -- China anthropomorphic AI chatbot rules (score 7): requires chatbots to espouse core socialist values, bans AI companions for minors, effective July 15; included as exceptional HIGH VALUE China story per focus.md despite April 10 article_date. Long Haul -- OpenAI acquires Ona German cloud startup for async Codex agents (score 7). Face Value -- Malwarebytes 88% survey (score 6) has strong camera/imaging angle. Distilled -- Varya India video model (score 6) breaks AI video drought at run 21. Held Over -- GEMA/Suno verdict postponed June 12 to July 31 (score 5). AI video drought continues (run 21). Midjourney V8.2 still unreleased (run 20). GEMA/Suno verdict now July 31. EU AI Act bulk provisions August 2 coming soon -- search for EU AI Act compliance stories in July. China anthropomorphic AI July 15 effective date now a watch item.",
+    "Run 42 complete (2026-06-13). 5 stories added. Top pick: Grounded -- US government export control shuts down Anthropic Fable 5 and Mythos 5 (score 9); biggest regulatory enforcement story of the year. Model Worker (Meta gulag, score 8) is the strongest ai_funny story in several runs. Feedback Loop (Anthropic When AI builds itself, June 4, score 8) was a missed story from run 33 -- recovered 9 days later. Charge It (Visa + ChatGPT payments, score 7) and Breaking Ground (Prometheus $12B, score 7) round out a strong ai_tools and ai_industry run. AI video drought continues (run 22+). Midjourney V8.2 still unreleased (run 21+). Key follow-up: Anthropic shutdown resolution, Bartz ruling, Midjourney secret project."
   ],
   "suggestions_for_next_run": [
-    "Check GEMA v. Suno verdict outcome (now July 31, 2026 -- do not search until late July)",
-    "Check Midjourney V8.2 release (overdue run 20+)",
-    "Search: EU AI Act August 2 enforcement -- coverage increasing in late June/July",
-    "Search: China anthropomorphic AI rules July 15 compliance -- enforcement stories",
-    "Search: OpenAI IPO public offering timeline update",
-    "Search: AI video new launch OR release June 13-20 2026",
-    "Search: Andersen v. Stability AI trial September 2026 -- any pre-trial motions",
-    "Search: AI art image generation tool launch June 2026"
+    "URGENT: Follow up on Anthropic Fable 5 / Mythos 5 shutdown -- has access been restored? Has the jailbreak been confirmed or denied? Any Congressional reaction?",
+    "Check Bartz v. Anthropic final settlement order -- ruling still pending after June 11 calculation date",
+    "Search: Midjourney V8.2 release OR Midjourney secret project June 2026 (overdue run 21+)",
+    "Search: AI video new model launch June 13-20 2026",
+    "Search: Prometheus Bezos artificial general engineer product demo or beta launch",
+    "Search: Visa ChatGPT agentic commerce launch date product announcement",
+    "Check: Dataland (Refik Anadol) opens June 20 -- run immediately after for reviews and reception",
+    "Search: GEMA v. Suno verdict (now July 31 -- do not search until late July)",
+    "Search: EU AI Act August 2 enforcement -- compliance stories increasing in late June",
+    "Search: China anthropomorphic AI rules July 15 enforcement -- any company responses",
+    "Search: Meta Applied AI gulag follow-up -- Zuckerberg response, unit restructuring, petition outcome",
+    "Search: OpenAI IPO S-1 public filing (filed confidentially June 1 -- public S-1 expected within 30-60 days)"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
