@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-13",
-  "total_runs": 42,
+  "last_run": "2026-06-14",
+  "total_runs": 43,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -201,7 +201,13 @@
     "Visa ChatGPT OpenAI payment purchasing agents partnership June 2026",
     "Meta Applied AI team soul crushing engineers revolt gulag June 2026",
     "Prometheus Jeff Bezos artificial general engineer 12 billion June 2026",
-    "Anthropic recursive self-improvement When AI builds itself June 4 2026"
+    "Anthropic recursive self-improvement When AI builds itself June 4 2026",
+    "OpenAI state attorneys general joint investigation June 2026",
+    "Grok AI xAI 6000 sexual deepfakes per hour Canada probe June 2026",
+    "Ramp AI index June 2026 Anthropic enterprise adoption",
+    "Huawei HarmonyOS 7 HDC 2026 AI agents details",
+    "EngineAI humanoid robot Hong Kong IPO Bloomberg June 12 2026",
+    "China humanoid robot IPO Hong Kong June 2026"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -749,7 +755,13 @@
     "Search: EU AI Act August 2 enforcement -- compliance stories increasing in late June",
     "Search: China anthropomorphic AI rules July 15 enforcement -- any company responses",
     "Search: Meta Applied AI gulag follow-up -- Zuckerberg response, unit restructuring, petition outcome",
-    "Search: OpenAI IPO S-1 public filing (filed confidentially June 1 -- public S-1 expected within 30-60 days)"
+    "Search: OpenAI IPO S-1 public filing (filed confidentially June 1 -- public S-1 expected within 30-60 days)",
+    "Search for Colorado AI Act compliance news (Act commenced June 30, 2026 — will have compliance stories soon)",
+    "Search for OpenAI IPO S-1 prospectus material risk disclosures related to AG investigation",
+    "Watch for EngineAI, Agibot, Unitree IPO updates in Hong Kong",
+    "Search for HarmonyOS 7 consumer beta or camera feature demos",
+    "Search for Florida OpenAI lawsuit updates — Sam Altman personal liability angle",
+    "Search for any Runway Gen-4.5 or Veo 3.1 recent updates (video model landscape stable but may shift)"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -814,7 +826,13 @@
     "Runway OR Kling OR Sora AI video model update June 2026 (no fresh launches June 5-11)",
     "AI art OR image June 5-10 2026 new tool (no new model releases this week)",
     "AI video new model June 2026 venturebeat/techcrunch (last was Gemini Omni May 19)",
-    "X Twitter Grok AI image editor controversy June 2026 (story from Dec 2025, too old)"
+    "X Twitter Grok AI image editor controversy June 2026 (story from Dec 2025, too old)",
+    "Midjourney V8 video feature launch 2026 (already covered in May)",
+    "Wan 2.7 open weights release date AI video 2026 (cloud launch April, weights unclear)",
+    "Pika 2.5 OR PikaStream AI video model update June 2026 (nothing fresh)",
+    "AI funny weird story June 2026 viral unexpected (nothing with news legs)",
+    "ElevenLabs Music v2 launch date features 2026 (already covered)",
+    "AI art image style trend viral June 10-14 2026 (SEO roundups only)"
   ],
   "lessons_learned": [
     "Writing Python script to a .py file first avoids shell heredoc encoding issues with Chinese characters in string literals",
@@ -1075,5 +1093,22 @@
     "Varya Avataar AI video model India launch June 2026",
     "GEMA Suno ruling postponed July 2026",
     "Malwarebytes AI scam deepfake survey 2026 cannot distinguish real"
+  ],
+  "patterns_and_notes": [
+    "June 2026 AI launch wave is primarily LLM/reasoning focused — video model landscape unchanged from May per multiple aggregator sources",
+    "DeepSeek surfaced as trending vendor in Ramp June 2026 data — cost-conscious companies switching away from OpenAI/Anthropic for price efficiency",
+    "Chinese humanoid robot IPO wave: EngineAI, Agibot, Unitree all filing simultaneously. Story category: ai_industry",
+    "Huawei HarmonyOS developer conferences (HDC) are annual events in June — good source of China tech stories",
+    "Ramp AI Index publishes monthly — May data had Anthropic overtake OpenAI story, June data has spending intensity ($7500 vs $11) — different angles",
+    "Canada Privacy Commissioner is a reliable source for AI regulatory findings — formal news releases available at priv.gc.ca",
+    "42-state AG probes and state-level lawsuits (Florida, June 1) are distinct stories even when same company (OpenAI) is involved",
+    "TechCrunch June 13 2026 42-state AG story works well with the OpenAI IPO filing from June 8 as context",
+    "When Midjourney becomes default for a model released weeks earlier, this is NOT a new story — check all_stories for prior coverage before writing"
+  ],
+  "best_sources": [
+    "TechCrunch (June 13 AG story, June 10 Ramp story)",
+    "CBC News / Canadian Privacy Commissioner (Grok deepfake ruling)",
+    "Pandaily / Gizmochina / Huawei Central (HarmonyOS 7)",
+    "Bloomberg / The Next Web (EngineAI IPO)"
   ]
 }
