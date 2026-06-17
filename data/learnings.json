@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-16",
-  "total_runs": 45,
+  "last_run": "2026-06-17",
+  "total_runs": 46,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -217,7 +217,12 @@
     "site:techcrunch.com AI June 15 16 2026 (produced SpaceX/Cursor, Adobe CC, AI layoff powder keg)",
     "SpaceX acquires Cursor AI coding startup $60 billion June 2026 (confirmed across TechCrunch, CNBC, Bloomberg, Engadget)",
     "Adobe Creative Cloud June 2026 Premiere After Effects Lightroom AI update release date (confirmed Adobe official blog + 5 secondary sources)",
-    "Deezer AI music detection tool identify Spotify Apple Music June 2026 TechCrunch (confirmed June 11 via TC, MacRumors, EDM)"
+    "Deezer AI music detection tool identify Spotify Apple Music June 2026 TechCrunch (confirmed June 11 via TC, MacRumors, EDM)",
+    "Midjourney hardware device announcement June 17 2026 (confirmed Orb launch via The Decoder + mindstudio.ai + Digg)",
+    "ChatGPT market share below 50 percent first time June 2026 (Sensor Tower State of AI 2026 report -- confirmed TechCrunch, Fast Company, Business Standard)",
+    "Snap Specs AR glasses launch price June 16 2026 (confirmed CNBC, MacRumors, Road to VR, Wareable, Snap newsroom)",
+    "G7 summit Evian AI CEOs Altman Amodei Hassabis June 2026 (confirmed CNBC, The Hill, The Next Web)",
+    "site:techcrunch.com AI June 16 17 2026 (surfaced ChatGPT market share story, Robinhood non-AI-blame layoffs, Android 17 Lyria 3 launch)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -420,7 +425,15 @@
     "AI funny weird news June 15 16 2026 viral incident (Pliny jailbreak is part of Fable 5 story already covered)",
     "Bartz Anthropic settlement judge approved ruling June 2026 (still pending -- check again next run)",
     "Salesforce Fin acquisition $3.6 billion June 2026 (enterprise customer service -- outside newsletter focus)",
-    "Artlist Studio AI video production launch date June 2026 (launched April 20 -- outside 14-day window)"
+    "Artlist Studio AI video production launch date June 2026 (launched April 20 -- outside 14-day window)",
+    "Wan 3.0 OR Kling 3.5 AI video model launch June 2026 (video drought run 25 -- no new major video model in window)",
+    "Midjourney V8.2 release June 2026 (still not released -- run 23; Orb hardware is the main Midjourney story this run)",
+    "AI art image generation new tool launch June 16 17 2026 (no fresh model launches in window)",
+    "Bartz Anthropic settlement final order signed June 2026 (still pending; check authors guild next run)",
+    "AI funny weird news June 16 17 2026 (no verifiable individual story in window)",
+    "Runway Gen-5 new model launch June 2026 (Gen-4.5 remains latest; no Gen-5 announced)",
+    "AI audio music generation news June 16 17 2026 (Android 17 Lyria 3 skipped -- derivative of existing Gemini Omni story)",
+    "AI news China June 16 17 2026 (no fresh China-specific AI news in 14-day window beyond already-covered stories)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -726,7 +739,17 @@
     "RUN 45: Dataland (Refik Anadol) opens June 20 -- HIGH PRIORITY next run. First reviews will appear June 20-22. This is the ai_art story being held for the opening.",
     "RUN 45: Bartz v. Anthropic ruling still pending. Distribution calculation was June 11; check for final order June 16-20.",
     "RUN 45: Adobe blog.adobe.com is a reliable primary source -- always try it before checking aggregators for major CC updates.",
-    "RUN 45: Chinese text in Python heredocs: always use a standalone .py file (write to /tmp/) rather than heredoc to avoid encoding issues with Chinese quotation marks and percent signs. The %% issue in f-strings and ' in heredocs creates subtle bugs."
+    "RUN 45: Chinese text in Python heredocs: always use a standalone .py file (write to /tmp/) rather than heredoc to avoid encoding issues with Chinese quotation marks and percent signs. The %% issue in f-strings and ' in heredocs creates subtle bugs.",
+    "RUN 46 (2026-06-17): Midjourney Orb hardware reveal (June 17 6pm PT) confirms: AI art companies are now building hardware. The specific device purpose was not fully indexed before this run concluded -- check next run for post-event coverage. Key detail: Midjourney may take first outside capital for hardware program.",
+    "RUN 46: ChatGPT sub-50% market share (Sensor Tower State of AI 2026, June 16) is a milestone story. Claude's 452% global user growth year-on-year is the most striking data point. DoD partnership caused measurable US uninstall spike -- this is now an established pattern: military partnerships hurt consumer AI brands.",
+    "RUN 46: Snap Specs AR glasses ($2,195, June 16) are the first consumer AR glasses directly competitive with Insta360's product adjacency (wearable AI + cameras). Stock fell on announcement -- suggests market skeptical on price. Fall delivery. Check for user/reviewer reception next run.",
+    "RUN 46: AI video drought continues at run 25+. Midjourney V8.2 unreleased at run 23+. Next likely breaks: Midjourney post-Orb announcement (may reveal AI video model), Wan 3.0 (expected mid-2026), Kling 3.5.",
+    "RUN 46: Dataland (Refik Anadol) opens June 20 -- URGENT for next run. First reviews expected June 20-22. This is the ai_art story that has been building for months.",
+    "RUN 46: Midjourney Orb: hardware is led by Ahmad Abbas (ex-Apple Vision Pro hardware engineering manager). This is the same talent track as Apple's spatial computing team. Midjourney hardware may be positioned as AI-native spatial/visual hardware, not a generic device.",
+    "RUN 46: G7 AI summit (June 17, Evian): first formal inclusion of AI CEO at G7 table alongside heads of state. The voluntary commitments angle will produce follow-up stories once the final communique is published. Search for G7 AI commitments document next run.",
+    "RUN 46: Robinhood layoffs (June 16, 290 jobs, 10%) were NOT covered because the existing 2026-06-15-ai-layoff-wave-powder-keg story covers the same topic. The Robinhood angle (CEO explicitly not blaming AI) is interesting but too close to existing story. Could serve as a follow-up bullet in a newsletter issue.",
+    "RUN 46: Android 17 (June 16) brings Gemini Omni + Lyria 3 to Pixel phones. Skipped as derivative of May 21 Gemini Omni story. But the OS-level rollout to consumer devices IS the distribution story -- consider covering if Lyria 3 specifically gets a consumer reaction story.",
+    "RUN 46: Bartz v. Anthropic final order still pending after June 11 distribution calculation date. Now past 3 expected rulings. Check authorsguild.org directly next run."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -790,21 +813,19 @@
     "Run 45 complete (2026-06-16). 4 new stories added. Top pick: Launch Codes -- SpaceX+Cursor $60B acquisition (score 9), confirmed by TechCrunch/CNBC/Bloomberg/Engadget. Light Work -- Adobe Creative Cloud June 2026 (score 8) breaks a dry spell for imaging-audience stories; Lightroom Photo to Video using Google Veo is the hook. Noise Canceling -- Deezer AI music detection (score 7, June 11) was missed by three prior runs due to Fable 5 news burial. Job Lot -- AI layoff powder keg TechCrunch trend piece (score 6). No AI video, art, or funny stories found. Midjourney V8.2 and secret project still unannounced (run 22+). Video drought run 24+. Key watch items for next run: Dataland opening June 20 (HIGH PRIORITY), Midjourney secret project reveal, Bartz ruling, Wan 3.0."
   ],
   "suggestions_for_next_run": [
-    "URGENT: Dataland (Refik Anadol) opens June 20 -- run immediately after for first reviews",
-    "URGENT: Midjourney secret project -- check updates.midjourney.com; overdue 22+ consecutive runs",
-    "Check: Bartz v. Anthropic final settlement ruling -- still pending; check authorsguild.org",
+    "URGENT: Dataland (Refik Anadol) opens June 20 -- run immediately after opening for first reviews",
+    "URGENT: Midjourney Orb post-reveal coverage -- what exactly is the device? Check The Decoder + tech press June 18-22",
+    "Search: Midjourney AI video model details announced June 17 2026",
+    "Search: G7 AI communique voluntary commitments document June 2026",
+    "Search: Snap Specs AR glasses first reviews reception June 2026",
+    "Search: Bartz v. Anthropic final settlement order signed authorsguild.org",
     "Search: Wan 3.0 OR Kling 3.5 AI video model launch June 2026",
-    "Search: Anthropic Fable 5 / Mythos 5 restoration status -- any timeline for restoring access",
-    "Search: AI art design tool new launch June 17-22 2026",
-    "Search: Runway Gen-5 OR new model update June 2026",
-    "Search: Adobe Lightroom Photo to Video user reception/reviews",
-    "Search: China anthropomorphic AI rules July 15 enforcement -- any company responses",
-    "Search: OpenAI IPO S-1 public filing (public prospectus expected within 30-60 days of May confidential filing)",
-    "Search: EU AI Act August 2 enforcement compliance stories",
-    "Search: GEMA v. Suno verdict (July 31 -- do not search until late July)",
-    "Search: AI music news June 18-22 2026",
-    "Search: SpaceX Cursor acquisition regulatory review details",
-    "Search: AI funny weird news June 18-22 2026"
+    "Search: ChatGPT DoD partnership backlash reaction June 2026",
+    "Search: Midjourney V8.2 release June 2026 (run 23+)",
+    "Search: AI art design tool new launch June 18-22 2026",
+    "Search: AI funny weird news June 18-22 2026",
+    "Search: China anthropomorphic AI July 15 enforcement company responses",
+    "Search: EU AI Act August 2 compliance stories June 2026"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
