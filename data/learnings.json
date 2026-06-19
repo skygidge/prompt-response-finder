@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-18",
-  "total_runs": 47,
+  "last_run": "2026-06-19",
+  "total_runs": 48,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -222,7 +222,13 @@
     "ChatGPT market share below 50 percent first time June 2026 (Sensor Tower State of AI 2026 report -- confirmed TechCrunch, Fast Company, Business Standard)",
     "Snap Specs AR glasses launch price June 16 2026 (confirmed CNBC, MacRumors, Road to VR, Wareable, Snap newsroom)",
     "G7 summit Evian AI CEOs Altman Amodei Hassabis June 2026 (confirmed CNBC, The Hill, The Next Web)",
-    "site:techcrunch.com AI June 16 17 2026 (surfaced ChatGPT market share story, Robinhood non-AI-blame layoffs, Android 17 Lyria 3 launch)"
+    "site:techcrunch.com AI June 16 17 2026 (surfaced ChatGPT market share story, Robinhood non-AI-blame layoffs, Android 17 Lyria 3 launch)",
+    "The Atlantic Alex Reisner AI music training data songs 2026",
+    "Noam Shazeer OpenAI hire Google transformer architect June 2026",
+    "Thomson Reuters Ross Intelligence Third Circuit oral argument June 2026",
+    "Anthropic Project Fetch Phase 2 Claude Opus 4.7 robot dog 2026",
+    "AI copyright fair use federal appeals court 2026",
+    "AI music training datasets exposed journalists investigative 2026"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -1055,7 +1061,8 @@
         "AI video drought continues at run 22+. Midjourney V8.2 drought at 22 consecutive runs.",
         "Back-to-back run (one day after run 38). Fable 5 announced same day as last run but not in DB."
       ]
-    }
+    },
+    "Run 48 (2026-06-19): narrow June 17-19 window after comprehensive run 47; direct WebFetch mostly 403; legal AI news nearly absent from mainstream press"
   ],
   "failed_queries": [
     "ComfyUI v0.22.0 May 2026 (AI summarizers reported 2024 release as 2026 -- verify dates from GitHub directly)",
