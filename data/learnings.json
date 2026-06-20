@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-19",
-  "total_runs": 48,
+  "last_run": "2026-06-20",
+  "total_runs": 49,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -228,7 +228,14 @@
     "Thomson Reuters Ross Intelligence Third Circuit oral argument June 2026",
     "Anthropic Project Fetch Phase 2 Claude Opus 4.7 robot dog 2026",
     "AI copyright fair use federal appeals court 2026",
-    "AI music training datasets exposed journalists investigative 2026"
+    "AI music training datasets exposed journalists investigative 2026",
+    "Midjourney Medical ultrasound scanner spa announcement June 2026",
+    "Cornell AI search poisoning deep research agents WARP preprint June 2026",
+    "SpaceX AI1 orbital data center satellite June 2026",
+    "Qualcomm Tenstorrent acquisition talks AI chip June 2026",
+    "site:techcrunch.com AI June 18 19 20 2026",
+    "AI dating apps singles survey Match Group June 2026",
+    "Thomson Reuters Ross Intelligence Third Circuit oral argument June 11 2026"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -817,16 +824,22 @@
     "Run 42 complete (2026-06-13). 5 stories added. Top pick: Grounded -- US government export control shuts down Anthropic Fable 5 and Mythos 5 (score 9); biggest regulatory enforcement story of the year. Model Worker (Meta gulag, score 8) is the strongest ai_funny story in several runs. Feedback Loop (Anthropic When AI builds itself, June 4, score 8) was a missed story from run 33 -- recovered 9 days later. Charge It (Visa + ChatGPT payments, score 7) and Breaking Ground (Prometheus $12B, score 7) round out a strong ai_tools and ai_industry run. AI video drought continues (run 22+). Midjourney V8.2 still unreleased (run 21+). Key follow-up: Anthropic shutdown resolution, Bartz ruling, Midjourney secret project.",
     "Run 44 complete (2026-06-15). 3 stories added. Top picks: High Definition -- Midjourney V8.1 becomes default (score 8), Sequel Rights -- Lionsgate equity in Runway (score 8), Rough Cut -- Krea 2 Turbo 2-second generation (score 7). All three satisfy the art/design focus directive from guidance issues #1 and #3. Direct app links included per issue #4 (midjourney.com, runwayml.com, krea.ai). AI video model drought continues (run 23+). No ai_funny story found this run -- June 2026 is thin for verifiable funny AI incidents. Key watch items for next run: Midjourney V8.2 or secret project (overdue 22+ runs), Anthropic Fable 5 restoration status, Bartz v. Anthropic ruling, Dataland reviews (Refik Anadol opens June 20), Wan 3.0 expected mid-2026.",
     "Run 45 complete (2026-06-16). 4 new stories added. Top pick: Launch Codes -- SpaceX+Cursor $60B acquisition (score 9), confirmed by TechCrunch/CNBC/Bloomberg/Engadget. Light Work -- Adobe Creative Cloud June 2026 (score 8) breaks a dry spell for imaging-audience stories; Lightroom Photo to Video using Google Veo is the hook. Noise Canceling -- Deezer AI music detection (score 7, June 11) was missed by three prior runs due to Fable 5 news burial. Job Lot -- AI layoff powder keg TechCrunch trend piece (score 6). No AI video, art, or funny stories found. Midjourney V8.2 and secret project still unannounced (run 22+). Video drought run 24+. Key watch items for next run: Dataland opening June 20 (HIGH PRIORITY), Midjourney secret project reveal, Bartz ruling, Wan 3.0.",
-    "Run 47 complete (2026-06-18). 4 new stories added. Top pick: Body of Work -- Dataland, world's first AI art museum opens June 20 in LA (score 9); biometric data angle and Insta360 imaging relevance make this the strongest art story in weeks. Sole Purpose -- Allbirds/Smartbird AI pivot (score 7) is the clearest ai_funny story in several runs: sneaker brand on third name in two months. Public Works -- Google Antigravity CLI bait-and-switch (score 7) happened today; 6,000+ community contributions taken enterprise-only. Cartel Blanche -- Andon Labs Fable 5 price cartels in 9/12 runs (score 7, medium confidence on date ~June 11). AI video drought continues (run 25+). Midjourney V8.2 still unreleased. Trump AI EO (June 2) and NSPM-11 (June 5) both outside 14-day window. Key watch items: Dataland post-opening reviews (June 20+), Midjourney V8.2 or secret project, EU AI Act August 2 compliance, China anthropomorphic AI July 15 enforcement."
+    "Run 47 complete (2026-06-18). 4 new stories added. Top pick: Body of Work -- Dataland, world's first AI art museum opens June 20 in LA (score 9); biometric data angle and Insta360 imaging relevance make this the strongest art story in weeks. Sole Purpose -- Allbirds/Smartbird AI pivot (score 7) is the clearest ai_funny story in several runs: sneaker brand on third name in two months. Public Works -- Google Antigravity CLI bait-and-switch (score 7) happened today; 6,000+ community contributions taken enterprise-only. Cartel Blanche -- Andon Labs Fable 5 price cartels in 9/12 runs (score 7, medium confidence on date ~June 11). AI video drought continues (run 25+). Midjourney V8.2 still unreleased. Trump AI EO (June 2) and NSPM-11 (June 5) both outside 14-day window. Key watch items: Dataland post-opening reviews (June 20+), Midjourney V8.2 or secret project, EU AI Act August 2 compliance, China anthropomorphic AI July 15 enforcement.",
+    "Run 49 complete (2026-06-20). 6 new stories added. Top pick: Body Image -- Midjourney Medical full-body ultrasound scanner and spa plans (score 8, ai_funny). Second: Poisoned Pen -- Cornell WARP AI search poisoning via 13-word Reddit comments (score 7, tech_general). Space Case -- SpaceX AI1 orbital data center (score 7, tech_general) was missed by three prior runs despite June 9 announcement; always run a dedicated SpaceX/AI infrastructure search. Chip Shot -- Qualcomm-Tenstorrent acquisition talks (score 6, ai_industry) confirmed via The Information + The Register. Head Note -- Thomson Reuters v. ROSS oral arguments June 11 (score 6, ai_policy) is distinct from the April 14 scheduling story already in DB. Swipe Left -- Match Group AI dating survey (score 5, ai_funny) sourced via TechCrunch. AI video drought now 26 consecutive runs without a new model launch. ai_art drought continues. Grok Video 1.5 went GA June 16 at 86% below Sora pricing but already covered as Frame Rate (June 5). Anthropic pause call already covered as Feedback Loop. Dataland (today's opening) already covered as Body of Work. Midjourney V8.2 and video model still unreleased (run 25+)."
   ],
   "suggestions_for_next_run": [
-    "Search: Dataland Refik Anadol reviews post-opening June 20 2026 (now open)",
-    "Search: Midjourney V8.2 release OR secret project reveal June 2026 (run 24+)",
-    "Search: EU AI Act August 2 2026 compliance companies preparation",
-    "Search: China anthropomorphic AI July 15 enforcement company responses",
-    "Search: AI video new model launch July 2026 (drought continues run 25+)",
-    "Search: Allbirds Smartbird AI infrastructure update follow-up",
-    "Search: Anthropic Fable 5 government shutdown resolution status"
+    "Search: Midjourney V8.2 OR Midjourney video model release June July 2026 (run 25+ without release)",
+    "Search: Thomson Reuters v. ROSS Third Circuit ruling -- decision expected within months of June 11 oral argument",
+    "Search: EU AI Act August 2 2026 compliance -- company responses, enforcement preparation",
+    "Search: China anthropomorphic AI July 15 2026 enforcement -- how platforms (Ernie, Doubao, Kimi) are complying",
+    "Search: SpaceX AI1 orbital data center update OR Starship compute payload July 2026",
+    "Search: Andersen v. Stability AI September 8 2026 trial -- pre-trial filings expected in July",
+    "Search: AI video model new launch July 2026 -- Wan 3.0 or Kling 3.1 expected",
+    "Search: Grok Imagine Video 1.5 creator adoption OR price comparison follow-up",
+    "Search: Midjourney Medical FDA filing update OR scanner prototype demo",
+    "Search: Match Group AI feature backlash OR competitor response",
+    "Lesson: SpaceX AI1 was a June 9 announcement missed by 3 runs -- always run a dedicated AI infrastructure/compute search separate from model launches",
+    "Lesson: Grok Video 1.5 GA (June 16) was distinct from the June 5 launch -- check for GA milestones of previously-launched-but-preview models"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -906,7 +919,14 @@
     "Wan 3.0 video model release June 2026 (April release, too old)",
     "AI video model release June 17 18 2026 Seedance Kling Pika (no fresh launches)",
     "China AI news suppressed banned censored June 2026 (all older than 14 days)",
-    "AI image art Flux Stable Diffusion ComfyUI update June 2026 (no fresh news)"
+    "AI image art Flux Stable Diffusion ComfyUI update June 2026 (no fresh news)",
+    "Runway OR Kling OR Seedance AI video model update news June 19 20 2026 (no fresh launches in window)",
+    "AI art design tool new release June 2026 Flux Stable Diffusion ComfyUI (no new releases)",
+    "AI video filmmaking Hollywood news June 19 20 2026 (no breaking news)",
+    "AI funny weird unexpected news June 2026 (no verifiable incidents with news legs)",
+    "NVIDIA Nemotron 3 Nano Omni open model June 2026 (April 28 -- outside window)",
+    "Runway Aleph 2.0 video editing June 2026 (May 21 launch -- outside window)",
+    "Alphabet Google $80 billion stock offering June 2026 (June 1-2 -- outside window)"
   ],
   "lessons_learned": [
     "Writing Python script to a .py file first avoids shell heredoc encoding issues with Chinese characters in string literals",
