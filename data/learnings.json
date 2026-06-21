@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-20",
-  "total_runs": 49,
+  "last_run": "2026-06-21",
+  "total_runs": 50,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -235,7 +235,13 @@
     "Qualcomm Tenstorrent acquisition talks AI chip June 2026",
     "site:techcrunch.com AI June 18 19 20 2026",
     "AI dating apps singles survey Match Group June 2026",
-    "Thomson Reuters Ross Intelligence Third Circuit oral argument June 11 2026"
+    "Thomson Reuters Ross Intelligence Third Circuit oral argument June 11 2026",
+    "site:techcrunch.com AI June 19 20 21 2026 (produced Jumper, Whittaker, Anthropic ban analysis)",
+    "John Jumper Nobel Prize DeepMind Anthropic June 2026 (confirmed via Bloomberg, TechCrunch, TNW)",
+    "Kuaishou Kling AI press release June 17 2026 Turbo (surfaced B Bloomberg funding story)",
+    "ASML chip tool China smuggling export control June 2026 (Bloomberg/TechCrunch confirmed)",
+    "Anthropic Seoul office June 2026 Fable 5 negotiations return (Anthropic official + Korea JoongAng Daily)",
+    "AI chatbot friend relationship warning news June 2026 (TechCrunch June 20 Whittaker interview)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -446,7 +452,16 @@
     "AI funny weird news June 16 17 2026 (no verifiable individual story in window)",
     "Runway Gen-5 new model launch June 2026 (Gen-4.5 remains latest; no Gen-5 announced)",
     "AI audio music generation news June 16 17 2026 (Android 17 Lyria 3 skipped -- derivative of existing Gemini Omni story)",
-    "AI news China June 16 17 2026 (no fresh China-specific AI news in 14-day window beyond already-covered stories)"
+    "AI news China June 16 17 2026 (no fresh China-specific AI news in 14-day window beyond already-covered stories)",
+    "Midjourney V8.2 release June 2026 (run 24 -- still not released; described as unusual/unexpected secret project)",
+    "AI video generation new model launch June 2026 Runway Kling Wan Pika (video drought run 25 -- all major models still Q1 2026)",
+    "AI art image generation new tool launch June 2026 (drought continues -- no new model launches)",
+    "AI audio music generation news June 2026 new release (no fresh audio news in window)",
+    "AI funny weird news incident June 19 20 21 2026 (listicles only; no verifiable individual story)",
+    "ByteDance Octo AI creative workflow platform launch date 2026 (beta only, launched April 9 -- outside window)",
+    "Topaz Labs Magnific Krea image upscaling new update June 2026 (all evergreen or older)",
+    "Bartz Anthropic settlement final approved ruling June 2026 (still pending as of run 50)",
+    "Adobe Creators Toolkit Report June 16 2026 (score 5 -- dropped as too light given selectivity guidance)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -762,7 +777,14 @@
     "RUN 46: G7 AI summit (June 17, Evian): first formal inclusion of AI CEO at G7 table alongside heads of state. The voluntary commitments angle will produce follow-up stories once the final communique is published. Search for G7 AI commitments document next run.",
     "RUN 46: Robinhood layoffs (June 16, 290 jobs, 10%) were NOT covered because the existing 2026-06-15-ai-layoff-wave-powder-keg story covers the same topic. The Robinhood angle (CEO explicitly not blaming AI) is interesting but too close to existing story. Could serve as a follow-up bullet in a newsletter issue.",
     "RUN 46: Android 17 (June 16) brings Gemini Omni + Lyria 3 to Pixel phones. Skipped as derivative of May 21 Gemini Omni story. But the OS-level rollout to consumer devices IS the distribution story -- consider covering if Lyria 3 specifically gets a consumer reaction story.",
-    "RUN 46: Bartz v. Anthropic final order still pending after June 11 distribution calculation date. Now past 3 expected rulings. Check authorsguild.org directly next run."
+    "RUN 46: Bartz v. Anthropic final order still pending after June 11 distribution calculation date. Now past 3 expected rulings. Check authorsguild.org directly next run.",
+    "DeepMind talent drain: lost Jumper (Nobel, to Anthropic) and Shazeer (Transformer, to OpenAI) in same week -- recurring beat",
+    "Kling AI business metrics (B raise, 8B valuation, 00M ARR) are better story than model feature updates",
+    "ASML/chip equipment stories are high-yield for US-China AI angle; run dedicated search each cycle",
+    "Anthropic export ban has multiple distinct angles: shutdown (June 13 DB), politics (June 17), Seoul irony (June 17), negotiations (June 18+)",
+    "Signal/privacy angle on AI agents is fresh story category -- Whittaker interview sets a template",
+    "Guidance issues #1-5 applied this run: tighter bullets, app links, more selective, art/design focus maintained where possible",
+    "Art/design drought: image model launches have been rare since Ideogram 4.0 (June 3); Midjourney V8.2 is the most anticipated release pending"
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
