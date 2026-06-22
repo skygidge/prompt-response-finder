@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-21",
-  "total_runs": 50,
+  "last_run": "2026-06-22",
+  "total_runs": 51,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -241,7 +241,13 @@
     "Kuaishou Kling AI press release June 17 2026 Turbo (surfaced B Bloomberg funding story)",
     "ASML chip tool China smuggling export control June 2026 (Bloomberg/TechCrunch confirmed)",
     "Anthropic Seoul office June 2026 Fable 5 negotiations return (Anthropic official + Korea JoongAng Daily)",
-    "AI chatbot friend relationship warning news June 2026 (TechCrunch June 20 Whittaker interview)"
+    "AI chatbot friend relationship warning news June 2026 (TechCrunch June 20 Whittaker interview)",
+    "Amazon MGM Artificial Guadagnino Sam Altman film dropped 2026",
+    "Variety Amazon MGM Artificial OpenAI film dropped June 2026",
+    "China AI data center plan 295 billion Bloomberg 2026",
+    "China AI infrastructure plan Huawei Nvidia domestic 80 percent June 2026",
+    "Midjourney Draft Mode V8.1 June 2026 24 images",
+    "Midjourney V8.1 draft mode GPU minutes cost preview flag V8.2"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -461,7 +467,18 @@
     "ByteDance Octo AI creative workflow platform launch date 2026 (beta only, launched April 9 -- outside window)",
     "Topaz Labs Magnific Krea image upscaling new update June 2026 (all evergreen or older)",
     "Bartz Anthropic settlement final approved ruling June 2026 (still pending as of run 50)",
-    "Adobe Creators Toolkit Report June 16 2026 (score 5 -- dropped as too light given selectivity guidance)"
+    "Adobe Creators Toolkit Report June 16 2026 (score 5 -- dropped as too light given selectivity guidance)",
+    "Grok Imagine Video Fast mode June 17 18 2026 (already covered as 2026-05-31-grok-imagine-video-15-frame-rate from May 31 run)",
+    "Suno AI update news June 2026 (already covered as 2026-05-27-suno-400m-raise-held-over)",
+    "Apple WWDC AI Siri June 2026 (already covered as 2026-06-07-apple-wwdc-siri-gemini-ios27)",
+    "SpaceX Cursor acquisition AI coding June 2026 (already covered as 2026-06-15-spacex-acquires-cursor-launch-codes)",
+    "Anthropic Claude models offline outage June 2026 (already covered as 2026-06-20-anthropic-fable-5-grounded)",
+    "Dataland Refik Anadol exhibition opening June 2026 (already covered as 2026-06-20-dataland-body-of-work)",
+    "GEMA Suno lawsuit copyright ruling Germany June 2026 (ruling postponed to July 31; nothing new in window)",
+    "Bartz Anthropic settlement final ruling June 2026 (still pending as of run 51)",
+    "Midjourney V8.2 release June 2026 (still not released -- run 25+; Draft Mode V8.1 is the Midjourney story this run)",
+    "AI video generation new model launch June 2026 Runway Kling Wan Pika (video drought run 26+ -- all major models still Q1 2026)",
+    "AI art image generation new tool launch June 22 2026 (no fresh model launches beyond Midjourney Draft Mode already written)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -784,7 +801,13 @@
     "Anthropic export ban has multiple distinct angles: shutdown (June 13 DB), politics (June 17), Seoul irony (June 17), negotiations (June 18+)",
     "Signal/privacy angle on AI agents is fresh story category -- Whittaker interview sets a template",
     "Guidance issues #1-5 applied this run: tighter bullets, app links, more selective, art/design focus maintained where possible",
-    "Art/design drought: image model launches have been rare since Ideogram 4.0 (June 3); Midjourney V8.2 is the most anticipated release pending"
+    "Art/design drought: image model launches have been rare since Ideogram 4.0 (June 3); Midjourney V8.2 is the most anticipated release pending",
+    "Amazon $50B OpenAI investment created a direct conflict that killed the Guadagnino 'Artificial' film. Pattern: when a distributor holds a major financial stake in the subject of a documentary or dramatization, the investment becomes editorial interference. Watch for similar conflicts at Netflix (xAI?), Apple (Google?), Microsoft (OpenAI).",
+    "China's AI infrastructure plan ($295B, NDRC, 80% domestic) is the answer to US export controls. The design principle -- eliminate dependency -- is the story. This is the counterpart to the US private-sector $725B 2026 spend. Cover each major update to this plan as it progresses.",
+    "GEMA v. Suno ruling postponed to July 31, 2026. Add to watch list for next run after that date.",
+    "Bartz v. Anthropic settlement final ruling still pending after run 51. Distribution calculation was June 11 -- judge may rule any week. Priority check each run.",
+    "Midjourney Draft Mode (V8.1, June 16): 24-image contact sheet workflow is the feature type. Pattern: AI creative tools adding 'generate more options at lower cost' modes. This will appear at Runway, Pika, Kling. Watch for similar batch-preview modes at other image/video platforms.",
+    "Midjourney's --preview flag for V8.2 is the first technical preview of the next version. Pattern: Midjourney adds preview access to upcoming versions via hidden flags before public announcement. Watch updates.midjourney.com for --preview notes after each V8.x release."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
