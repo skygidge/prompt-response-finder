@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-22",
-  "total_runs": 51,
+  "last_run": "2026-06-23",
+  "total_runs": 52,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -247,7 +247,12 @@
     "China AI data center plan 295 billion Bloomberg 2026",
     "China AI infrastructure plan Huawei Nvidia domestic 80 percent June 2026",
     "Midjourney Draft Mode V8.1 June 2026 24 images",
-    "Midjourney V8.1 draft mode GPU minutes cost preview flag V8.2"
+    "Midjourney V8.1 draft mode GPU minutes cost preview flag V8.2",
+    "Google DeepMind A24 deal AI filmmaking $75 million June 2026",
+    "Seedance 2.5 ByteDance Volcano Engine FORCE conference June 23 2026",
+    "Michael Caine ElevenLabs voice Odyssey audiobook Nolan June 2026",
+    "Groq $650 million raise Nvidia acqui-hire June 2026",
+    "Runway Kling Sora Veo Pika AI video update June 2026 (partial -- surfaced Seedance lead)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -478,7 +483,12 @@
     "Bartz Anthropic settlement final ruling June 2026 (still pending as of run 51)",
     "Midjourney V8.2 release June 2026 (still not released -- run 25+; Draft Mode V8.1 is the Midjourney story this run)",
     "AI video generation new model launch June 2026 Runway Kling Wan Pika (video drought run 26+ -- all major models still Q1 2026)",
-    "AI art image generation new tool launch June 22 2026 (no fresh model launches beyond Midjourney Draft Mode already written)"
+    "AI art image generation new tool launch June 22 2026 (no fresh model launches beyond Midjourney Draft Mode already written)",
+    "Wan video model 3.0 OR Hunyuan video update June 2026 (no new releases confirmed)",
+    "AI deepfake detection news imaging June 2026 (no hard news, only roundups)",
+    "Pika Labs video AI new release June 2026 (Pika 2.5 launch date unclear, no confirmed story)",
+    "AI image generation art controversy news June 20-23 2026 (no new hard news in window)",
+    "new AI image tool art release June 18-23 2026 site:petapixel.com (nothing in window)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -807,7 +817,10 @@
     "GEMA v. Suno ruling postponed to July 31, 2026. Add to watch list for next run after that date.",
     "Bartz v. Anthropic settlement final ruling still pending after run 51. Distribution calculation was June 11 -- judge may rule any week. Priority check each run.",
     "Midjourney Draft Mode (V8.1, June 16): 24-image contact sheet workflow is the feature type. Pattern: AI creative tools adding 'generate more options at lower cost' modes. This will appear at Runway, Pika, Kling. Watch for similar batch-preview modes at other image/video platforms.",
-    "Midjourney's --preview flag for V8.2 is the first technical preview of the next version. Pattern: Midjourney adds preview access to upcoming versions via hidden flags before public announcement. Watch updates.midjourney.com for --preview notes after each V8.x release."
+    "Midjourney's --preview flag for V8.2 is the first technical preview of the next version. Pattern: Midjourney adds preview access to upcoming versions via hidden flags before public announcement. Watch updates.midjourney.com for --preview notes after each V8.x release.",
+    "Conference-day searches are highly productive: ByteDance Volcano Engine FORCE (June 23) surfaced same-day announcements not yet in news aggregators",
+    "Hollywood studio AI deal searches (Variety + Deadline) reliably surface filmmaking-relevant stories",
+    "'Not-acqui-hire' is a new term in the AI chip space -- coined for the Nvidia/Groq deal structure"
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -873,18 +886,14 @@
     "Run 49 complete (2026-06-20). 6 new stories added. Top pick: Body Image -- Midjourney Medical full-body ultrasound scanner and spa plans (score 8, ai_funny). Second: Poisoned Pen -- Cornell WARP AI search poisoning via 13-word Reddit comments (score 7, tech_general). Space Case -- SpaceX AI1 orbital data center (score 7, tech_general) was missed by three prior runs despite June 9 announcement; always run a dedicated SpaceX/AI infrastructure search. Chip Shot -- Qualcomm-Tenstorrent acquisition talks (score 6, ai_industry) confirmed via The Information + The Register. Head Note -- Thomson Reuters v. ROSS oral arguments June 11 (score 6, ai_policy) is distinct from the April 14 scheduling story already in DB. Swipe Left -- Match Group AI dating survey (score 5, ai_funny) sourced via TechCrunch. AI video drought now 26 consecutive runs without a new model launch. ai_art drought continues. Grok Video 1.5 went GA June 16 at 86% below Sora pricing but already covered as Frame Rate (June 5). Anthropic pause call already covered as Feedback Loop. Dataland (today's opening) already covered as Body of Work. Midjourney V8.2 and video model still unreleased (run 25+)."
   ],
   "suggestions_for_next_run": [
-    "Search: Midjourney V8.2 OR Midjourney video model release June July 2026 (run 25+ without release)",
-    "Search: Thomson Reuters v. ROSS Third Circuit ruling -- decision expected within months of June 11 oral argument",
-    "Search: EU AI Act August 2 2026 compliance -- company responses, enforcement preparation",
-    "Search: China anthropomorphic AI July 15 2026 enforcement -- how platforms (Ernie, Doubao, Kimi) are complying",
-    "Search: SpaceX AI1 orbital data center update OR Starship compute payload July 2026",
-    "Search: Andersen v. Stability AI September 8 2026 trial -- pre-trial filings expected in July",
-    "Search: AI video model new launch July 2026 -- Wan 3.0 or Kling 3.1 expected",
-    "Search: Grok Imagine Video 1.5 creator adoption OR price comparison follow-up",
-    "Search: Midjourney Medical FDA filing update OR scanner prototype demo",
-    "Search: Match Group AI feature backlash OR competitor response",
-    "Lesson: SpaceX AI1 was a June 9 announcement missed by 3 runs -- always run a dedicated AI infrastructure/compute search separate from model launches",
-    "Lesson: Grok Video 1.5 GA (June 16) was distinct from the June 5 launch -- check for GA milestones of previously-launched-but-preview models"
+    "Midjourney V8.2: still tracking -- has not shipped as of run 52",
+    "GEMA v. Suno ruling: postponed to July 31 by Munich court",
+    "Bartz v. Anthropic settlement distributions: calculated June 11, watch for final approval order",
+    "ByteDance Seedance 2.5 / Seedream 5.0: public launch targeted early July -- follow up",
+    "Gemini 3.5 Pro GA: expected June 23-30",
+    "Anthropic Fable 5 / Mythos 5: still offline as of June 23 due to export control order",
+    "Wan 3.0 (60B): expected mid-2026 -- keep monitoring",
+    "Thomson Reuters v. ROSS Third Circuit ruling: oral argument was June 11, ruling pending"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -1039,6 +1048,18 @@
       ],
       "top_score": 9,
       "notes": "WWDC 2026 keynote day. Ideogram 4.0 breaks 21-run ai_art model drought. WWDC already covered pre-announcement."
+    },
+    {
+      "run": 52,
+      "date": "2026-06-23",
+      "stories_found": 4,
+      "top_story": "By the Book (ElevenLabs Michael Caine Odyssey audiobook)",
+      "categories": {
+        "ai_audio": 1,
+        "ai_video": 2,
+        "ai_industry": 1
+      },
+      "notes": "Productive run. ByteDance Volcano Engine FORCE conference (June 23) was the day's big event. Google/A24 filmmaking deal strong for Insta360 creative audience. Michael Caine AI voice audiobook is the cleanest licensed AI voice use case so far. Groq not-acqui-hire is novel industry structure. No new AI art/image tools found in June 18-23 window."
     }
   ],
   "productive_queries": [
