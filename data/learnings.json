@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-23",
-  "total_runs": 52,
+  "last_run": "2026-06-24",
+  "total_runs": 53,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -1148,7 +1148,20 @@
         "Back-to-back run (one day after run 38). Fable 5 announced same day as last run but not in DB."
       ]
     },
-    "Run 48 (2026-06-19): narrow June 17-19 window after comprehensive run 47; direct WebFetch mostly 403; legal AI news nearly absent from mainstream press"
+    "Run 48 (2026-06-19): narrow June 17-19 window after comprehensive run 47; direct WebFetch mostly 403; legal AI news nearly absent from mainstream press",
+    {
+      "date": "2026-06-24",
+      "stories_found": 6,
+      "top_score": 8,
+      "notes": "DB very current (281 stories through June 23). Named-entity searches far outperformed category searches. Runway Aleph 2.0 (May 21) and Grok Imagine Video 1.5 (May 31) too old. Gemini 3.5 Pro still unreleased — watch next run. GPT-5.6 slipped to July. Fable 5 billing-change angle resolved. MiniMax Hub strong pick for China + AI video. Shanghai Film Festival generated two complementary stories: product launch (MiniMax Hub) and industry analysis (directable AI gap).",
+      "watch_next_run": [
+        "Gemini 3.5 Pro GA (expected late June/early July)",
+        "GPT-5.6 launch (slipped from June to July)",
+        "Fable 5 / Mythos 5 permanent policy status",
+        "Anthropic LOIs converting to binding leases",
+        "ByteDance Seedance 2.5 public launch (early July per company)"
+      ]
+    }
   ],
   "failed_queries": [
     "ComfyUI v0.22.0 May 2026 (AI summarizers reported 2024 release as 2026 -- verify dates from GitHub directly)",
@@ -1156,7 +1169,9 @@
     "AI image generator new model May 22-29 2026 (no new launches this window)",
     "Midjourney V8.2 release June 2026 -- still not released run 20",
     "Runway Gen-4 Kling video model update June 2026 -- no new launches",
-    "Adobe Firefly AI creative tools update June 2026 -- no June-specific launch"
+    "Adobe Firefly AI creative tools update June 2026 -- no June-specific launch",
+    "AI funny weird unexpected application June 2026",
+    "tldr.tech AI newsletter June 23 2026 (403)"
   ],
   "most_productive_sources": [
     "Variety (celebrity AI licensing)",
@@ -1271,5 +1286,13 @@
     "CBC News / Canadian Privacy Commissioner (Grok deepfake ruling)",
     "Pandaily / Gizmochina / Huawei Central (HarmonyOS 7)",
     "Bloomberg / The Next Web (EngineAI IPO)"
+  ],
+  "successful_queries": [
+    "MiniMax Hub AI video generator Shanghai Film Festival June 2026",
+    "Anthropic data center leases gigawatt The Information June 11 2026",
+    "Adobe creators toolkit report AI creative professionals June 2026",
+    "GPT-5 immunologist breakthrough June 2026 OpenAI",
+    "Variety Shanghai film festival AI 2026 takeaways",
+    "Fable 5 paid credits subscribers June 23 2026"
   ]
 }
