@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-24",
-  "total_runs": 53,
+  "last_run": "2026-06-26",
+  "total_runs": 54,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -252,7 +252,11 @@
     "Seedance 2.5 ByteDance Volcano Engine FORCE conference June 23 2026",
     "Michael Caine ElevenLabs voice Odyssey audiobook Nolan June 2026",
     "Groq $650 million raise Nvidia acqui-hire June 2026",
-    "Runway Kling Sora Veo Pika AI video update June 2026 (partial -- surfaced Seedance lead)"
+    "Runway Kling Sora Veo Pika AI video update June 2026 (partial -- surfaced Seedance lead)",
+    "Adobe Topaz Labs acquisition June 2026",
+    "DeepSeek double workforce Bloomberg June 25 2026",
+    "Google Gemini 3.5 delayed July 2026 Business Insider",
+    "AI news June 25 26 2026 site:techcrunch.com OR site:theverge.com OR site:variety.com"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -488,7 +492,10 @@
     "AI deepfake detection news imaging June 2026 (no hard news, only roundups)",
     "Pika Labs video AI new release June 2026 (Pika 2.5 launch date unclear, no confirmed story)",
     "AI image generation art controversy news June 20-23 2026 (no new hard news in window)",
-    "new AI image tool art release June 18-23 2026 site:petapixel.com (nothing in window)"
+    "new AI image tool art release June 18-23 2026 site:petapixel.com (nothing in window)",
+    "Seedance Wan AI video model June 2026 update (mostly aggregator roundups)",
+    "AI weird funny viral story week June 2026 site:arstechnica.com (no usable results)",
+    "AI image art new style trend viral June 2026 (aggregator SEO blogs only)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -820,7 +827,12 @@
     "Midjourney's --preview flag for V8.2 is the first technical preview of the next version. Pattern: Midjourney adds preview access to upcoming versions via hidden flags before public announcement. Watch updates.midjourney.com for --preview notes after each V8.x release.",
     "Conference-day searches are highly productive: ByteDance Volcano Engine FORCE (June 23) surfaced same-day announcements not yet in news aggregators",
     "Hollywood studio AI deal searches (Variety + Deadline) reliably surface filmmaking-relevant stories",
-    "'Not-acqui-hire' is a new term in the AI chip space -- coined for the Nvidia/Groq deal structure"
+    "'Not-acqui-hire' is a new term in the AI chip space -- coined for the Nvidia/Groq deal structure",
+    "Aggregator/SEO blogs (digen.ai, wavespeed.ai, atlascloud.ai, buildmvpfast.com) continue to dominate AI video search results in June 2026. Finding real news requires adding site: filters or searching company-specific terms.",
+    "Adobe acquisitions (Topaz Labs, June 25) are highly relevant to camera/imaging/creative professionals -- always run an Adobe news search each cycle.",
+    "DeepSeek is now a three-angle beat: R1/V4 model capability, $7.4B funding close, and workforce doubling. Each round of activity is a distinct story.",
+    "Topaz Labs Astra + Wonder + Neurostream are the model names within Adobe acquisition -- confirm these names remain post-acquisition integration.",
+    "Bloomberg WeChat-sourced announcements (DeepSeek workforce doubling, June 25) confirm: Chinese AI companies announce internally via WeChat first, press releases second. Watch WeChat-sourced Bloomberg scoops for China AI news."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -886,14 +898,16 @@
     "Run 49 complete (2026-06-20). 6 new stories added. Top pick: Body Image -- Midjourney Medical full-body ultrasound scanner and spa plans (score 8, ai_funny). Second: Poisoned Pen -- Cornell WARP AI search poisoning via 13-word Reddit comments (score 7, tech_general). Space Case -- SpaceX AI1 orbital data center (score 7, tech_general) was missed by three prior runs despite June 9 announcement; always run a dedicated SpaceX/AI infrastructure search. Chip Shot -- Qualcomm-Tenstorrent acquisition talks (score 6, ai_industry) confirmed via The Information + The Register. Head Note -- Thomson Reuters v. ROSS oral arguments June 11 (score 6, ai_policy) is distinct from the April 14 scheduling story already in DB. Swipe Left -- Match Group AI dating survey (score 5, ai_funny) sourced via TechCrunch. AI video drought now 26 consecutive runs without a new model launch. ai_art drought continues. Grok Video 1.5 went GA June 16 at 86% below Sora pricing but already covered as Frame Rate (June 5). Anthropic pause call already covered as Feedback Loop. Dataland (today's opening) already covered as Body of Work. Midjourney V8.2 and video model still unreleased (run 25+)."
   ],
   "suggestions_for_next_run": [
-    "Midjourney V8.2: still tracking -- has not shipped as of run 52",
+    "Gemini 3.5 Pro GA: delayed to July 2026 per Business Insider -- monitor for confirmed launch date",
+    "GPT-5.6 launch: slipped from June to July -- watch for OpenAI announcement",
+    "Bartz v. Anthropic settlement: still pending final approval order",
     "GEMA v. Suno ruling: postponed to July 31 by Munich court",
-    "Bartz v. Anthropic settlement distributions: calculated June 11, watch for final approval order",
-    "ByteDance Seedance 2.5 / Seedream 5.0: public launch targeted early July -- follow up",
-    "Gemini 3.5 Pro GA: expected June 23-30",
-    "Anthropic Fable 5 / Mythos 5: still offline as of June 23 due to export control order",
-    "Wan 3.0 (60B): expected mid-2026 -- keep monitoring",
-    "Thomson Reuters v. ROSS Third Circuit ruling: oral argument was June 11, ruling pending"
+    "Adobe/Topaz Labs deal closing: expected H2 2026 -- watch for regulatory clearance and integration milestones",
+    "ByteDance Seedance 2.5 / Seedream 5.0: public launch targeted early July",
+    "DeepSeek hiring wave: search for follow-up reporting on which departments grew and what they shipped",
+    "Anthropic Fable 5 / Mythos 5: still offline as of June 23 due to export control order -- check status",
+    "Thomson Reuters v. ROSS Third Circuit: oral argument was June 11, ruling pending",
+    "Wan 3.0 (60B): expected mid-2026 -- keep monitoring"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -1060,6 +1074,17 @@
         "ai_industry": 1
       },
       "notes": "Productive run. ByteDance Volcano Engine FORCE conference (June 23) was the day's big event. Google/A24 filmmaking deal strong for Insta360 creative audience. Michael Caine AI voice audiobook is the cleanest licensed AI voice use case so far. Groq not-acqui-hire is novel industry structure. No new AI art/image tools found in June 18-23 window."
+    },
+    {
+      "run": 54,
+      "date": "2026-06-26",
+      "stories_found": 3,
+      "top_story": "Upscaled (Adobe acquires Topaz Labs)",
+      "categories": {
+        "ai_tools": 1,
+        "ai_industry": 2
+      },
+      "notes": "Strong story on Adobe/Topaz Labs (score 9). DeepSeek workforce doubling (score 7) and Gemini 3.5 Pro delay (score 6, medium confidence). Most WebFetch calls returned 403. 5 stories skipped as duplicates (China 8000 videos, Grok Video 1.5, Kling 3.0 Turbo, Suno Series E, Apple WWDC). Google DeepMind brain drain angle held to avoid third Google story in one run."
     }
   ],
   "productive_queries": [
@@ -1160,6 +1185,20 @@
         "Fable 5 / Mythos 5 permanent policy status",
         "Anthropic LOIs converting to binding leases",
         "ByteDance Seedance 2.5 public launch (early July per company)"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "run_number": 54,
+      "stories_added": 3,
+      "notes": [
+        "Adobe acquiring Topaz Labs (June 25) is the lead story -- Emmy-winning tools, Insta360-audience relevance, strong TechCrunch/Adobe PR sourcing.",
+        "DeepSeek $7.4B close + workforce doubling is a distinct story from the May valuation talks -- confirmed June 25 via Bloomberg.",
+        "Gemini 3.5 Pro delay is medium confidence (Business Insider paywall, cross-referenced 5+ secondaries). Google declined to comment officially.",
+        "China 8000 AI videos deleted skipped: same URL as Period Drama (June 5 run). Grok Video 1.5, Kling 3.0 Turbo, Suno Series E all deduped.",
+        "Google DeepMind brain drain partially covered by Jump Ship (June 21) -- held to avoid third Google story in one run.",
+        "Aggregator SEO blogs dominate AI video search results -- digen.ai, wavespeed.ai, atlascloud.ai all polluting results. Site: filters essential.",
+        "Nearly all WebFetch calls returned 403. Cross-referencing search snippets remains the only viable research method."
       ]
     }
   ],
