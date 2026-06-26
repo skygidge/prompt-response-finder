@@ -8039,5 +8039,58 @@
     "used_in_newsletter": false,
     "editorial_score": 6,
     "added_at": "2026-06-26T16:06:26Z"
+  },
+  {
+    "id": "2026-06-24-openai-broadcom-jalapeno-inference-chip",
+    "date_found": "2026-06-26",
+    "article_date": "2026-06-24",
+    "headline_en": "Hot Chip",
+    "headline_zh": "热辣出炉",
+    "category": "ai_industry",
+    "blurb_en": "OpenAI and Broadcom unveiled Jalapeño, OpenAI's first custom inference chip, designed and taped out in nine months.\n• Built as a reticle-sized ASIC optimized for LLM inference, not training\n• Performance per watt substantially exceeds current NVIDIA GPUs — early benchmarks suggest ~50% cost reduction at scale\n• Targets gigawatt-scale deployment with Microsoft starting late 2026\n• OpenAI used its own models to accelerate the chip design process\n• The fastest ASIC development cycle ever achieved in high-performance semiconductors, if the timeline holds",
+    "blurb_zh": "OpenAI与博通联合发布Jalapeño——OpenAI首款自研推理芯片，从设计到流片仅用九个月。\n• 大尺寸ASIC专为LLM推理而非训练优化\n• 每瓦性能大幅超越英伟达GPU，早期测试显示成本可降低约50%\n• 计划2026年底与微软合作在吉瓦级数据中心部署\n• OpenAI用自家模型加速了芯片设计流程\n• 如果时间线属实，这将是高性能半导体史上最快的ASIC开发周期",
+    "source_url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+    "source_name": "OpenAI",
+    "source_type": "official",
+    "discovered_via": "TLDR AI",
+    "confidence": "high",
+    "verification_notes": "Confirmed via OpenAI official blog, CNBC, TechCrunch, VentureBeat, Tom's Hardware all reporting independently",
+    "tags": [
+      "openai",
+      "broadcom",
+      "hardware",
+      "inference",
+      "chip",
+      "nvidia"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 7,
+    "added_at": "2026-06-26T21:23:18Z"
+  },
+  {
+    "id": "2026-06-24-anthropic-claude-tag-slack-workflow",
+    "date_found": "2026-06-26",
+    "article_date": "2026-06-24",
+    "headline_en": "Tag Team",
+    "headline_zh": "点名上岗",
+    "category": "ai_tools",
+    "blurb_en": "Anthropic launched Claude Tag, a Slack integration that lets teams @-mention Claude to assign tasks, connect it to codebases, and retain context across channels.\n• Anthropic's own product team now uses it to generate most of their code and run analytics, support, and debugging\n• Connects to external tools and repos — not just a chatbot in a channel\n• Persistent context across conversations means it learns your team's codebase over time\n• Positions Slack as a legitimate AI workspace, not just a messaging app",
+    "blurb_zh": "Anthropic发布Claude Tag——在Slack中@Claude即可分配任务、连接代码库，且跨频道保留上下文。\n• Anthropic产品团队已用它生成大部分代码并处理分析、支持和调试工作\n• 可连接外部工具和代码仓库——不只是频道里的聊天机器人\n• 跨对话持久记忆意味着它能逐步学习团队的代码库\n• 将Slack定位为真正的AI工作空间，而非单纯的消息应用",
+    "source_url": "https://www.anthropic.com/news/claude-tag",
+    "source_name": "Anthropic",
+    "source_type": "official",
+    "discovered_via": "TLDR AI",
+    "confidence": "high",
+    "verification_notes": "Confirmed via TLDR AI newsletter June 24. Anthropic official announcement.",
+    "tags": [
+      "anthropic",
+      "claude",
+      "slack",
+      "workflow",
+      "teams"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 7,
+    "added_at": "2026-06-26T21:23:18Z"
   }
 ]
