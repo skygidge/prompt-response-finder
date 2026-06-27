@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-26",
-  "total_runs": 54,
+  "last_run": "2026-06-27",
+  "total_runs": 55,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -256,7 +256,15 @@
     "Adobe Topaz Labs acquisition June 2026",
     "DeepSeek double workforce Bloomberg June 25 2026",
     "Google Gemini 3.5 delayed July 2026 Business Insider",
-    "AI news June 25 26 2026 site:techcrunch.com OR site:theverge.com OR site:variety.com"
+    "AI news June 25 26 2026 site:techcrunch.com OR site:theverge.com OR site:variety.com",
+    "OpenAI Anthropic news June 26 27 2026 announcement",
+    "OpenAI GPT-5.6 Sol Terra Luna new models June 2026 announcement details",
+    "OpenAI limits new models trusted partners US government request June 26 2026 CNBC",
+    "Anthropic Alibaba 28 million fraudulent exchanges Claude accusation June 2026",
+    "Anthropic Alibaba distillation attack Claude 25000 accounts Senate letter June 2026 US-China",
+    "Trump administration releases Anthropic Mythos 100 US companies agencies June 26 2026 TechCrunch",
+    "AI news June 25 26 2026 Figma update design AI creative tool announcement",
+    "site:techcrunch.com AI June 25 26 27 2026 (surfaced GPT-5.6, Figma, Mythos release)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -495,7 +503,13 @@
     "new AI image tool art release June 18-23 2026 site:petapixel.com (nothing in window)",
     "Seedance Wan AI video model June 2026 update (mostly aggregator roundups)",
     "AI weird funny viral story week June 2026 site:arstechnica.com (no usable results)",
-    "AI image art new style trend viral June 2026 (aggregator SEO blogs only)"
+    "AI image art new style trend viral June 2026 (aggregator SEO blogs only)",
+    "AI video generation news June 26 27 2026 Runway Kling Sora Veo new model (video drought run 28+ -- all major models still Q1 2026)",
+    "AI art image generation news June 26 27 2026 Midjourney DALL-E Flux update (Midjourney V8.2 still unreleased -- run 26+)",
+    "AI music audio generation news June 26 27 2026 (no fresh audio tool releases in window)",
+    "AI weird funny viral story news June 26 27 2026 (evergreen listicles only; no verifiable individual story)",
+    "Bartz Anthropic settlement final approved ruling June 27 2026 (still pending; 14 consecutive runs checking this)",
+    "Wan 3.0 OR Kling 4.0 OR Runway Gen-5 OR Pika 3.0 AI video model launch June 2026 (none launched)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -832,7 +846,11 @@
     "Adobe acquisitions (Topaz Labs, June 25) are highly relevant to camera/imaging/creative professionals -- always run an Adobe news search each cycle.",
     "DeepSeek is now a three-angle beat: R1/V4 model capability, $7.4B funding close, and workforce doubling. Each round of activity is a distinct story.",
     "Topaz Labs Astra + Wonder + Neurostream are the model names within Adobe acquisition -- confirm these names remain post-acquisition integration.",
-    "Bloomberg WeChat-sourced announcements (DeepSeek workforce doubling, June 25) confirm: Chinese AI companies announce internally via WeChat first, press releases second. Watch WeChat-sourced Bloomberg scoops for China AI news."
+    "Bloomberg WeChat-sourced announcements (DeepSeek workforce doubling, June 25) confirm: Chinese AI companies announce internally via WeChat first, press releases second. Watch WeChat-sourced Bloomberg scoops for China AI news.",
+    "US government became gatekeeper for frontier AI model releases in June 2026; any model launch news must now include access/policy angle",
+    "China AI IP theft (model distillation) is an active news beat -- check for Anthropic/OpenAI Senate letters each run",
+    "Figma Config annual conference (late June) is a reliable creative-tools story each year",
+    "AI video drought (28+ runs without new major model): consider expanding to Hollywood deployment stories vs new launch only"
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
