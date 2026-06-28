@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-27",
-  "total_runs": 55,
+  "last_run": "2026-06-28",
+  "total_runs": 56,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -264,7 +264,14 @@
     "Anthropic Alibaba distillation attack Claude 25000 accounts Senate letter June 2026 US-China",
     "Trump administration releases Anthropic Mythos 100 US companies agencies June 26 2026 TechCrunch",
     "AI news June 25 26 2026 Figma update design AI creative tool announcement",
-    "site:techcrunch.com AI June 25 26 27 2026 (surfaced GPT-5.6, Figma, Mythos release)"
+    "site:techcrunch.com AI June 25 26 27 2026 (surfaced GPT-5.6, Figma, Mythos release)",
+    "Rhode Island AI laws signed June 2026 chatbot therapy ban McKee",
+    "Rhode Island AI therapy chatbot ban mental health June 25 2026",
+    "Insta360 Luna Ultra Leica launch June 2026 specs PetaPixel",
+    "California AB 2148 AI teacher ban natural person education code 2026",
+    "California AB2148 Newsom AI education signed June 2026",
+    "site:transparencycoalition.ai June 2026 AI laws",
+    "AI policy legislation news June 2026 state laws"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -509,7 +516,12 @@
     "AI music audio generation news June 26 27 2026 (no fresh audio tool releases in window)",
     "AI weird funny viral story news June 26 27 2026 (evergreen listicles only; no verifiable individual story)",
     "Bartz Anthropic settlement final approved ruling June 27 2026 (still pending; 14 consecutive runs checking this)",
-    "Wan 3.0 OR Kling 4.0 OR Runway Gen-5 OR Pika 3.0 AI video model launch June 2026 (none launched)"
+    "Wan 3.0 OR Kling 4.0 OR Runway Gen-5 OR Pika 3.0 AI video model launch June 2026 (none launched)",
+    "Gemini 2.5 Pro Deep Think launch June 2026 (confused with Aug 2025 release - abandoned)",
+    "Midjourney V8.2 June 2026 (still not released, 30+ consecutive runs with no news)",
+    "AI video generation model news June 2026 (drought continues, 27+ consecutive dry runs)",
+    "OpenAI Sora update June 2026 (no new significant release)",
+    "Runway Gen-4 update June 2026 (no new significant release)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -850,7 +862,8 @@
     "US government became gatekeeper for frontier AI model releases in June 2026; any model launch news must now include access/policy angle",
     "China AI IP theft (model distillation) is an active news beat -- check for Anthropic/OpenAI Senate letters each run",
     "Figma Config annual conference (late June) is a reliable creative-tools story each year",
-    "AI video drought (28+ runs without new major model): consider expanding to Hollywood deployment stories vs new launch only"
+    "AI video drought (28+ runs without new major model): consider expanding to Hollywood deployment stories vs new launch only",
+    "State AI laws accelerating: Rhode Island signed 3 AI laws June 25 (therapy chatbot ban + $15K/day fine); CA AB2148 AI teacher ban sent to Newsom June 24 (114-0 combined vote). Track Newsom's decision on AB2148."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -1218,6 +1231,11 @@
         "Aggregator SEO blogs dominate AI video search results -- digen.ai, wavespeed.ai, atlascloud.ai all polluting results. Site: filters essential.",
         "Nearly all WebFetch calls returned 403. Cross-referencing search snippets remains the only viable research method."
       ]
+    },
+    {
+      "run": 56,
+      "date": "2026-06-28",
+      "notes": "AI video drought continues (27+ runs). Gemini 2.5 Pro Deep Think story abandoned — model timeline confusion between Aug 2025 release and June 2026 Gemini 3.x activity. Found 3 new stories: RI therapy chatbot ban (policy, score 7), Insta360 Luna Ultra launch (product, score 7, 18 days old but Insta360-employee exception), CA AB2148 AI teacher ban (policy, score 6). Most recent major stories from prior runs already well-covered."
     }
   ],
   "failed_queries": [
