@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-29",
-  "total_runs": 57,
+  "last_run": "2026-06-30",
+  "total_runs": 58,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -943,16 +943,11 @@
     "Run 49 complete (2026-06-20). 6 new stories added. Top pick: Body Image -- Midjourney Medical full-body ultrasound scanner and spa plans (score 8, ai_funny). Second: Poisoned Pen -- Cornell WARP AI search poisoning via 13-word Reddit comments (score 7, tech_general). Space Case -- SpaceX AI1 orbital data center (score 7, tech_general) was missed by three prior runs despite June 9 announcement; always run a dedicated SpaceX/AI infrastructure search. Chip Shot -- Qualcomm-Tenstorrent acquisition talks (score 6, ai_industry) confirmed via The Information + The Register. Head Note -- Thomson Reuters v. ROSS oral arguments June 11 (score 6, ai_policy) is distinct from the April 14 scheduling story already in DB. Swipe Left -- Match Group AI dating survey (score 5, ai_funny) sourced via TechCrunch. AI video drought now 26 consecutive runs without a new model launch. ai_art drought continues. Grok Video 1.5 went GA June 16 at 86% below Sora pricing but already covered as Frame Rate (June 5). Anthropic pause call already covered as Feedback Loop. Dataland (today's opening) already covered as Body of Work. Midjourney V8.2 and video model still unreleased (run 25+)."
   ],
   "suggestions_for_next_run": [
-    "Gemini 3.5 Pro GA: delayed to July 2026 per Business Insider -- monitor for confirmed launch date",
-    "GPT-5.6 launch: slipped from June to July -- watch for OpenAI announcement",
-    "Bartz v. Anthropic settlement: still pending final approval order",
-    "GEMA v. Suno ruling: postponed to July 31 by Munich court",
-    "Adobe/Topaz Labs deal closing: expected H2 2026 -- watch for regulatory clearance and integration milestones",
-    "ByteDance Seedance 2.5 / Seedream 5.0: public launch targeted early July",
-    "DeepSeek hiring wave: search for follow-up reporting on which departments grew and what they shipped",
-    "Anthropic Fable 5 / Mythos 5: still offline as of June 23 due to export control order -- check status",
-    "Thomson Reuters v. ROSS Third Circuit: oral argument was June 11, ruling pending",
-    "Wan 3.0 (60B): expected mid-2026 -- keep monitoring"
+    "Space runs 2-3 days apart per the learnings guidance -- daily runs find diminishing returns",
+    "Next major watch items: Midjourney V8.2 full release (beyond --preview), GEMA/Suno ruling (July 31), OpenAI IPO timeline",
+    "Search 'Wan 3.0 release' -- Alibaba's roadmap targeted mid-2026 per prior learnings",
+    "Search 'Gemini 3.5 Pro' -- was delayed to July, watch for release",
+    "Search 'Fugu Ultra creative tools' if Sakana pivots toward visual/creative use cases"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -1148,7 +1143,9 @@
     "Dezeen design fairs AI policy May 28 2026",
     "Stan Lee ElevenLabs voice likeness deal May 2026",
     "Meta subscription Meta One Instagram Facebook WhatsApp launch May 2026",
-    "Tom Dixon designers Instagram AI ideas Global Design Forum Istanbul Dezeen"
+    "Tom Dixon designers Instagram AI ideas Global Design Forum Istanbul Dezeen",
+    "Krea 2 open weights Hugging Face June 23 2026",
+    "GitHub Copilot metered billing developers shocked June 30 2026"
   ],
   "unproductive_queries": [
     "Midjourney Flux update May 2026 (V8.1 already covered)",
@@ -1405,5 +1402,12 @@
         "AI audio quiet -- ElevenLabs Music v2 was May 27, outside window"
       ]
     }
-  }
+  },
+  "notes": [
+    "2026-06-30: Very tight run -- nearly all June 16-30 major stories were already in all_stories.json from prior day's run. Key lesson: when last_run was June 29, the June 30 run should focus on very recent 24-48h stories only.",
+    "2026-06-30: GitHub Copilot billing -- the story hook was the *first invoices landing* (June 30), not the billing switch itself (June 1). Look for 'bills landing' / 'first cycle close' angles on ongoing stories.",
+    "2026-06-30: Krea 2 open weights (June 23) was distinct from Krea 2 commercial launch (June 4) -- open-sourcing weights to Hugging Face is always a different editorial angle than initial commercial release, even for same model.",
+    "2026-06-30: Sakana Fugu Ultra (June 22) -- skipped per focus rule (enterprise SaaS AI not affecting creative tools). But the 'no export controls' angle (routing through non-US-controlled models) is a strong US-China framing if it resurfaces in creative context.",
+    "2026-06-30: All major stories (Seedance 2.5, Jalapeño, Figma Motion, Anthropic/Alibaba, Dataland, DeepMind exodus) were already captured by the June 29 run. When runs are daily, deduplication is the main challenge."
+  ]
 }

@@ -8357,5 +8357,62 @@
     "used_in_newsletter": false,
     "editorial_score": 7,
     "added_at": "2026-06-29T16:00:36Z"
+  },
+  {
+    "id": "2026-06-30-github-copilot-metered-billing-shock",
+    "date_found": "2026-06-30",
+    "article_date": "2026-06-29",
+    "headline_en": "Flat Broke",
+    "headline_zh": "按量计费的代价",
+    "category": "ai_tools",
+    "blurb_en": "GitHub Copilot's first metered billing cycle closed June 30, and agentic developers opened invoices ranging from 10x to 50x their old flat-rate subscriptions.\n• A $29/month plan is running at $750; a $50 plan at $3,000.\n• Agentic coding tasks consume roughly 1,000x more tokens than a standard single-turn query — according to GitHub's own research, published six weeks after the billing switch went live.\n• GitHub offers spending caps. Finding the setting is left as an exercise for the developer.\n• For Insta360 engineers running Copilot in app or firmware workflows, exposure depends on how agentically you’re pushing it — but anyone opening a surprise invoice today has a very strong opinion about ‘AI Credits.’\n• Flat-rate AI is over. Usage-based billing is great for the entity selling compute.",
+    "blurb_zh": "GitHub Copilot的首个按量计费周期于6月30日结算，重度「代理编程」用户收到了高出原套餐价10至50倍的账单。\n• 29美元/月的套餐实际花费高达750美元；50美元套餐则冲到3000美元。\n• 代理编程任务消耗的令牌量约为普通单轮对话的1000倍——这一数据来自GitHub自家研究，发布时间恰好是新计费模式上线六周之后。\n• GitHub提供消费上限设置功能。如何找到入口，请自行探索。\n• 按量计费就是好，对卖算力的一方来说。",
+    "source_url": "https://www.techtimes.com/articles/319340/20260629/github-copilot-billing-shock-confirmed-agentic-users-face-10x-cost-surge.htm",
+    "source_name": "TechTimes",
+    "source_type": "credible_secondary",
+    "discovered_via": "web_search",
+    "confidence": "high",
+    "verification_notes": "Confirmed via TechTimes (June 29), The Register (June 2), TechCrunch (May 30 preview), Visual Studio Magazine (June 4). Multiple independent sources confirm 10-50x cost increases for agentic workflows. GitHub own research (published ~6 weeks after switch) confirmed agentic tasks use ~1000x more tokens than single-turn queries.",
+    "tags": [
+      "github",
+      "copilot",
+      "billing",
+      "metered",
+      "developer_tools",
+      "microsoft",
+      "ai_credits"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 8,
+    "added_at": "2026-06-30T15:56:17Z"
+  },
+  {
+    "id": "2026-06-30-krea-2-open-weights-hugging-face",
+    "date_found": "2026-06-30",
+    "article_date": "2026-06-23",
+    "headline_en": "Free Weight",
+    "headline_zh": "举重若轻",
+    "category": "ai_art",
+    "blurb_en": "Krea AI uploaded the weights for its 12-billion-parameter image model to Hugging Face on June 23, making them free to download, fine-tune, and run locally.\n• Two variants: Raw, an undistilled mid-training checkpoint with no aesthetic alignment — ideal for LoRA training without stylistic bias — and Turbo, a distilled variant generating 2K images in about two seconds on a consumer GPU.\n• The community license allows free commercial use for individuals and teams under 50 seats.\n• Krea launched the same model commercially on June 4; the open weights are the version that matters to people who’d rather run it than pay API fees.\n• Designers building custom fine-tunes — product photography, camera-style outputs, brand-consistent image pipelines — now have a 12B foundation to start from without writing a single API contract.\n• Krea requires any hosting platform to run content classifiers on inputs and outputs. Responsible AI, or a permission slip for community goodwill? Probably both.",
+    "blurb_zh": "Krea AI于6月23日将旗下120亿参数图像模型权重上传至Hugging Face，免费开放下载、微调与本地部署。\n• 两个版本：Raw版为无对齐处理的训练中间检查点，适合零偏见LoRA训练；Turbo版经过蒸馏，可在消费级显卡上约2秒生成2K图像。\n• 社区许可协议允许个人及50人以下团队免费商用。\n• 该模型曾于6月26日以API形式商业上线；开源权重版，才是更多人真正等待的版本。\n• 做产品摄影、相机风格输出或品牌图像流程的设计师，现在有了一个无需签API合同的120亿参数起点。\n• 叫做「负责任的AI」，也可以说是一张换取社区好感的免责声明。",
+    "source_url": "https://venturebeat.com/technology/enterprise-grade-ai-image-generation-in-2-seconds-is-here-krea-2-raw-and-turbo-available-as-open-weights-under-custom-license",
+    "source_name": "VentureBeat",
+    "source_type": "credible_secondary",
+    "discovered_via": "web_search",
+    "confidence": "high",
+    "verification_notes": "VentureBeat returned HTTP 403; claims verified via cross-reference with Meteora (meteoraweb.com), Digg (digg.com/tech/zsk4g1je), Medium (Max Quimby, Jun 2026), and Hugging Face model cards (huggingface.co/krea/Krea-2-Turbo, krea/Krea-2-Raw). Release date June 23 confirmed by multiple sources. Prior story 2026-06-15-krea-2-turbo-launch covers commercial API launch (June 4); this covers the distinct open-weights release to Hugging Face.",
+    "tags": [
+      "krea",
+      "krea2",
+      "open_weights",
+      "image_generation",
+      "hugging_face",
+      "lora",
+      "fine_tuning",
+      "ai_art"
+    ],
+    "used_in_newsletter": false,
+    "editorial_score": 7,
+    "added_at": "2026-06-30T15:56:17Z"
   }
 ]
