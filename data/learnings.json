@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-30",
-  "total_runs": 58,
+  "last_run": "2026-07-01",
+  "total_runs": 59,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -274,7 +274,16 @@
     "AI policy legislation news June 2026 state laws",
     "Oracle AI layoffs 21000 workforce reduction SEC filing details June 2026",
     "Grok 4.5 xAI private beta SpaceX Tesla 1.5 trillion parameters June 28 2026",
-    "China AI anthropomorphic interactive services regulation July 15 2026"
+    "China AI anthropomorphic interactive services regulation July 15 2026",
+    "site:techcrunch.com AI June 30 July 1 2026 (surfaced Sonnet 5, Claude Science, Fable ban lift, Amazon FDE, Meta Compute leads)",
+    "Anthropic Claude Sonnet 5 launch June 30 2026 features agentic",
+    "Trump drops restrictions Anthropic Mythos Fable models June 30 2026",
+    "Five Eyes AI cyberattacks warning joint statement date June 2026",
+    "Anthropic Claude Science app biotech pharma June 30 2026",
+    "California Newsom Anthropic Claude state government AI deal June 29 2026",
+    "Meta excess AI compute cloud business sell access July 2026",
+    "Amazon FDE forward deployed engineers AI org $1 billion June 2026",
+    "Gemini Spark Mac desktop app July 1 2026 features"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -535,7 +544,13 @@
     "OpenAI IPO 2027 Anthropic October 2026 Bloomberg June 26 (skipped -- 5 existing IPO stories in DB; distinct angle but low marginal value)",
     "Qwen opens to KFC Luckin Coffee AI agents China consumer apps June 2026 (June 4 -- outside 14-day window)",
     "Veo 3 deepfakes Time magazine 2026 (article is June 2025 -- one year old; not a 2026 story)",
-    "China Qinglang AI misuse campaign 2026 The Next Web (date of article unclear; 403 on fetch -- skip)"
+    "China Qinglang AI misuse campaign 2026 The Next Web (date of article unclear; 403 on fetch -- skip)",
+    "AI video generation new model launch June 29 30 July 2026 Wan Kling Runway Pika Seedance (video drought run 30+ -- all major models still Q1 2026)",
+    "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
+    "AI image art generation new tool release June 30 July 2026 (no new model launches in window)",
+    "AI music audio generation news July 2026 new release (no fresh releases in window)",
+    "AI weird funny tech story news June 30 July 2026 (no verifiable individual story in window)",
+    "Wan 3.0 Alibaba video model release date confirmed June 2026 (ambiguous dates across sources; not confirmed within 14-day window)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -587,7 +602,10 @@
     "newsshooter.com",
     "nofilmschool.com",
     "redsharknews.com",
-    "cgchannel.com"
+    "cgchannel.com",
+    "gov.ca.gov",
+    "nsa.gov",
+    "statnews.com"
   ],
   "discovered_newsletters": [],
   "discovered_sources": [
@@ -877,7 +895,13 @@
     "China AI IP theft (model distillation) is an active news beat -- check for Anthropic/OpenAI Senate letters each run",
     "Figma Config annual conference (late June) is a reliable creative-tools story each year",
     "AI video drought (28+ runs without new major model): consider expanding to Hollywood deployment stories vs new launch only",
-    "State AI laws accelerating: Rhode Island signed 3 AI laws June 25 (therapy chatbot ban + $15K/day fine); CA AB2148 AI teacher ban sent to Newsom June 24 (114-0 combined vote). Track Newsom's decision on AB2148."
+    "State AI laws accelerating: Rhode Island signed 3 AI laws June 25 (therapy chatbot ban + $15K/day fine); CA AB2148 AI teacher ban sent to Newsom June 24 (114-0 combined vote). Track Newsom's decision on AB2148.",
+    "Dense single-day releases: June 30 had 3 distinct newsletter stories (Sonnet 5, Claude Science, Fable unban) -- watch for Anthropic event days",
+    "Five Eyes warnings are first-ever AI-specific joint advisory -- check NSA press room periodically",
+    "State government AI procurement deals are now newsletter-quality stories -- track Newsom/governor AI announcements",
+    "Midjourney V8.2 preview flag (--preview) is live but not official release; approaching 31 runs with no official version",
+    "AI video model drought: 30+ consecutive runs without a new major launch; Kling 3.0 (Feb 2026) remains most recent",
+    "Meta Compute cloud business is a new story category: hyperscalers monetizing excess compute; track AWS/Google/Microsoft equivalents"
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
