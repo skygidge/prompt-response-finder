@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-01",
-  "total_runs": 59,
+  "last_run": "2026-07-02",
+  "total_runs": 60,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -901,7 +901,15 @@
     "State government AI procurement deals are now newsletter-quality stories -- track Newsom/governor AI announcements",
     "Midjourney V8.2 preview flag (--preview) is live but not official release; approaching 31 runs with no official version",
     "AI video model drought: 30+ consecutive runs without a new major launch; Kling 3.0 (Feb 2026) remains most recent",
-    "Meta Compute cloud business is a new story category: hyperscalers monetizing excess compute; track AWS/Google/Microsoft equivalents"
+    "Meta Compute cloud business is a new story category: hyperscalers monetizing excess compute; track AWS/Google/Microsoft equivalents",
+    "Deduplication is critical now at 317 stories — prior run (July 1) covered Fable5/Mythos5 and Claude Sonnet 5; always scan all_stories.json before writing",
+    "BioShocking attack (LayerX/Roy Paz) is a strong ai_funny story type: named security research with pop-culture hook",
+    "Midjourney Medical pivot (June 17) is the strongest Insta360-relevant story in weeks — imaging industry pivots are HIGH VALUE",
+    "Suno continues to generate story material: copyright cases + incubator gag clause = dual angle",
+    "Meta competitive intel stories (Project Cannes) are very strong when Wired breaks them",
+    "South Korea chip investment confirmed via CNBC + Al Jazeera; check for $880B vs $1T discrepancy (exchange rate difference)",
+    "AI art/image generation specific stories were thin June 19 - July 2; no major model launches or style trend stories",
+    "Seedance 2.5: ByteDance enterprise conference (Volcano Engine FORCE) is a reliable source for ByteDance AI video news"
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -1169,7 +1177,14 @@
     "Meta subscription Meta One Instagram Facebook WhatsApp launch May 2026",
     "Tom Dixon designers Instagram AI ideas Global Design Forum Istanbul Dezeen",
     "Krea 2 open weights Hugging Face June 23 2026",
-    "GitHub Copilot metered billing developers shocked June 30 2026"
+    "GitHub Copilot metered billing developers shocked June 30 2026",
+    "Midjourney Medical hardware announcement ultrasound scanner June 2026",
+    "Meta hired contractors Kenya children crisis prompts ChatGPT Wired 2026",
+    "Suno Spark indie incubator never criticize artists June 2026",
+    "AI agent BioShock gaming jailbreak news July 2026",
+    "Seedance 2.5 ByteDance AI video model release 2026",
+    "South Korea 880 billion AI semiconductor investment plan 2026",
+    "Fable 5 Mythos 5 shutdown return Anthropic Trump export control June 2026"
   ],
   "unproductive_queries": [
     "Midjourney Flux update May 2026 (V8.1 already covered)",
@@ -1281,7 +1296,11 @@
     "Runway Gen-4 Kling video model update June 2026 -- no new launches",
     "Adobe Firefly AI creative tools update June 2026 -- no June-specific launch",
     "AI funny weird unexpected application June 2026",
-    "tldr.tech AI newsletter June 23 2026 (403)"
+    "tldr.tech AI newsletter June 23 2026 (403)",
+    "AI video generation news July 2026 (aggregator roundups only)",
+    "ComfyUI new update workflow node June July 2026 (no strong editorial hook)",
+    "China AI censored suppressed model news 2026 (March-April stories, outside 14-day window)",
+    "AI art news breakthrough tool July 2026 (thin week, no major model launches)"
   ],
   "most_productive_sources": [
     "Variety (celebrity AI licensing)",
@@ -1399,7 +1418,13 @@
     "TechCrunch (June 13 AG story, June 10 Ramp story)",
     "CBC News / Canadian Privacy Commissioner (Grok deepfake ruling)",
     "Pandaily / Gizmochina / Huawei Central (HarmonyOS 7)",
-    "Bloomberg / The Next Web (EngineAI IPO)"
+    "Bloomberg / The Next Web (EngineAI IPO)",
+    "MobiHealthNews (Midjourney Medical)",
+    "CNBC (South Korea, Fable5 return)",
+    "The Decoder (Meta Project Cannes)",
+    "SC Media (BioShocking)",
+    "TechTimes (Seedance 2.5)",
+    "Variety (Suno Spark)"
   ],
   "successful_queries": [
     "MiniMax Hub AI video generator Shanghai Film Festival June 2026",
@@ -1433,5 +1458,13 @@
     "2026-06-30: Krea 2 open weights (June 23) was distinct from Krea 2 commercial launch (June 4) -- open-sourcing weights to Hugging Face is always a different editorial angle than initial commercial release, even for same model.",
     "2026-06-30: Sakana Fugu Ultra (June 22) -- skipped per focus rule (enterprise SaaS AI not affecting creative tools). But the 'no export controls' angle (routing through non-US-controlled models) is a strong US-China framing if it resurfaces in creative context.",
     "2026-06-30: All major stories (Seedance 2.5, Jalapeño, Figma Motion, Anthropic/Alibaba, Dataland, DeepMind exodus) were already captured by the June 29 run. When runs are daily, deduplication is the main challenge."
+  ],
+  "suggestions": [
+    "Search for 'Seedance 2.5 public launch July 2026' — enterprise beta ended, public launch expected early July",
+    "Search for 'Suno copyright summary judgment ruling July 2026' — hearing scheduled for July",
+    "Search for 'Meta Project Cannes fallout lawsuit COPPA July 2026' — legal consequences likely",
+    "Search for 'Midjourney Medical FDA clearance scanner' — ongoing regulatory story",
+    "Search for 'BioShocking AI browser vendors patch July 2026' — ongoing security story",
+    "Search for 'Thomson Reuters Ross Intelligence Third Circuit ruling' — appeal pending after June 11 oral arguments"
   ]
 }
