@@ -1,0 +1,53 @@
+[
+  {
+    "id": "2026-07-05-pentagon-anthropic-weapons-emails",
+    "headline_en": "Arm's Length",
+    "headline_zh": "武器底线",
+    "category": "ai_policy",
+    "editorial_score": 7,
+    "confidence": "high",
+    "article_date": "2026-07-04",
+    "date_found": "2026-07-05",
+    "source_url": "https://gizmodo.com/read-the-tense-emails-between-the-pentagon-former-uber-exec-and-anthropic-dario-amodei-2000780849",
+    "source_name": "Gizmodo",
+    "source_type": "original_reporting",
+    "verification_notes": "TechTimes (July 4, 2026) confirmed date; Gizmodo reproduced email content; The Next Web and AI Weekly corroborate; Anthropic's own blog posts confirm negotiation timeline",
+    "tags": ["anthropic", "pentagon", "autonomous_weapons", "us_policy", "dod", "dario_amodei", "openai"],
+    "blurb_en": "Newly unsealed court emails reveal that the Pentagon told Anthropic CEO Dario Amodei it was \"very close\" to a deal on the same day it formally moved to blacklist the company as a national security risk.\n• Under Secretary Emil Michael wrote \"I think we are very close here\" while his office was simultaneously processing the supply chain designation that made Anthropic the first domestic U.S. company ever treated under a statute normally reserved for foreign adversaries.\n• The conditions Anthropic wouldn't drop: no Claude in fully autonomous weapons capable of selecting targets without human sign-off, and no mass domestic surveillance.\n• Michael told Amodei those limits were \"just not workable,\" gave a final deadline, and finalized the blacklist when Anthropic didn't move.\n• Hours later, OpenAI signed a Pentagon deal. Sam Altman later admitted the timing \"looked opportunistic and sloppy.\"\n• The emails confirm what the dispute always implied: the Pentagon wanted an AI model that would do anything it asked, and Anthropic said no.",
+    "blurb_zh": "新解封的法庭邮件显示，五角大楼在正式将Anthropic列入黑名单的同一天，还告知其CEO达里奥·阿莫代伊双方非常接近达成协议。\n• 副部长埃米尔·迈克尔在邮件中写道他认为双方非常接近了，与此同时他的办公室正在处理供应链限制令——这使Anthropic成为首家依据通常针对外国对手的法规被制裁的美国本土公司。\n• Anthropic坚守的两条红线：Claude不得用于无需人工审批即可自主选择目标的武器，也不得用于大规模国内监控。\n• 迈克尔告知阿莫代伊，这些限制根本行不通，给出最后期限，并在Anthropic拒绝妥协后将其列入黑名单。\n• 数小时后，OpenAI与五角大楼签署了合作协议。山姆·奥尔特曼后来承认时机选择显得投机且草率。\n• 这批邮件印证了这场争议始终暗示的核心问题：五角大楼想要一个言听计从的AI，而Anthropic说了不。"
+  },
+  {
+    "id": "2026-07-05-sony-udio-judge-rejects-30k-songs",
+    "headline_en": "Out of Scope",
+    "headline_zh": "扩诉受阻",
+    "category": "ai_audio",
+    "editorial_score": 7,
+    "confidence": "high",
+    "article_date": "2026-07-03",
+    "date_found": "2026-07-05",
+    "source_url": "https://www.musicbusinessworldwide.com/sony-music-denied-bid-to-add-30k-recordings-to-its-udio-lawsuit/",
+    "source_name": "Music Business Worldwide",
+    "source_type": "original_reporting",
+    "verification_notes": "Confirmed via Music Business Worldwide (primary), Music Ally (July 3), Digital Music News (July 2), MLex; judge Hellerstein named across all sources; 30,442 figure consistent",
+    "tags": ["sony_music", "udio", "copyright", "ai_training", "music_lawsuit", "fair_use", "riaa", "suno"],
+    "blurb_en": "A New York federal judge denied Sony Music's motion to add 30,442 sound recordings to its copyright lawsuit against AI music platform Udio, holding the case to the 333 works Sony named when it filed.\n• Discovery had gone well for Sony: forensic fingerprinting of Udio's training data turned up what the labels called \"millions\" of copyrighted recordings.\n• Judge Alvin K. Hellerstein ruled that adding 30,000-plus works \"near the close of document discovery would require substantial additional production and review, generate further disputes, and materially alter the scope of the case.\"\n• The financial delta: copyright law allows up to $150,000 per work in statutory damages. The rejected amendment would have added roughly $4.5 billion to Sony's maximum exposure claim.\n• Meanwhile, the Suno fair-use case — now with 61,026 songs in the complaint — is heading to a summary judgment hearing this month in Massachusetts. That ruling is expected to set precedent for the entire AI training industry.\n• For Insta360: any creative tool that lets users add music to AI-edited reels or video products sits downstream of a legal framework that hasn't yet decided whose liability the training data is.",
+    "blurb_zh": "纽约联邦法官拒绝了索尼音乐将30,442首录音作品追加至其针对AI音乐平台Udio版权诉讼的申请，案件范围仍限于最初起诉时列明的333件作品。\n• 取证进展对索尼有利：对Udio训练数据的音频指纹分析，发现了唱片公司所称数百万条版权录音。\n• 法官阿尔文·K·赫勒斯坦裁定，在文件证据开示接近尾声时追加逾3万件作品，将需要大量额外的提交与审查，引发更多争议，并从根本上改变案件范围。\n• 金额差距：版权法规定每件作品的法定赔偿上限为15万美元。被驳回的修正申请将使索尼的最高索赔额增加约45亿美元。\n• 与此同时，涉及61,026首歌曲的Suno合理使用案正赶往马萨诸塞州进行即决判决听证，该裁决预计将为整个AI训练行业确立先例。\n• 对于Insta360而言：任何允许用户为AI剪辑视频添加音乐的创意工具，都处于一个尚未厘清训练数据归责问题的法律框架下游。"
+  },
+  {
+    "id": "2026-07-05-insta360-ceo-invisible-camera-vision",
+    "headline_en": "Out of Sight",
+    "headline_zh": "忘记相机",
+    "category": "ai_tools",
+    "editorial_score": 6,
+    "confidence": "high",
+    "article_date": "2026-07-02",
+    "date_found": "2026-07-05",
+    "source_url": "https://petapixel.com/2026/07/02/insta360-ceos-dream-camera-is-one-you-wont-even-think-about-at-all/",
+    "source_name": "PetaPixel",
+    "source_type": "original_reporting",
+    "verification_notes": "July 2, 2026 per URL path; JK Liu quotes verified across multiple search results; context: interview followed Luna Ultra launch June 10; PetaPixel is credible photography publication",
+    "tags": ["insta360", "jk_liu", "camera_ai", "360_camera", "spatial_intelligence", "ai_hardware", "imaging"],
+    "blurb_en": "Insta360 founder JK Liu told PetaPixel this week that his ideal camera is one users forget exists — and laid out the three conditions that have to be true before that camera ships.\n• The three: 360-degree vision so the AI has full scene context, spatial intelligence so it understands depth and motion rather than just recording pixels, and real-time action so it tracks, stabilizes, and composes without asking.\n• \"People should experience the moment,\" Liu said. \"The camera should handle the mechanics of capture.\"\n• The current Insta360 lineup — the Luna Ultra, the X series — is designed around this idea: hardware that stays out of the way.\n• The gap between \"stays out of the way\" and \"fully invisible\" is significant. Liu's dream camera does not need a user. Today's product still does.\n• Worth noting: a camera that asks nothing from you and records everything around you is, by another name, a surveillance device. The line is how much of that processing stays on your side.",
+    "blurb_zh": "Insta360创始人JK刘本周向PetaPixel表示，他理想中的相机是一款用户会彻底忘记其存在的设备，并列出了这款相机问世所需满足的三个条件。\n• 三个条件：360度全景视野，让AI拥有完整的场景上下文；空间智能，让它理解深度与运动而非仅仅记录像素；以及实时响应，让它无需提示即可完成追踪、防抖与构图。\n• 刘说：人们应该专注于体验当下，相机应该负责处理拍摄的技术问题。\n• 现有Insta360产品线——Luna Ultra、X系列——正是围绕这一理念设计的：让硬件退隐幕后。\n• 退隐幕后与完全隐形之间的差距不可忽视。刘所描述的理想相机不需要用户参与，而今天的产品仍然需要。\n• 值得注意的是：一台对你毫无要求、却记录你周围一切的相机，换个说法，就是一台监控设备。关键在于，多少处理过程留在你这一侧。"
+  }
+]

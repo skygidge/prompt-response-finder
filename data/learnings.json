@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-04",
-  "total_runs": 62,
+  "last_run": "2026-07-05",
+  "total_runs": 63,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -564,7 +564,11 @@
     "ByteDance Seedance 2.0 international pause July 2026 (Caixin Global article was March 17, 2026 -- outside 14-day window)",
     "Microsoft Frontier Company AI engineers embedded July 2026 (similar topic to already-covered Amazon FDE 2026-07-01 story; dropped to avoid repetition)",
     "HappyHorse 1.1 fal AI video model July 2026 (VentureBeat date unclear; TechNode article June 23 -- may be outside window; skipped in favor of better-verified stories)",
-    "AI video generation new model launch July 2026 Runway Kling Wan Pika (video drought run 31+ -- all major models still Q1 2026; Luma/Young Washington confirmed but via theatrical release angle not standalone model launch)"
+    "AI video generation new model launch July 2026 Runway Kling Wan Pika (video drought run 31+ -- all major models still Q1 2026; Luma/Young Washington confirmed but via theatrical release angle not standalone model launch)",
+    "Anthropic Pentagon emails lawsuit July 2026 (produced Arm's Length -- unsealed court emails showing simultaneous deal outreach + blacklisting)",
+    "Sony Udio judge ruling 30000 songs copyright 2026 (produced Out of Scope -- judge Hellerstein denies Sony amendment to 30,442 songs)",
+    "Insta360 JK Liu PetaPixel interview 2026 (produced Out of Sight -- founder vision piece with strong Insta360 relevance)",
+    "site:musicbusinessworldwide.com Udio Sony (good for AI music copyright case developments; more reliable than Digital Music News)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -1490,14 +1494,20 @@
     "2026-06-30: GitHub Copilot billing -- the story hook was the *first invoices landing* (June 30), not the billing switch itself (June 1). Look for 'bills landing' / 'first cycle close' angles on ongoing stories.",
     "2026-06-30: Krea 2 open weights (June 23) was distinct from Krea 2 commercial launch (June 4) -- open-sourcing weights to Hugging Face is always a different editorial angle than initial commercial release, even for same model.",
     "2026-06-30: Sakana Fugu Ultra (June 22) -- skipped per focus rule (enterprise SaaS AI not affecting creative tools). But the 'no export controls' angle (routing through non-US-controlled models) is a strong US-China framing if it resurfaces in creative context.",
-    "2026-06-30: All major stories (Seedance 2.5, Jalapeño, Figma Motion, Anthropic/Alibaba, Dataland, DeepMind exodus) were already captured by the June 29 run. When runs are daily, deduplication is the main challenge."
+    "2026-06-30: All major stories (Seedance 2.5, Jalapeño, Figma Motion, Anthropic/Alibaba, Dataland, DeepMind exodus) were already captured by the June 29 run. When runs are daily, deduplication is the main challenge.",
+    "2026-07-05: Python heredoc Chinese character errors -- when blurb_zh contains Chinese quotation marks (U+201C/U+201D) inside Python double-quoted strings, use Write tool to create JSON directly instead of Python source literals. The Write tool handles Unicode cleanly; Python source files don't.",
+    "2026-07-05: Pentagon-Anthropic story had excellent multi-source verification (Gizmodo primary, TechTimes, The Next Web, AI Weekly). When a story involves court documents, check Gizmodo and The Verge for full text reproductions.",
+    "2026-07-05: Microsoft July layoffs (~5,000) scored 4 -- not AI art/video, no Insta360 angle. General tech layoffs are not newsletter material unless there is a specific AI creative tools connection.",
+    "2026-07-05: Suno summary judgment (Massachusetts) is the case to watch for AI training precedent -- expected this month. Sony/Udio ruling was a procedural setback, not a merits decision."
   ],
   "suggestions": [
     "Search for 'Seedance 2.5 public launch July 2026' — enterprise beta ended, public launch expected early July",
-    "Search for 'Suno copyright summary judgment ruling July 2026' — hearing scheduled for July",
+    "Search for 'Suno Massachusetts summary judgment ruling July 2026' — hearing this month; will set AI training precedent",
     "Search for 'Meta Project Cannes fallout lawsuit COPPA July 2026' — legal consequences likely",
     "Search for 'Midjourney Medical FDA clearance scanner' — ongoing regulatory story",
     "Search for 'BioShocking AI browser vendors patch July 2026' — ongoing security story",
-    "Search for 'Thomson Reuters Ross Intelligence Third Circuit ruling' — appeal pending after June 11 oral arguments"
+    "Search for 'Thomson Reuters Ross Intelligence Third Circuit ruling' — appeal pending after June 11 oral arguments",
+    "Search for 'Anthropic Pentagon blacklist appeal July 2026' — status of DoD supply chain designation after Trump dropped export controls June 30",
+    "Search for 'GEMA Suno copyright Germany ruling July 31 2026' — postponed ruling date confirmed"
   ]
 }
