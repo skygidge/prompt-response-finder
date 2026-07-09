@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-08",
-  "total_runs": 64,
+  "last_run": "2026-07-09",
+  "total_runs": 65,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -300,7 +300,12 @@
     "Doubao ByteDance agent features removed July 15 2026 China regulation",
     "Illinois AI Safety Measures Act signed July 6 2026 details what it requires",
     "AI news July 7 8 2026 major announcements",
-    "Anthropic Fable 5 government ban NSA shutdown Claude July 2026"
+    "Anthropic Fable 5 government ban NSA shutdown Claude July 2026",
+    "ByteDance Seedance 2.5 copyright MPA Hollywood lawsuit launch July 2026 (produced Private Screening -- Hollywood hypocrisy angle TechTimes July 7)",
+    "Chinese AI models GLM-5.2 US companies adoption July 2026 CNBC (produced Trade Routes -- 46% OpenRouter tokens; CNBC July 7, 3+ cross-refs)",
+    "Google SynthID watermark AI detection debunk McConnell TechCrunch July 2026 (produced Dead Giveaway -- TechCrunch + The Next Web July 8)",
+    "World Cup 2026 AI deepfake scam ads football misinformation (produced Own Goal -- Euronews June 26 + Revelum)",
+    "site:musicbusinessworldwide.com Udio Sony (confirmed most reliable source for AI music copyright case developments)"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -575,7 +580,11 @@
     "Anthropic Pentagon emails lawsuit July 2026 (produced Arm's Length -- unsealed court emails showing simultaneous deal outreach + blacklisting)",
     "Sony Udio judge ruling 30000 songs copyright 2026 (produced Out of Scope -- judge Hellerstein denies Sony amendment to 30,442 songs)",
     "Insta360 JK Liu PetaPixel interview 2026 (produced Out of Sight -- founder vision piece with strong Insta360 relevance)",
-    "site:musicbusinessworldwide.com Udio Sony (good for AI music copyright case developments; more reliable than Digital Music News)"
+    "site:musicbusinessworldwide.com Udio Sony (good for AI music copyright case developments; more reliable than Digital Music News)",
+    "AI weird funny cursed unexpected application June July 2026 (general query -- still a dead end; only evergreen listicles -- run 65)",
+    "AI agent real world deployment autonomous July 2026 (too generic -- enterprise trend roundups only, no individual story -- run 65)",
+    "TLDR AI WebFetch July 2026 (returned 403 -- use web search instead -- run 65)",
+    "AI camera imaging photography tool launch June July 2026 (Adobe June 15 outside 14-day window; no fresh imaging story in window -- run 65)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -632,7 +641,10 @@
     "nsa.gov",
     "statnews.com",
     "geekwire.com (confirmed strong for sustainability/climate/data center stories, especially Amazon AWS coverage)",
-    "digitalmusicnews.com (Weird Al story confirmed; good for AI music industry and celebrity AI incidents)"
+    "digitalmusicnews.com (Weird Al story confirmed; good for AI music industry and celebrity AI incidents)",
+    "musicbusinessworldwide.com",
+    "techtimes.com",
+    "revelum.ai"
   ],
   "discovered_newsletters": [],
   "discovered_sources": [
@@ -1504,6 +1516,23 @@
         "AI funny/weird drought -- listicles only; no individual verifiable stories",
         "AI audio quiet -- ElevenLabs Music v2 was May 27, outside window"
       ]
+    },
+    "2026-07-09": {
+      "stories_found": 7,
+      "new_added": 4,
+      "deduped": 3,
+      "top_story": "Private Screening (Seedance 2.5 + Hollywood hypocrisy) -- score 9",
+      "found_stories": [
+        "2026-07-09-seedance-25-hollywood-hypocrisy",
+        "2026-07-09-chinese-ai-models-us-adoption-surge",
+        "2026-07-09-synthid-mcconnell-deepfake-debunked",
+        "2026-07-09-world-cup-2026-ai-deepfake-scam-explosion"
+      ],
+      "deduped_stories": [
+        "Trump deepfake (already 2026-07-03-trump-dr-trump-ai-deepfake-video)",
+        "Sony/Udio ruling (already 2026-07-05-sony-udio-judge-rejects-30k-songs)",
+        "OpenAI Jalapeño chip (already 2026-06-24-openai-broadcom-jalapeno-inference-chip -- different URL, same topic)"
+      ]
     }
   },
   "notes": [
@@ -1515,7 +1544,11 @@
     "2026-07-05: Python heredoc Chinese character errors -- when blurb_zh contains Chinese quotation marks (U+201C/U+201D) inside Python double-quoted strings, use Write tool to create JSON directly instead of Python source literals. The Write tool handles Unicode cleanly; Python source files don't.",
     "2026-07-05: Pentagon-Anthropic story had excellent multi-source verification (Gizmodo primary, TechTimes, The Next Web, AI Weekly). When a story involves court documents, check Gizmodo and The Verge for full text reproductions.",
     "2026-07-05: Microsoft July layoffs (~5,000) scored 4 -- not AI art/video, no Insta360 angle. General tech layoffs are not newsletter material unless there is a specific AI creative tools connection.",
-    "2026-07-05: Suno summary judgment (Massachusetts) is the case to watch for AI training precedent -- expected this month. Sony/Udio ruling was a procedural setback, not a merits decision."
+    "2026-07-05: Suno summary judgment (Massachusetts) is the case to watch for AI training precedent -- expected this month. Sony/Udio ruling was a procedural setback, not a merits decision.",
+    "2026-07-09: DB had grown to 340 stories -- WebFetch of all_stories.json only previewed 64. Always use Bash python3 to count and check recent coverage before searching.",
+    "2026-07-09: Jalapeño chip (June 24) was already in DB under different URL. Caught via same-topic check after writing blurb. CRITICAL: run same-topic dedup check before writing blurbs, not just URL dedup.",
+    "2026-07-09: Trump deepfake and Sony/Udio stories from July 3/5 already in DB -- picked different source URLs and story angles but URL dedup caught them. Good system working.",
+    "2026-07-09: Hollywood/Seedance hypocrisy angle (TechTimes July 7) is complementary to existing Seedance 2.5 launch story (July 2) -- kept as separate angle; different URL, different story."
   ],
   "suggestions": [
     "Search for 'Seedance 2.5 public launch July 2026' — enterprise beta ended, public launch expected early July",
@@ -1525,11 +1558,20 @@
     "Search for 'BioShocking AI browser vendors patch July 2026' — ongoing security story",
     "Search for 'Thomson Reuters Ross Intelligence Third Circuit ruling' — appeal pending after June 11 oral arguments",
     "Search for 'Anthropic Pentagon blacklist appeal July 2026' — status of DoD supply chain designation after Trump dropped export controls June 30",
-    "Search for 'GEMA Suno copyright Germany ruling July 31 2026' — postponed ruling date confirmed"
+    "Search for 'GEMA Suno copyright Germany ruling July 31 2026' — postponed ruling date confirmed",
+    "Search for 'GEMA Suno copyright Germany ruling July 31 2026' -- postponed ruling date confirmed",
+    "Search for 'Suno Massachusetts summary judgment ruling July 2026' -- hearing this month; will set AI training precedent",
+    "Search for 'Midjourney V8.2 release July 2026' -- V8.2 preview updated July 3; likely to launch soon",
+    "Search for 'No Fakes Act Senate full vote July 2026' -- passed Judiciary Committee June 18",
+    "Search for 'Andersen Stability AI discovery August 2026' -- trial set September 8"
   ],
   "patterns_noticed": [
     "July 8: Meta Muse Image default opt-in of Instagram public photos became the major AI privacy story of the week",
     "July 8: Two separate China AI restriction stories in same week (model exports + domestic companion shutdown) signal accelerating regulatory environment",
-    "July 8: AI video model drought continues -- major models (Kling, Seedance, Runway) all launched in Q1-Q2 2026, leaving a gap in the 14-day window"
+    "July 8: AI video model drought continues -- major models (Kling, Seedance, Runway) all launched in Q1-Q2 2026, leaving a gap in the 14-day window",
+    "July 9: Hollywood-ByteDance hypocrisy story (public opposition, private use) is the ideal newsletter angle -- studios opposing AI publicly while using it internally.",
+    "July 9: US companies routing 46% of tokens to Chinese models via OpenRouter -- direct evidence of US-China AI adoption gap. Insta360 focus-relevant.",
+    "July 9: SynthID scored its first major public win (McConnell hospital fake) -- AI provenance/watermarking is now a real beat, not just theoretical.",
+    "July 9: World Cup created the first major AI-deepfake-as-commerce event -- scale (10,000+ ads) and financial motive distinguish it from past sports misinformation."
   ]
 }
