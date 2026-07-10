@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-09",
-  "total_runs": 65,
+  "last_run": "2026-07-10",
+  "total_runs": 66,
   "queries_that_produced_results": [
     "OpenAI Sora shutdown discontinued April 2026",
     "fal HappyHorse AI video model April 2026",
@@ -305,7 +305,16 @@
     "Chinese AI models GLM-5.2 US companies adoption July 2026 CNBC (produced Trade Routes -- 46% OpenRouter tokens; CNBC July 7, 3+ cross-refs)",
     "Google SynthID watermark AI detection debunk McConnell TechCrunch July 2026 (produced Dead Giveaway -- TechCrunch + The Next Web July 8)",
     "World Cup 2026 AI deepfake scam ads football misinformation (produced Own Goal -- Euronews June 26 + Revelum)",
-    "site:musicbusinessworldwide.com Udio Sony (confirmed most reliable source for AI music copyright case developments)"
+    "site:musicbusinessworldwide.com Udio Sony (confirmed most reliable source for AI music copyright case developments)",
+    "AI news today July 10 2026 announcement launch",
+    "Insta360 11th anniversary Cameraman AI robot agent vision July 10 2026",
+    "Midjourney Disney Universal copyright discovery reveal AI use July 2026",
+    "TIDAL AI generated music no royalties July 15 2026 policy",
+    "Google Photos Video Remix Gemini Omni AI video tool launch 2026",
+    "OpenAI GPT-5.6 Sol Terra Luna launch July 10 2026",
+    "Grok 4.5 xAI launch July 2026 hallucination",
+    "NYT news publishers sanction OpenAI copyright case July 9 2026",
+    "AI creative tools photography imaging news July 2026 Insta360"
   ],
   "queries_that_produced_nothing": [
     "AI weird funny unexpected application 2026 (no verifiable individual news stories, only listicles and meme roundups -- still a dead end)",
@@ -1025,7 +1034,14 @@
     "Meta Muse Video -- same model as Muse Image, coming soon; will be a strong story on launch",
     "DeepSeek July 24 API model retirement (deepseek-chat -> deepseek-v4) -- mostly developer logistics, low news value",
     "Check Illinois AI law ripple effects -- other state legislatures may accelerate their own bills",
-    "Verify dates with URL paths -- URL spoofing (2025 content appearing as 2026) is a persistent issue"
+    "Verify dates with URL paths -- URL spoofing (2025 content appearing as 2026) is a persistent issue",
+    "Search specifically for Insta360 product/vision news — direct audience relevance, high editorial score",
+    "Add TIDAL/Spotify/Apple Music AI music policy as a recurring search — platforms changing monetization policies is a consistent story beat",
+    "Search 'AI camera imaging news [date]' specifically to catch camera/imaging relevant stories",
+    "Check TechNode specifically for China AI company news in English",
+    "Search for specific company anniversary announcements in July — Insta360 11th anniversary was today's lead",
+    "When a story is announced but 'effective' later, cover it when announced AND when it takes effect for two bites",
+    "Grok hallucination rate was in multiple aggregators but not confirmable from primary (paywalled) — flag as medium confidence and still run"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -1573,5 +1589,12 @@
     "July 9: US companies routing 46% of tokens to Chinese models via OpenRouter -- direct evidence of US-China AI adoption gap. Insta360 focus-relevant.",
     "July 9: SynthID scored its first major public win (McConnell hospital fake) -- AI provenance/watermarking is now a real beat, not just theoretical.",
     "July 9: World Cup created the first major AI-deepfake-as-commerce event -- scale (10,000+ ads) and financial motive distinguish it from past sports misinformation."
+  ],
+  "patterns_noted": [
+    "Most major news sites (TechCrunch, Variety, Axios, Washington Post, 9to5Google) return 403 on WebFetch — rely on search result snippets cross-referenced 3+ sources",
+    "Searching with today's date in the query (e.g. 'July 10 2026') surfaces fresher stories than generic searches",
+    "Insta360 and imaging-specific queries are high-value for this newsletter's audience — run every time",
+    "TIDAL AI policy announced June 29 was missed by July 9 run — suggests adding music platform policy as a standard search category",
+    "July 2026 is a dense model release week: GPT-5.6, Grok 4.5, plus ongoing Fable 5 transitions"
   ]
 }
