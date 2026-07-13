@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-12",
-  "total_runs": 68,
+  "last_run": "2026-07-13",
+  "total_runs": 69,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -31,7 +31,10 @@
     "Meta removes Muse Image tool Instagram backlash July 11 2026",
     "RIAA Grammy SAG-AFTRA AI music labeling tags program July 2026",
     "Mistral robot AI model locomotion navigation July 2026",
-    "EU AI Act August 2 2026 deadline C2PA watermark content credentials"
+    "EU AI Act August 2 2026 deadline C2PA watermark content credentials",
+    "OpenAI Google Pentagon blacklisted Chinese firms Singapore Financial Times July 10 2026 (produced Back Channel -- FT July 10 confirmed across 10+ outlets; Anthropic fake accounts angle adds depth)",
+    "Unitree Technology STAR Market IPO registration approval July 3 2026 (produced Floor Show -- Caixin Global primary source; 73-day record confirmed)",
+    "Tesla Robotaxi Miami no safety monitor driverless 2026 (produced Blind Faith -- TechTimes July 4 + multiple outlets; NHTSA probe angle is the editorial hook)"
   ],
   "queries_that_produced_nothing": [
     "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
@@ -53,7 +56,12 @@
     "AI camera imaging photography tool launch June July 2026 (Adobe June 15 outside 14-day window; no fresh imaging story in window -- run 65)",
     "AI filmmaking animation new tool launch 2026 (aggregator only)",
     "AI funny weird viral news July 2026 (no verifiable stories)",
-    "Midjourney V8.2 release July 2026 (still preview, not GA)"
+    "Midjourney V8.2 release July 2026 (still preview, not GA)",
+    "Midjourney V8.2 release July 2026 (still --preview flag only, not GA -- run 32 consecutive)",
+    "AI video generation new model launch July 2026 Runway Kling Wan Pika Seedance (confirmed drought run 32 -- all major models still Q1 2026 releases)",
+    "AI music news July 12 13 2026 Suno Udio ElevenLabs new release (no fresh release or ruling -- GEMA verdict still July 31; Sony US ruling still pending)",
+    "AI image art generation new tool July 2026 (only aggregator roundups, no new model launch)",
+    "AI weird funny surprising news July 13 2026 (aggregator listicles only -- run 23 in ai_funny drought)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -422,7 +430,15 @@
     {
       "pattern": "One-day follow-up runs yield 3-5 stories, not 10-15. Budget search time accordingly.",
       "date": "2026-07-12"
-    }
+    },
+    "OpenAI/Google Pentagon blacklist via Singapore (July 10, FT): When US frontier AI labs get caught selling to adversary-linked entities, the loophole is always jurisdictional -- Singapore, Hong Kong, UAE. Watch for follow-up policy actions. The Anthropic fake-accounts-in-June context elevated this from a disclosure story to an enforcement story.",
+    "Alibaba distillation campaigns are now a documented pattern: Anthropic disclosed 25,000 fake accounts + 28.8M Claude interactions in June; OpenAI detected and suspended similar activity. Both companies reported to US government. This is now a traceable beat: 'which US AI lab did Chinese entities try to distill this month?'",
+    "Unitree IPO (Caixin Global July 3): Humanoid robot IPOs are now a monthly China beat. EngineAI HK (June), Unitree STAR Market (July). Search 'China humanoid robot IPO' every run. The valuation multiples are extreme (37x revenue) -- that is the editorial angle for future runs.",
+    "Tesla Robotaxi Miami: no-safety-monitor launch is a trend story. Each city adds confidence data. NHTSA probe is the counterpressure. Camera-only FSD in Miami's tropical conditions is relevant to Insta360 employees working on outdoor imaging systems. Check for incident reports each run.",
+    "AI video drought: 32 consecutive runs with no new major model launch. The category is stagnant while legal proceedings (Seedance/Hollywood) and product consolidation play out. Stop searching generically -- only search by model name when a specific rumored update is expected.",
+    "Microsoft Frontier Co. (2026-07-04-microsoft-frontier-company-25b-fde) was already in DB from the July 4 run -- do not re-run this search unless there is a specific new development.",
+    "China AI companion rules (effective July 15): Already covered June 29 and July 8. ByteDance/Alibaba compliance actions may generate follow-up stories after July 15 effective date. Check next run for enforcement stories.",
+    "GEMA v. Suno Munich ruling: Still July 31. Already in DB from June 12. No new development until the ruling itself. Do not re-search until July 31 or a settlement announcement."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
