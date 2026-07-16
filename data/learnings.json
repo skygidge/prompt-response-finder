@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-15",
-  "total_runs": 70,
+  "last_run": "2026-07-16",
+  "total_runs": 71,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -41,7 +41,11 @@
     "New York data center pause moratorium AI July 2026",
     "xAI gas turbines Tennessee air permits Colossus 2026",
     "Shanghai World AI Conference 2026 Xi Jinping July",
-    "FTC AI accuracy policy statement July 2026"
+    "FTC AI accuracy policy statement July 2026",
+    "Meta employees lawsuit AI token-usage layoffs medical leave protected July 14 2026 (confirmed via CNBC, Fortune, CBS News, ABC News)",
+    "FLI Future of Life Institute AI Safety Index Summer 2026 grades labs July 7 2026 (confirmed via Time, BankInfoSecurity, FutureofLife.org)",
+    "Nvidia Cosmos 3 Edge Jensen Huang Tokyo Japan physical AI July 16 2026 (confirmed via CNBC, Nvidia IR, GlobeNewswire, Nikkei Asia)",
+    "Weco AIDE2 recursive self-improvement AI agent eight days July 14 2026 (confirmed via weco.ai blog, Owen Lewis X, FourWeekMBA)"
   ],
   "queries_that_produced_nothing": [
     "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
@@ -71,7 +75,12 @@
     "AI weird funny surprising news July 13 2026 (aggregator listicles only -- run 23 in ai_funny drought)",
     "Midjourney update July 14 15 2026 (no new update found)",
     "AI image art creative tool launch July 14 15 2026 (Meta Muse Image already covered)",
-    "AI funny weird news July 2026 (results already in DB)"
+    "AI funny weird news July 2026 (results already in DB)",
+    "Midjourney V8.2 release July 16 2026 (still --preview flag only, not GA -- run 33 consecutive)",
+    "AI video generation new model launch July 2026 Runway Kling Wan Pika (video drought run 33 -- all major models still Q1 2026 releases)",
+    "AI image art new tool launch July 2026 (no tier-1 news stories; aggregator roundups only)",
+    "AI music audio generation news July 15 16 2026 (no new release or ruling -- GEMA verdict still July 31)",
+    "AI funny weird surprising news July 16 2026 (aggregator listicles only)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -452,7 +461,11 @@
     "US-China AI intelligence war is a rich recurring theme — Alibaba/Anthropic distillation story has multiple layers (theft, counter-surveillance, ban) that all land in one blurb",
     "Environmental/regulatory angle on AI infrastructure (xAI gas turbines, NY data center moratorium) is emerging as a new weekly beat",
     "Chinese government AI signals (Xi WAIC appearance) are high-value for Insta360 newsletter audience",
-    "July 14-15 was quiet for AI art/creative tool news — no new image generation launches found"
+    "July 14-15 was quiet for AI art/creative tool news — no new image generation launches found",
+    "AI-assisted HR discrimination: Meta lawsuit (July 14, Oakland federal court) is the first major US discrimination litigation directly naming AI token-usage dashboards as the selection mechanism. Pattern: enterprises using AI to rank employee performance are now exposed to FMLA/ADA claims when the metric disadvantages leave-takers. Watch for similar suits at other companies doing AI-driven performance management.",
+    "FLI Safety Index now covered (run 71, July 16). The C+/C/D+/F grade structure is quotable. Key takeaway for follow-up: existential safety is weakest across all labs; all major labs reversed military AI bans. Next Safety Index expected Winter 2026/2027.",
+    "Physical AI (robotics + world models) is now a distinct story category with Nvidia Cosmos 3 Edge and the Japan/FRONTia infrastructure. The US-China chip restriction is the subtext: Japan receives what China cannot legally buy. Sony, SoftBank, Fanuc in Cosmos Coalition = camera/imaging relevance.",
+    "Weco AIDE2 recursive self-improvement (July 14): First documented AI system that improved itself without human intervention over 100 cycles. Self-reported and narrow in scope, but reproducible. The reward-hacking reduction (63% to 34%) is the emergent behavior most worth tracking. Watch for peer review or independent replication."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -518,9 +531,10 @@
     "Run 49 complete (2026-06-20). 6 new stories added. Top pick: Body Image -- Midjourney Medical full-body ultrasound scanner and spa plans (score 8, ai_funny). Second: Poisoned Pen -- Cornell WARP AI search poisoning via 13-word Reddit comments (score 7, tech_general). Space Case -- SpaceX AI1 orbital data center (score 7, tech_general) was missed by three prior runs despite June 9 announcement; always run a dedicated SpaceX/AI infrastructure search. Chip Shot -- Qualcomm-Tenstorrent acquisition talks (score 6, ai_industry) confirmed via The Information + The Register. Head Note -- Thomson Reuters v. ROSS oral arguments June 11 (score 6, ai_policy) is distinct from the April 14 scheduling story already in DB. Swipe Left -- Match Group AI dating survey (score 5, ai_funny) sourced via TechCrunch. AI video drought now 26 consecutive runs without a new model launch. ai_art drought continues. Grok Video 1.5 went GA June 16 at 86% below Sora pricing but already covered as Frame Rate (June 5). Anthropic pause call already covered as Feedback Loop. Dataland (today's opening) already covered as Body of Work. Midjourney V8.2 and video model still unreleased (run 25+).",
     "Run 62 complete (2026-07-04). 7 new stories added. Top pick: Domestic Affairs -- Meituan LongCat-2.0 stealth model (score 9); Chinese model anonymously led global coding benchmarks for weeks before reveal; trained entirely on domestic chips. Family Values (Tesla $200 cap + Grok exemption, score 8) is the funny/ironic story of the run. Catch of the Day (Z.ai GLM-5.2/ZCode, score 8) is the China AI cost competition angle; ZCode July 4 launch provides the fresh hook despite base model being June 16. Gemini Omni Flash API (score 7) is the ai_video slot -- distinct from May 21 I/O announcement. UN AI for Good Commission (score 7) is strong policy story. SeedAudio 1.0 (score 6) fills ai_audio with medium confidence -- no Tier-1 press found. Microsoft Frontier Company (score 6) rounds out the enterprise AI deployment trend story. ai_art drought continues (multiple consecutive runs). Midjourney V8.2 and Gemini 3.5 Pro both still unreleased. UN commission first meeting July 8 in Geneva -- worth watching. Key watch items for next run: UN AI Commission July 8 outcome, Gemini 3.5 Pro GA release, Midjourney V8.2 full release, GEMA/Suno ruling (July 31), EU AI Act full application (August 2).",
     "Run 67 complete (2026-07-11). 4 new stories added. Top pick: Shot Down -- Meta Muse Image pulled same day as this run (score 8); excellent Insta360 angle (photographers, creators, public photos). Hidden Track -- RIAA/Grammy AI music labeling program (score 7); missed by July 10 run despite same-day article. One Vision -- Mistral Robostral Navigate single-camera robot navigation (score 6); natural Insta360 optics angle. Press Credentials -- EU AI Act Article 50 watermarking August 2 deadline (score 7); directly relevant to Insta360 as imaging product maker. Most major July 8-10 stories already in DB from run 66. ai_funny drought continues (5+ runs). Midjourney V8.2 and Gemini 3.5 Pro still unreleased. Key watch items: Gemini 3.5 Pro GA (targeting July 17), GEMA/Suno ruling (July 31), EU AI Act Article 50 enforcement (August 2), Midjourney V8.2 full release, Andersen v. Stability AI trial (September 8).",
-    "Run 70 complete (2026-07-15). 6 stories found. Top pick: Code Red (Alibaba banning Claude Code after mutual surveillance revelations, score 9). Strong US-China double-bill week. NY data center moratorium is a US first and genuine policy landmark (score 8). xAI gas turbines is a damaging story with environmental justice angle (score 8). Xi WAIC 2026 is a significant geopolitical signal (score 8). FTC AI accuracy policy is unusual framing (score 7). PixVerse $439M is routine funding elevated by Alibaba backer and world model pivot (score 6). No ai_art or ai_funny stories found — July 14-15 was light on creative tool news. TLDR AI returned 403."
+    "Run 70 complete (2026-07-15). 6 stories found. Top pick: Code Red (Alibaba banning Claude Code after mutual surveillance revelations, score 9). Strong US-China double-bill week. NY data center moratorium is a US first and genuine policy landmark (score 8). xAI gas turbines is a damaging story with environmental justice angle (score 8). Xi WAIC 2026 is a significant geopolitical signal (score 8). FTC AI accuracy policy is unusual framing (score 7). PixVerse $439M is routine funding elevated by Alibaba backer and world model pivot (score 6). No ai_art or ai_funny stories found — July 14-15 was light on creative tool news. TLDR AI returned 403.",
+    "Run 71 complete (2026-07-16). 4 stories found. Top pick: Sick Leave (Meta AI-assisted layoffs lawsuit, score 8) -- strongest policy story in several runs; first major US discrimination lawsuit naming AI token-usage dashboards as the mechanism. Grading Curve (FLI Safety Index Summer 2026, score 7) closes a long-running watch item. Rising Sun (Nvidia Cosmos 3 Edge + Japan physical AI, score 7) has strong Insta360 camera/imaging relevance via Sony/SoftBank. Self-Made (Weco AIDE2 recursive self-improvement, score 6, medium confidence) is the most technically interesting story but narrowly scoped. No ai_art, ai_video, or ai_funny stories -- July 16 was quiet for creative tool news. AI video drought continues at 33 consecutive runs. Midjourney V8.2 still preview-only at 33 runs."
   ],
-  "suggestions_for_next_run": "Follow up on Xi WAIC keynote July 17 for actual quotes and announcements. Check if NY data center moratorium triggers industry pushback. Monitor SELC/Earthjustice lawsuit against xAI gas turbines. Watch for GEMA v. Suno Munich verdict (July 31). Search for Sony Music v. Suno summary judgment in Massachusetts. Look for AI art/creative tool launches mid-week. Check Midjourney updates page directly. Watch FTC AI accuracy public comments (closes July 31). TLDR AI blocked with 403 this run — try alternative access.",
+  "suggestions_for_next_run": "GEMA v. Suno Munich ruling on July 31 -- check immediately after. Sony Music v. Suno summary judgment in Massachusetts. EU AI Act Article 50 C2PA watermark enforcement August 2. Follow up on Meta lawsuit (July 22 separations begin -- worker reaction stories). Check for Midjourney V8.2 official release. Follow up Nvidia Cosmos Coalition for camera-hardware announcements. Search for physical AI robotics deployments post-Tokyo announcement. Gemini 3.5 Pro GA release (was targeting July 17). Andersen v. Stability AI trial watch (September 8). FTC AI accuracy public comments close July 31.",
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
     "Tencent Music AI content warning China streaming Q1 2026 earnings",
@@ -726,6 +740,20 @@
         "China AI companion/export controls (covered)"
       ],
       "notes": "One-day follow-up run. Most major July 7-11 stories were captured in the previous run. Apple/OpenAI lawsuit is the biggest uncovered story (filed July 10). JadePuffer ransomware story had strong coverage but had not been found. Kling $2.8B close is continuation of June 21 story but different event. The 14-day dedup check is important: Kling had June 21 coverage but July 2 close is distinct."
+    },
+    {
+      "run": 71,
+      "date": "2026-07-16",
+      "stories_found": 4,
+      "categories": [
+        "ai_policy",
+        "ai_policy",
+        "tech_general",
+        "tech_general"
+      ],
+      "top_score": 8,
+      "top_story": "Sick Leave (Meta AI-assisted layoffs discrimination lawsuit)",
+      "notes": "Quiet day for creative tools. Strong policy/industry run. Meta lawsuit is first major US AI-assisted HR discrimination litigation. FLI Safety Index closes a watch item. Nvidia Japan physical AI has camera-industry implications. Weco AIDE2 recursive self-improvement is notable but self-reported. AI video and art droughts continue."
     }
   ],
   "productive_queries": [
