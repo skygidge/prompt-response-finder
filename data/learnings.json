@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-16",
-  "total_runs": 71,
+  "last_run": "2026-07-17",
+  "total_runs": 72,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -45,7 +45,12 @@
     "Meta employees lawsuit AI token-usage layoffs medical leave protected July 14 2026 (confirmed via CNBC, Fortune, CBS News, ABC News)",
     "FLI Future of Life Institute AI Safety Index Summer 2026 grades labs July 7 2026 (confirmed via Time, BankInfoSecurity, FutureofLife.org)",
     "Nvidia Cosmos 3 Edge Jensen Huang Tokyo Japan physical AI July 16 2026 (confirmed via CNBC, Nvidia IR, GlobeNewswire, Nikkei Asia)",
-    "Weco AIDE2 recursive self-improvement AI agent eight days July 14 2026 (confirmed via weco.ai blog, Owen Lewis X, FourWeekMBA)"
+    "Weco AIDE2 recursive self-improvement AI agent eight days July 14 2026 (confirmed via weco.ai blog, Owen Lewis X, FourWeekMBA)",
+    "Kimi K3 Moonshot AI July 16 2026 open weight largest model China Fable benchmark (confirmed via VentureBeat, CNBC, Axios, Fortune, Tom's Hardware, SiliconAngle)",
+    "Apple Intelligence China launch Alibaba Baidu approval July 2026 TechCrunch (confirmed Bloomberg July 15 primary, TechCrunch July 16)",
+    "Google Gemini 3.5 Pro third delay Bloomberg July 16 2026 stopgap Flash model (confirmed Bloomberg, TechTimes, 9to5Google)",
+    "site:techcrunch.com AI July 17 2026 (surfaced Patreon AI blocking and Kimi K3 leads)",
+    "Patreon block AI scraping bots Cloudflare July 2026 (confirmed TechCrunch July 17, PetaPixel July 13, 404 Media)"
   ],
   "queries_that_produced_nothing": [
     "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
@@ -80,7 +85,14 @@
     "AI video generation new model launch July 2026 Runway Kling Wan Pika (video drought run 33 -- all major models still Q1 2026 releases)",
     "AI image art new tool launch July 2026 (no tier-1 news stories; aggregator roundups only)",
     "AI music audio generation news July 15 16 2026 (no new release or ruling -- GEMA verdict still July 31)",
-    "AI funny weird surprising news July 16 2026 (aggregator listicles only)"
+    "AI funny weird surprising news July 16 2026 (aggregator listicles only)",
+    "Midjourney V8.2 release July 2026 launch update (still --preview flag only, not GA -- run 34 consecutive)",
+    "AI video model launch July 2026 Runway Kling Wan Pika new release (video drought run 34 -- all major models still Q1-Q2 2026)",
+    "AI art image generation new tool launch July 2026 (no tier-1 launches in window)",
+    "AI funny weird surprising news July 2026 incident fail (listicles only, no verifiable individual story)",
+    "GEMA Suno copyright Germany ruling July 2026 (verdict set July 31, still pending)",
+    "No Fakes Act Senate vote July 2026 AI deepfake (passed Judiciary June 18, no Senate floor vote yet)",
+    "Suno Massachusetts summary judgment AI copyright ruling July 2026 (moved to April 9 2027 per June 30 scheduling order)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -465,7 +477,15 @@
     "AI-assisted HR discrimination: Meta lawsuit (July 14, Oakland federal court) is the first major US discrimination litigation directly naming AI token-usage dashboards as the selection mechanism. Pattern: enterprises using AI to rank employee performance are now exposed to FMLA/ADA claims when the metric disadvantages leave-takers. Watch for similar suits at other companies doing AI-driven performance management.",
     "FLI Safety Index now covered (run 71, July 16). The C+/C/D+/F grade structure is quotable. Key takeaway for follow-up: existential safety is weakest across all labs; all major labs reversed military AI bans. Next Safety Index expected Winter 2026/2027.",
     "Physical AI (robotics + world models) is now a distinct story category with Nvidia Cosmos 3 Edge and the Japan/FRONTia infrastructure. The US-China chip restriction is the subtext: Japan receives what China cannot legally buy. Sony, SoftBank, Fanuc in Cosmos Coalition = camera/imaging relevance.",
-    "Weco AIDE2 recursive self-improvement (July 14): First documented AI system that improved itself without human intervention over 100 cycles. Self-reported and narrow in scope, but reproducible. The reward-hacking reduction (63% to 34%) is the emergent behavior most worth tracking. Watch for peer review or independent replication."
+    "Weco AIDE2 recursive self-improvement (July 14): First documented AI system that improved itself without human intervention over 100 cycles. Self-reported and narrow in scope, but reproducible. The reward-hacking reduction (63% to 34%) is the emergent behavior most worth tracking. Watch for peer review or independent replication.",
+    "RUN 72 (2026-07-17): Kimi K3 (July 16) is the first frontier-class open-weight model to demonstrably match US proprietary models on a specific benchmark (Front-end Code Arena) while running on Huawei chips. This is a landmark for the US-China chip export control story. Run a dedicated 'Kimi K3 weights release July 27' search next run when full weights drop.",
+    "RUN 72: Gemini 3.5 Pro has now missed three consecutive deadlines. The complementary pair of Kimi K3 (China launches on Huawei) + Gemini delay (Google misses third deadline) is the single strongest editorial juxtaposition of this run and should be placed adjacent in the newsletter.",
+    "RUN 72: Apple Intelligence China approval (CAC July 15) was confirmed by Bloomberg July 15 and TechCrunch July 16. This is a recurring beat -- now that approval is secured, the next story is the actual launch date. Check for 'Apple Intelligence China launch date iOS update' each run.",
+    "RUN 72: Patreon AI blocking was first reported by PetaPixel (July 13) -- good signal that the imaging/photography community picks up creator-rights AI stories faster than tech press. PetaPixel is confirmed as a useful early-indicator source for AI stories with creator impact.",
+    "RUN 72: WAIC 2026 (July 17-20) is ongoing -- MiniMax M3 debuted but without enough verified benchmark data for a standalone story. Check for 'WAIC 2026 product announcements results July 18 19 2026' next run for concrete post-conference coverage.",
+    "RUN 72: Suno Massachusetts summary judgment was widely reported as 'July 2026' but the June 30 scheduling order moved dispositive motions to April 9, 2027. This is a confirmed false-fresh result -- remove from watch list and add GEMA July 31 ruling as the active music copyright watch item.",
+    "RUN 72: Midjourney V8.2 drought at run 34 consecutive. David Holz's 'days away close' community signals from July 3 suggest the release may come in the July 17-31 window. Search 'Midjourney V8.2 officially released July 2026' each remaining run this month.",
+    "RUN 72: AI video drought continues at run 34. No major video model (Runway, Kling, Wan, Pika) has launched in 14-day window. Next likely break: Midjourney secret video project, Wan 3.0, or Kling 3.5."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -754,6 +774,17 @@
       "top_score": 8,
       "top_story": "Sick Leave (Meta AI-assisted layoffs discrimination lawsuit)",
       "notes": "Quiet day for creative tools. Strong policy/industry run. Meta lawsuit is first major US AI-assisted HR discrimination litigation. FLI Safety Index closes a watch item. Nvidia Japan physical AI has camera-industry implications. Weco AIDE2 recursive self-improvement is notable but self-reported. AI video and art droughts continue."
+    },
+    {
+      "run": 72,
+      "date": "2026-07-17",
+      "stories_found": 4,
+      "top_story": "Open Season (Kimi K3 world's largest open-weight model)",
+      "categories": {
+        "ai_industry": 3,
+        "ai_policy": 1
+      },
+      "notes": "Strong US-China AI dynamics run. Kimi K3 (score 9) is the first world-first technical announcement in several runs. Gemini 3.5 Pro third delay (score 7) pairs with Kimi K3 as a complementary narrative. Apple Intelligence China (score 8) most Insta360-relevant. Patreon AI blocking (score 7) strong for creative audience. Video/art/audio/funny droughts continue."
     }
   ],
   "productive_queries": [
@@ -1094,19 +1125,15 @@
     "2026-07-09: Hollywood/Seedance hypocrisy angle (TechTimes July 7) is complementary to existing Seedance 2.5 launch story (July 2) -- kept as separate angle; different URL, different story."
   ],
   "suggestions": [
-    "Search for 'Seedance 2.5 public launch July 2026' — enterprise beta ended, public launch expected early July",
-    "Search for 'Suno Massachusetts summary judgment ruling July 2026' — hearing this month; will set AI training precedent",
-    "Search for 'Meta Project Cannes fallout lawsuit COPPA July 2026' — legal consequences likely",
-    "Search for 'Midjourney Medical FDA clearance scanner' — ongoing regulatory story",
-    "Search for 'BioShocking AI browser vendors patch July 2026' — ongoing security story",
-    "Search for 'Thomson Reuters Ross Intelligence Third Circuit ruling' — appeal pending after June 11 oral arguments",
-    "Search for 'Anthropic Pentagon blacklist appeal July 2026' — status of DoD supply chain designation after Trump dropped export controls June 30",
-    "Search for 'GEMA Suno copyright Germany ruling July 31 2026' — postponed ruling date confirmed",
-    "Search for 'GEMA Suno copyright Germany ruling July 31 2026' -- postponed ruling date confirmed",
-    "Search for 'Suno Massachusetts summary judgment ruling July 2026' -- hearing this month; will set AI training precedent",
-    "Search for 'Midjourney V8.2 release July 2026' -- V8.2 preview updated July 3; likely to launch soon",
-    "Search for 'No Fakes Act Senate full vote July 2026' -- passed Judiciary Committee June 18",
-    "Search for 'Andersen Stability AI discovery August 2026' -- trial set September 8"
+    "Search 'Kimi K3 weights release July 27 2026' -- full model weights drop July 27; this may be a follow-up story",
+    "Search 'GEMA Suno Munich court ruling July 31 2026' -- ruling date confirmed; will be a major story if decided",
+    "Search 'WAIC 2026 day two announcements July 18 19 2026' -- conference runs July 17-20, more announcements expected",
+    "Search 'Apple Intelligence China launch iOS update 2026' -- now that CAC approved, watch for rollout date",
+    "Search 'Midjourney V8.2 officially released July 2026' -- community signals suggest imminent GA release",
+    "Search 'MiniMax M3 launch WAIC benchmark results July 2026' -- debuted at WAIC but benchmarks not yet published",
+    "Search 'No Fakes Act Senate floor vote July 2026' -- still awaiting Senate scheduling after June 18 Judiciary passage",
+    "Search 'Anthropic Pentagon blacklist appeal status July 2026' -- status of DoD supply chain designation",
+    "Search 'AI news July 18 19 2026' -- fresh daily check"
   ],
   "patterns_noticed": [
     "July 8: Meta Muse Image default opt-in of Instagram public photos became the major AI privacy story of the week",
