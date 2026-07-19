@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-18",
-  "total_runs": 73,
+  "last_run": "2026-07-19",
+  "total_runs": 74,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -802,6 +802,18 @@
         "ai_policy": 1
       },
       "notes": "Strong US-China AI dynamics run. Kimi K3 (score 9) is the first world-first technical announcement in several runs. Gemini 3.5 Pro third delay (score 7) pairs with Kimi K3 as a complementary narrative. Apple Intelligence China (score 8) most Insta360-relevant. Patreon AI blocking (score 7) strong for creative audience. Video/art/audio/funny droughts continue."
+    },
+    {
+      "run": 74,
+      "date": "2026-07-19",
+      "stories_found": 5,
+      "top_story": "Blueprint (Reve Image 2.1 #2 on Arena leaderboard, highest-ranked independent lab)",
+      "categories": {
+        "ai_art": 2,
+        "ai_tools": 1,
+        "ai_industry": 2
+      },
+      "notes": "Strong image generation run: Reve 2.1 layout-first planning (score 8) and Seedream 5.0 Pro layered PNG output (score 7) both cover image AI from different angles. Runway Dev unified API (score 7) is practical developer story. Anthropic/Meta $10B compute talks (score 6) is industry structure. Thinking Machines Inkling (score 7) is Murati first open-weight. AI video drought continues -- run 36 with no new major model GA. Midjourney V8.2 still --preview only, run 35 of that watch. Python heredoc Chinese character errors: fixed in prior run by using Write tool for JSON with Chinese blurb_zh content."
     }
   ],
   "productive_queries": [
@@ -850,13 +862,13 @@
     "Gemini 3.5 Pro launch July 4 2026 -- still limited preview for Vertex AI enterprise customers only"
   ],
   "next_run_suggestions": [
-    "Search for Spotify AI covers tool launch date -- deal announced May 21 but no launch date given.",
-    "Follow up on Hell Grind / Higgsfield: any reviews or box office data from Cannes market.",
-    "Check if Pope encyclical triggers response from AI companies beyond Anthropic.",
-    "Figure AI humanoid robots: check for any follow-up skepticism or competitor reactions.",
-    "Search for new AI image model launches -- 9+ consecutive runs with no fresh AI art model launch coverage.",
-    "Check for updates on OpenAI IPO filing timeline.",
-    "Look for any US-China AI dynamics stories around the Trump-Xi summit mentioned in late April coverage."
+    "Midjourney V8.2 GA: still --preview flag only (run 35 drought) -- check again.",
+    "GEMA vs Suno: German court ruling still pending, July 31 deadline.",
+    "No Fakes Act: passed Senate Judiciary June 18; check for Senate floor vote.",
+    "Kimi K3 weights release: expected ~July 27 per prior sources.",
+    "Apple Intelligence China rollout: watch for regulatory clearance announcement.",
+    "Runway Dev adoption: watch for early developer feedback and integration stories.",
+    "Thinking Machines Inkling benchmarks: community evals expected within days of release."
   ],
   "dead_queries": [
     "AI video generation news May 2026 Runway Kling Sora Veo latest (all covered in earlier runs)",
@@ -1139,7 +1151,8 @@
     "2026-07-09: DB had grown to 340 stories -- WebFetch of all_stories.json only previewed 64. Always use Bash python3 to count and check recent coverage before searching.",
     "2026-07-09: Jalapeño chip (June 24) was already in DB under different URL. Caught via same-topic check after writing blurb. CRITICAL: run same-topic dedup check before writing blurbs, not just URL dedup.",
     "2026-07-09: Trump deepfake and Sony/Udio stories from July 3/5 already in DB -- picked different source URLs and story angles but URL dedup caught them. Good system working.",
-    "2026-07-09: Hollywood/Seedance hypocrisy angle (TechTimes July 7) is complementary to existing Seedance 2.5 launch story (July 2) -- kept as separate angle; different URL, different story."
+    "2026-07-09: Hollywood/Seedance hypocrisy angle (TechTimes July 7) is complementary to existing Seedance 2.5 launch story (July 2) -- kept as separate angle; different URL, different story.",
+    "2026-07-19: AI image model drought ended -- two new model stories this run (Reve 2.1, Seedream 5.0 Pro). Layout-first generation and layered PNG output are distinct technical differentiation angles."
   ],
   "suggestions": [
     "Search 'Kimi K3 weights release July 27 2026' -- full model weights drop July 27; this may be a follow-up story",
