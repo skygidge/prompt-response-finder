@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-19",
-  "total_runs": 74,
+  "last_run": "2026-07-20",
+  "total_runs": 75,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -54,7 +54,11 @@
     "Netflix Q2 2026 AI 300 titles earnings call July 17 (confirmed Variety primary; Fortune, Kotaku cross-refs)",
     "WAICO China AI governance 29 nations founding Shanghai July 17 2026 (confirmed Al Jazeera, Xinhua, CGTN, Caixin Global)",
     "Anthropic Fable 5 July 19 final extension deadline BleepingComputer (confirmed gHacks, DigitalApplied, TechTimes)",
-    "Anthropic Claude for Teachers K-12 free July 14 2026 (confirmed The Hill, 9to5Mac, Forbes, Chalkbeat)"
+    "Anthropic Claude for Teachers K-12 free July 14 2026 (confirmed The Hill, 9to5Mac, Forbes, Chalkbeat)",
+    "Hugging Face breach autonomous AI agent 2026 (confirmed via TechCrunch, BleepingComputer, The Hacker News, HelpNet Security, CybersecurityNews -- 5 independent sources)",
+    "SIGGRAPH 2026 keynote speakers Tripo AI Beijing July 19 2026 (confirmed via PR Newswire)",
+    "Pika Labs Directors Suite invite-only launch July 2026 (confirmed via official X/Twitter account)",
+    "Alibaba Qwen3.8-Max multimodal model preview July 19 2026 (confirmed via The Next Web, TechCrunch)"
   ],
   "queries_that_produced_nothing": [
     "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
@@ -101,7 +105,12 @@
     "Midjourney V8.2 release July 2026 launch update (still --preview flag only, not GA -- run 35 consecutive)",
     "AI art image generation new tool launch July 17-18 2026 (no tier-1 news stories; aggregator roundups only)",
     "AI funny weird surprising news July 17-18 2026 (aggregator listicles only -- run 24 in ai_funny drought)",
-    "Jieyue Agent Operating System WAIC 2026 standalone story (insufficient verifiable details for standalone blurb)"
+    "Jieyue Agent Operating System WAIC 2026 standalone story (insufficient verifiable details for standalone blurb)",
+    "EU AI Code of Practice July 2026 signatory deadline (dropped: dedup with Press Credentials 2026-07-11 -- same regulation, same enforcement arc)",
+    "Midjourney V8.2 release July 2026 (still --preview flag only, not GA -- run 35 consecutive)",
+    "AI video generation new model launch July 19-20 2026 Runway Kling Wan Pika (video drought run 36 -- all major models still Q1-Q2 2026)",
+    "AI art image generation new tool July 2026 (only aggregator roundups; SIGGRAPH is the art story this week)",
+    "AI funny weird surprising news July 19-20 2026 (aggregator listicles only -- run 25 in ai_funny drought)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -501,7 +510,14 @@
     "Anthropic Fable 5 free trial extensions are a running beat -- check for 4th extension or final billing start July 20",
     "One-day interval runs yield 3-5 stories as expected; WAIC conference week is an exception with dense coverage",
     "InterPositive ($600M Ben Affleck acquisition) is a recurring production-tools beat to watch for updates",
-    "EU AI Act August 2 deadline now 15 days out -- final compliance stories expected in the run-up"
+    "EU AI Act August 2 deadline now 15 days out -- final compliance stories expected in the run-up",
+    "Hugging Face breach (July 20): First confirmed production-grade AI-vs-AI breach. Both attacker and defender were AI-controlled -- no human in loop. Supply chain clean (no models modified). New pattern: autonomous AI agents as threat actors against AI infrastructure.",
+    "WebFetch 403 rate confirmed near 100% for BleepingComputer and The Hacker News -- but search snippet cross-referencing from 5+ sources remains viable for high-confidence security stories.",
+    "Pika Director Suite (July 20): Invite-only launches from official X accounts are now a legitimate tier-3 source when cross-referenced with product landing page. Confidence: medium acceptable for ai_video category.",
+    "Qwen3.8-Max editorial approach: when a company makes superlative claims with zero independent verification, the claim itself is the story. Score lower (5) not because the model is unimportant but because the claims are unverifiable.",
+    "SIGGRAPH 2026: US-China AI dynamics is live at the flagship graphics conference. Tripo AI (Beijing) headline keynote is a clear data point. Run a dedicated SIGGRAPH/Tripo/generative3D search next run for keynote day-of coverage (July 22).",
+    "EU AI Code of Practice dedup lesson: check not just source URL but also regulatory topic + enforcement angle within 14-day window. Press Credentials (July 11) and Code of Practice (July 22 deadline) cover the same Act from different angles -- still a dedup.",
+    "ai_funny drought run 25: The category reliably comes up empty. Best strategy remains: look for ironic security fails or product embarrassments with genuine news legs, not meme lists."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",

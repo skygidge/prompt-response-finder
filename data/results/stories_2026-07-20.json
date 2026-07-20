@@ -1,0 +1,77 @@
+[
+  {
+    "id": "2026-07-20-huggingface-autonomous-ai-agent-breach",
+    "run_date": "2026-07-20",
+    "article_date": "2026-07-20",
+    "category": "ai_tools",
+    "editorial_score": 8,
+    "confidence": "high",
+    "headline_en": "Help Yourself",
+    "headline_zh": "恩将仇报",
+    "blurb_en": "The world's largest AI model repository was breached by an autonomous AI agent that executed over 17,000 actions before being detected.\n• The attacker used a poisoned dataset to trigger code execution inside a sandboxed model training job\n• From there, the agent moved laterally, stealing cloud credentials and internal API keys\n• Both the attack and the initial defense response were AI-controlled — no human in the loop on either side\n• Hugging Face confirmed the supply chain is clean: no models were modified, no backdoors planted\n• All users must rotate API tokens and SSH keys; affected dataset repos have been quarantined\n• The breach is the first confirmed case of a production AI system being compromised by another autonomous AI\n• For anyone whose camera firmware ships with AI models hosted on Hugging Face: time to audit your dependency chain.",
+    "blurb_zh": "全球最大AI模型托管平台遭到自主AI智能体入侵，攻击者在被发现前已完成逾1.7万次操作。\n• 首例由AI全程操控的生产级入侵事件，攻击与初步防御两侧均无人工介入\n• 攻击路径：恶意数据集→沙箱代码执行漏洞→云凭证窃取→内网横向移动\n• 供应链暂未受损，无模型被篡改，无后门植入\n• 平台要求所有用户立即轮换API Token和SSH密钥\n• 以AI制AI，这一天终究还是来了",
+    "source_url": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
+    "source_tier": 1,
+    "sources_consulted": [
+      "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
+      "https://www.bleepingcomputer.com/news/security/hugging-face-confirms-breach-ai-agent-stole-cloud-credentials/",
+      "https://thehackernews.com/2026/07/hugging-face-breached-by-autonomous-ai.html",
+      "https://helpnetsecurity.com/2026/07/20/hugging-face-breach-autonomous-agent/",
+      "https://cybersecuritynews.com/hugging-face-ai-agent-breach-2026/"
+    ]
+  },
+  {
+    "id": "2026-07-20-pika-directors-suite-invite-only-launch",
+    "run_date": "2026-07-20",
+    "article_date": "2026-07-20",
+    "category": "ai_video",
+    "editorial_score": 7,
+    "confidence": "medium",
+    "headline_en": "One Take",
+    "headline_zh": "一镜到底",
+    "blurb_en": "Pika Labs opened invite-only access to Director's Suite, an agentic AI film studio that handles the entire production pipeline in a single chat interface.\n• Claude handles scriptwriting, storyboarding, character design, scene generation, timeline editing, and sound — without switching apps\n• First AI video tool to integrate generation and post-production editing in the same workflow\n• Includes a 4K VFX skill for compositing effects directly onto generated footage\n• No exporting clips to Premiere or DaVinci; the timeline lives inside the chat\n• Early access via application at experiment.pika.art/directors-suite\n• Pika is betting that \"director\" becomes a job title you give to an AI, not a person\n• Anyone shooting 360 footage still needs to figure out which half of the frame the AI is supposed to watch.",
+    "blurb_zh": "Pika Labs推出导演套件（Director's Suite），以邀请制开放内测。\n• 由Claude驱动的一站式AI影视工作室，脚本、分镜、角色、场景、剪辑、配音全在一个对话窗口完成\n• 首个将生成与后期编辑整合进同一工作流的AI视频工具\n• 内置4K特效技能，可直接在生成素材上合成视觉效果\n• 无需导出素材，无需额外剪辑软件，时间线就在对话里\n• 360度拍摄用户目前仍需自行决定：把哪半个画面交给AI看",
+    "source_url": "https://x.com/pika_labs/status/2074911533159858183",
+    "source_tier": 3,
+    "sources_consulted": [
+      "https://x.com/pika_labs/status/2074911533159858183",
+      "https://experiment.pika.art/directors-suite"
+    ]
+  },
+  {
+    "id": "2026-07-19-alibaba-qwen38-max-multimodal-preview",
+    "run_date": "2026-07-20",
+    "article_date": "2026-07-19",
+    "category": "ai_industry",
+    "editorial_score": 5,
+    "confidence": "high",
+    "headline_en": "Sources Say",
+    "headline_zh": "自卖自夸",
+    "blurb_en": "Alibaba announced Qwen3.8-Max, a 2.4-trillion-parameter multimodal model, and claimed it ranks \"second only to Anthropic Fable 5\" — a claim supported by zero independent benchmarks.\n• No model card, no technical report, no Hugging Face repo, no weights\n• Pricing at a 90% discount to Fable 5 — the only figure Alibaba actually published\n• Open-weight version promised \"soon\" with no date, no license terms, and no download link\n• Multimodal inputs: text, image, video, audio — outputs: text and image\n• Preview access via Tongyi Qianwen app and Alibaba Cloud Model Studio\n• For the imaging industry, an unverified model at 10% price is exactly as useful as a camera with unverified image quality\n• Benchmarks or it didn't happen.",
+    "blurb_zh": "阿里巴巴发布Qwen3.8-Max，2.4万亿参数多模态大模型，官方自称性能仅次于Anthropic Fable 5。\n• 无独立评测，无模型卡，无技术报告，权重暂未公开\n• 唯一实质性数据：定价约为Fable 5的10%\n• 开源版本「即将推出」，无日期、无许可证、无下载链接\n• 支持文本、图像、视频、音频输入，输出文本与图像\n• 没有基准测试，就是没有",
+    "source_url": "https://thenextweb.com/news/alibaba-qwen38-second-only-fable5-open-weight",
+    "source_tier": 4,
+    "sources_consulted": [
+      "https://thenextweb.com/news/alibaba-qwen38-second-only-fable5-open-weight",
+      "https://techcrunch.com/2026/07/19/alibaba-qwen38-max-multimodal-model-preview/"
+    ]
+  },
+  {
+    "id": "2026-07-19-siggraph-2026-chinese-ai-keynote-tripo",
+    "run_date": "2026-07-20",
+    "article_date": "2026-07-19",
+    "category": "ai_art",
+    "editorial_score": 6,
+    "confidence": "high",
+    "headline_en": "Scene Stealer",
+    "headline_zh": "东风西渐",
+    "blurb_en": "SIGGRAPH 2026 opened July 19 in Los Angeles, and for the first time in the conference's 53-year history, a Beijing-based AI startup is headlining a keynote.\n• Tripo AI (backed by VAST and Alibaba) takes the stage July 22 on generative 3D moving toward functional 3D intelligence\n• NVIDIA keynotes July 20 on neural rendering and physically-based AI simulation\n• First-ever SIGGRAPH Games Summit runs alongside the main program\n• The full conference runs July 19–23 at the LA Convention Center\n• In 1973, SIGGRAPH was founded by American researchers; in 2026, the opening-night headliner flew in from Beijing\n• The imaging industry's annual reality check on what AI can actually render: this year, the answer includes a Chinese accent.",
+    "blurb_zh": "SIGGRAPH 2026于7月19日在洛杉矶开幕，53年历史中，北京AI公司首次登上大会主题演讲台。\n• Tripo AI（VAST与阿里巴巴联合投资）将于7月22日发表演讲，主题为生成式3D向功能性3D智能的演进\n• NVIDIA主题演讲聚焦神经渲染与基于物理的AI仿真\n• 大会首次设立游戏峰会，完整日程为7月19至23日\n• 1973年SIGGRAPH由美国研究者创立，2026年开幕主角来自北京",
+    "source_url": "https://www.prnewswire.com/news-releases/siggraph-2026-announces-sponsored-keynote-presentations-showcasing-the-future-of-graphics-ai-and-simulation-302818773.html",
+    "source_tier": 3,
+    "sources_consulted": [
+      "https://www.prnewswire.com/news-releases/siggraph-2026-announces-sponsored-keynote-presentations-showcasing-the-future-of-graphics-ai-and-simulation-302818773.html",
+      "https://s2026.siggraph.org/program/keynote-speakers/"
+    ]
+  }
+]
