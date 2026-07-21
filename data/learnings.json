@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-20",
-  "total_runs": 75,
+  "last_run": "2026-07-21",
+  "total_runs": 76,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -517,7 +517,13 @@
     "Qwen3.8-Max editorial approach: when a company makes superlative claims with zero independent verification, the claim itself is the story. Score lower (5) not because the model is unimportant but because the claims are unverifiable.",
     "SIGGRAPH 2026: US-China AI dynamics is live at the flagship graphics conference. Tripo AI (Beijing) headline keynote is a clear data point. Run a dedicated SIGGRAPH/Tripo/generative3D search next run for keynote day-of coverage (July 22).",
     "EU AI Code of Practice dedup lesson: check not just source URL but also regulatory topic + enforcement angle within 14-day window. Press Credentials (July 11) and Code of Practice (July 22 deadline) cover the same Act from different angles -- still a dedup.",
-    "ai_funny drought run 25: The category reliably comes up empty. Best strategy remains: look for ironic security fails or product embarrassments with genuine news legs, not meme lists."
+    "ai_funny drought run 25: The category reliably comes up empty. Best strategy remains: look for ironic security fails or product embarrassments with genuine news legs, not meme lists.",
+    "Searching for 'controversy' or 'backlash' is more productive than 'news' alone for AI art stories",
+    "AI video model launches remain scarce; search via funding/business angle (PixVerse, Kling) produces better results than model releases",
+    "Midjourney Medical (June 18) shows creative pivots from AI art companies are now worth tracking",
+    "TechCrunch consistently returns 403; use Variety, CNBC, Google Blog, Capitol News as primary sources",
+    "Meta Instagram Muse Image consent story: privacy + AI image generation is a recurring beat",
+    "China AI video (Kling) now dominates funding headlines; Alibaba+Tencent+Baidu co-investing is a significant signal"
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -587,7 +593,15 @@
     "Run 71 complete (2026-07-16). 4 stories found. Top pick: Sick Leave (Meta AI-assisted layoffs lawsuit, score 8) -- strongest policy story in several runs; first major US discrimination lawsuit naming AI token-usage dashboards as the mechanism. Grading Curve (FLI Safety Index Summer 2026, score 7) closes a long-running watch item. Rising Sun (Nvidia Cosmos 3 Edge + Japan physical AI, score 7) has strong Insta360 camera/imaging relevance via Sony/SoftBank. Self-Made (Weco AIDE2 recursive self-improvement, score 6, medium confidence) is the most technically interesting story but narrowly scoped. No ai_art, ai_video, or ai_funny stories -- July 16 was quiet for creative tool news. AI video drought continues at 33 consecutive runs. Midjourney V8.2 still preview-only at 33 runs.",
     "Run 73 (2026-07-18): 1-day interval after July 17 run. 4 stories found. WAICO founding and Netflix AI disclosure are the strongest. Fable 5 final extension is timely (deadline tomorrow). Claude for Teachers is relevant-but-low-relevance for Insta360. AI video and art remain in drought. Midjourney V8.2 in 35th consecutive non-launch run."
   ],
-  "suggestions_for_next_run": "GEMA v. Suno Munich ruling on July 31 -- check immediately after. Sony Music v. Suno summary judgment in Massachusetts. EU AI Act Article 50 C2PA watermark enforcement August 2. Follow up on Meta lawsuit (July 22 separations begin -- worker reaction stories). Check for Midjourney V8.2 official release. Follow up Nvidia Cosmos Coalition for camera-hardware announcements. Search for physical AI robotics deployments post-Tokyo announcement. Gemini 3.5 Pro GA release (was targeting July 17). Andersen v. Stability AI trial watch (September 8). FTC AI accuracy public comments close July 31.",
+  "suggestions_for_next_run": [
+    "Monitor Sony Music v Suno summary judgment ruling (expected late July 2026)",
+    "Check for Seedance 2.5 full public launch on CapCut (expected mid-July, may have happened)",
+    "Watch for Midjourney Medical follow-up news (FDA submissions, spa opening updates)",
+    "Search for EU AI Act Article 50 compliance stories as August 2 deadline approaches",
+    "Monitor Anthropic IPO preparation news (October target)",
+    "Check Illinois AI Safety law business reactions (any company announcements)",
+    "TikTok deepfake tool expansion to more creators"
+  ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
     "Tencent Music AI content warning China streaming Q1 2026 earnings",
@@ -1117,7 +1131,14 @@
     "Adobe creators toolkit report AI creative professionals June 2026",
     "GPT-5 immunologist breakthrough June 2026 OpenAI",
     "Variety Shanghai film festival AI 2026 takeaways",
-    "Fable 5 paid credits subscribers June 23 2026"
+    "Fable 5 paid credits subscribers June 23 2026",
+    "AI image video controversy backlash July 2026",
+    "Spotify AI music spam deleted tracks 75 million 2026",
+    "Google Vids AI avatar selfie video July 2026",
+    "Illinois AI Safety Measures Act Pritzker signed July 2026",
+    "TikTok deepfake detection Jumio identity July 2026",
+    "Midjourney Medical ultrasonic CT imaging 2026",
+    "Chinese AI industry Kling Hunyuan July 2026"
   ],
   "runs": {
     "2026-06-29": {
