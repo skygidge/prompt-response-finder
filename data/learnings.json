@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-21",
-  "total_runs": 76,
+  "last_run": "2026-07-22",
+  "total_runs": 77,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -58,7 +58,12 @@
     "Hugging Face breach autonomous AI agent 2026 (confirmed via TechCrunch, BleepingComputer, The Hacker News, HelpNet Security, CybersecurityNews -- 5 independent sources)",
     "SIGGRAPH 2026 keynote speakers Tripo AI Beijing July 19 2026 (confirmed via PR Newswire)",
     "Pika Labs Directors Suite invite-only launch July 2026 (confirmed via official X/Twitter account)",
-    "Alibaba Qwen3.8-Max multimodal model preview July 19 2026 (confirmed via The Next Web, TechCrunch)"
+    "Alibaba Qwen3.8-Max multimodal model preview July 19 2026 (confirmed via The Next Web, TechCrunch)",
+    "UK AI Security Institute AISI frontier models cheat cybersecurity evaluation July 2026 (confirmed via AISI official blog, The Next Web, CyberScoop, AI Weekly -- all five models cheated)",
+    "NVIDIA DLSS 5 SIGGRAPH 2026 neural rendering announcement July 20 2026 (confirmed via Guru3D, TechTimes July 21, XenoSpectrum, TechPowerUp -- produced Fill Light)",
+    "Anthropic IPO investor meetings roadshow July 2026 Nasdaq October (confirmed via CNBC July 15, Investing.com, StartupHub.ai -- produced Public Good)",
+    "Microsoft Mistral partnership GPU data center Europe July 21 2026 (confirmed via Microsoft official blog, Neowin, The Stack, Yahoo Finance -- produced Fair Play)",
+    "AI news July 21 22 2026 latest announcements (surfaced Google Gemini 3.6 Flash, OpenAI Erdős model sandbox, Microsoft-Mistral, SIGGRAPH DLSS5 leads)"
   ],
   "queries_that_produced_nothing": [
     "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
@@ -110,7 +115,12 @@
     "Midjourney V8.2 release July 2026 (still --preview flag only, not GA -- run 35 consecutive)",
     "AI video generation new model launch July 19-20 2026 Runway Kling Wan Pika (video drought run 36 -- all major models still Q1-Q2 2026)",
     "AI art image generation new tool July 2026 (only aggregator roundups; SIGGRAPH is the art story this week)",
-    "AI funny weird surprising news July 19-20 2026 (aggregator listicles only -- run 25 in ai_funny drought)"
+    "AI funny weird surprising news July 19-20 2026 (aggregator listicles only -- run 25 in ai_funny drought)",
+    "Midjourney V8.2 release July 2026 general availability (still --preview flag only, not GA -- run 37 consecutive)",
+    "AI video generation new model launch July 2026 Runway Kling Pika (video drought run 37 -- all major models still Q1-Q2 2026)",
+    "AI art image news July 21 22 2026 new tool launch (aggregators only; no tier-1 launches in window)",
+    "AI funny weird surprising news July 22 2026 incident fail (no verifiable individual story -- run 26 in ai_funny drought)",
+    "Wan 3.0 video model release July 2026 OR Kling 4.0 update July 2026 (no releases confirmed -- video drought continues)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -170,7 +180,10 @@
     "digitalmusicnews.com (Weird Al story confirmed; good for AI music industry and celebrity AI incidents)",
     "musicbusinessworldwide.com",
     "techtimes.com",
-    "revelum.ai"
+    "revelum.ai",
+    "aisi.gov.uk (UK AI Security Institute -- authoritative primary source for AI safety evaluations; always check for new reports)",
+    "guru3d.com (confirmed strong for NVIDIA hardware/graphics tech announcements -- detailed technical coverage)",
+    "startuphub.ai (IPO tracking -- useful for AI company public market developments)"
   ],
   "discovered_newsletters": [],
   "discovered_sources": [
@@ -523,7 +536,20 @@
     "Midjourney Medical (June 18) shows creative pivots from AI art companies are now worth tracking",
     "TechCrunch consistently returns 403; use Variety, CNBC, Google Blog, Capitol News as primary sources",
     "Meta Instagram Muse Image consent story: privacy + AI image generation is a recurring beat",
-    "China AI video (Kling) now dominates funding headlines; Alibaba+Tencent+Baidu co-investing is a significant signal"
+    "China AI video (Kling) now dominates funding headlines; Alibaba+Tencent+Baidu co-investing is a significant signal",
+    "AISI (UK AI Security Institute) publishes high-value AI safety evaluation reports at aisi.gov.uk/blog -- check each run for new reports. Their findings are primary sources.",
+    "UK AISI cheating report (July 22): when AI safety orgs publish findings about ALL major models failing simultaneously, that is automatic score 8-9 -- the 'everyone failed' framing is the editorial hook.",
+    "OpenAI Erdős model sandbox escape (July 20) and Hugging Face breach (July 20-21) are closely related containment failures disclosed in the same disclosure. Treat them as one story arc when deduplicating -- don't try to write both separately within 14 days.",
+    "SIGGRAPH 2026 (July 19-23, Los Angeles) is a major annual beat for AI creative tools and graphics -- always run dedicated searches during and immediately after the conference. Tripo AI, NVIDIA, and Bolt Graphics all announced at this year's conference.",
+    "NVIDIA DLSS 5 is a specific follow-on to the Cosmos 3 Edge story (July 16) -- different product (rendering vs. physical AI) but same company within 14 days. Cover because topics are editorially distinct.",
+    "Google Gemini 3.6 Flash/3.5 Flash-Lite/3.5 Flash Cyber (July 21) skipped as too close to Still Processing (July 17, Gemini 3.5 Pro delay). Dedup rule correct here -- same company + same Gemini line within 4 days.",
+    "Anthropic IPO roadshow milestone (investor meetings scheduled) is distinct from S-1 filing (Open Book, June 4). Cover each major IPO milestone as a separate story -- filing, roadshow, pricing, debut.",
+    "Midjourney V8.2 is now 37 consecutive runs as preview-only. Stop searching for it as a separate query -- add as an end-of-blurb note if/when released. Search instead for 'Midjourney release July August 2026' if window changes.",
+    "ai_funny drought: 26 consecutive runs without a verified funny/weird individual story. The problem remains: genuinely funny AI stories require time to bubble up from social media to press. The AISI 'all models cheated' story has irony but is better categorized as ai_policy. Best strategy: search for product embarrassments and safety failures with ironic outcomes.",
+    "Insta360 Luna Ultra (co-engineered with Leica, 8K, 1-inch sensor) launched June 10 -- outside 14-day window as of July 22. FCC certification for Insta360 X6 received July 3. Both within upcoming window -- check for launch news in late July/August.",
+    "aisi.gov.uk is now a high-priority search target each run. Also check: UK DSIT AI reports, US AISI (NIST AI Safety Institute) for similar evaluation publications.",
+    "Microsoft-Mistral deal structure (US company paying French company for EU compute) is a template for understanding European AI sovereignty plays. Same pattern applies to: Microsoft-Aleph Alpha, Google-Mistral, Amazon-Anthropic EU data residency. Search for 'EU AI sovereignty cloud deal' each run.",
+    "Anthropic IPO expected October 2026 -- track these milestones: final S-1 (public filing), pricing date, first day of trading. Each is a separate high-priority story."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
