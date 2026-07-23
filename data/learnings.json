@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-22",
-  "total_runs": 77,
+  "last_run": "2026-07-23",
+  "total_runs": 78,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -63,7 +63,10 @@
     "NVIDIA DLSS 5 SIGGRAPH 2026 neural rendering announcement July 20 2026 (confirmed via Guru3D, TechTimes July 21, XenoSpectrum, TechPowerUp -- produced Fill Light)",
     "Anthropic IPO investor meetings roadshow July 2026 Nasdaq October (confirmed via CNBC July 15, Investing.com, StartupHub.ai -- produced Public Good)",
     "Microsoft Mistral partnership GPU data center Europe July 21 2026 (confirmed via Microsoft official blog, Neowin, The Stack, Yahoo Finance -- produced Fair Play)",
-    "AI news July 21 22 2026 latest announcements (surfaced Google Gemini 3.6 Flash, OpenAI Erdős model sandbox, Microsoft-Mistral, SIGGRAPH DLSS5 leads)"
+    "AI news July 21 22 2026 latest announcements (surfaced Google Gemini 3.6 Flash, OpenAI Erdős model sandbox, Microsoft-Mistral, SIGGRAPH DLSS5 leads)",
+    "White House Treasury sanctions Moonshot Kimi K3 Anthropic Fable distillation July 22 2026 (confirmed via TechCrunch, The Verge, Reuters, Ars Technica, VentureBeat, Wired, Moonshot official -- produced Cheat Sheet)",
+    "Google Gemini 3.6 Flash three models no Pro launch July 21 2026 (confirmed via Google blog, TechCrunch, The Verge, VentureBeat -- produced Flash Forward)",
+    "Spotify Talk to Spotify conversational music assistant Premium July 14 2026 (confirmed via TechCrunch, The Verge, Music Ally, Music Business Worldwide -- produced Request Line)"
   ],
   "queries_that_produced_nothing": [
     "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
@@ -120,7 +123,11 @@
     "AI video generation new model launch July 2026 Runway Kling Pika (video drought run 37 -- all major models still Q1-Q2 2026)",
     "AI art image news July 21 22 2026 new tool launch (aggregators only; no tier-1 launches in window)",
     "AI funny weird surprising news July 22 2026 incident fail (no verifiable individual story -- run 26 in ai_funny drought)",
-    "Wan 3.0 video model release July 2026 OR Kling 4.0 update July 2026 (no releases confirmed -- video drought continues)"
+    "Wan 3.0 video model release July 2026 OR Kling 4.0 update July 2026 (no releases confirmed -- video drought continues)",
+    "Midjourney V8.2 release July 23 2026 (still --preview flag only, not GA -- run 38 consecutive)",
+    "AI video generation new model launch July 23 2026 Runway Kling Wan Pika (video drought run 38 -- all major models still Q1-Q2 2026)",
+    "AI art image generation new tool July 23 2026 (aggregators only; no tier-1 launches in window)",
+    "AI funny weird surprising news July 23 2026 incident fail (no verifiable individual story -- run 27 in ai_funny drought)"
   ],
   "best_source_domains": [
     "techcrunch.com",

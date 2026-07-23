@@ -1,0 +1,59 @@
+[
+  {
+    "id": "2026-07-23-moonshot-kimi-k3-distillation-white-house-sanctions",
+    "headline_en": "Cheat Sheet",
+    "headline_zh": "大模型抄作业",
+    "category": "ai_industry",
+    "editorial_score": 9,
+    "article_date": "2026-07-22",
+    "source_url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+    "blurb_en": "The White House accused Chinese AI lab Moonshot of distilling Anthropic's Fable model to build Kimi K3, its 2.8-trillion-parameter flagship released July 16, with the Treasury Department threatening sanctions if the claim holds.\n\n- OSTP director Kratsios alleged Kimi K3's reasoning capabilities trace directly to Fable's chain-of-thought data, calling it \"systematic IP exfiltration via repeated API access\"\n- Kimi K3 launched July 16 with 2.8T parameters and claimed top scores on MATH-500 and AIME 2025 benchmarks\n- Timeline cuts against the accusation: Fable only became publicly accessible July 1, leaving 15 days to distill, train, evaluate, and ship a frontier model\n- Moonshot denied the claim entirely, stating Kimi K3 pretraining concluded in April and the architecture predates Fable's release\n- Treasury's proposed sanction mechanism — blocking Moonshot from US cloud infrastructure — would be the first AI-IP-specific economic penalty under the 2025 AI Security Act\n- Independent researchers called the accusation \"technically plausible but temporally incoherent,\" noting distillation at that scale typically requires months of compute",
+    "blurb_zh": "白宫指控中国AI公司月之暗面将Anthropic的Fable模型蒸馏用于构建Kimi K3——其于7月16日发布的2.8万亿参数旗舰模型——财政部威胁称若指控成立将实施制裁。\n\n- OSTP主任Kratsios指控称Kimi K3的推理能力直接来源于Fable的思维链数据，将其定性为“通过频繁API访问进行系统性知识产权窃取”\n- Kimi K3于7月16日发布，拥有2.8万亿参数，并声称在MATH-500和AIME 2025基准测试中位居榜首\n- 时间线与指控相矛盾：Fable直到7月1日才对外开放，留给蒸馏、训练、评估并发布前沿模型的时间仅有15天\n- 月之暗面完全否认该指控，声明Kimi K3的预训练于4月即已完成，架构设计早于Fable发布\n- 财政部提议的制裁机制——切断月之暗面对美国云基础设施的访问——将是2025年《AI安全法案》下首例针对AI知识产权的经济处罚\n- 独立研究人员称该指控“技术上可行，但时间上自相矛盾”，并指出同等规模的蒸馏通常需要数月算力",
+    "verified": true,
+    "sources_checked": [
+      "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+      "https://www.theverge.com/ai-artificial-intelligence/2026/7/22/moonshot-kimi-k3-distillation-white-house",
+      "https://www.reuters.com/technology/ai/us-treasury-moonshot-ai-sanctions-2026-07-22/",
+      "https://arstechnica.com/ai/2026/07/white-house-accuses-moonshot-of-stealing-anthropic-fable-model/",
+      "https://venturebeat.com/ai/moonshot-kimi-k3-distillation-claim/",
+      "https://www.wired.com/story/moonshot-kimi-k3-fable-distillation-accusation/",
+      "https://moonshot.cn/news/kimi-k3-statement-july-2026"
+    ]
+  },
+  {
+    "id": "2026-07-21-google-gemini-36-flash-three-models-no-pro",
+    "headline_en": "Flash Forward",
+    "headline_zh": "尖子生缺考",
+    "category": "ai_industry",
+    "editorial_score": 7,
+    "article_date": "2026-07-21",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "blurb_en": "Google released three Gemini models Monday — 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber — expanding its budget tier while Gemini 3.5 Pro remains absent and Gemini 4 pretraining quietly began.\n\n- Gemini 3.6 Flash costs $1.50 per million input tokens and $7.50 per million output, 17% cheaper than 3.5 Flash, with a 1-million-token context window\n- Available day-one in AI Studio, the Gemini API, Android Studio, and GitHub Copilot; no consumer Gemini app rollout date given\n- 3.5 Flash-Lite targets high-volume, cost-sensitive workloads; 3.5 Flash Cyber is a security-tuned variant for threat analysis and pen-testing assistance\n- Google confirmed Gemini 3.5 Pro is still in evaluation and gave no release window, now more than four months since 3.5 Flash shipped\n- A footnote in the announcement confirmed Gemini 4 pretraining has started, with no further details\n- The three-model drop continues Google's pattern of releasing Flash variants first and letting Pro follow whenever it's ready",
+    "blurb_zh": "谷歌周一发布三款Gemini模型——3.6 Flash、3.5 Flash-Lite和3.5 Flash Cyber——持续扩充其经济型产品线，而Gemini 3.5 Pro仍未现身，Gemini 4的预训练则已悄然启动。\n\n- Gemini 3.6 Flash定价为每百万输入token 1.5美元、每百万输出token 7.5美元，比3.5 Flash便宜17%，上下文窗口达100万token\n- 发布当日即可在AI Studio、Gemini API、Android Studio和GitHub Copilot中使用；消费者端Gemini应用的上线日期未公布\n- 3.5 Flash-Lite面向高并发、成本敏感型应用场景；3.5 Flash Cyber是针对威胁分析和渗透测试辅助优化的安全专用版本\n- 谷歌确认Gemini 3.5 Pro仍在评估阶段，未给出发布时间窗口，距3.5 Flash发布已超过四个月\n- 发布公告的脚注确认Gemini 4预训练已启动，未披露更多细节\n- 此次三模型发布延续了谷歌先推Flash系列、待Pro准备就绪再跟进的一贯模式",
+    "verified": true,
+    "sources_checked": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "https://techcrunch.com/2026/07/21/google-releases-gemini-3-6-flash-still-no-pro/",
+      "https://www.theverge.com/google/2026/7/21/google-gemini-36-flash-release",
+      "https://venturebeat.com/ai/google-gemini-36-flash-cheaper-faster/"
+    ]
+  },
+  {
+    "id": "2026-07-14-spotify-talk-to-spotify-music-assistant",
+    "headline_en": "Request Line",
+    "headline_zh": "点歌台",
+    "category": "ai_audio",
+    "editorial_score": 6,
+    "article_date": "2026-07-14",
+    "source_url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/",
+    "blurb_en": "Spotify launched \"Talk to Spotify,\" a conversational music assistant for Premium subscribers that lets users describe moods, memories, or activities to get personalized playlist recommendations.\n\n- Available to Premium users aged 18+ in the US, Ireland, and Sweden on iOS and Android; English only at launch\n- The assistant reads listening history, liked songs, and saved podcasts to personalize responses rather than relying on generic genre matching\n- Users can ask things like \"find me something like what I played on my road trip last August\" and the assistant cross-references personal data with catalog metadata\n- Spotify says Talk to Spotify will not recommend AI-generated tracks from its catalog — a pointed caveat given the company removed 75 million AI-generated songs in 2025\n- The feature builds on AI DJ, which launched in 2023 but only played pre-curated mixes; Talk to Spotify handles open-ended natural language requests\n- No timeline given for expansion beyond the three launch markets or additional languages",
+    "blurb_zh": "Spotify推出“Talk to Spotify”对话式音乐助手，Premium订阅用户可通过描述心情、记忆或场景来获取个性化歌单推荐。\n\n- 现已向美国、爱尔兰和瑞典18岁以上Premium用户开放，支持iOS和Android，上线时仅限英语\n- 助手通过读取收听历史、已收藏歌曲和保存的播客来个性化响应，而非依赖通用的流派匹配\n- 用户可提问如“帮我找点类似去年八月公路旅行时播放的音乐”，助手会将个人数据与曲库元数据交叉匹配\n- Spotify表示Talk to Spotify不会推荐其曲库中的AI生成曲目——考虑到该公司2025年已下架7500万首AI生成歌曲，这一说明颇具深意\n- 该功能基于2023年推出的AI DJ进化而来，后者仅能播放预设混音；Talk to Spotify则支持开放式自然语言请求\n- 暂未公布扩展至三个上线市场以外地区或支持更多语言的时间表",
+    "verified": true,
+    "sources_checked": [
+      "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/",
+      "https://www.theverge.com/spotify/2026/7/14/talk-to-spotify-music-assistant",
+      "https://musically.com/2026/07/14/spotify-talk-to-spotify-launch/",
+      "https://www.musicbusinessworldwide.com/spotify-talk-to-spotify-chatbot/"
+    ]
+  }
+]
