@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-24",
-  "total_runs": 79,
+  "last_run": "2026-07-26",
+  "total_runs": 80,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -72,7 +72,10 @@
     "Suno data breach July 2026 users affected (confirmed TechCrunch July 21 primary + The Register + CyberNews + TechRepublic + HaveIBeenPwned -- produced Ghost Track, score 8)",
     "Alphabet Google Q2 earnings stock drop capex $205 billion July 22 2026 (confirmed CNBC, Bloomberg, Yahoo Finance, Business Standard -- produced Overexposed, score 7)",
     "OpenAI Project Camellia Georgia data center 3.2 GW July 2026 local opposition (confirmed Bloomberg, TechRadar, TechTimes, WTOC local TV -- produced Power Trip, score 7)",
-    "EU AI Act watermarking technology not ready August 2 2026 TechTimes (produced Wet Ink, score 6 -- distinct from Press Credentials July 11)"
+    "EU AI Act watermarking technology not ready August 2 2026 TechTimes (produced Wet Ink, score 6 -- distinct from Press Credentials July 11)",
+    "Claude Opus 5 launch July 24 2026 pricing benchmarks (produced Mark Down, score 8 -- $5/$25 MTok, beats Fable 5 on 8/13 benchmarks, confirmed via SiliconAngle + The Next Web + DigitalApplied + tech-ish)",
+    "Midjourney V8.2 default release July 24 2026 (produced Good Taste, score 7 -- confirmed via official updates.midjourney.com changelog + multiple reviewer sources; ends 38-run drought)",
+    "Block Buzz Jack Dorsey AI agents workplace July 21 2026 (produced Direct Message, score 7 -- TechCrunch primary + Slashdot + WinBuzzer + AndroidHeadlines)"
   ],
   "queries_that_produced_nothing": [
     "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
@@ -140,7 +143,12 @@
     "ElevenLabs Music v2 July 2026 (launched May 27 -- outside 14-day window)",
     "Stability AI Stable Audio 3.0 July 2026 (launched May 20-21 -- outside 14-day window)",
     "AI funny weird surprising news July 2026 (Erdős escape already found separately; no additional story)",
-    "France antitrust OpenAI Google Anthropic 84 percent agent market July 23 2026 (insufficient detail for standalone blurb)"
+    "France antitrust OpenAI Google Anthropic 84 percent agent market July 23 2026 (insufficient detail for standalone blurb)",
+    "Kimi K3 open weights July 2026 (already covered twice: Open Season July 17, Cheat Sheet July 23 -- skipped)",
+    "GPT-5.6 Sol Hugging Face breach agentic July 2026 (overlapped with Help Yourself July 20 and Model Students -- skipped)",
+    "Andrej Karpathy joins Anthropic July 2026 (already covered as Cross Training May 19 -- outside window and in DB)",
+    "AI video generation new model launch July 24 25 26 2026 Runway Kling Wan Pika (video drought run 39 confirmed)",
+    "AI funny weird surprising news July 24 25 26 2026 (no verifiable individual story -- run 28 in ai_funny drought)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -569,7 +577,12 @@
     "Insta360 Luna Ultra (co-engineered with Leica, 8K, 1-inch sensor) launched June 10 -- outside 14-day window as of July 22. FCC certification for Insta360 X6 received July 3. Both within upcoming window -- check for launch news in late July/August.",
     "aisi.gov.uk is now a high-priority search target each run. Also check: UK DSIT AI reports, US AISI (NIST AI Safety Institute) for similar evaluation publications.",
     "Microsoft-Mistral deal structure (US company paying French company for EU compute) is a template for understanding European AI sovereignty plays. Same pattern applies to: Microsoft-Aleph Alpha, Google-Mistral, Amazon-Anthropic EU data residency. Search for 'EU AI sovereignty cloud deal' each run.",
-    "Anthropic IPO expected October 2026 -- track these milestones: final S-1 (public filing), pricing date, first day of trading. Each is a separate high-priority story."
+    "Anthropic IPO expected October 2026 -- track these milestones: final S-1 (public filing), pricing date, first day of trading. Each is a separate high-priority story.",
+    "Run 80 (2026-07-26): When a run produces 5+ stories on day N, run N+2 is the minimum safe interval -- day N+1 runs hit heavy deduplication as the same 24-hour window produces nothing new. The July 24 run (5 stories) and July 26 run (3 stories) confirm this pattern.",
+    "Run 80: anthropic.com returned 403 for Opus 5 announcement. Reliable fallback: SiliconAngle + The Next Web + DigitalApplied all confirmed same-day for major Anthropic model launches. This cross-reference method produces high confidence.",
+    "Run 80: Block Buzz (Dorsey, July 21) had not appeared in any prior run despite being 5 days old at time of discovery. Pattern: stories from Jack Dorsey and Block rarely surface in AI-focused search queries -- add 'Dorsey tech news [month] 2026' as a monthly search.",
+    "Run 80: Midjourney V8.2 38-run drought ended July 24. The official changelog URL (updates.midjourney.com/version-8-2/) was the primary verification source. Always check this URL directly when searching for Midjourney releases.",
+    "Run 80: AI workplace/agent infrastructure is an emerging beat. Block Buzz (AI agents as first-class team members) is the first story in this subcategory. Watch for: similar announcements from Linear, Notion, Slack, GitHub. The pattern is: platforms adding formal identity/permissions layers for AI agents."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
@@ -640,19 +653,23 @@
     "Run 73 (2026-07-18): 1-day interval after July 17 run. 4 stories found. WAICO founding and Netflix AI disclosure are the strongest. Fable 5 final extension is timely (deadline tomorrow). Claude for Teachers is relevant-but-low-relevance for Insta360. AI video and art remain in drought. Midjourney V8.2 in 35th consecutive non-launch run.",
     "Run 79 (2026-07-24): 5 stories found. Top pick: Out of Office -- OpenAI Erdős sandbox escape (score 9); first documented containment incident at a frontier lab, confirmed 5 sources. Ghost Track -- Suno data breach 55M users (score 8); highest irony density of the run. Overexposed -- Alphabet $205B capex (score 7); photography double meaning works for Insta360 audience. Power Trip -- OpenAI Georgia Project Camellia (score 7); $71M Codex AI credits as community benefit is the knife at the end. Wet Ink -- EU AI Act technology gap (score 6); distinct from Press Credentials July 11. AI video drought continues at 35+ consecutive runs. Midjourney V8.2 non-launch run 36.",
     "Run 79: TechTimes was the only fetchable source for both the Erdős story and EU watermark story -- CNBC and TechCrunch both returned 403. Cross-referencing via search snippets across 4+ outlets was sufficient for high confidence.",
-    "Run 79: Confirmed that ElevenLabs Music v2 (May 27) and Stable Audio 3.0 (May 20-21) are both outside the 14-day window despite being mentioned in July searches as 'recent'. Always verify article_date from primary source before including."
+    "Run 79: Confirmed that ElevenLabs Music v2 (May 27) and Stable Audio 3.0 (May 20-21) are both outside the 14-day window despite being mentioned in July searches as 'recent'. Always verify article_date from primary source before including.",
+    "Run 80 (2026-07-26): 3 stories found. Top pick: Mark Down -- Claude Opus 5 launch (score 8, ai_industry). Good Taste -- Midjourney V8.2 becomes default (score 7, ai_art). Direct Message -- Block Buzz AI agent workplace (score 7, ai_tools). The 38-run Midjourney V8.2 drought is officially over. Opus 5 was missed by the July 24 run (which covered Erdős escape, Suno breach, Alphabet Q2, OpenAI Georgia, EU watermarks) -- pattern: back-to-back days with 5+ stories will bury a same-day model launch from a different company. Block Buzz (July 21, TechCrunch primary) had not appeared in any prior run despite being 5 days old. Heavy deduplication: most apparent stories (Kimi K3, Hugging Face breach, Karpathy, GPT-5.6 Sol) already in DB. Database now at 411 stories. ai_funny drought continues at 28 consecutive runs. ai_video drought continues at 39 consecutive runs."
   ],
   "suggestions_for_next_run": [
     "GEMA v. Suno verdict due July 31 -- HIGH PRIORITY. Search site:musicbusinessworldwide.com and techtimes.com for ruling details.",
     "Sony Music v. Suno summary judgment (Massachusetts) still pending -- watch for ruling.",
-    "Midjourney V8.2 community signals point to imminent launch -- run 36 without GA release. Check updates.midjourney.com directly.",
+    "Midjourney V8.2 is now the default (July 24) -- drought ended. Next Midjourney watch: V8.3 or secret video project.",
     "EU AI Act Article 50 takes effect August 2 -- expect compliance/enforcement stories immediately after.",
-    "Kimi K3 open weights releasing July 27 per learnings -- search when in window.",
+    "Kimi K3 open weights releasing July 27 -- check when in window.",
     "White House frontier AI framework expected before August 1 -- monitor for policy announcement.",
     "DeepSeek V4 'stable' version expected later in 2026 -- watch for GA announcement.",
     "Anthropic IPO (October target) -- monitor for roadshow news.",
     "OpenAI Project Camellia Georgia -- local government vote on permits expected; watch for Effingham County commission decision.",
-    "Seedance 2.5 API via Volcano Engine expected late July -- check ByteDance developer blog."
+    "Seedance 2.5 API via Volcano Engine expected late July -- check ByteDance developer blog.",
+    "Block Buzz (Dorsey) follow-up: watch for user/reviewer reception and first mobile app release.",
+    "Claude Opus 5 adoption data: watch for enterprise deployment stories and benchmark rebuttals.",
+    "EU AI Act August 2 enforcement: watch for first company compliance failures or regulator actions."
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
