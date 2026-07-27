@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-26",
-  "total_runs": 80,
+  "last_run": "2026-07-27",
+  "total_runs": 81,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -75,7 +75,12 @@
     "EU AI Act watermarking technology not ready August 2 2026 TechTimes (produced Wet Ink, score 6 -- distinct from Press Credentials July 11)",
     "Claude Opus 5 launch July 24 2026 pricing benchmarks (produced Mark Down, score 8 -- $5/$25 MTok, beats Fable 5 on 8/13 benchmarks, confirmed via SiliconAngle + The Next Web + DigitalApplied + tech-ish)",
     "Midjourney V8.2 default release July 24 2026 (produced Good Taste, score 7 -- confirmed via official updates.midjourney.com changelog + multiple reviewer sources; ends 38-run drought)",
-    "Block Buzz Jack Dorsey AI agents workplace July 21 2026 (produced Direct Message, score 7 -- TechCrunch primary + Slashdot + WinBuzzer + AndroidHeadlines)"
+    "Block Buzz Jack Dorsey AI agents workplace July 21 2026 (produced Direct Message, score 7 -- TechCrunch primary + Slashdot + WinBuzzer + AndroidHeadlines)",
+    "Florida pastor Scott Winters sues OpenAI ChatGPT medical advice pulmonary embolism July 23 2026 (confirmed Bloomberg Law, CBS News, Forbes, Qz.com -- produced Clinical Trials, score 8; filed same day as ChatGPT Health nationwide launch)",
+    "Anthropic Bartz copyright settlement final approval July 20 2026 (confirmed TechCrunch, Authors Guild, Kluwer -- produced Book Value, score 8; largest AI copyright recovery in US history; missed by 4+ prior runs)",
+    "Nvidia SK Group 00B AI infrastructure LOI July 25 2026 SK Telecom Vera Rubin SK Hynix HBM4 (confirmed GlobeNewswire official PR, Nvidia Newsroom, SK Hynix Newsroom, CNBC -- produced Total Recall, score 7)",
+    "Nvidia OpenAI Ohio 10GW campus 50B guarantee July 26 2026 (confirmed Bloomberg, WSJ, Reuters -- produced Co-Signed, score 6; talks ongoing not signed)",
+    "EU DMA Google Android AI rivals July 16 2026 (confirmed EU Commission official decision, The Next Web, TechTimes -- produced Open House, score 6; missed by 4 consecutive runs)"
   ],
   "queries_that_produced_nothing": [
     "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
@@ -148,7 +153,13 @@
     "GPT-5.6 Sol Hugging Face breach agentic July 2026 (overlapped with Help Yourself July 20 and Model Students -- skipped)",
     "Andrej Karpathy joins Anthropic July 2026 (already covered as Cross Training May 19 -- outside window and in DB)",
     "AI video generation new model launch July 24 25 26 2026 Runway Kling Wan Pika (video drought run 39 confirmed)",
-    "AI funny weird surprising news July 24 25 26 2026 (no verifiable individual story -- run 28 in ai_funny drought)"
+    "AI funny weird surprising news July 24 25 26 2026 (no verifiable individual story -- run 28 in ai_funny drought)",
+    "Runway AI Gen-5 OR Kling 4.0 OR Wan 3.0 release July 2026 (video drought continues -- run 40 with no major video model launch)",
+    "Midjourney update July 27 2026 new feature release (V8.2 already in DB from July 26; no new update)",
+    "AI art image generation tool launch July 25 26 2026 new model (Meta Muse Image July 7 -- outside 14-day window)",
+    "ElevenLabs Suno Udio Stability Audio news July 25 26 27 2026 (no fresh audio news in window -- Stable Audio 3.0 and ElevenLabs Music v2 are May 2026)",
+    "AI funny cursed weird unexpected news July 2026 (Trump TDS AI video July 1 -- outside 14-day window)",
+    "Kimi K3 open weights July 27 2026 (already covered three times: Open Season July 17, Cheat Sheet July 23, and July 26 run noted it -- skipped again)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -657,19 +668,15 @@
     "Run 80 (2026-07-26): 3 stories found. Top pick: Mark Down -- Claude Opus 5 launch (score 8, ai_industry). Good Taste -- Midjourney V8.2 becomes default (score 7, ai_art). Direct Message -- Block Buzz AI agent workplace (score 7, ai_tools). The 38-run Midjourney V8.2 drought is officially over. Opus 5 was missed by the July 24 run (which covered Erdős escape, Suno breach, Alphabet Q2, OpenAI Georgia, EU watermarks) -- pattern: back-to-back days with 5+ stories will bury a same-day model launch from a different company. Block Buzz (July 21, TechCrunch primary) had not appeared in any prior run despite being 5 days old. Heavy deduplication: most apparent stories (Kimi K3, Hugging Face breach, Karpathy, GPT-5.6 Sol) already in DB. Database now at 411 stories. ai_funny drought continues at 28 consecutive runs. ai_video drought continues at 39 consecutive runs."
   ],
   "suggestions_for_next_run": [
-    "GEMA v. Suno verdict due July 31 -- HIGH PRIORITY. Search site:musicbusinessworldwide.com and techtimes.com for ruling details.",
-    "Sony Music v. Suno summary judgment (Massachusetts) still pending -- watch for ruling.",
-    "Midjourney V8.2 is now the default (July 24) -- drought ended. Next Midjourney watch: V8.3 or secret video project.",
-    "EU AI Act Article 50 takes effect August 2 -- expect compliance/enforcement stories immediately after.",
-    "Kimi K3 open weights releasing July 27 -- check when in window.",
-    "White House frontier AI framework expected before August 1 -- monitor for policy announcement.",
-    "DeepSeek V4 'stable' version expected later in 2026 -- watch for GA announcement.",
-    "Anthropic IPO (October target) -- monitor for roadshow news.",
-    "OpenAI Project Camellia Georgia -- local government vote on permits expected; watch for Effingham County commission decision.",
-    "Seedance 2.5 API via Volcano Engine expected late July -- check ByteDance developer blog.",
-    "Block Buzz (Dorsey) follow-up: watch for user/reviewer reception and first mobile app release.",
-    "Claude Opus 5 adoption data: watch for enterprise deployment stories and benchmark rebuttals.",
-    "EU AI Act August 2 enforcement: watch for first company compliance failures or regulator actions."
+    "GEMA vs Suno Munich ruling -- verdict scheduled July 31, check immediately on or after that date",
+    "Nvidia-OpenAI Ohio deal -- follow for signing; if confirmed, could upgrade Co-Signed or write a new story",
+    "Anthropic .5B settlement appeal window -- closes around August 20; check if any appeals filed",
+    "EU AI Act August 2 2026 deadline -- still approaching; check for enforcement news or company compliance reports",
+    "Kimi K3 open weights reception -- self-hosting data sovereignty angle may produce a story once independent testing accumulates (skip if still covered in third-story territory)",
+    "Video drought run 40 confirmed -- search for any Q3 2026 video model announcements specifically from Runway (Gen-5), Kling, Pika 3.0",
+    "ChatGPT Health + pastor lawsuit aftermath -- any regulatory response or OpenAI policy change following the lawsuit would be newsworthy",
+    "Policy search for EU DMA Android -- check for Google compliance plan or response statement",
+    "TikTok AI deepfake detection tool (Double Take July 21) -- check for any update or rollout news"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
