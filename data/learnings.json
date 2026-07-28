@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-27",
-  "total_runs": 81,
+  "last_run": "2026-07-28",
+  "total_runs": 82,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -668,15 +668,13 @@
     "Run 80 (2026-07-26): 3 stories found. Top pick: Mark Down -- Claude Opus 5 launch (score 8, ai_industry). Good Taste -- Midjourney V8.2 becomes default (score 7, ai_art). Direct Message -- Block Buzz AI agent workplace (score 7, ai_tools). The 38-run Midjourney V8.2 drought is officially over. Opus 5 was missed by the July 24 run (which covered Erdős escape, Suno breach, Alphabet Q2, OpenAI Georgia, EU watermarks) -- pattern: back-to-back days with 5+ stories will bury a same-day model launch from a different company. Block Buzz (July 21, TechCrunch primary) had not appeared in any prior run despite being 5 days old. Heavy deduplication: most apparent stories (Kimi K3, Hugging Face breach, Karpathy, GPT-5.6 Sol) already in DB. Database now at 411 stories. ai_funny drought continues at 28 consecutive runs. ai_video drought continues at 39 consecutive runs."
   ],
   "suggestions_for_next_run": [
-    "GEMA vs Suno Munich ruling -- verdict scheduled July 31, check immediately on or after that date",
-    "Nvidia-OpenAI Ohio deal -- follow for signing; if confirmed, could upgrade Co-Signed or write a new story",
-    "Anthropic .5B settlement appeal window -- closes around August 20; check if any appeals filed",
-    "EU AI Act August 2 2026 deadline -- still approaching; check for enforcement news or company compliance reports",
-    "Kimi K3 open weights reception -- self-hosting data sovereignty angle may produce a story once independent testing accumulates (skip if still covered in third-story territory)",
-    "Video drought run 40 confirmed -- search for any Q3 2026 video model announcements specifically from Runway (Gen-5), Kling, Pika 3.0",
-    "ChatGPT Health + pastor lawsuit aftermath -- any regulatory response or OpenAI policy change following the lawsuit would be newsworthy",
-    "Policy search for EU DMA Android -- check for Google compliance plan or response statement",
-    "TikTok AI deepfake detection tool (Double Take July 21) -- check for any update or rollout news"
+    "Search for 'FLUX 3 Image release' -- gated early access for Image mode opens soon",
+    "Search for 'Sora API sunset September 24 2026' as date approaches",
+    "Look for Sony v. Suno summary judgment result (hearing was July 2026)",
+    "China AI companion law follow-up: enforcement or user reaction stories",
+    "Kimi K3 open-weight hosting/performance follow-up (released July 26)",
+    "OiiOii AI post-launch editorial coverage from credible tech press",
+    "Seedance 2.5 release clarification: July 8 launch vs. claimed late July availability"
   ],
   "queries_that_worked": [
     "China AI model news May 2026 (Kling, Wan, Hunyuan)",
@@ -1249,6 +1247,32 @@
         "Sony/Udio ruling (already 2026-07-05-sony-udio-judge-rejects-30k-songs)",
         "OpenAI Jalapeño chip (already 2026-06-24-openai-broadcom-jalapeno-inference-chip -- different URL, same topic)"
       ]
+    },
+    "2026-07-28": {
+      "stories_found": 5,
+      "top_story": "Full Frame (FLUX 3 by Black Forest Labs) -- score 9",
+      "found_stories": [
+        "2026-07-28-flux3-black-forest-labs-multimodal",
+        "2026-07-28-china-ai-companion-law-doubao-qwen",
+        "2026-07-28-autodesk-siggraph-maya-motionmaker-byod",
+        "2026-07-28-comfyui-v028-gaussian-splat-pointcloud",
+        "2026-07-28-oiioii-ai-animation-platform-us-launch"
+      ],
+      "successful_queries": [
+        "AI tools creative filmmaking animation launch July 2026",
+        "Black Forest Labs FLUX 3 release date features July 2026",
+        "China AI news July 28 2026 censored suppressed",
+        "Autodesk SIGGRAPH 2026 Maya AI animation tools announcement",
+        "ComfyUI new feature update July 2026"
+      ],
+      "failed_queries": [
+        "Runway AI video news July 2026 (no new launch, Gen-4 4K/audio updates too old)",
+        "AI art design trend new style technique 2026 July (roundups only)",
+        "AI music audio generation news July 2026 (Suno/Udio settlements from 2025)",
+        "AI funny weird unexpected July 26-28 2026 (best story already covered Jul 24)",
+        "Photo Image Shanghai 2026 P&I July news (no post-show editorial coverage)"
+      ],
+      "notes": "High 403 rate from WebFetch this run. Cross-referencing search snippets (2+ sources) worked well. AI video model drought: no major launches in past 7 days (Seedance 2.5 July 8, Kling $3B July 3 both outside 14-day window). China AI companion law story is highest-value policy piece this run -- affects 345M users and exemplifies Beijing's regulatory pattern on emotional AI."
     }
   },
   "notes": [
