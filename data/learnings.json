@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-28",
-  "total_runs": 82,
+  "last_run": "2026-07-29",
+  "total_runs": 83,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -80,7 +80,11 @@
     "Anthropic Bartz copyright settlement final approval July 20 2026 (confirmed TechCrunch, Authors Guild, Kluwer -- produced Book Value, score 8; largest AI copyright recovery in US history; missed by 4+ prior runs)",
     "Nvidia SK Group 00B AI infrastructure LOI July 25 2026 SK Telecom Vera Rubin SK Hynix HBM4 (confirmed GlobeNewswire official PR, Nvidia Newsroom, SK Hynix Newsroom, CNBC -- produced Total Recall, score 7)",
     "Nvidia OpenAI Ohio 10GW campus 50B guarantee July 26 2026 (confirmed Bloomberg, WSJ, Reuters -- produced Co-Signed, score 6; talks ongoing not signed)",
-    "EU DMA Google Android AI rivals July 16 2026 (confirmed EU Commission official decision, The Next Web, TechTimes -- produced Open House, score 6; missed by 4 consecutive runs)"
+    "EU DMA Google Android AI rivals July 16 2026 (confirmed EU Commission official decision, The Next Web, TechTimes -- produced Open House, score 6; missed by 4 consecutive runs)",
+    "AI news July 28 29 2026 latest (surfaced Pacing the Frontier letter, Open Secure AI Alliance, Anthropic Mythos HAWK-256 leads)",
+    "pacing the frontier AI letter July 28 2026 (confirmed Bloomberg, CNN, NBC News, Yahoo Finance, TechTimes, TheNextWeb -- produced Speed Limit, score 8)",
+    "Open Secure AI Alliance Nvidia Microsoft July 2026 (confirmed CNBC, MLQ News, Thurrott, technology.org -- produced Neighborhood Watch, score 7)",
+    "Anthropic Claude Mythos HAWK post-quantum cryptography July 28 2026 (confirmed Anthropic Research, TechTimes, Dataconomy, The Quantum Insider, Decrypt -- produced Skeleton Key, score 8)"
   ],
   "queries_that_produced_nothing": [
     "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
@@ -159,7 +163,12 @@
     "AI art image generation tool launch July 25 26 2026 new model (Meta Muse Image July 7 -- outside 14-day window)",
     "ElevenLabs Suno Udio Stability Audio news July 25 26 27 2026 (no fresh audio news in window -- Stable Audio 3.0 and ElevenLabs Music v2 are May 2026)",
     "AI funny cursed weird unexpected news July 2026 (Trump TDS AI video July 1 -- outside 14-day window)",
-    "Kimi K3 open weights July 27 2026 (already covered three times: Open Season July 17, Cheat Sheet July 23, and July 26 run noted it -- skipped again)"
+    "Kimi K3 open weights July 27 2026 (already covered three times: Open Season July 17, Cheat Sheet July 23, and July 26 run noted it -- skipped again)",
+    "AI video generation new model launch July 29 2026 Runway Kling Wan Pika (video drought run 41 -- all major models still Q1-Q2 2026)",
+    "Midjourney update July 29 2026 (V8.2 already in DB from July 26 run -- no new update)",
+    "AI art image generation new tool July 29 2026 (aggregators only -- art drought resumes after V8.2)",
+    "AI funny weird surprising news July 29 2026 (listicles only -- run 28+ in ai_funny drought)",
+    "AI music news July 29 2026 Suno GEMA ruling (GEMA verdict July 31 not yet delivered; Sony US still April 2027)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -593,7 +602,13 @@
     "Run 80: anthropic.com returned 403 for Opus 5 announcement. Reliable fallback: SiliconAngle + The Next Web + DigitalApplied all confirmed same-day for major Anthropic model launches. This cross-reference method produces high confidence.",
     "Run 80: Block Buzz (Dorsey, July 21) had not appeared in any prior run despite being 5 days old at time of discovery. Pattern: stories from Jack Dorsey and Block rarely surface in AI-focused search queries -- add 'Dorsey tech news [month] 2026' as a monthly search.",
     "Run 80: Midjourney V8.2 38-run drought ended July 24. The official changelog URL (updates.midjourney.com/version-8-2/) was the primary verification source. Always check this URL directly when searching for Midjourney releases.",
-    "Run 80: AI workplace/agent infrastructure is an emerging beat. Block Buzz (AI agents as first-class team members) is the first story in this subcategory. Watch for: similar announcements from Linear, Notion, Slack, GitHub. The pattern is: platforms adding formal identity/permissions layers for AI agents."
+    "Run 80: AI workplace/agent infrastructure is an emerging beat. Block Buzz (AI agents as first-class team members) is the first story in this subcategory. Watch for: similar announcements from Linear, Notion, Slack, GitHub. The pattern is: platforms adding formal identity/permissions layers for AI agents.",
+    "GEMA v. Suno (Munich) ruling is due July 31 at 9am local time -- run the search immediately after. This will be Europe's first major AI music copyright verdict and a guaranteed story if GEMA wins.",
+    "Open Secure AI Alliance founding members notably exclude OpenAI, Anthropic, and Google -- the victim (Hugging Face) joined but the perpetrator's parent did not. This absence-as-story angle works well in the Prompt Response voice.",
+    "ai_funny drought now 28+ consecutive runs. The OpenAI/Hugging Face breach was covered as an ai_industry story (Help Yourself, July 20); the ironic angle (AI attacking AI to cheat a benchmark) could have been ai_funny. Consider retrospective classification for darkly ironic stories.",
+    "Post-quantum cryptography is now an active beat: HAWK-256 crack (July 28) joins the prior Mythos/AISI security research arc. Watch for NIST response and follow-up research publications.",
+    "The 'Pacing the Frontier' letter was co-signed by sitting CEOs of frontier AI labs -- Amodei (Anthropic) and chief scientists of OpenAI. This is unprecedented; previous AI safety letters (Pause Letter 2023) were signed by researchers, not executives in control of the products they want slowed.",
+    "All three July 29 stories are clustered around the same core trigger event (OpenAI/Hugging Face breach July 16-21): the pacing letter was motivated by it, the Open Secure AI Alliance was founded because of it, and the Mythos crypto research shows what capable AI models can do autonomously. These would stack well in a single newsletter issue."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
