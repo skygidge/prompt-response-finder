@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-29",
-  "total_runs": 83,
+  "last_run": "2026-07-30",
+  "total_runs": 84,
   "queries_that_produced_results": [
     "Midjourney copyright studios AI discovery motion July 2026 (confirmed via Variety, ComicBasics, AV Club, Let's Data Science)",
     "Jodie Foster F1 AI Aspen Ideas Festival July 3 2026 (confirmed via Variety, Deadline, Hollywood Reporter, The Wrap, World of Reel)",
@@ -84,7 +84,11 @@
     "AI news July 28 29 2026 latest (surfaced Pacing the Frontier letter, Open Secure AI Alliance, Anthropic Mythos HAWK-256 leads)",
     "pacing the frontier AI letter July 28 2026 (confirmed Bloomberg, CNN, NBC News, Yahoo Finance, TechTimes, TheNextWeb -- produced Speed Limit, score 8)",
     "Open Secure AI Alliance Nvidia Microsoft July 2026 (confirmed CNBC, MLQ News, Thurrott, technology.org -- produced Neighborhood Watch, score 7)",
-    "Anthropic Claude Mythos HAWK post-quantum cryptography July 28 2026 (confirmed Anthropic Research, TechTimes, Dataconomy, The Quantum Insider, Decrypt -- produced Skeleton Key, score 8)"
+    "Anthropic Claude Mythos HAWK post-quantum cryptography July 28 2026 (confirmed Anthropic Research, TechTimes, Dataconomy, The Quantum Insider, Decrypt -- produced Skeleton Key, score 8)",
+    "FCC block Chinese humanoid robots ban July 28 2026 (confirmed Washington Post primary + Forbes + CBS News + NBC News + NPR + The Hill -- produced Short Leash, score 8)",
+    "Elon Musk Grok Odyssey AI movie historically accurate July 22 2026 (confirmed Variety primary + Deadline + Hollywood Reporter + CNN + PetaPixel -- produced Reel History, score 8; missed by all prior runs despite July 22 date)",
+    "Substack AI detection Pangram July 21 2026 writers backlash (confirmed Axios July 23 primary + 404 Media + Jane Friedman -- produced Type Cast, score 6; missed by all prior runs since July 21)",
+    "Meta BlackRock El Paso AI data center joint venture July 28 2026 (confirmed CNBC primary + Forbes + Yahoo Finance + Meta official blog -- produced Power Couple, score 6)"
   ],
   "queries_that_produced_nothing": [
     "Midjourney V8.2 release July 2026 (still in preview via --preview flag; no official release -- 31st consecutive run)",
@@ -168,7 +172,11 @@
     "Midjourney update July 29 2026 (V8.2 already in DB from July 26 run -- no new update)",
     "AI art image generation new tool July 29 2026 (aggregators only -- art drought resumes after V8.2)",
     "AI funny weird surprising news July 29 2026 (listicles only -- run 28+ in ai_funny drought)",
-    "AI music news July 29 2026 Suno GEMA ruling (GEMA verdict July 31 not yet delivered; Sony US still April 2027)"
+    "AI music news July 29 2026 Suno GEMA ruling (GEMA verdict July 31 not yet delivered; Sony US still April 2027)",
+    "AI video generation new model launch July 30 2026 Runway Kling Wan Pika (video drought run 42 -- all major models still Q1-Q2 2026)",
+    "AI art image generation new tool July 30 2026 (aggregators only -- art drought continues after V8.2)",
+    "AI funny weird surprising news July 30 2026 (listicles only -- run 29 in ai_funny drought)",
+    "GEMA Suno Germany copyright ruling July 31 2026 (verdict scheduled July 31 9am Munich -- not yet delivered as of July 30)"
   ],
   "best_source_domains": [
     "techcrunch.com",
@@ -608,7 +616,13 @@
     "ai_funny drought now 28+ consecutive runs. The OpenAI/Hugging Face breach was covered as an ai_industry story (Help Yourself, July 20); the ironic angle (AI attacking AI to cheat a benchmark) could have been ai_funny. Consider retrospective classification for darkly ironic stories.",
     "Post-quantum cryptography is now an active beat: HAWK-256 crack (July 28) joins the prior Mythos/AISI security research arc. Watch for NIST response and follow-up research publications.",
     "The 'Pacing the Frontier' letter was co-signed by sitting CEOs of frontier AI labs -- Amodei (Anthropic) and chief scientists of OpenAI. This is unprecedented; previous AI safety letters (Pause Letter 2023) were signed by researchers, not executives in control of the products they want slowed.",
-    "All three July 29 stories are clustered around the same core trigger event (OpenAI/Hugging Face breach July 16-21): the pacing letter was motivated by it, the Open Secure AI Alliance was founded because of it, and the Mythos crypto research shows what capable AI models can do autonomously. These would stack well in a single newsletter issue."
+    "All three July 29 stories are clustered around the same core trigger event (OpenAI/Hugging Face breach July 16-21): the pacing letter was motivated by it, the Open Secure AI Alliance was founded because of it, and the Mythos crypto research shows what capable AI models can do autonomously. These would stack well in a single newsletter issue.",
+    "Elon Musk vs Hollywood (Grok Odyssey, July 22): CEO-level AI filmmaking challenges are a recurring beat. Musk announced a full AI Odyssey after attacking Nolan's casting. No production details given. Pattern: AI film announcement without production infrastructure = announcement IS the content. Watch for delivery follow-up.",
+    "FCC Covered List expansion (July 28): The national security Covered List now covers humanoid robots and quadrupeds alongside Huawei gear. Each expansion is a story. Check the Covered List monthly for new additions -- the category keeps growing toward anything Chinese + AI + connected.",
+    "Substack Pangram AI detection (July 21): missed by 9 consecutive runs despite being published July 21. Platform AI-detection feature launches are easy to miss if you're not searching for them specifically. Add 'Substack OR Medium OR Patreon AI detection feature' as a standard quarterly search.",
+    "GEMA v. Suno verdict July 31: If GEMA wins, it becomes the first European court ruling that AI music training on copyrighted material is unlawful. A first-instance win can be immediately enforced in Germany -- Suno's European operations could face an injunction while appeal proceeds. This is the top pending story for next run.",
+    "Meta/BlackRock El Paso (July 28): AI infrastructure is now being structured as real-estate-backed financial instruments. Meta sold 80% but kept operational control -- classic PE/infrastructure fund structure applied to compute. Watch for OpenAI, Google, Amazon doing similar sale-leaseback deals with their owned data centers.",
+    "Stories missed by prior runs: Grok Odyssey (Variety July 22) and Substack Pangram (Axios July 23) both missed by 8-9 consecutive runs. Root cause: searches were too product-launch-focused and missed culture/creator-tool stories. Add dedicated weekly searches for: 'Elon Musk AI [platform] announcement', 'creator platform AI detection OR AI policy [month]'."
   ],
   "feedback": [
     "Initial run. No feedback yet. Focus on finding strong stories across all categories. Prioritize AI video and AI art. Include at least one funny/weird story per run if possible.",
